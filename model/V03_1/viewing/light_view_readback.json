@@ -1,0 +1,12 @@
+{
+  "fingerprint": "d958d2f4f1aea93802a73d911b2c3ca131ce8b74fa09189d839347eb818fec38",
+  "purpose": "LAYOUT ONLY, NOT FOR MANUFACTURE OR PRINTING",
+  "file": "ASRS_V03_1_LIGHT_VIEW.step",
+  "bytes": 7717556,
+  "sha256": "829d635a563bf18e4bc23f917d5de4b87610802e3cc1e3d5f79ccfd95eed9455",
+  "expected_solids": 359,
+  "solid_count": 359,
+  "readback_pass": true,
+  "rack_teeth_retained": true,
+  "manufacturing_release_allowed": false
+}

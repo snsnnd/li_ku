@@ -1,0 +1,40 @@
+{
+  "commit": "637846a7fa4a77657ff22e7ecc3b8c754181d27b",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "974fd3e49e7c7a60170a3f610827bd5e939b009b6359f58f2cc15d32414a5abd",
+      "url": "https://raw.githubusercontent.com/wzyn20051216/solidworks-automation-skill/637846a7fa4a77657ff22e7ecc3b8c754181d27b/SKILL.md"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c4fdf46b5ebb48917864deffb876ef098af2d7ac7392616c9015e1a4cf6af862",
+      "url": "https://raw.githubusercontent.com/wzyn20051216/solidworks-automation-skill/637846a7fa4a77657ff22e7ecc3b8c754181d27b/LICENSE"
+    },
+    {
+      "path": "references/drive-sizing.md",
+      "sha256": "86f68740af6b8ead8423cbeeaca976bc9e0421da758caad080dd46ed9a262506",
+      "url": "https://raw.githubusercontent.com/wzyn20051216/solidworks-automation-skill/637846a7fa4a77657ff22e7ecc3b8c754181d27b/references/drive-sizing.md"
+    },
+    {
+      "path": "references/design-rule-check.md",
+      "sha256": "82c92dca370b603ddc91f5ea1cff110c2dfca92e6e59cf504f4469f63f1365f3",
+      "url": "https://raw.githubusercontent.com/wzyn20051216/solidworks-automation-skill/637846a7fa4a77657ff22e7ecc3b8c754181d27b/references/design-rule-check.md"
+    },
+    {
+      "path": "references/assembly.md",
+      "sha256": "09d14d9cd6662c70d0761ce243eddeac63e6cef1fa79e698aff4be2e08c34432",
+      "url": "https://raw.githubusercontent.com/wzyn20051216/solidworks-automation-skill/637846a7fa4a77657ff22e7ecc3b8c754181d27b/references/assembly.md"
+    },
+    {
+      "path": "references/review.md",
+      "sha256": "7057f15dccbdc168c5c91d033c3e9e74d02271a33be82937681fa6843489781b",
+      "url": "https://raw.githubusercontent.com/wzyn20051216/solidworks-automation-skill/637846a7fa4a77657ff22e7ecc3b8c754181d27b/references/review.md"
+    },
+    {
+      "path": "scripts/drive_sizing.py",
+      "sha256": "79329638d28313d2e004ec5f8fbc56cd951b50ad58aded3a42e0988461d632a7",
+      "url": "https://raw.githubusercontent.com/wzyn20051216/solidworks-automation-skill/637846a7fa4a77657ff22e7ecc3b8c754181d27b/scripts/drive_sizing.py"
+    }
+  ]
+}

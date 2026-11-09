@@ -1,0 +1,4225 @@
+{
+  "fingerprint": "d958d2f4f1aea93802a73d911b2c3ca131ce8b74fa09189d839347eb818fec38",
+  "mass_breakdown": [
+    {
+      "instance": "shelf_angle_0_0_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        30.763129275529938,
+        75.02882036091935,
+        188.7794608133843
+      ]
+    },
+    {
+      "instance": "shelf_angle_0_1_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        30.763129275529938,
+        75.02882036091935,
+        283.7794608133843
+      ]
+    },
+    {
+      "instance": "shelf_angle_0_2_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        30.763129275529938,
+        75.02882036091935,
+        378.7794608133842
+      ]
+    },
+    {
+      "instance": "shelf_angle_0_3_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        30.763129275529938,
+        75.02882036091935,
+        473.7794608133843
+      ]
+    },
+    {
+      "instance": "shelf_angle_0_4_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        30.763129275529945,
+        75.02882036091931,
+        568.7794608133846
+      ]
+    },
+    {
+      "instance": "shelf_angle_1_0_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        210.76312927552993,
+        75.02882036091934,
+        188.77946081338425
+      ]
+    },
+    {
+      "instance": "shelf_angle_1_1_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        210.76312927552993,
+        75.02882036091934,
+        283.7794608133842
+      ]
+    },
+    {
+      "instance": "shelf_angle_1_2_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        210.76312927552993,
+        75.02882036091934,
+        378.7794608133843
+      ]
+    },
+    {
+      "instance": "shelf_angle_1_3_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        210.76312927552993,
+        75.02882036091934,
+        473.7794608133843
+      ]
+    },
+    {
+      "instance": "shelf_angle_1_4_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        210.76312927553,
+        75.02882036091937,
+        568.7794608133842
+      ]
+    },
+    {
+      "instance": "shelf_angle_2_0_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        390.76312927553,
+        75.02882036091937,
+        188.7794608133843
+      ]
+    },
+    {
+      "instance": "shelf_angle_2_1_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        390.76312927553,
+        75.02882036091937,
+        283.77946081338433
+      ]
+    },
+    {
+      "instance": "shelf_angle_2_2_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        390.76312927553,
+        75.02882036091937,
+        378.77946081338416
+      ]
+    },
+    {
+      "instance": "shelf_angle_2_3_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        390.76312927553,
+        75.02882036091937,
+        473.7794608133843
+      ]
+    },
+    {
+      "instance": "shelf_angle_2_4_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        390.76312927553005,
+        75.02882036091935,
+        568.7794608133846
+      ]
+    },
+    {
+      "instance": "shelf_angle_3_0_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        570.7631292755301,
+        75.02882036091933,
+        188.7794608133842
+      ]
+    },
+    {
+      "instance": "shelf_angle_3_1_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        570.7631292755301,
+        75.02882036091933,
+        283.7794608133841
+      ]
+    },
+    {
+      "instance": "shelf_angle_3_2_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        570.7631292755301,
+        75.02882036091933,
+        378.77946081338405
+      ]
+    },
+    {
+      "instance": "shelf_angle_3_3_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        570.7631292755301,
+        75.02882036091933,
+        473.7794608133841
+      ]
+    },
+    {
+      "instance": "shelf_angle_3_4_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        570.7631292755299,
+        75.02882036091934,
+        568.7794608133838
+      ]
+    },
+    {
+      "instance": "shelf_angle_0_0_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        149.23687072447007,
+        75.02882036091937,
+        188.77946081338422
+      ]
+    },
+    {
+      "instance": "shelf_angle_0_1_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        149.23687072447007,
+        75.02882036091937,
+        283.7794608133843
+      ]
+    },
+    {
+      "instance": "shelf_angle_0_2_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        149.23687072447007,
+        75.02882036091937,
+        378.7794608133842
+      ]
+    },
+    {
+      "instance": "shelf_angle_0_3_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        149.23687072447007,
+        75.02882036091937,
+        473.7794608133843
+      ]
+    },
+    {
+      "instance": "shelf_angle_0_4_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        149.23687072447004,
+        75.02882036091937,
+        568.7794608133843
+      ]
+    },
+    {
+      "instance": "shelf_angle_1_0_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        329.23687072447007,
+        75.02882036091934,
+        188.77946081338422
+      ]
+    },
+    {
+      "instance": "shelf_angle_1_1_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        329.23687072447007,
+        75.02882036091934,
+        283.77946081338433
+      ]
+    },
+    {
+      "instance": "shelf_angle_1_2_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        329.23687072447007,
+        75.02882036091934,
+        378.7794608133842
+      ]
+    },
+    {
+      "instance": "shelf_angle_1_3_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        329.23687072447007,
+        75.02882036091934,
+        473.7794608133843
+      ]
+    },
+    {
+      "instance": "shelf_angle_1_4_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        329.2368707244701,
+        75.02882036091935,
+        568.7794608133842
+      ]
+    },
+    {
+      "instance": "shelf_angle_2_0_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        509.2368707244702,
+        75.02882036091935,
+        188.77946081338425
+      ]
+    },
+    {
+      "instance": "shelf_angle_2_1_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        509.2368707244702,
+        75.02882036091935,
+        283.7794608133843
+      ]
+    },
+    {
+      "instance": "shelf_angle_2_2_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        509.2368707244702,
+        75.02882036091935,
+        378.7794608133843
+      ]
+    },
+    {
+      "instance": "shelf_angle_2_3_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        509.2368707244702,
+        75.02882036091935,
+        473.7794608133844
+      ]
+    },
+    {
+      "instance": "shelf_angle_2_4_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        509.2368707244701,
+        75.02882036091937,
+        568.7794608133843
+      ]
+    },
+    {
+      "instance": "shelf_angle_3_0_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        689.2368707244704,
+        75.02882036091937,
+        188.77946081338422
+      ]
+    },
+    {
+      "instance": "shelf_angle_3_1_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        689.2368707244704,
+        75.02882036091937,
+        283.77946081338433
+      ]
+    },
+    {
+      "instance": "shelf_angle_3_2_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        689.2368707244704,
+        75.02882036091937,
+        378.7794608133842
+      ]
+    },
+    {
+      "instance": "shelf_angle_3_3_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        689.2368707244704,
+        75.02882036091937,
+        473.7794608133844
+      ]
+    },
+    {
+      "instance": "shelf_angle_3_4_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        689.2368707244701,
+        75.02882036091935,
+        568.7794608133843
+      ]
+    },
+    {
+      "instance": "cell_0_0",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        90.00000000000003,
+        66.28870914380938,
+        198.4334376622452
+      ]
+    },
+    {
+      "instance": "stored_bin_0_0",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        89.87994831326236,
+        62.77413229603526,
+        220.88137663457914
+      ]
+    },
+    {
+      "instance": "cell_0_1",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        90.0,
+        66.28870914380933,
+        293.4334376622454
+      ]
+    },
+    {
+      "instance": "stored_bin_0_1",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        89.87994831326245,
+        62.774132296035475,
+        315.8813766345799
+      ]
+    },
+    {
+      "instance": "cell_0_2",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        90.0,
+        66.28870914380933,
+        388.43343766224564
+      ]
+    },
+    {
+      "instance": "stored_bin_0_2",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        89.8799483132623,
+        62.774132296035454,
+        410.88137663457957
+      ]
+    },
+    {
+      "instance": "cell_0_3",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        90.0,
+        66.28870914380933,
+        483.43343766224564
+      ]
+    },
+    {
+      "instance": "stored_bin_0_3",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        89.8799483132623,
+        62.774132296035454,
+        505.88137663457957
+      ]
+    },
+    {
+      "instance": "cell_0_4",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        90.0,
+        66.28870914380933,
+        578.433437662245
+      ]
+    },
+    {
+      "instance": "stored_bin_0_4",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        89.8799483132623,
+        62.774132296035454,
+        600.8813766345802
+      ]
+    },
+    {
+      "instance": "cell_1_0",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        270.00000000000006,
+        66.28870914380929,
+        198.43343766224527
+      ]
+    },
+    {
+      "instance": "stored_bin_1_0",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        269.8799483132626,
+        62.77413229603565,
+        220.8813766345795
+      ]
+    },
+    {
+      "instance": "cell_1_1",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        270.00000000000006,
+        66.28870914380929,
+        293.4334376622455
+      ]
+    },
+    {
+      "instance": "stored_bin_1_1",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        269.87994831326233,
+        62.77413229603528,
+        315.8813766345797
+      ]
+    },
+    {
+      "instance": "cell_1_2",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        270.00000000000006,
+        66.28870914380929,
+        388.43343766224547
+      ]
+    },
+    {
+      "instance": "cell_1_3",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        270.00000000000006,
+        66.28870914380929,
+        483.4334376622455
+      ]
+    },
+    {
+      "instance": "stored_bin_1_3",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        269.8799483132619,
+        62.77413229603534,
+        505.88137663457803
+      ]
+    },
+    {
+      "instance": "cell_1_4",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        270.00000000000006,
+        66.28870914380929,
+        578.4334376622453
+      ]
+    },
+    {
+      "instance": "stored_bin_1_4",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        269.8799483132619,
+        62.77413229603534,
+        600.881376634577
+      ]
+    },
+    {
+      "instance": "cell_2_0",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        450.00000000000006,
+        66.28870914380933,
+        198.43343766224515
+      ]
+    },
+    {
+      "instance": "stored_bin_2_0",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        449.8799483132636,
+        62.774132296035496,
+        220.88137663457965
+      ]
+    },
+    {
+      "instance": "cell_2_1",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        450.00000000000017,
+        66.28870914380929,
+        293.43343766224524
+      ]
+    },
+    {
+      "instance": "stored_bin_2_1",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        449.8799483132629,
+        62.774132296035454,
+        315.88137663458014
+      ]
+    },
+    {
+      "instance": "cell_2_2",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        450.00000000000017,
+        66.28870914380929,
+        388.4334376622452
+      ]
+    },
+    {
+      "instance": "stored_bin_2_2",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        449.8799483132629,
+        62.77413229603543,
+        410.88137663457996
+      ]
+    },
+    {
+      "instance": "cell_2_3",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        450.00000000000017,
+        66.28870914380929,
+        483.4334376622455
+      ]
+    },
+    {
+      "instance": "stored_bin_2_3",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        449.8799483132629,
+        62.77413229603543,
+        505.8813766345786
+      ]
+    },
+    {
+      "instance": "cell_2_4",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        450.00000000000017,
+        66.28870914380929,
+        578.4334376622453
+      ]
+    },
+    {
+      "instance": "stored_bin_2_4",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        449.8799483132629,
+        62.77413229603543,
+        600.8813766345778
+      ]
+    },
+    {
+      "instance": "cell_3_0",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        630.0,
+        66.28870914380933,
+        198.43343766224515
+      ]
+    },
+    {
+      "instance": "stored_bin_3_0",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        629.8799483132651,
+        62.774132296035496,
+        220.88137663457965
+      ]
+    },
+    {
+      "instance": "cell_3_1",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        630.0,
+        66.28870914380931,
+        293.4334376622455
+      ]
+    },
+    {
+      "instance": "stored_bin_3_1",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        629.8799483132638,
+        62.774132296035454,
+        315.88137663458014
+      ]
+    },
+    {
+      "instance": "cell_3_2",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        630.0,
+        66.28870914380931,
+        388.43343766224535
+      ]
+    },
+    {
+      "instance": "stored_bin_3_2",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        629.8799483132638,
+        62.77413229603543,
+        410.88137663457996
+      ]
+    },
+    {
+      "instance": "cell_3_3",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        630.0,
+        66.28870914380931,
+        483.4334376622454
+      ]
+    },
+    {
+      "instance": "stored_bin_3_3",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        629.8799483132638,
+        62.77413229603543,
+        505.8813766345786
+      ]
+    },
+    {
+      "instance": "cell_3_4",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        630.0,
+        66.28870914380931,
+        578.4334376622453
+      ]
+    },
+    {
+      "instance": "stored_bin_3_4",
+      "group": "fixed",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        629.8799483132638,
+        62.77413229603543,
+        600.8813766345778
+      ]
+    },
+    {
+      "instance": "x_block_-285_-40.0",
+      "group": "x",
+      "kg": 0.07262873524173304,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        229.99999999999991,
+        -284.99999999999983,
+        38.73390308158042
+      ]
+    },
+    {
+      "instance": "x_block_-285_40.0",
+      "group": "x",
+      "kg": 0.07262873524173304,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        310.0,
+        -284.99999999999983,
+        38.73390308158042
+      ]
+    },
+    {
+      "instance": "x_block_-215_-40.0",
+      "group": "x",
+      "kg": 0.07262873524173304,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        229.99999999999997,
+        -214.9999999999999,
+        38.73390308158042
+      ]
+    },
+    {
+      "instance": "x_block_-215_40.0",
+      "group": "x",
+      "kg": 0.07262873524173304,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        309.9999999999999,
+        -214.9999999999999,
+        38.73390308158042
+      ]
+    },
+    {
+      "instance": "x_carriage",
+      "group": "x",
+      "kg": 0.36799129568565286,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        270.0000000000006,
+        -249.7533145527513,
+        46.98213515190809
+      ]
+    },
+    {
+      "instance": "z_post_-45",
+      "group": "x",
+      "kg": 0.6,
+      "method": "assumed aluminium profile 1.0 kg/m",
+      "centre_mm": [
+        225.0,
+        -268.0,
+        350.99999999999994
+      ]
+    },
+    {
+      "instance": "z_post_45",
+      "group": "x",
+      "kg": 0.6,
+      "method": "assumed aluminium profile 1.0 kg/m",
+      "centre_mm": [
+        315.0,
+        -268.0,
+        351.00000000000006
+      ]
+    },
+    {
+      "instance": "z_foot_rear_-45",
+      "group": "x",
+      "kg": 0.014118491272166982,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        224.9999999999999,
+        -288.1641097833803,
+        62.36717804332387
+      ]
+    },
+    {
+      "instance": "z_foot_front_-45",
+      "group": "x",
+      "kg": 0.014118491272166982,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        225.00000000000006,
+        -247.8358902166195,
+        62.367178043323904
+      ]
+    },
+    {
+      "instance": "z_foot_rear_45",
+      "group": "x",
+      "kg": 0.014118491272166982,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        314.99999999999983,
+        -288.1641097833804,
+        62.36717804332388
+      ]
+    },
+    {
+      "instance": "z_foot_front_45",
+      "group": "x",
+      "kg": 0.014118491272166982,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        315.0000000000001,
+        -247.83589021661956,
+        62.36717804332392
+      ]
+    },
+    {
+      "instance": "z_top_plate",
+      "group": "x",
+      "kg": 0.1555360099486793,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        269.99999999999994,
+        -267.99999999999994,
+        654.9999999999999
+      ]
+    },
+    {
+      "instance": "z_strip_-45",
+      "group": "x",
+      "kg": 0.10474878029266613,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        224.99999999999918,
+        -251.0106626055285,
+        335.600497244562
+      ]
+    },
+    {
+      "instance": "z_rail_-45",
+      "group": "x",
+      "kg": 0.3647158638579671,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        225.00000000000017,
+        -244.9999999999997,
+        335.0828325371849
+      ]
+    },
+    {
+      "instance": "z_block_-45_-79.0",
+      "group": "z",
+      "kg": 0.07262873524173302,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        225.0000000000001,
+        -240.26609691841955,
+        311.0000000000003
+      ]
+    },
+    {
+      "instance": "z_block_-45_-29.0",
+      "group": "z",
+      "kg": 0.07262873524173302,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        225.0000000000001,
+        -240.26609691841955,
+        361.0000000000001
+      ]
+    },
+    {
+      "instance": "z_strip_45",
+      "group": "x",
+      "kg": 0.10474878029266613,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        314.99999999999955,
+        -251.0106626055285,
+        335.600497244562
+      ]
+    },
+    {
+      "instance": "z_rail_45",
+      "group": "x",
+      "kg": 0.3647158638579671,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        315.0000000000001,
+        -244.99999999999974,
+        335.08283253718514
+      ]
+    },
+    {
+      "instance": "z_block_45_-79.0",
+      "group": "z",
+      "kg": 0.07262873524173302,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        315.00000000000017,
+        -240.2660969184195,
+        311.00000000000006
+      ]
+    },
+    {
+      "instance": "z_block_45_-29.0",
+      "group": "z",
+      "kg": 0.07262873524173302,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        315.00000000000006,
+        -240.26609691841955,
+        361.0000000000001
+      ]
+    },
+    {
+      "instance": "z_carriage",
+      "group": "z",
+      "kg": 0.2700639292745224,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        269.88806791599734,
+        -232.02486103275254,
+        335.743886766705
+      ]
+    },
+    {
+      "instance": "tray_tube_-44",
+      "group": "z",
+      "kg": 0.10477961095000801,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        225.99999999999994,
+        -121.32198304335449,
+        373.50000000000017
+      ]
+    },
+    {
+      "instance": "tray_tube_plug_-44",
+      "group": "z",
+      "kg": 0.03200876997434325,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        226.00000000000003,
+        -212.75938915658324,
+        373.4999999999997
+      ]
+    },
+    {
+      "instance": "tray_tube_44",
+      "group": "z",
+      "kg": 0.10477961095000801,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        313.99999999999926,
+        -121.32198304335446,
+        373.50000000000006
+      ]
+    },
+    {
+      "instance": "tray_tube_plug_44",
+      "group": "z",
+      "kg": 0.03200876997434325,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        314.00000000000006,
+        -212.75938915658315,
+        373.49999999999966
+      ]
+    },
+    {
+      "instance": "carrier_tray",
+      "group": "z",
+      "kg": 0.061666873091175606,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        270.0000000000003,
+        -76.77421383295636,
+        388.48191190034987
+      ]
+    },
+    {
+      "instance": "y_spine",
+      "group": "z",
+      "kg": 0.2776713692491103,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        269.99999999999955,
+        -119.46293002307833,
+        346.99999999999926
+      ]
+    },
+    {
+      "instance": "y_spine_spacer_-1_-110",
+      "group": "z",
+      "kg": 0.01493595263163575,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        224.81291715400297,
+        -216.99999999999997,
+        355.5
+      ]
+    },
+    {
+      "instance": "y_spine_spacer_-1_-50",
+      "group": "z",
+      "kg": 0.01493595263163575,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        224.81291715400297,
+        -25.000000000000007,
+        355.5
+      ]
+    },
+    {
+      "instance": "y_rail",
+      "group": "z",
+      "kg": 0.08693581969229905,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        257.0000000000001,
+        -124.99999999999997,
+        353.25
+      ]
+    },
+    {
+      "instance": "y_block",
+      "group": "y",
+      "kg": 0.035660023741732993,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        257.0,
+        -195.99999999999991,
+        356.6057023095357
+      ]
+    },
+    {
+      "instance": "y_puller_plate",
+      "group": "y",
+      "kg": 0.05254903682686073,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        293.15661091961243,
+        -189.29501046410664,
+        359.0848714029767
+      ]
+    },
+    {
+      "instance": "latch_mast",
+      "group": "y",
+      "kg": 0.03959923228043986,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        269.9564644646503,
+        -166.012910446671,
+        404.91751602278373
+      ]
+    },
+    {
+      "instance": "pin_lower_guide",
+      "group": "y",
+      "kg": 0.002884308544163823,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        269.9999999999999,
+        -151.999754466794,
+        410.9999999999999
+      ]
+    },
+    {
+      "instance": "pin_upper_guide",
+      "group": "y",
+      "kg": 0.002884308544163823,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        269.9999999999999,
+        -151.999754466794,
+        447.0
+      ]
+    },
+    {
+      "instance": "pin_bushing_19",
+      "group": "y",
+      "kg": 0.0005948354362159987,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        270.0,
+        -146.0,
+        411.4598880597015
+      ]
+    },
+    {
+      "instance": "pin_bushing_55",
+      "group": "y",
+      "kg": 0.0005948354362159987,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        270.0,
+        -146.0,
+        447.4598880597015
+      ]
+    },
+    {
+      "instance": "latch_pin",
+      "group": "pin",
+      "kg": 0.0058365555515942375,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        270.0,
+        -146.0,
+        426.41267605633794
+      ]
+    },
+    {
+      "instance": "latch_servo",
+      "group": "y",
+      "kg": 0.0628314,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        301.0,
+        -161.0,
+        423.5
+      ]
+    },
+    {
+      "instance": "servo_cradle",
+      "group": "y",
+      "kg": 0.013007869580843476,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        303.2257142097149,
+        -165.69764889027192,
+        420.30935793789354
+      ]
+    },
+    {
+      "instance": "servo_cradle_lid",
+      "group": "y",
+      "kg": 0.0016904396854001053,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        303.43080279789973,
+        -159.97224372155645,
+        439.49999999999994
+      ]
+    },
+    {
+      "instance": "latch_yoke",
+      "group": "pin",
+      "kg": 0.000769993134911622,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        269.9999999999999,
+        -152.19897474871365,
+        421.50000000000006
+      ]
+    },
+    {
+      "instance": "pin_collar_24",
+      "group": "pin",
+      "kg": 0.0025894577447213864,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        270.0,
+        -146.0,
+        416.50000000000006
+      ]
+    },
+    {
+      "instance": "pin_collar_34",
+      "group": "pin",
+      "kg": 0.0025894577447213864,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        270.0,
+        -146.0,
+        426.49999999999994
+      ]
+    },
+    {
+      "instance": "latch_return_spring",
+      "group": "spring",
+      "kg": 0.0007931139149546659,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        270.0,
+        -146.0,
+        436.99999999999983
+      ]
+    },
+    {
+      "instance": "latch_crank",
+      "group": "crank",
+      "kg": 0.00018378003090031232,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        286.49999999999994,
+        -157.99999999999994,
+        425.8453563284855
+      ]
+    },
+    {
+      "instance": "servo_horn_interface",
+      "group": "y",
+      "kg": 0.0003459700508215253,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        288.75000000000006,
+        -158.00000000000003,
+        428.50000000000006
+      ]
+    },
+    {
+      "instance": "latch_roller",
+      "group": "roller",
+      "kg": 0.0014426978863447727,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        274.99999999999994,
+        -157.99999999999997,
+        421.49999999999994
+      ]
+    },
+    {
+      "instance": "roller_clip_-8.5",
+      "group": "roller",
+      "kg": 4.550047180010436e-05,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        261.74999999999994,
+        -158.00000000000006,
+        421.50000000000006
+      ]
+    },
+    {
+      "instance": "roller_clip_18",
+      "group": "roller",
+      "kg": 4.550047180010436e-05,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        288.25,
+        -158.00000000000006,
+        421.50000000000006
+      ]
+    },
+    {
+      "instance": "carried_bin",
+      "group": "bin",
+      "kg": 0.12339085274484413,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        269.8799483132618,
+        -80.2258677039647,
+        410.88137663457917
+      ]
+    },
+    {
+      "instance": "z_stop_-45_80",
+      "group": "x",
+      "kg": 0.0025919999999999997,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        225.0,
+        -236.5,
+        85.0
+      ]
+    },
+    {
+      "instance": "z_stop_-45_584",
+      "group": "x",
+      "kg": 0.0025919999999999997,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        225.0,
+        -236.5,
+        589.0
+      ]
+    },
+    {
+      "instance": "z_stop_45_80",
+      "group": "x",
+      "kg": 0.0025919999999999997,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        315.0,
+        -236.5,
+        85.0
+      ]
+    },
+    {
+      "instance": "z_stop_45_584",
+      "group": "x",
+      "kg": 0.0025919999999999997,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        315.0,
+        -236.5,
+        589.0
+      ]
+    },
+    {
+      "instance": "y_stop_-222",
+      "group": "z",
+      "kg": 0.0008361599999999999,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        257.0,
+        -221.99999999999997,
+        355.56659012629154
+      ]
+    },
+    {
+      "instance": "y_stop_-27",
+      "group": "z",
+      "kg": 0.0008361599999999999,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        257.0,
+        -26.999999999999996,
+        355.56659012629154
+      ]
+    },
+    {
+      "instance": "base_panel_0",
+      "group": "fixed",
+      "kg": 3.049539328243847,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -190.05711606029953,
+        -75.00320308051089,
+        3.0000000000000004
+      ]
+    },
+    {
+      "instance": "base_panel_1",
+      "group": "fixed",
+      "kg": 4.004138489009533,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        179.9466403816283,
+        -75.02949997052504,
+        2.9999999999999996
+      ]
+    },
+    {
+      "instance": "base_panel_2",
+      "group": "fixed",
+      "kg": 4.864782688840771,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        645.0641456878516,
+        -74.98724655791733,
+        2.9999999999999987
+      ]
+    },
+    {
+      "instance": "base_splice_-30_-80",
+      "group": "fixed",
+      "kg": 0.02489364168007222,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -29.999999999999986,
+        -79.99999999999997,
+        8.0
+      ]
+    },
+    {
+      "instance": "base_splice_-30_190",
+      "group": "fixed",
+      "kg": 0.02489364168007222,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -29.999999999999986,
+        189.99999999999994,
+        8.0
+      ]
+    },
+    {
+      "instance": "base_splice_390_-80",
+      "group": "fixed",
+      "kg": 0.02489364168007222,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        389.9999999999999,
+        -79.99999999999996,
+        8.0
+      ]
+    },
+    {
+      "instance": "base_splice_390_190",
+      "group": "fixed",
+      "kg": 0.02489364168007222,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        389.9999999999999,
+        189.99999999999991,
+        8.0
+      ]
+    },
+    {
+      "instance": "column_0_carrier",
+      "group": "fixed",
+      "kg": 0.4833116994555342,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        89.97194481322235,
+        74.99999999999996,
+        9.0
+      ]
+    },
+    {
+      "instance": "column_0_foot_-1_10",
+      "group": "fixed",
+      "kg": 0.015583405637783463,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        15.0,
+        9.999999999999998,
+        29.020411857559857
+      ]
+    },
+    {
+      "instance": "column_0_pedestal_-1_10",
+      "group": "fixed",
+      "kg": 0.03874374588025274,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        15.000000000000002,
+        10.000000000000004,
+        19.000000000000004
+      ]
+    },
+    {
+      "instance": "column_0_post_-1_10",
+      "group": "fixed",
+      "kg": 0.38999999999999996,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        15.0,
+        10.0,
+        357.0
+      ]
+    },
+    {
+      "instance": "column_0_foot_-1_140",
+      "group": "fixed",
+      "kg": 0.015583405637783463,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        15.0,
+        139.99999999999994,
+        29.020411857559857
+      ]
+    },
+    {
+      "instance": "column_0_pedestal_-1_140",
+      "group": "fixed",
+      "kg": 0.03874374588025274,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        15.000000000000002,
+        140.00000000000003,
+        19.000000000000004
+      ]
+    },
+    {
+      "instance": "column_0_post_-1_140",
+      "group": "fixed",
+      "kg": 0.38999999999999996,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        15.0,
+        139.99999999999997,
+        357.0
+      ]
+    },
+    {
+      "instance": "column_0_foot_1_10",
+      "group": "fixed",
+      "kg": 0.015583405637783463,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        164.99999999999994,
+        10.000000000000002,
+        29.020411857559868
+      ]
+    },
+    {
+      "instance": "column_0_pedestal_1_10",
+      "group": "fixed",
+      "kg": 0.03874374588025274,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        165.00000000000009,
+        10.000000000000004,
+        19.000000000000004
+      ]
+    },
+    {
+      "instance": "column_0_post_1_10",
+      "group": "fixed",
+      "kg": 0.38999999999999996,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        165.0,
+        9.999999999999998,
+        357.0
+      ]
+    },
+    {
+      "instance": "column_0_foot_1_140",
+      "group": "fixed",
+      "kg": 0.015583405637783463,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        164.99999999999994,
+        140.0000000000001,
+        29.020411857559868
+      ]
+    },
+    {
+      "instance": "column_0_pedestal_1_140",
+      "group": "fixed",
+      "kg": 0.03874374588025274,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        165.00000000000009,
+        140.00000000000003,
+        19.000000000000004
+      ]
+    },
+    {
+      "instance": "column_0_post_1_140",
+      "group": "fixed",
+      "kg": 0.38999999999999996,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        165.0,
+        140.0,
+        357.0
+      ]
+    },
+    {
+      "instance": "column_0_rear_panel",
+      "group": "fixed",
+      "kg": 0.8667402312600537,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        90.00000000000004,
+        153.50000000000009,
+        360.00000000000017
+      ]
+    },
+    {
+      "instance": "column_0_rear_standoff_-75_65",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        14.999999999999998,
+        151.0,
+        65.0
+      ]
+    },
+    {
+      "instance": "column_0_rear_standoff_-75_655",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        15.0,
+        151.0,
+        654.9999999999999
+      ]
+    },
+    {
+      "instance": "column_0_rear_standoff_75_65",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        165.00000000000006,
+        151.0,
+        65.0
+      ]
+    },
+    {
+      "instance": "column_0_rear_standoff_75_655",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        165.0,
+        150.99999999999997,
+        654.9999999999999
+      ]
+    },
+    {
+      "instance": "column_0_datum_-75",
+      "group": "fixed",
+      "kg": 0.0026634422517134264,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        15.000000000000002,
+        75.00000000000001,
+        8.0
+      ]
+    },
+    {
+      "instance": "column_0_datum_75",
+      "group": "fixed",
+      "kg": 0.0026634422517134264,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        165.0,
+        75.0,
+        8.0
+      ]
+    },
+    {
+      "instance": "column_1_carrier",
+      "group": "fixed",
+      "kg": 0.4833116994555342,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        269.9719448132223,
+        74.99999999999996,
+        9.0
+      ]
+    },
+    {
+      "instance": "column_1_foot_-1_10",
+      "group": "fixed",
+      "kg": 0.015583405637783463,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        195.0,
+        10.000000000000002,
+        29.020411857559868
+      ]
+    },
+    {
+      "instance": "column_1_pedestal_-1_10",
+      "group": "fixed",
+      "kg": 0.03874374588025274,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        195.00000000000009,
+        10.000000000000004,
+        19.000000000000004
+      ]
+    },
+    {
+      "instance": "column_1_post_-1_10",
+      "group": "fixed",
+      "kg": 0.38999999999999996,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        195.0,
+        9.999999999999998,
+        357.0
+      ]
+    },
+    {
+      "instance": "column_1_foot_-1_140",
+      "group": "fixed",
+      "kg": 0.015583405637783463,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        195.0,
+        140.0000000000001,
+        29.020411857559868
+      ]
+    },
+    {
+      "instance": "column_1_pedestal_-1_140",
+      "group": "fixed",
+      "kg": 0.03874374588025274,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        195.00000000000009,
+        140.00000000000003,
+        19.000000000000004
+      ]
+    },
+    {
+      "instance": "column_1_post_-1_140",
+      "group": "fixed",
+      "kg": 0.38999999999999996,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        195.0,
+        140.0,
+        357.0
+      ]
+    },
+    {
+      "instance": "column_1_foot_1_10",
+      "group": "fixed",
+      "kg": 0.015583405637783463,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        345.0000000000001,
+        10.000000000000005,
+        29.020411857559868
+      ]
+    },
+    {
+      "instance": "column_1_pedestal_1_10",
+      "group": "fixed",
+      "kg": 0.03874374588025274,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        345.0000000000001,
+        10.000000000000004,
+        19.000000000000004
+      ]
+    },
+    {
+      "instance": "column_1_post_1_10",
+      "group": "fixed",
+      "kg": 0.38999999999999996,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        344.99999999999994,
+        10.0,
+        357.0
+      ]
+    },
+    {
+      "instance": "column_1_foot_1_140",
+      "group": "fixed",
+      "kg": 0.015583405637783463,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        345.0000000000001,
+        140.00000000000006,
+        29.020411857559857
+      ]
+    },
+    {
+      "instance": "column_1_pedestal_1_140",
+      "group": "fixed",
+      "kg": 0.03874374588025274,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        345.0000000000001,
+        140.00000000000003,
+        19.000000000000004
+      ]
+    },
+    {
+      "instance": "column_1_post_1_140",
+      "group": "fixed",
+      "kg": 0.38999999999999996,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        344.99999999999994,
+        140.0,
+        357.0
+      ]
+    },
+    {
+      "instance": "column_1_rear_panel",
+      "group": "fixed",
+      "kg": 0.8667402312600537,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        270.00000000000017,
+        153.50000000000009,
+        360.00000000000017
+      ]
+    },
+    {
+      "instance": "column_1_rear_standoff_-75_65",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        195.0,
+        151.0,
+        65.0
+      ]
+    },
+    {
+      "instance": "column_1_rear_standoff_-75_655",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        194.99999999999994,
+        150.99999999999997,
+        654.9999999999999
+      ]
+    },
+    {
+      "instance": "column_1_rear_standoff_75_65",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        345.0,
+        151.00000000000003,
+        65.0
+      ]
+    },
+    {
+      "instance": "column_1_rear_standoff_75_655",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        345.0,
+        151.00000000000003,
+        655.0
+      ]
+    },
+    {
+      "instance": "column_1_datum_-75",
+      "group": "fixed",
+      "kg": 0.0026634422517134264,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        195.0,
+        75.0,
+        8.0
+      ]
+    },
+    {
+      "instance": "column_1_datum_75",
+      "group": "fixed",
+      "kg": 0.0026634422517134264,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        345.0,
+        75.0,
+        8.000000000000002
+      ]
+    },
+    {
+      "instance": "column_2_carrier",
+      "group": "fixed",
+      "kg": 0.4833116994555342,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        449.971944813222,
+        74.99999999999996,
+        9.0
+      ]
+    },
+    {
+      "instance": "column_2_foot_-1_10",
+      "group": "fixed",
+      "kg": 0.015583405637783463,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        375.0000000000001,
+        10.000000000000005,
+        29.020411857559868
+      ]
+    },
+    {
+      "instance": "column_2_pedestal_-1_10",
+      "group": "fixed",
+      "kg": 0.03874374588025274,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        375.00000000000017,
+        10.000000000000004,
+        19.000000000000004
+      ]
+    },
+    {
+      "instance": "column_2_post_-1_10",
+      "group": "fixed",
+      "kg": 0.38999999999999996,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        374.99999999999994,
+        10.0,
+        357.0
+      ]
+    },
+    {
+      "instance": "column_2_foot_-1_140",
+      "group": "fixed",
+      "kg": 0.015583405637783463,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        375.0000000000001,
+        140.00000000000006,
+        29.020411857559857
+      ]
+    },
+    {
+      "instance": "column_2_pedestal_-1_140",
+      "group": "fixed",
+      "kg": 0.03874374588025274,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        375.00000000000017,
+        140.00000000000003,
+        19.000000000000004
+      ]
+    },
+    {
+      "instance": "column_2_post_-1_140",
+      "group": "fixed",
+      "kg": 0.38999999999999996,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        374.99999999999994,
+        140.0,
+        357.0
+      ]
+    },
+    {
+      "instance": "column_2_foot_1_10",
+      "group": "fixed",
+      "kg": 0.015583405637783463,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        524.9999999999998,
+        10.000000000000002,
+        29.020411857559854
+      ]
+    },
+    {
+      "instance": "column_2_pedestal_1_10",
+      "group": "fixed",
+      "kg": 0.03874374588025274,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        525.0,
+        10.000000000000005,
+        19.00000000000001
+      ]
+    },
+    {
+      "instance": "column_2_post_1_10",
+      "group": "fixed",
+      "kg": 0.38999999999999996,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        525.0,
+        9.999999999999998,
+        357.00000000000006
+      ]
+    },
+    {
+      "instance": "column_2_foot_1_140",
+      "group": "fixed",
+      "kg": 0.015583405637783463,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        524.9999999999998,
+        139.99999999999997,
+        29.02041185755985
+      ]
+    },
+    {
+      "instance": "column_2_pedestal_1_140",
+      "group": "fixed",
+      "kg": 0.03874374588025274,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        525.0,
+        140.0,
+        19.00000000000001
+      ]
+    },
+    {
+      "instance": "column_2_post_1_140",
+      "group": "fixed",
+      "kg": 0.38999999999999996,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        525.0,
+        140.0,
+        357.00000000000006
+      ]
+    },
+    {
+      "instance": "column_2_rear_panel",
+      "group": "fixed",
+      "kg": 0.8667402312600537,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        450.00000000000017,
+        153.50000000000009,
+        360.00000000000017
+      ]
+    },
+    {
+      "instance": "column_2_rear_standoff_-75_65",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        375.0,
+        151.00000000000003,
+        65.0
+      ]
+    },
+    {
+      "instance": "column_2_rear_standoff_-75_655",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        375.0,
+        151.00000000000003,
+        655.0
+      ]
+    },
+    {
+      "instance": "column_2_rear_standoff_75_65",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        524.9999999999999,
+        151.00000000000006,
+        65.00000000000001
+      ]
+    },
+    {
+      "instance": "column_2_rear_standoff_75_655",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        524.9999999999999,
+        151.0,
+        654.9999999999998
+      ]
+    },
+    {
+      "instance": "column_2_datum_-75",
+      "group": "fixed",
+      "kg": 0.0026634422517134264,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        375.00000000000006,
+        75.0,
+        8.000000000000002
+      ]
+    },
+    {
+      "instance": "column_2_datum_75",
+      "group": "fixed",
+      "kg": 0.0026634422517134264,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        525.0000000000001,
+        75.00000000000001,
+        8.0
+      ]
+    },
+    {
+      "instance": "column_3_carrier",
+      "group": "fixed",
+      "kg": 0.4833116994555342,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        629.9719448132221,
+        74.99999999999989,
+        8.999999999999998
+      ]
+    },
+    {
+      "instance": "column_3_foot_-1_10",
+      "group": "fixed",
+      "kg": 0.015583405637783463,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        554.9999999999999,
+        10.000000000000002,
+        29.020411857559854
+      ]
+    },
+    {
+      "instance": "column_3_pedestal_-1_10",
+      "group": "fixed",
+      "kg": 0.03874374588025274,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        555.0000000000001,
+        10.000000000000005,
+        19.00000000000001
+      ]
+    },
+    {
+      "instance": "column_3_post_-1_10",
+      "group": "fixed",
+      "kg": 0.38999999999999996,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        555.0,
+        9.999999999999998,
+        357.0
+      ]
+    },
+    {
+      "instance": "column_3_foot_-1_140",
+      "group": "fixed",
+      "kg": 0.015583405637783463,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        554.9999999999999,
+        139.99999999999997,
+        29.02041185755985
+      ]
+    },
+    {
+      "instance": "column_3_pedestal_-1_140",
+      "group": "fixed",
+      "kg": 0.03874374588025274,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        555.0000000000001,
+        140.0,
+        19.00000000000001
+      ]
+    },
+    {
+      "instance": "column_3_post_-1_140",
+      "group": "fixed",
+      "kg": 0.38999999999999996,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        555.0,
+        140.0,
+        357.0
+      ]
+    },
+    {
+      "instance": "column_3_foot_1_10",
+      "group": "fixed",
+      "kg": 0.015583405637783463,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        705.0000000000002,
+        10.000000000000002,
+        29.020411857559854
+      ]
+    },
+    {
+      "instance": "column_3_pedestal_1_10",
+      "group": "fixed",
+      "kg": 0.03874374588025274,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        705.0000000000001,
+        10.000000000000005,
+        19.00000000000001
+      ]
+    },
+    {
+      "instance": "column_3_post_1_10",
+      "group": "fixed",
+      "kg": 0.38999999999999996,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        704.9999999999999,
+        9.999999999999998,
+        357.00000000000006
+      ]
+    },
+    {
+      "instance": "column_3_foot_1_140",
+      "group": "fixed",
+      "kg": 0.015583405637783463,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        705.0000000000002,
+        139.99999999999997,
+        29.02041185755985
+      ]
+    },
+    {
+      "instance": "column_3_pedestal_1_140",
+      "group": "fixed",
+      "kg": 0.03874374588025274,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        705.0000000000001,
+        140.0,
+        19.00000000000001
+      ]
+    },
+    {
+      "instance": "column_3_post_1_140",
+      "group": "fixed",
+      "kg": 0.38999999999999996,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        704.9999999999999,
+        140.0,
+        357.00000000000006
+      ]
+    },
+    {
+      "instance": "column_3_rear_panel",
+      "group": "fixed",
+      "kg": 0.8667402312600537,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        630.0000000000002,
+        153.50000000000009,
+        360.00000000000017
+      ]
+    },
+    {
+      "instance": "column_3_rear_standoff_-75_65",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        555.0,
+        151.00000000000006,
+        65.00000000000001
+      ]
+    },
+    {
+      "instance": "column_3_rear_standoff_-75_655",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        554.9999999999999,
+        151.0,
+        654.9999999999998
+      ]
+    },
+    {
+      "instance": "column_3_rear_standoff_75_65",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        705.0000000000002,
+        151.00000000000006,
+        65.00000000000001
+      ]
+    },
+    {
+      "instance": "column_3_rear_standoff_75_655",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        704.9999999999999,
+        151.0,
+        654.9999999999998
+      ]
+    },
+    {
+      "instance": "column_3_datum_-75",
+      "group": "fixed",
+      "kg": 0.0026634422517134264,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        555.0,
+        75.00000000000001,
+        8.0
+      ]
+    },
+    {
+      "instance": "column_3_datum_75",
+      "group": "fixed",
+      "kg": 0.0026634422517134264,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        705.0000000000001,
+        75.00000000000001,
+        8.0
+      ]
+    },
+    {
+      "instance": "x_beam_-285",
+      "group": "fixed",
+      "kg": 2.0240774168300395,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        250.18054711965442,
+        -285.00000000000125,
+        17.96933586619755
+      ]
+    },
+    {
+      "instance": "x_track_-285",
+      "group": "fixed",
+      "kg": 0.765903314101731,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        250.08283253718525,
+        -284.99999999999915,
+        34.00000000000001
+      ]
+    },
+    {
+      "instance": "x_stop_-250_-285",
+      "group": "fixed",
+      "kg": 0.004608,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -250.0,
+        -285.0,
+        47.0
+      ]
+    },
+    {
+      "instance": "x_stop_730_-285",
+      "group": "fixed",
+      "kg": 0.004608,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        730.0,
+        -285.0,
+        47.0
+      ]
+    },
+    {
+      "instance": "x_beam_-215",
+      "group": "fixed",
+      "kg": 2.0240774168300395,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        250.18054711965442,
+        -215.0000000000012,
+        17.96933586619755
+      ]
+    },
+    {
+      "instance": "x_track_-215",
+      "group": "fixed",
+      "kg": 0.765903314101731,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        250.08283253718517,
+        -214.99999999999926,
+        34.0
+      ]
+    },
+    {
+      "instance": "x_stop_-250_-215",
+      "group": "fixed",
+      "kg": 0.004608,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -250.0,
+        -215.0,
+        47.0
+      ]
+    },
+    {
+      "instance": "x_stop_730_-215",
+      "group": "fixed",
+      "kg": 0.004608,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        730.0,
+        -215.0,
+        47.0
+      ]
+    },
+    {
+      "instance": "x_rack_0",
+      "group": "fixed",
+      "kg": 0.02952358375305807,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -183.45133223538298,
+        -318.44547217345684,
+        65.99999999999996
+      ]
+    },
+    {
+      "instance": "x_rack_1",
+      "group": "fixed",
+      "kg": 0.02952358375305807,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -70.353996706151,
+        -318.4454721734563,
+        66.00000000000007
+      ]
+    },
+    {
+      "instance": "x_rack_2",
+      "group": "fixed",
+      "kg": 0.02952358375305807,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        42.743338823081196,
+        -318.44547217345666,
+        65.99999999999989
+      ]
+    },
+    {
+      "instance": "x_rack_3",
+      "group": "fixed",
+      "kg": 0.02952358375305807,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        155.8406743523135,
+        -318.4454721734565,
+        65.99999999999997
+      ]
+    },
+    {
+      "instance": "x_rack_4",
+      "group": "fixed",
+      "kg": 0.02952358375305807,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        268.938009881546,
+        -318.44547217345666,
+        65.99999999999997
+      ]
+    },
+    {
+      "instance": "x_rack_5",
+      "group": "fixed",
+      "kg": 0.02952358375305807,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        382.035345410778,
+        -318.4454721734571,
+        66.00000000000004
+      ]
+    },
+    {
+      "instance": "x_rack_6",
+      "group": "fixed",
+      "kg": 0.02952358375305807,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        495.1326809400097,
+        -318.4454721734565,
+        65.9999999999999
+      ]
+    },
+    {
+      "instance": "x_rack_7",
+      "group": "fixed",
+      "kg": 0.02952358375305807,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        608.2300164692415,
+        -318.44547217345666,
+        66.00000000000003
+      ]
+    },
+    {
+      "instance": "x_rack_8",
+      "group": "fixed",
+      "kg": 0.02952358375305807,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        721.3273519984741,
+        -318.445472173457,
+        65.99999999999996
+      ]
+    },
+    {
+      "instance": "z_rack_0",
+      "group": "x",
+      "kg": 0.029523583753058063,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        151.55452782654191,
+        -267.99999999999955,
+        141.5486677646161
+      ]
+    },
+    {
+      "instance": "z_rack_1",
+      "group": "x",
+      "kg": 0.029523583753058063,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        151.554527826542,
+        -267.99999999999966,
+        254.6460032938482
+      ]
+    },
+    {
+      "instance": "z_rack_2",
+      "group": "x",
+      "kg": 0.029523583753058063,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        151.55452782654194,
+        -267.99999999999966,
+        367.7433388230813
+      ]
+    },
+    {
+      "instance": "z_rack_3",
+      "group": "x",
+      "kg": 0.029523583753058063,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        151.5545278265421,
+        -267.9999999999995,
+        480.8406743523129
+      ]
+    },
+    {
+      "instance": "z_rack_4",
+      "group": "x",
+      "kg": 0.029523583753058063,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        151.5545278265423,
+        -267.99999999999943,
+        593.9380098815463
+      ]
+    },
+    {
+      "instance": "y_rack_0",
+      "group": "z",
+      "kg": 0.029523583753058077,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        343.55452782654123,
+        -185.4513322353835,
+        370.99999999999955
+      ]
+    },
+    {
+      "instance": "y_rack_1",
+      "group": "z",
+      "kg": 0.029523583753058077,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        343.55452782654174,
+        -72.35399670615095,
+        370.9999999999996
+      ]
+    },
+    {
+      "instance": "x_pinion",
+      "group": "xgear",
+      "kg": 0.008298048411723317,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        270.0000000000002,
+        -299.0000000000005,
+        66.0000000000003
+      ]
+    },
+    {
+      "instance": "z_pinion",
+      "group": "zgear",
+      "kg": 0.008298048411723314,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        170.9999999999998,
+        -267.999999999999,
+        325.0
+      ]
+    },
+    {
+      "instance": "y_pinion",
+      "group": "ygear",
+      "kg": 0.008298048411723323,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        362.9999999999995,
+        -195.99999999999994,
+        371.0000000000006
+      ]
+    },
+    {
+      "instance": "x_rack_backbone",
+      "group": "fixed",
+      "kg": 0.49869758924508956,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        270.1728006429556,
+        -324.99999999999926,
+        65.99999999999994
+      ]
+    },
+    {
+      "instance": "z_rack_backbone",
+      "group": "x",
+      "kg": 0.5460433858577278,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        141.99999999999991,
+        -267.9804609973264,
+        368.00319417019654
+      ]
+    },
+    {
+      "instance": "y_rack_backbone",
+      "group": "z",
+      "kg": 0.07301785623970665,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        338.0000000000004,
+        -128.5085518752161,
+        371.01597302814315
+      ]
+    },
+    {
+      "instance": "x_real_motor",
+      "group": "x",
+      "kg": 0.5,
+      "method": "assumed complete motor+driver, weigh actual unit",
+      "centre_mm": [
+        269.99990716578515,
+        -298.69089767710483,
+        112.2095174608883
+      ]
+    },
+    {
+      "instance": "z_real_motor",
+      "group": "z",
+      "kg": 0.5,
+      "method": "assumed complete motor+driver, weigh actual unit",
+      "centre_mm": [
+        170.99990716578228,
+        -174.79048253911353,
+        324.69089767710534
+      ]
+    },
+    {
+      "instance": "y_real_motor",
+      "group": "y",
+      "kg": 0.5,
+      "method": "assumed complete motor+driver, weigh actual unit",
+      "centre_mm": [
+        362.9999071657834,
+        -195.69089767710454,
+        452.2095174608917
+      ]
+    },
+    {
+      "instance": "x_motor_plate",
+      "group": "x",
+      "kg": 0.022097230504807778,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        270.0,
+        -298.99999999999983,
+        83.99999999999996
+      ]
+    },
+    {
+      "instance": "z_motor_plate",
+      "group": "z",
+      "kg": 0.022097230504807778,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        170.99999999999991,
+        -247.9999999999999,
+        324.9999999999999
+      ]
+    },
+    {
+      "instance": "z_reduction_candidate",
+      "group": "z",
+      "kg": 0.35,
+      "method": "assumed gearbox; supplier not selected",
+      "centre_mm": [
+        171.00000000000003,
+        -223.76410807491558,
+        325.00000000000006
+      ]
+    },
+    {
+      "instance": "z_reducer_output_candidate",
+      "group": "z",
+      "kg": 0.011048353044144582,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        171.0,
+        -260.0,
+        324.99999999999994
+      ]
+    },
+    {
+      "instance": "y_motor_plate",
+      "group": "y",
+      "kg": 0.022097230504807778,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        362.99999999999994,
+        -195.99999999999997,
+        388.9999999999999
+      ]
+    },
+    {
+      "instance": "y_reduction_candidate",
+      "group": "y",
+      "kg": 0.2,
+      "method": "assumed gearbox; supplier not selected",
+      "centre_mm": [
+        363.00000000000006,
+        -196.00000000000003,
+        408.23884982913677
+      ]
+    },
+    {
+      "instance": "y_reducer_output_candidate",
+      "group": "y",
+      "kg": 0.011048353044144582,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        363.00000000000006,
+        -196.0,
+        377.0
+      ]
+    },
+    {
+      "instance": "x_motor_leg_-22",
+      "group": "x",
+      "kg": 0.0080352,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        248.0,
+        -298.99999999999994,
+        66.49999999999999
+      ]
+    },
+    {
+      "instance": "x_motor_leg_22",
+      "group": "x",
+      "kg": 0.0080352,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        291.99999999999994,
+        -298.99999999999994,
+        66.49999999999999
+      ]
+    },
+    {
+      "instance": "z_motor_module_link",
+      "group": "z",
+      "kg": 0.0053784,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        193.06024096385542,
+        -235.9156626506024,
+        353.0
+      ]
+    },
+    {
+      "instance": "y_rail_right",
+      "group": "z",
+      "kg": 0.08693581969229905,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        283.00000000000006,
+        -124.99999999999997,
+        353.25
+      ]
+    },
+    {
+      "instance": "y_block_right",
+      "group": "y",
+      "kg": 0.035660023741732993,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        283.00000000000006,
+        -195.99999999999994,
+        356.6057023095357
+      ]
+    },
+    {
+      "instance": "head_locator_-10",
+      "group": "y",
+      "kg": 0.0004993954221962674,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        260.0,
+        -161.0,
+        365.5
+      ]
+    },
+    {
+      "instance": "head_locator_10",
+      "group": "y",
+      "kg": 0.0004993954221962674,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        280.0,
+        -161.0,
+        365.5
+      ]
+    },
+    {
+      "instance": "y_motor_leg_outboard",
+      "group": "y",
+      "kg": 0.020736,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        385.0,
+        -196.0,
+        371.0
+      ]
+    },
+    {
+      "instance": "x_pinion_hub",
+      "group": "xgear",
+      "kg": 0.015120213693963144,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        270.00000000000006,
+        -298.99999999999994,
+        63.00606742672603
+      ]
+    },
+    {
+      "instance": "z_pinion_hub",
+      "group": "zgear",
+      "kg": 0.011650340316036484,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        171.00000000000003,
+        -264.41220549946024,
+        325.0000000000001
+      ]
+    },
+    {
+      "instance": "y_pinion_hub",
+      "group": "ygear",
+      "kg": 0.011650340316036486,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        363.00000000000006,
+        -196.0,
+        367.41220549946024
+      ]
+    },
+    {
+      "instance": "x_power_tray",
+      "group": "x",
+      "kg": 0.17031669712922273,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        438.58315311484347,
+        -247.88460554670948,
+        53.00000000000001
+      ]
+    },
+    {
+      "instance": "x_power_case",
+      "group": "x",
+      "kg": 0.1504458448693452,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        445.55719465082433,
+        -249.94780865485845,
+        73.17611453935847
+      ]
+    },
+    {
+      "instance": "x_power_lid",
+      "group": "x",
+      "kg": 0.05010290937080022,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        445.00000000000006,
+        -249.99999999999997,
+        106.49999999999999
+      ]
+    },
+    {
+      "instance": "x_battery_candidate",
+      "group": "x",
+      "kg": 0.45,
+      "method": "assumed protected pack; not selected",
+      "centre_mm": [
+        418.5,
+        -250.0,
+        80.0
+      ]
+    },
+    {
+      "instance": "x_esp32_candidate",
+      "group": "x",
+      "kg": 0.025,
+      "method": "assumed board and local connector allowance",
+      "centre_mm": [
+        488.0,
+        -250.0,
+        64.99999999999999
+      ]
+    },
+    {
+      "instance": "z_power_tray",
+      "group": "z",
+      "kg": 0.1824745110048259,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        278.7689239512797,
+        -185.69372672533166,
+        284.73864562923217
+      ]
+    },
+    {
+      "instance": "z_power_case",
+      "group": "z",
+      "kg": 0.1504458448693452,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        280.55719465082467,
+        -179.9478086548584,
+        304.1761145393581
+      ]
+    },
+    {
+      "instance": "z_power_lid",
+      "group": "z",
+      "kg": 0.05010290937080022,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        280.0,
+        -179.99999999999994,
+        337.49999999999994
+      ]
+    },
+    {
+      "instance": "z_battery_candidate",
+      "group": "z",
+      "kg": 0.45,
+      "method": "assumed protected pack; not selected",
+      "centre_mm": [
+        253.5,
+        -180.0,
+        311.0
+      ]
+    },
+    {
+      "instance": "z_esp32_candidate",
+      "group": "z",
+      "kg": 0.025,
+      "method": "assumed board and local connector allowance",
+      "centre_mm": [
+        323.0,
+        -180.0,
+        296.00000000000006
+      ]
+    },
+    {
+      "instance": "y_power_tray",
+      "group": "z",
+      "kg": 0.15920310205789928,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        445.1521469625574,
+        -134.637383072572,
+        367.99781469809216
+      ]
+    },
+    {
+      "instance": "y_power_case",
+      "group": "z",
+      "kg": 0.15044584486934523,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        444.9478086548583,
+        -134.44280534917576,
+        388.1761145393577
+      ]
+    },
+    {
+      "instance": "y_power_lid",
+      "group": "z",
+      "kg": 0.05010290937080021,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        444.9999999999999,
+        -135.0,
+        421.4999999999999
+      ]
+    },
+    {
+      "instance": "y_battery_candidate",
+      "group": "z",
+      "kg": 0.45,
+      "method": "assumed protected pack; not selected",
+      "centre_mm": [
+        445.0,
+        -161.5,
+        395.0
+      ]
+    },
+    {
+      "instance": "y_esp32_candidate",
+      "group": "z",
+      "kg": 0.025,
+      "method": "assumed board and local connector allowance",
+      "centre_mm": [
+        444.99999999999994,
+        -91.99999999999999,
+        380.0
+      ]
+    },
+    {
+      "instance": "z_independent_safety_track",
+      "group": "x",
+      "kg": 0.7854020462632657,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        359.99999999999955,
+        -267.99999999999994,
+        368.10053162698955
+      ]
+    },
+    {
+      "instance": "z_brake_candidate",
+      "group": "z",
+      "kg": 0.3,
+      "method": "assumed brake; supplier not selected",
+      "centre_mm": [
+        360.0,
+        -267.99999999999994,
+        324.99999999999994
+      ]
+    },
+    {
+      "instance": "safety_track_link_85",
+      "group": "x",
+      "kg": 0.017496,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        343.5,
+        -268.0,
+        91.0
+      ]
+    },
+    {
+      "instance": "safety_track_link_625",
+      "group": "x",
+      "kg": 0.017496,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        343.5,
+        -268.0,
+        631.0
+      ]
+    },
+    {
+      "instance": "brake_module_link",
+      "group": "z",
+      "kg": 0.00378,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        338.50000000000006,
+        -240.50000000000003,
+        351.0
+      ]
+    },
+    {
+      "instance": "stored_bin_0_0_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        53.99999999999999,
+        3.799999999999997,
+        238.0
+      ]
+    },
+    {
+      "instance": "stored_bin_0_1_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        53.99999999999999,
+        3.799999999999997,
+        333.0
+      ]
+    },
+    {
+      "instance": "stored_bin_0_2_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        53.99999999999999,
+        3.799999999999997,
+        428.00000000000006
+      ]
+    },
+    {
+      "instance": "stored_bin_0_3_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        53.99999999999999,
+        3.799999999999997,
+        523.0
+      ]
+    },
+    {
+      "instance": "stored_bin_0_4_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        53.99999999999999,
+        3.799999999999997,
+        617.9999999999999
+      ]
+    },
+    {
+      "instance": "stored_bin_1_0_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        234.0,
+        3.799999999999997,
+        238.0
+      ]
+    },
+    {
+      "instance": "stored_bin_1_1_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        234.0,
+        3.799999999999997,
+        333.0
+      ]
+    },
+    {
+      "instance": "stored_bin_1_3_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        234.0,
+        3.799999999999997,
+        523.0
+      ]
+    },
+    {
+      "instance": "stored_bin_1_4_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        234.0,
+        3.799999999999997,
+        617.9999999999999
+      ]
+    },
+    {
+      "instance": "stored_bin_2_0_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        414.0,
+        3.799999999999997,
+        238.0
+      ]
+    },
+    {
+      "instance": "stored_bin_2_1_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        414.0,
+        3.799999999999997,
+        333.0
+      ]
+    },
+    {
+      "instance": "stored_bin_2_2_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        414.0,
+        3.799999999999997,
+        428.00000000000006
+      ]
+    },
+    {
+      "instance": "stored_bin_2_3_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        414.0,
+        3.799999999999997,
+        523.0
+      ]
+    },
+    {
+      "instance": "stored_bin_2_4_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        414.0,
+        3.799999999999997,
+        617.9999999999999
+      ]
+    },
+    {
+      "instance": "stored_bin_3_0_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        594.0000000000001,
+        3.799999999999997,
+        238.0
+      ]
+    },
+    {
+      "instance": "stored_bin_3_1_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        594.0000000000001,
+        3.799999999999997,
+        333.0
+      ]
+    },
+    {
+      "instance": "stored_bin_3_2_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        594.0000000000001,
+        3.799999999999997,
+        428.00000000000006
+      ]
+    },
+    {
+      "instance": "stored_bin_3_3_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        594.0000000000001,
+        3.799999999999997,
+        523.0
+      ]
+    },
+    {
+      "instance": "stored_bin_3_4_marker",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        594.0000000000001,
+        3.799999999999997,
+        617.9999999999999
+      ]
+    },
+    {
+      "instance": "carried_bin_marker",
+      "group": "bin",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        234.0,
+        -139.2,
+        428.00000000000006
+      ]
+    },
+    {
+      "instance": "column_0_reference_mount",
+      "group": "fixed",
+      "kg": 0.0036575999999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        12.0,
+        -1.0,
+        270.0
+      ]
+    },
+    {
+      "instance": "column_0_reference_tag",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        12.000000000000002,
+        -2.2,
+        270.0
+      ]
+    },
+    {
+      "instance": "column_1_reference_mount",
+      "group": "fixed",
+      "kg": 0.0036575999999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        192.0,
+        -1.0,
+        270.0
+      ]
+    },
+    {
+      "instance": "column_1_reference_tag",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        192.00000000000003,
+        -2.2,
+        270.0
+      ]
+    },
+    {
+      "instance": "column_2_reference_mount",
+      "group": "fixed",
+      "kg": 0.0036575999999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        372.0,
+        -1.0,
+        270.0
+      ]
+    },
+    {
+      "instance": "column_2_reference_tag",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        372.0,
+        -2.2,
+        270.0
+      ]
+    },
+    {
+      "instance": "column_3_reference_mount",
+      "group": "fixed",
+      "kg": 0.0036575999999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        552.0,
+        -1.0,
+        270.0
+      ]
+    },
+    {
+      "instance": "column_3_reference_tag",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        552.0,
+        -2.2,
+        270.0
+      ]
+    },
+    {
+      "instance": "tool_camera_candidate",
+      "group": "z",
+      "kg": 0.04,
+      "method": "assumed camera assembly",
+      "centre_mm": [
+        233.99999999999997,
+        -218.35160358368148,
+        427.99999999999994
+      ]
+    },
+    {
+      "instance": "tool_camera_mount",
+      "group": "z",
+      "kg": 0.012289171858136052,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        241.60170506836496,
+        -225.9870473727272,
+        413.5718691180471
+      ]
+    },
+    {
+      "instance": "io_deck",
+      "group": "fixed",
+      "kg": 0.08751002436372521,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -150.0,
+        65.00000000000001,
+        198.33959538025596
+      ]
+    },
+    {
+      "instance": "io_leg_-65_10",
+      "group": "fixed",
+      "kg": 0.2162463930828454,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -215.0,
+        9.999999999999998,
+        90.48225516201464
+      ]
+    },
+    {
+      "instance": "io_leg_-65_140",
+      "group": "fixed",
+      "kg": 0.2162463930828454,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -215.0,
+        139.99999999999994,
+        90.48225516201464
+      ]
+    },
+    {
+      "instance": "io_leg_65_10",
+      "group": "fixed",
+      "kg": 0.2162463930828454,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -85.0,
+        9.999999999999998,
+        90.48225516201462
+      ]
+    },
+    {
+      "instance": "io_leg_65_140",
+      "group": "fixed",
+      "kg": 0.2162463930828454,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -85.0,
+        139.99999999999994,
+        90.48225516201462
+      ]
+    },
+    {
+      "instance": "io_deck_frame",
+      "group": "fixed",
+      "kg": 0.13074622902734728,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -149.99999999999994,
+        68.5993743659151,
+        192.99999999999991
+      ]
+    },
+    {
+      "instance": "io_inner_shutter",
+      "group": "io_shutter",
+      "kg": 0.0936,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -150.0,
+        -6.0,
+        246.0
+      ]
+    },
+    {
+      "instance": "io_shutter_guide_right",
+      "group": "fixed",
+      "kg": 0.01191768,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -24.41304347826087,
+        -7.391304347826087,
+        288.00000000000006
+      ]
+    },
+    {
+      "instance": "io_shutter_guide_left",
+      "group": "fixed",
+      "kg": 0.01191768,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -275.58695652173907,
+        -7.391304347826087,
+        288.00000000000006
+      ]
+    },
+    {
+      "instance": "io_shutter_header",
+      "group": "fixed",
+      "kg": 0.024364800000000006,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -149.99999999999994,
+        3.258865248226951,
+        391.9999999999998
+      ]
+    },
+    {
+      "instance": "io_outer_door",
+      "group": "fixed",
+      "kg": 0.049679999999999995,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -235.0,
+        69.0,
+        240.0
+      ]
+    },
+    {
+      "instance": "io_tunnel_horizontal_187",
+      "group": "fixed",
+      "kg": 0.0563868,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -293.25,
+        69.0,
+        188.5
+      ]
+    },
+    {
+      "instance": "io_tunnel_horizontal_290",
+      "group": "fixed",
+      "kg": 0.0563868,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -293.25,
+        69.0,
+        291.5
+      ]
+    },
+    {
+      "instance": "io_tunnel_side_-1.5",
+      "group": "fixed",
+      "kg": 0.0433116,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -293.25,
+        -1.5,
+        240.0
+      ]
+    },
+    {
+      "instance": "io_tunnel_side_139.5",
+      "group": "fixed",
+      "kg": 0.0433116,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -293.25,
+        139.5,
+        240.0
+      ]
+    },
+    {
+      "instance": "io_roof",
+      "group": "fixed",
+      "kg": 0.143208,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -150.0,
+        76.5,
+        395.5
+      ]
+    },
+    {
+      "instance": "io_rear_wall",
+      "group": "fixed",
+      "kg": 0.12117599999999999,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -150.0,
+        151.5,
+        294.99999999999994
+      ]
+    },
+    {
+      "instance": "io_right_wall",
+      "group": "fixed",
+      "kg": 0.10891079999999999,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -63.5,
+        73.57373648894324,
+        294.4309324695072
+      ]
+    },
+    {
+      "instance": "io_upper_fixed_shield",
+      "group": "fixed",
+      "kg": 0.0898848,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -150.0,
+        -1.5,
+        343.93848125600766
+      ]
+    },
+    {
+      "instance": "io_lower_fixed_shield",
+      "group": "fixed",
+      "kg": 0.004896,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -150.0,
+        -1.5,
+        194.0
+      ]
+    },
+    {
+      "instance": "io_left_upper_wall",
+      "group": "fixed",
+      "kg": 0.0560448,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -235.0,
+        75.14594039054468,
+        341.8972250770812
+      ]
+    },
+    {
+      "instance": "io_external_reference_tag",
+      "group": "fixed",
+      "kg": 0.0016076799999999998,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -353.2,
+        69.0,
+        326.0
+      ]
+    },
+    {
+      "instance": "io_back_stop",
+      "group": "fixed",
+      "kg": 0.0033528,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -150.0,
+        128.5,
+        204.0
+      ]
+    },
+    {
+      "instance": "io_presence_sensor",
+      "group": "fixed",
+      "kg": 0.022607999999999996,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -80.0,
+        90.0,
+        215.0
+      ]
+    },
+    {
+      "instance": "guard_post_-325_-345",
+      "group": "fixed",
+      "kg": 0.44399999999999995,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        -325.00000000000006,
+        -345.00000000000006,
+        376.0000000000001
+      ]
+    },
+    {
+      "instance": "guard_post_-325_195",
+      "group": "fixed",
+      "kg": 0.44399999999999995,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        -325.00000000000006,
+        194.99999999999997,
+        376.0000000000001
+      ]
+    },
+    {
+      "instance": "guard_side_top_-325",
+      "group": "fixed",
+      "kg": 0.312,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        -324.99999999999994,
+        -75.00000000000001,
+        756.0
+      ]
+    },
+    {
+      "instance": "guard_post_875_-345",
+      "group": "fixed",
+      "kg": 0.44399999999999995,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        875.0,
+        -345.0,
+        376.0
+      ]
+    },
+    {
+      "instance": "guard_post_875_195",
+      "group": "fixed",
+      "kg": 0.44399999999999995,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        874.9999999999999,
+        194.99999999999997,
+        376.0
+      ]
+    },
+    {
+      "instance": "guard_side_top_875",
+      "group": "fixed",
+      "kg": 0.312,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        875.0,
+        -75.00000000000001,
+        755.9999999999999
+      ]
+    },
+    {
+      "instance": "guard_cross_-345",
+      "group": "fixed",
+      "kg": 0.72,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        275.0,
+        -345.00000000000006,
+        756.0
+      ]
+    },
+    {
+      "instance": "guard_cross_195",
+      "group": "fixed",
+      "kg": 0.72,
+      "method": "assumed aluminium profile 0.60 kg/m",
+      "centre_mm": [
+        275.0,
+        195.0,
+        756.0
+      ]
+    },
+    {
+      "instance": "guard_panel_y-371.5",
+      "group": "fixed",
+      "kg": 3.447,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        275.0,
+        -371.5,
+        383.0
+      ]
+    },
+    {
+      "instance": "guard_panel_y221.5",
+      "group": "fixed",
+      "kg": 3.447,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        275.0,
+        221.5,
+        383.0
+      ]
+    },
+    {
+      "instance": "guard_panel_x-351.5",
+      "group": "fixed",
+      "kg": 1.577304,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -351.5,
+        -79.53553658647917,
+        387.50403980462863
+      ]
+    },
+    {
+      "instance": "guard_panel_x901.5",
+      "group": "fixed",
+      "kg": 1.626984,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        901.5,
+        -75.0,
+        383.0
+      ]
+    },
+    {
+      "instance": "guard_roof",
+      "group": "fixed",
+      "kg": 2.6948735999999998,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        275.0,
+        -75.0,
+        767.5
+      ]
+    },
+    {
+      "instance": "x_rack_foot_-210",
+      "group": "fixed",
+      "kg": 0.0470018630500982,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -210.00000000000006,
+        -333.7501174556356,
+        36.28861681168495
+      ]
+    },
+    {
+      "instance": "x_rack_foot_-60",
+      "group": "fixed",
+      "kg": 0.0470018630500982,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        -60.0,
+        -333.7501174556355,
+        36.288616811684946
+      ]
+    },
+    {
+      "instance": "x_rack_foot_90",
+      "group": "fixed",
+      "kg": 0.0470018630500982,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        90.00000000000007,
+        -333.7501174556356,
+        36.28861681168495
+      ]
+    },
+    {
+      "instance": "x_rack_foot_240",
+      "group": "fixed",
+      "kg": 0.0470018630500982,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        240.00000000000003,
+        -333.7501174556356,
+        36.28861681168495
+      ]
+    },
+    {
+      "instance": "x_rack_foot_390",
+      "group": "fixed",
+      "kg": 0.0470018630500982,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        389.99999999999983,
+        -333.75011745563546,
+        36.28861681168494
+      ]
+    },
+    {
+      "instance": "x_rack_foot_540",
+      "group": "fixed",
+      "kg": 0.0470018630500982,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        539.9999999999997,
+        -333.7501174556354,
+        36.288616811684925
+      ]
+    },
+    {
+      "instance": "x_rack_foot_750",
+      "group": "fixed",
+      "kg": 0.0470018630500982,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        749.9999999999994,
+        -333.7501174556354,
+        36.288616811684925
+      ]
+    },
+    {
+      "instance": "z_rack_standoff_100",
+      "group": "x",
+      "kg": 0.026051399280420735,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        187.96370877563314,
+        -287.0,
+        105.99999999999999
+      ]
+    },
+    {
+      "instance": "z_rack_standoff_230",
+      "group": "x",
+      "kg": 0.026051399280420735,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        187.9637087756331,
+        -287.0,
+        236.00000000000006
+      ]
+    },
+    {
+      "instance": "z_rack_standoff_360",
+      "group": "x",
+      "kg": 0.026051399280420735,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        187.96370877563317,
+        -287.00000000000006,
+        366.0
+      ]
+    },
+    {
+      "instance": "z_rack_standoff_490",
+      "group": "x",
+      "kg": 0.026051399280420735,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        187.96370877563317,
+        -287.00000000000006,
+        496.0
+      ]
+    },
+    {
+      "instance": "z_rack_standoff_625",
+      "group": "x",
+      "kg": 0.026051399280420735,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        187.96370877563314,
+        -287.0,
+        631.0
+      ]
+    },
+    {
+      "instance": "y_rack_saddle_rear",
+      "group": "z",
+      "kg": 0.01249926954677998,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        320.797423979649,
+        -216.9999999999999,
+        355.5403644481991
+      ]
+    },
+    {
+      "instance": "y_rack_saddle_front",
+      "group": "z",
+      "kg": 0.01249926954677998,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        320.797423979649,
+        -24.999999999999986,
+        355.5403644481991
+      ]
+    },
+    {
+      "instance": "y_power_z_support",
+      "group": "z",
+      "kg": 0.06542393671578807,
+      "method": "CAD solid volume x assumed density",
+      "centre_mm": [
+        391.3387998380211,
+        -225.77981802173466,
+        338.27612263360675
+      ]
+    }
+  ],
+  "cad_empty_mass_estimate_kg": 67.80228264538736,
+  "fully_loaded_mass_including_2kg_allowance_kg": 89.80228264538736,
+  "motor_targets": [
+    {
+      "axis": "X",
+      "mass_kg": 13.692716732257086,
+      "initial_speed_mm_s": 12,
+      "initial_accel_mm_s2": 40,
+      "ratio": 1,
+      "assumed_total_efficiency": 0.8,
+      "force_N": 8.576099085561953,
+      "pinion_torque_Nm": 0.1286414862834293,
+      "motor_torque_with_SF2_Nm": 0.32160371570857327,
+      "motor_speed_rpm": 7.639437268410976,
+      "motor_curve_verified": false
+    },
+    {
+      "axis": "Z",
+      "mass_kg": 7.171139540997636,
+      "initial_speed_mm_s": 3,
+      "initial_accel_mm_s2": 15,
+      "ratio": 10,
+      "assumed_total_efficiency": 0.7,
+      "force_N": 78.43242267283944,
+      "pinion_torque_Nm": 1.1764863400925916,
+      "motor_torque_with_SF2_Nm": 0.336138954312169,
+      "motor_speed_rpm": 19.09859317102744,
+      "motor_curve_verified": false
+    },
+    {
+      "axis": "Y",
+      "mass_kg": 2.362425636686289,
+      "initial_speed_mm_s": 5,
+      "initial_accel_mm_s2": 25,
+      "ratio": 3,
+      "assumed_total_efficiency": 0.7,
+      "force_N": 12.167679120420514,
+      "pinion_torque_Nm": 0.1825151868063077,
+      "motor_torque_with_SF2_Nm": 0.1738239874345788,
+      "motor_speed_rpm": 9.549296585513721,
+      "motor_curve_verified": false
+    }
+  ],
+  "Y_offset_comparison": {
+    "V03_same_group_kg": 2.0462747235069076,
+    "V03_1_same_group_kg": 1.0031826582619363,
+    "V03_moment_Nm": 2.4687319657248348,
+    "V03_1_moment_Nm": 0.7279009040543883,
+    "moment_reduction_fraction": 0.7051519103084679,
+    "guide_spacing_mm": 26,
+    "ideal_vertical_reactions_N": [
+      -23.07725800965427,
+      32.91511922529868
+    ],
+    "note": "Y rigid-group only, declared candidate weights; not rail or fastener acceptance."
+  },
+  "Z_backbone_screen": {
+    "thickness_mm": 12,
+    "width_mm": 30,
+    "max_support_span_mm": 135,
+    "assumed_aluminium_E_MPa": 69000,
+    "radial_force_N": 28.54706725429917,
+    "I_mm4": 4320.0,
+    "simply_supported_centre_deflection_mm": 0.0049089513578427155,
+    "nominal_peak_bending_stress_MPa": 1.3381437775452736,
+    "note": "Ideal isolated metal beam only; joints, bracket flexibility, tooth/rail error and FEA excluded."
+  },
+  "printed_Z_tooth_screen": {
+    "nominal_root_stress_MPa": 14.52452271719249,
+    "stress_with_SF2_MPa": 29.04904543438498,
+    "allowable_printed_strength_verified": false,
+    "note": "Lewis screen; printed Z drive remains UNRELEASED. Added supports do not certify teeth."
+  },
+  "blockers": [
+    "Printed Z teeth have no material/direction/creep/endurance acceptance, even without a 1 kg payload.",
+    "Actual motor torque curves, measured masses, reducer drawings and output radial load ratings.",
+    "Replace candidate flange hubs by selected clamp/keyed hubs with axial retention and torque proof.",
+    "Independent fall protection: verified holding and dynamic capture on tooth fracture and power/control faults.",
+    "Fastener lengths, engagement, tightening torques, T-nuts, tool access and bench anchor capacity.",
+    "Local Y flexible harness, strain relief, bend radius and full-stroke endurance; electrical hardware and firmware.",
+    "Door hardware, interlocks, physical limits, emergency stop and actual camera calibration."
+  ],
+  "hardware_accepted": false,
+  "manufacturing_release_allowed": false
+}

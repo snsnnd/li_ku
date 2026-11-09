@@ -1,0 +1,506 @@
+{
+  "fingerprint": "cfdfcf5225ae9ac470f00345e5c9005443d246b45b3aaf7cae98ccbecc89efaf",
+  "validator_sha256": "60929a8c912aac549b8227f9f8b829e414e6a1f62ba1edffe7aa90e906033e99",
+  "static_collisions": [],
+  "static_pass": true,
+  "accepted_contacts": [
+    {
+      "a": "x_belt",
+      "b": "x_belt_pressure_jaw",
+      "volume_mm3": 14.4,
+      "reason": "Intentional GT2 tooth/pressure-jaw engagement; compression and pull-out NOT accepted"
+    },
+    {
+      "a": "y_belt",
+      "b": "y_belt_pressure_jaw",
+      "volume_mm3": 8.64,
+      "reason": "Intentional GT2 tooth/pressure-jaw engagement; compression and pull-out NOT accepted"
+    }
+  ],
+  "support_checks": [
+    {
+      "a": "x_beam_-285",
+      "b": "base",
+      "purpose": "M5 base bolts, rail screws recessed below the rail face",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 11904.966822228911,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "x_beam_-215",
+      "b": "base",
+      "purpose": "M5 base bolts, rail screws recessed below the rail face",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 11904.966822228911,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_strip_-45",
+      "b": "z_post_-45",
+      "purpose": "Three flush M5 slot-nut joints",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 4879.637731459337,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_strip_45",
+      "b": "z_post_45",
+      "purpose": "Three flush M5 slot-nut joints",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 4879.637731459337,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_nut_bridge",
+      "b": "z_carriage",
+      "purpose": "Steel bridge to Z plate, not polymer; four accessible M4 through-bolts/nuts",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 2849.349570993715,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_working_nut",
+      "b": "z_nut_bridge",
+      "purpose": "Bronze flange seats on steel bridge at deck-62",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 246.61502330679883,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_safety_cage",
+      "b": "z_nut_bridge",
+      "purpose": "Independent captive second nut; not a self-locking guarantee",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 469.0154899935251,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_floating_pedestal",
+      "b": "x_carriage",
+      "purpose": "Lower bearing support sits on X plate",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 907.1898274931557,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_fixed_bearing_housing",
+      "b": "z_thrust_end_cap",
+      "purpose": "Positive thrust package cap sits on housing",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 1912.024267099532,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_thrust_end_cap",
+      "b": "z_bearing_hanger",
+      "purpose": "Cap transfers axial load to the metal hanger; inspect through-bolt stack",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 1877.3175222589985,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_bearing_hanger",
+      "b": "z_top_plate",
+      "purpose": "Top bearing hanger seated under metal cross plate",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 1764.2201867297665,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "maintenance_shoe",
+      "b": "z_carriage",
+      "purpose": "Steel maintenance prop, two M3 edge taps; test before servicing",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 253.84159446225124,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "y_tube_spacer_-1_-217",
+      "b": "y_spine",
+      "purpose": "Seated metal END spacer; rear M3x55 with fitted solid plug, front M4x60 with separate sleeve; underside nuts",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 152.09568719120162,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "y_tube_spacer_-1_-217",
+      "b": "tray_tube_-44",
+      "purpose": "Spacer top touches metal tube underside; no printed bending path",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 200.09568719120168,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "y_tube_spacer_-1_-31",
+      "b": "y_spine",
+      "purpose": "Seated metal END spacer; rear M3x55 with fitted solid plug, front M4x60 with separate sleeve; underside nuts",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 152.09568719120162,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "y_tube_spacer_-1_-31",
+      "b": "tray_tube_-44",
+      "purpose": "Spacer top touches metal tube underside; no printed bending path",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 192.1435307868025,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "y_tube_spacer_1_-217",
+      "b": "y_spine",
+      "purpose": "Seated metal END spacer; rear M3x55 with fitted solid plug, front M4x60 with separate sleeve; underside nuts",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 200.09568719120168,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "y_tube_spacer_1_-217",
+      "b": "tray_tube_44",
+      "purpose": "Spacer top touches metal tube underside; no printed bending path",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 200.09568719120168,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "y_tube_spacer_1_-31",
+      "b": "y_spine",
+      "purpose": "Seated metal END spacer; rear M3x55 with fitted solid plug, front M4x60 with separate sleeve; underside nuts",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 200.09568719120168,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "y_tube_spacer_1_-31",
+      "b": "tray_tube_44",
+      "purpose": "Spacer top touches metal tube underside; no printed bending path",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 192.1435307868025,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "x_fixed_motor_stand",
+      "b": "base",
+      "purpose": "Four M4 through6mm foot into base",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 1176.3827487648066,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "x_idler_stand",
+      "b": "base",
+      "purpose": "Four M4 in X slots, M3 pusher; lock after measured belt tension",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 1208.3827487648064,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "x_tension_base",
+      "b": "base",
+      "purpose": "Two M3x16 anchors; M3x16 pusher contacts stand, head stays outside threaded block at full adjustment",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 109.84159446225124,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "x_belt_clamp_main",
+      "b": "x_carriage",
+      "purpose": "Two M3x30, metal receiver, verify engagement",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 173.84159446225095,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "y_idler_carrier",
+      "b": "y_spine",
+      "purpose": "Carrier top seats on spine underside, two M3 lock bolts",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 316.80330001947937,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "y_tension_base",
+      "b": "y_spine",
+      "purpose": "Two M3 underside anchors, pusher contacts carrier front",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 101.84159446225122,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "guard_foot_-265_-405",
+      "b": "base",
+      "purpose": "Four M4, matched base pilots; guard is not the axis load frame",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 1465.5005645181868,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "guard_foot_-265_195",
+      "b": "base",
+      "purpose": "Four M4, matched base pilots; guard is not the axis load frame",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 1465.5005645181868,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "guard_foot_295_-405",
+      "b": "base",
+      "purpose": "Four M4, matched base pilots; guard is not the axis load frame",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 1465.5005645181868,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "guard_foot_295_195",
+      "b": "base",
+      "purpose": "Four M4, matched base pilots; guard is not the axis load frame",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "opposed_planar_mating_area_mm2": 1465.5005645181868,
+      "geometric_seat_pass": true
+    }
+  ],
+  "support_pass": true,
+  "tensioner_limits": {
+    "X_idler_shift_mm": 2,
+    "Y_idler_shift_mm": -2,
+    "unexpected_collisions": [],
+    "geometry_pass": true,
+    "belt_effective_loop_regenerated": true,
+    "belt_extension_is_an_instruction": false,
+    "note": "Hardware/package clearance at both nominal stroke ends only. Not permitted belt elongation or selected working tension."
+  },
+  "hardware_accepted": false,
+  "loaded_operation_allowed": false,
+  "motion": {
+    "pose_count": 165,
+    "failures": [],
+    "boolean_pair_tests": 13814,
+    "sampled_geometry_pass": true,
+    "maintenance_pin_removed": true,
+    "X_step_mm": 10,
+    "Z_step_mm": 5,
+    "Y_step_mm": 11,
+    "IO_shutter_samples": 11,
+    "continuous_collision_detection": false,
+    "method": "Exact structural BReps + conservative complete motor body envelopes, correct Y face-up orientation. Only named jaw/belt contact pairs excluded. Belts smooth, no tooth dynamics or stretch simulation."
+  },
+  "mesh_checks": [
+    {
+      "code": "B076",
+      "name": "Bin_V03_Marker_Rails",
+      "sha256": "60511de448a42540b24d8ffd388bdb0f7f3fb3ac224070c678961b927c3e343d",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "extents_mm": [
+        110.0,
+        136.0,
+        60.0
+      ],
+      "fits_256": true
+    },
+    {
+      "code": "B077",
+      "name": "Carrier_Tray_124x130_E01_FlushHeads",
+      "sha256": "c27ba01a302c57cb6dec232e7b73402386c1df4eddaee18cfe6d17173992e3c9",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "extents_mm": [
+        124.0,
+        130.0,
+        10.0
+      ],
+      "fits_256": true
+    },
+    {
+      "code": "B078",
+      "name": "Cell_124x130_E01_FlushHeads",
+      "sha256": "e5d967bfe4aa39ac4c40c298ba7437c0ddcdf8613cdc78158461cbe4c9dafdfa",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "extents_mm": [
+        124.0,
+        130.0,
+        10.0
+      ],
+      "fits_256": true
+    },
+    {
+      "code": "B079",
+      "name": "IO_Box_Back_Stop",
+      "sha256": "2421a485a9a3dd1388925351737575945992e1b74384aa87ca1668d64f8270a2",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "extents_mm": [
+        110.0,
+        3.0,
+        8.0
+      ],
+      "fits_256": true
+    },
+    {
+      "code": "B080",
+      "name": "IO_Deck_E01_FlushHeads",
+      "sha256": "e43b1b9363a0ae20b0c9d4b6ac87ded6c41006f176578c7767ace60aa54a6050",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "extents_mm": [
+        124.0,
+        130.0,
+        10.0
+      ],
+      "fits_256": true
+    },
+    {
+      "code": "B081",
+      "name": "IO_Shutter_Guide_Left",
+      "sha256": "90be9e03e4d5576f5e27721dfa2d05005d5303050820a306a189a0207e7bf692",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "extents_mm": [
+        8.0,
+        8.0,
+        204.0
+      ],
+      "fits_256": true
+    },
+    {
+      "code": "B082",
+      "name": "IO_Shutter_Guide_Right",
+      "sha256": "36c06046b1d5d8269f3ff443e9876c566a6a9f06aeaf362717c8fe665f633f1e",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "extents_mm": [
+        8.0,
+        8.0,
+        204.0
+      ],
+      "fits_256": true
+    },
+    {
+      "code": "B083",
+      "name": "Latch_Crank_R7",
+      "sha256": "0801d0d5e9a3a097fd1f40dc537431d3eb49ab04c2bbe0237fb7fa6d08118b84",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "extents_mm": [
+        3.0,
+        5.999745559529401,
+        12.49830170563655
+      ],
+      "fits_256": true
+    },
+    {
+      "code": "B084",
+      "name": "Latch_Scotch_Yoke",
+      "sha256": "78cdcafb2bd59de19232deb57a13f087a4b18552742fde836196b55e7c127428",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "extents_mm": [
+        12.0,
+        22.0,
+        5.0
+      ],
+      "fits_256": true
+    },
+    {
+      "code": "B085",
+      "name": "Pin_Guide_Cheek",
+      "sha256": "f4dd5b166215787f06c926f1733df850f6e4752a773df254d7bb49601d78c4b4",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "extents_mm": [
+        26.0,
+        24.0,
+        4.0
+      ],
+      "fits_256": true
+    },
+    {
+      "code": "B086",
+      "name": "Servo_Cradle",
+      "sha256": "f3b99967237c7dbbbfdece71597a4c58221d0a3e33b5d819e0d24ac069bdc3ba",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "extents_mm": [
+        40.0,
+        20.0,
+        37.0
+      ],
+      "fits_256": true
+    },
+    {
+      "code": "B087",
+      "name": "Servo_Cradle_Lid",
+      "sha256": "030f3ba059c8ddb5241a375bb8821b93c8d3b8bf433783027f14e32c38395bc5",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "extents_mm": [
+        28.5,
+        16.0,
+        3.0
+      ],
+      "fits_256": true
+    }
+  ],
+  "flat_STEP": {
+    "valid": true,
+    "solids": 447,
+    "assembly_solids": 447,
+    "bounds_mm": [
+      -293.3,
+      -373.0,
+      0.0,
+      323.0,
+      223.0,
+      523.0
+    ],
+    "relative_volume_error": 0.0,
+    "assembly_occurrences": 0,
+    "sha256": "4cdec6c771350f8278fe581d8c2f31d855dae566572f39e6797c2eae55af6e6d",
+    "solidworks_gui_import_verified": false
+  },
+  "export_readback_pass": true,
+  "geometry_deliverable_pass": true
+}

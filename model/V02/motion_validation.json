@@ -1,0 +1,26 @@
+{
+  "generator_sha256": "87563eaf463a7206f157ec226ce71ac3907b7f4caf93e08f53f833cff9db90db",
+  "verifier_sha256": "60aa6fe9e44e582ae3e3b004c2117e8d50219cdefaec8c2b6afe8ad38d71b16e",
+  "method": "OCCT B-rep intersection at discrete poses, volume tolerance 0.02 mm3",
+  "continuous_collision_detection": false,
+  "pose_count": 2045,
+  "y_sample_interval_mm": 4.931034482758621,
+  "x_sample_interval_mm": 15,
+  "pin_clearance_compensation_mm_each_direction": 1.1,
+  "clearance_compensated_sample_interval_mm": 11.0,
+  "clearance_compensated_y_rail_end_margin_min_mm": 6.950000000000001,
+  "clearance_compensated_y_stop_gap_min_mm": 2.9499999999999997,
+  "z_sample_interval_mm": 10,
+  "latch_angle_interval_deg": 10,
+  "boolean_pair_tests": 81446,
+  "failures": [],
+  "geometry_sample_pass": true,
+  "hardware_accepted": false,
+  "requirements": [
+    "X/Z only move when Y retracted",
+    "Target cell must be empty for deposit",
+    "Latch physical feedback before horizontal pull",
+    "All gaps need tolerance verification"
+  ],
+  "elapsed_seconds": 347.49
+}

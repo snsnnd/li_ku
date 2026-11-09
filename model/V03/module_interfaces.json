@@ -1,0 +1,137 @@
+{
+  "fingerprint": "85591a8e8d478c15cd7ce83b9e3d36012129888750f780540bda3562168733b2",
+  "units": "mm",
+  "hardware_accepted": false,
+  "column": {
+    "id": "COL-180-P01",
+    "pitch": 180,
+    "carrier_size": [
+      178,
+      170,
+      6
+    ],
+    "locator_centers_relative_to_column": [
+      [
+        -75,
+        75
+      ],
+      [
+        75,
+        75
+      ]
+    ],
+    "round_receiver_diameter": 6.2,
+    "slot_length_width": [
+      8,
+      6.2
+    ],
+    "pin_diameter": 6,
+    "M6_clamp_centers_relative_to_column": [
+      [
+        -45,
+        20
+      ],
+      [
+        45,
+        20
+      ],
+      [
+        -45,
+        130
+      ],
+      [
+        45,
+        130
+      ]
+    ],
+    "precision_fit_released": false
+  },
+  "head": {
+    "id": "HEAD-P01",
+    "interface_origin": "X axis centre, Y block centre, Z deck-26",
+    "M3_clamp_xy": [
+      [
+        -10,
+        25
+      ],
+      [
+        10,
+        25
+      ]
+    ],
+    "D3_locator_xy": [
+      [
+        -10,
+        35
+      ],
+      [
+        10,
+        35
+      ]
+    ],
+    "receiver_round_diameter": 3.2,
+    "receiver_slot_length_width": [
+      4.2,
+      3.2
+    ]
+  },
+  "power_case": {
+    "id": "PWR-P01",
+    "shell_size": [
+      155,
+      85,
+      50
+    ],
+    "lid_thickness": 3,
+    "M4_attachment_xy": [
+      [
+        -60,
+        -25
+      ],
+      [
+        -60,
+        25
+      ],
+      [
+        60,
+        -25
+      ],
+      [
+        60,
+        25
+      ]
+    ],
+    "battery_envelope": [
+      85,
+      65,
+      42
+    ],
+    "controller_envelope": [
+      40,
+      55,
+      12
+    ],
+    "connector_selected": false,
+    "hot_swappable": false,
+    "lid_finishing": "Current lid 2.8 pilot holes: ream to 3.4 for M3 trial; body 2.5 pilot holes tap M3. Confirm screw length on specimen."
+  },
+  "io": {
+    "id": "IO-P01",
+    "box_centre_and_deck": [
+      -150,
+      65,
+      200
+    ],
+    "human_access_side": "-X",
+    "outer_port_y_range": [
+      0,
+      138
+    ],
+    "outer_port_z_range": [
+      190,
+      290
+    ],
+    "inner_shutter_stroke": 90,
+    "dual_door_hardware_validated": false
+  }
+}

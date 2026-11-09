@@ -1,0 +1,92 @@
+﻿part,quantity,material,process,note
+Base_780x540x6,1,aluminum,machined,
+X_Datum_Bar_700x30x24,2,aluminum,machined,"6061; M3 tapped rail holes; 6x DIN7984 low-head M5x25 to base, head <=3.5 mm"
+2020_Rack_Z650,10,aluminum,purchased,
+Cell_124x130,20,PETG,print,Print bottom down; add 0.5 mm entrance chamfer after fit coupon
+Bin_110x120_TowEye,20,PETG,print,Open top UP; tow eye only takes horizontal force
+Shelf_Angle_-1,20,aluminum,machined,"M5 to slot nuts front/rear, M4 tapped shelf attachment"
+Shelf_Angle_1,20,aluminum,machined,"M5 to slot nuts front/rear, M4 tapped shelf attachment"
+Rack_Rear_Shear_620x630x3,1,aluminum,machined,10 M5 slot-nut joints; panel is a structural shear diaphragm
+Rear_Panel_Standoff_2,10,aluminum,machined,
+Rack_Foot_40x40x6,14,aluminum,machined,Central underside counterbore M5x12 to post end; 4x M5x25 through pedestal into base
+Rack_Pedestal_40x40x14,14,aluminum,machined,
+2020_Guard_Z720,4,aluminum,purchased,
+2020_Guard_X760,2,aluminum,purchased,
+2020_Guard_Y480,2,aluminum,purchased,
+MGN12_Rail_X700,2,steel,purchased,HIWIN dimensional envelope
+MGN12H_X,4,steel,purchased,
+X_Carriage_160x110x8,1,aluminum,machined,
+GT2_20T_6mm_Envelope,4,purchased,purchased,"Purchased 20T; teeth intentionally omitted, never print this envelope"
+X_GT2_Belt_Loop,1,rubber,purchased,
+NEMA17_42x42x40,1,purchased,purchased,Vendor shaft/flange drawing required
+NEMA17_Inverted,1,purchased,purchased,Vendor shaft/flange drawing required
+X_Motor_Mount,1,aluminum,machined,
+X_Motor_Mount_Leg,2,aluminum,machined,Long M5x55 + two 1 mm washers clamp mount/leg to base; motor screws via access bores before installing module
+X_Idler_Pedestal,1,aluminum,machined,"Four 10x5.5 X slots, +/-2.25 mm adjustment; four M5 clamp bolts"
+X_Tension_Adjuster,1,aluminum,machined,"M4x16 pusher plus jam nut, 4 mm tension travel; adjust with power isolated"
+X_Belt_Clamp,1,PETG,print,Clamp with steel backing plate; tune groove using belt coupon
+X_Clamp_Steel_Backer,1,steel,machined,"2x M4x16 from underside, 6 mm thread in X plate; bolts never cross belt lane"
+3030_Z600,2,aluminum,purchased,
+Z_Foot_Angle_30x20x32,2,aluminum,machined,M6 to 3030 slot nuts; M6x12 to X plate; rail starts 2 mm above bracket
+Z_Foot_Angle_Front,2,aluminum,machined,M6 to 3030 slot nuts; M6x12 to X plate; rail starts 2 mm above bracket
+Z_Top_Motor_Plate_130x60x8,1,aluminum,machined,
+MGN12_Rail_Z500,2,steel,purchased,
+MGN12H_Z,4,steel,purchased,
+Z_Rail_Datum_20x4x500,2,aluminum,machined,Five flush M5 countersunk screws to slot nuts; M3 tapped holes at rail pitch
+Z_Carriage_130x100x8,1,aluminum,machined,
+TR8x2_Screw_Machined_Ends,1,steel,purchased,"TR8x2, 6 mm journals, 2.5 H7 matched cross-hole at Z612.5; shaft yield >=500 MPa; supplier drawing mandatory"
+TR8x2_Bronze_Nut,2,purchased,purchased,"Thread fit is a purchased interface, not evaluated by smooth cylinders"
+Z_Nut_Bridge,1,steel,machined,
+Z_Secondary_Nut_Cage,1,steel,machined,"0.8 mm axial catch clearance; steel/Al, never PETG"
+Safety_Nut_AntiRotation_Stud,2,steel,purchased,"M3 shoulder stud, retains rotation but allows secondary nut to float axially"
+Z_Fixed_Bearing_Housing,1,aluminum,machined,"Radial seat 19 H7, stepped thrust abutment; paired F6-12M; preload and collar rating pending"
+Z_Thrust_End_Cap,1,steel,machined,
+Z_Bearing_Hanger,1,aluminum,machined,
+626ZZ_6x19x6,2,steel,purchased,
+Z_Thrust_Abutment_Washer,1,steel,machined,
+F6_12M_6x12x4p5,2,steel,purchased,
+Shaft_Collar_6x16x8,1,steel,purchased,"Positive axial retention by matched 2.5 mm cross-pin, NOT set-screw friction alone; verify catch load >=1200 N"
+Z_Thrust_Cross_Pin_D2p5x16,1,steel,purchased,"Hardened retained dowel, minimum verified double-shear capacity 2500 N; match-ream shaft/collar"
+Z_Floating_Bearing_Housing,1,aluminum,machined,
+Z_Floating_Bearing_Cap,1,steel,machined,
+Z_Floating_Bearing_Pedestal,1,aluminum,machined,
+NEMA17_NC_Brake_Envelope,1,safety,purchased,24 V fail-safe brake >=0.3 N m; full vendor selection pending
+Coupler_5x6_Envelope,1,purchased,purchased,
+Tray_Al_Tube_25x25x2_L227,2,aluminum,machined,M4 compression sleeves through tube; no polymer in primary bending path
+Tube_End_Plug,2,aluminum,machined,2x M5 tapped end; transverse M5 retention bolt; 0.2 mm insertion clearance
+Carrier_Tray_124x130,1,PETG,print,"40 mm front-open mast slot, 6 mm rear bridge; supports box on two side wings"
+Y_Spine_82x211x6,1,aluminum,machined,"Rear idler: central 8.5x5.5 Y slot, two 6.5x3.5 Y slots; +/-1.5 mm tension travel"
+Y_Spine_Metal_Spacer,2,aluminum,machined,
+Y_Spine_Metal_Spacer_Left,2,aluminum,machined,
+MGN9_Rail_Y200,1,steel,purchased,
+MGN9H_Y,1,steel,purchased,
+Y_Puller_Plate_46x60x4,1,aluminum,machined,
+Y_GT2_Belt_Loop,1,rubber,purchased,
+Y_Idler_Shoulder_Axle_M5,1,steel,purchased,"M5 thread into carrier, 5 mm bearing shoulder; retaining groove at top, not a plain loose bolt"
+Y_Idler_Tension_Carrier,1,aluminum,machined,Two M3 screws clamp through spine slots; M3 pusher contacts front face
+Y_Tension_Adjuster,1,aluminum,machined,"M3x16 pusher + jam nut, +/-1.5 mm; two M3 screws into spine"
+Y_Motor_Spacer_7,1,aluminum,machined,
+Y_Belt_Clamp,1,PETG,print,"12x6 counterbore SLOT 1.2 deep, not two tangent holes; print web down"
+M3_Clamp_Nut,2,steel,purchased,M3x16 DIN7984 low head; head counterbore 1.2 mm; thread locking required
+Latch_Mast_36x92_L,1,aluminum,machined,
+Pin_Guide_Cheek,2,PETG,print,Ream to steel bushing fit; metal bushings required for wear
+Pin_Flanged_Bushing_4p1x6,2,purchased,purchased,"Replaceable bronze bushing; 6.1 pilot must be fitted/retained, not assumed press fit"
+Latch_Pin_D4x60,1,steel,purchased,"Ground steel pin, not printed; released lift 14 mm"
+MG90S_Envelope,1,purchased,purchased,Supplier output-shaft datum and >=150 degree usable travel must be verified
+Servo_Cradle,1,PETG,print,2x M3x8 to tapped metal mast; separate clamping lid; vendor servo datum still required
+Servo_Cradle_Lid,1,PETG,print,
+Latch_Scotch_Yoke,1,PETG,print,7 mm crank radius; end-to-end vertical stroke 14 mm; bench-test before use
+Pin_Collar_4x10x5,2,steel,purchased,Two miniature shaft collars retain the yoke on the ground pin
+Latch_Return_Spring_Envelope,1,steel,purchased,"Metal return spring, OD7 wire0.3 freeL19, solid<=1.8; target force 0.2..1.2N. Coil envelope only, supplier test mandatory"
+Latch_Crank_R7,1,PETG,print,Use supplier metal spline adapter; servo endpoint calibration required
+Servo_Horn_Interface_Envelope,1,purchased,purchased,Metal spline horn/interface envelope; MUST match selected MG90S output drawing
+Latch_Roller_D3,1,steel,purchased,3 mm ground pin with retaining grooves; two DIN6799 E-clips
+Roller_Clip_Envelope,2,steel,purchased,
+X_Stop_24x20x20,4,rubber,purchased,
+Z_Stop_24x15x10,4,rubber,purchased,
+Y_Stop_24x4x10,2,rubber,purchased,
+Guard_Front_PC3,1,guard,cut_panel,"Hinged/interlocked access, contained machine only; impact rating pending"
+Guard_Side_-91.5,1,guard,cut_panel,10 mm panel standoffs to guard frame; no open skirt below base
+Guard_Side_691.5,1,guard,cut_panel,10 mm panel standoffs to guard frame; no open skirt below base
+Guard_Rear_PC3,1,guard,cut_panel,
+Guard_Top_PC3,1,guard,cut_panel,

@@ -1,0 +1,217 @@
+{
+  "generator_sha256": "201b4b465c187478de3863d5226c52855714f6a0a5ce4dfa7715a38ded321659",
+  "parts": {
+    "Base_780x540x6": {
+      "step_data_sha256": "4bd44d7c36d2b08d8fd950d37f56912f15bddf31ed77fb860486b0201cc3c2cf",
+      "native_file_sha256": "532292c10affa722536481af52e28831f777a34356bb94cf880bb557db29e953"
+    },
+    "X_Datum_Bar_700x30x24": {
+      "step_data_sha256": "104e8fcf6ef183b503f0c9f0eda745ef20dd65d8a977786289221a33bb945ea4",
+      "native_file_sha256": "68e590720f14ca7bdbce41ab3d8bcbc1ab2c5c1f552fe4729c58c005fffb9224"
+    },
+    "2020_Rack_Z650": {
+      "step_data_sha256": "01da6d46b37d06b0bb86e60f16bd89369b95641f09c1cc5b03a2ac4de76f7c83",
+      "native_file_sha256": "5a726ba135aa201f64078a1d03f0a7ee6e8d414770bd83d7b02db48db8449537"
+    },
+    "Cell_124x130": {
+      "step_data_sha256": "7aceea0a39024439ddb83b50f39fe75fbd8ef121e5321a7f2f311bff9c29410b",
+      "native_file_sha256": "f60061b9eb3d13437f130307572818ff53ab8ccf118a6e81c07760281ea4a063"
+    },
+    "Bin_110x120_TowEye": {
+      "step_data_sha256": "5433f05ac0ac77151a4b6695847f7b29c87090de35d2c6d7a47d3077860da746",
+      "native_file_sha256": "41367f2dec0b52937c13cda6ca0f3f3cbcce470902dea0923d88c6ec237c313f"
+    },
+    "Shelf_Angle_-1": {
+      "step_data_sha256": "27cbd23662f1abcca45886a8d7eae1fb17d128a63fe923ad21c611e23ed3f6a9",
+      "native_file_sha256": "cdcdcf99f59b5e7889384d974934efbfda412343515277e55877b35418e82366"
+    },
+    "Shelf_Angle_1": {
+      "step_data_sha256": "4152e9c25fbe530a8df6eca2c698a08af0f8e0a6b77bab8bdaef0b3e5ceb4cc4",
+      "native_file_sha256": "f4b0f4ff2fc2ee233da26dcdb08f4b0f1e0032249df0b4211e3c96e562b7cb69"
+    },
+    "Rack_Rear_Shear_620x630x3": {
+      "step_data_sha256": "25d5510eb8b4028d3c9c3a6fa11be637b5de51f29cf399e9aafad0c9995351c8",
+      "native_file_sha256": "4b0789dfe33751d01f2b4d163c4a4b7c123a0ede43ccaeb95bcc14258a2e7410"
+    },
+    "Rear_Panel_Standoff_2": {
+      "step_data_sha256": "75086c7649ceeabb7ee51f16543223068d1e228f02b4521e200041ad3a054720",
+      "native_file_sha256": "5a1c572ff06e2222d565df8f5ce46d1e07be225e38d1ab31198fba30add11cfc"
+    },
+    "Rack_Foot_40x40x6": {
+      "step_data_sha256": "b7f1721f3727fce7acaf9f505dcf157e583cdd9719c7af692fd6bbb30fc492e2",
+      "native_file_sha256": "00207b26f259e1a0af098b567a2730f0a5d4a1fbabc8f6b38de6c6526905a055"
+    },
+    "Rack_Pedestal_40x40x14": {
+      "step_data_sha256": "f208d492e7aa2c8f65d4f6cb61c1479ffe58fd9d8c14b7dcd53d3b3c56cba699",
+      "native_file_sha256": "0ccf26ddec3ebbb417ee1cd901018a5660217daf5c97c465f1447b018652a2d6"
+    },
+    "2020_Guard_Z720": {
+      "step_data_sha256": "08924cf06c93587163920355d9c97e2cc53a1bf7f4add19618e8767503eadf50",
+      "native_file_sha256": "8310c4207c4b0e82f4cf844d32437ecaf57424730c175ca4254c8e4998521fec"
+    },
+    "2020_Guard_X760": {
+      "step_data_sha256": "f18b012aa91bc07ffa714c4f779b3d93963989239f59897d0835c53e740e8e4a",
+      "native_file_sha256": "2d543dda1245079b395e7054e3fa6dc864828d5aaad53b9348ecfef10a9dd322"
+    },
+    "2020_Guard_Y480": {
+      "step_data_sha256": "36b074a5a19364fcd696d2ad92b4cc1ddf1392440a663729ae28af9375cc2284",
+      "native_file_sha256": "3542e824acd145c4284db4d73c7922dc965219cc2d5dd5679638edc19b49b449"
+    },
+    "MGN12_Rail_X700": {
+      "step_data_sha256": "aa4fb8c79c31765dca52ab5a6c3e8f092d438a62bfb84353efc7e91be46b4510",
+      "native_file_sha256": "62e6ac373894c15d1b71c0cdb115778d1016fcf0fc121622270217848cd21480"
+    },
+    "MGN12H_X": {
+      "step_data_sha256": "51911aacd4b743851b7051265166eb0c0833c4969fa663406be432ddc5c16cd5",
+      "native_file_sha256": "ec24b7a229a9589e704949dd9890b83e1a9f67401c2c735336ffd8a064ca6343"
+    },
+    "X_Carriage_160x110x8": {
+      "step_data_sha256": "526886fdc61204217db1e91b86c76823364fc0e9b6997d26f1cb54f83cdf7dea",
+      "native_file_sha256": "dd23244d1b347c9e7f165b28c90b59d20f653d0d9584f0bb60740a646ef6d94a"
+    },
+    "GT2_20T_6mm_Envelope": {
+      "step_data_sha256": "f9d0c23a177e48dfc3933c0adf50cf813bdec5b38ebeaf578e14aeaf4dad0d9c",
+      "native_file_sha256": "fc8f64e2d275c25a43be0de7dfe2f4c4ee3d4c19c8616ff8334029341f40ef44"
+    },
+    "X_GT2_Belt_Loop": {
+      "step_data_sha256": "6f40b1bb1d3ca099569867c45e07feece7e673cd62419870e66eaadef9e54552",
+      "native_file_sha256": "0f21af368267b433fef8ef2c18da65f7668d207dbb43fce3cfe4aa611252ef1e"
+    },
+    "NEMA17_42x42x40": {
+      "step_data_sha256": "e43da5ed7337dc877be390d01abeb083a3a46f3d32314a20a55c2064438371b0",
+      "native_file_sha256": "a29d17dd575de4eb0d32ed0029cf78b16ef3d4abc875c11296216d90b2e63cfe"
+    },
+    "NEMA17_Inverted": {
+      "step_data_sha256": "6c92ffadf876c7de569c5e2f0f124e0bfd28dcf085040330297be5b35b54724f",
+      "native_file_sha256": "5eb4032a5adb0c32c2dba7998ac284bd60c3f8aa01545c40f36692c850e32775"
+    },
+    "X_Motor_Mount": {
+      "step_data_sha256": "e3cad6b3fb4673a7be6015191f54ed362285f937684e6e89ec44bac2bd34c104",
+      "native_file_sha256": "a1cbdbb306f8769e8c2f81c2599794052a37fe78721e9f4c0410e5bebcd304be"
+    },
+    "X_Motor_Mount_Leg": {
+      "step_data_sha256": "035b907f7caf3d77499a9e1bd4c1dc5deeeed421fbd49350a45941cd511419f9",
+      "native_file_sha256": "3b03c0b494c7044a875bc04eee9cc3751d4337cc9fcdc57b44afcc61ff9cdfac"
+    },
+    "X_Idler_Pedestal": {
+      "step_data_sha256": "2edc868f05b5d8ae7f11343518d0becc19774d2628f52f4ae0a624bd0b7d13c3",
+      "native_file_sha256": "2f67bebbfd00df40e13822d02f76f94eb51bb98de1abaa04400c511ccc1a59de"
+    },
+    "X_Tension_Adjuster": {
+      "step_data_sha256": "d03ef208be7b5dc90f86684a479921491b2e63d3d8dd7f427bcd5aea5f591616",
+      "native_file_sha256": "17fa12863d6861db97a9aac8c23ea7f8730f3fdee28413bfa7639e82c31131a4"
+    },
+    "X_Belt_Clamp": {
+      "step_data_sha256": "7d7d706d7ff99770590176e70bb7fb350b546ccbd4aebe30419726de0b26f28f",
+      "native_file_sha256": "5067ada4ee934c4701d8cd8517772b991fe017331ce0a09fbb20cef6e1e5a66b"
+    },
+    "X_Clamp_Steel_Backer": {
+      "step_data_sha256": "38d8ed656788b949a5ef466cc49c44c1b3ffa105a6c85201221a07805c374301",
+      "native_file_sha256": "366d2ec32d029baf99042dfe847544e7b944ec28d5716d7b3ed49f3b9c37c0e4"
+    },
+    "3030_Z600": {
+      "step_data_sha256": "0e102bccb11e54f10e7b4951ed00c3f8240f99a5cd5367cf496f2197700e6cdd",
+      "native_file_sha256": "05f422444b963bb37605321041dd79dd8d1590f02ca85581eb304a69f3688670"
+    },
+    "Z_Foot_Angle_30x20x32": {
+      "step_data_sha256": "d9b077ec704303fc8758713a210ff66fd467544a55f87958ceff8ffa5f61a3df",
+      "native_file_sha256": "8e9d69f58493859779843f77da3d7a9a64b01374d78803d64d6373e46b74db10"
+    },
+    "Z_Foot_Angle_Front": {
+      "step_data_sha256": "7b50833891511133c6c4ec52a84165218c1f2532bcc109425e93cc283e9d8d3a",
+      "native_file_sha256": "b73482e68154abdafb014c8e896b5a4aed79e9f90b416e653ffcdaf9f642c0bd"
+    },
+    "Z_Top_Motor_Plate_130x60x8": {
+      "step_data_sha256": "55bd8e789c9ff4b1c8f6226828ac3502015efbe40df5d6d11600cc2745f1d681",
+      "native_file_sha256": "24ec64bd0d56fae83be785d6d96f8e36ffc10d213ba0edd23712a62d1b911452"
+    },
+    "MGN12_Rail_Z500": {
+      "step_data_sha256": "5c9f26ab044f825c7cfe3a7049a82848f143ffd606f3f33d1c4cb59dadc6281d",
+      "native_file_sha256": "bb8cd77c0764c8c2990f1b35c3e289ef05cb26f862b5378de08688ef4b179eba"
+    },
+    "MGN12H_Z": {
+      "step_data_sha256": "7aa25e52dbfef72667f93b46847debb1a2b7183a105dccfba01fc8bf4aa08771",
+      "native_file_sha256": "2d453ad0ee81029c0076d0f0fa74ceef7068dc203bcb0fc413db17d6925d7e42"
+    },
+    "Z_Rail_Datum_20x4x500": {
+      "step_data_sha256": "e60bb9d04778fbfe98588967fc036036f34a29168376dd16521a80c47faeab43",
+      "native_file_sha256": "8f53ad5c148cfa94d977fbf966ed63ee3a7186803fc1f0167e32da806256ebce"
+    },
+    "Z_Carriage_130x100x8": {
+      "step_data_sha256": "c467aa8954fee27601ce0029361d0308bde8aae53f6116333289896a2039fd96",
+      "native_file_sha256": "a78daa1074f3117082f9a2c2576920ad70bced0bfd95288495cb06fbd49d50c6"
+    },
+    "TR8x2_Screw_Machined_Ends": {
+      "step_data_sha256": "475a9dcebc39b6043f4b64b42b021a5b220595ebd960064d5622ee4baa13ab71",
+      "native_file_sha256": "abe35c1da73024c733aaf37b4b859f752898c1cea1ef9938ac54f05863d7b270"
+    },
+    "TR8x2_Bronze_Nut": {
+      "step_data_sha256": "65b40104e348f5e27b00c3fe6ac03d3fc5e851fefe706e05d88c987f3e9f6745",
+      "native_file_sha256": "ce401e9af62ef74cd3e78ade38b941e11026d091685696d07f2f0535b93cb275"
+    },
+    "Z_Nut_Bridge": {
+      "step_data_sha256": "024232a23eabf0582d76190f3b979a4ef6fc8dbe2b0b56dccc89ef86f8bc3d88",
+      "native_file_sha256": "6e7752f86384b3d5ae92727471314f35d23103b16d1a0d79e182a67b411f0774"
+    },
+    "Z_Secondary_Nut_Cage": {
+      "step_data_sha256": "4468ba21689546cf91ea6332999334b3c0f0f25c6ba0ed2f6fcb78fbd4f6f0c4",
+      "native_file_sha256": "f503b3aecd7096653b1006d54fd028dfb8f886a8a5b64db47bf4a019111af265"
+    },
+    "Safety_Nut_AntiRotation_Stud": {
+      "step_data_sha256": "357f69fcb7bfeae00c04e0e4c502aee5fdb27ca26b0a9a974e5c28bafada3b02",
+      "native_file_sha256": "eed2f6b9c749f5cdc081a29247917677ac019503e8cad442cc4ad798e55a344b"
+    },
+    "Z_Fixed_Bearing_Housing": {
+      "step_data_sha256": "fe9845458abdcecb1daa027cfdcc37f9ea283f1a93f771b6d8a0cce6eaf27717",
+      "native_file_sha256": "d5fc611a6e33b264598e24793373230ea4a742da8a4a1c76a817bb7ac4dad3b3"
+    },
+    "Z_Thrust_End_Cap": {
+      "step_data_sha256": "803ea63dcbe788c6967327e67a1b7d4173cf7c7a0f3d0f9eb6a1258f9c7f0b2a",
+      "native_file_sha256": "96f920a34924795bf678e192346cbf1a3ac74390307a118e9e9e0bc883d3b6ca"
+    },
+    "Z_Bearing_Hanger": {
+      "step_data_sha256": "07f93321b0af10f5c9c9d8a618d7ad074de64d609785aa0844e8ac7e879f3f66",
+      "native_file_sha256": "97893643eebcb93afd41b63d52e5ab3347589636045804a420c53d397b1322ad"
+    },
+    "626ZZ_6x19x6": {
+      "step_data_sha256": "3a48f6c8d2e63b9f4359539516e6e4f90286ca92a9f8a8868fa03cfedd44da9d",
+      "native_file_sha256": "2aa17a7eb1ac4c614b3aaaf452bd8ecf0c13dd4c7ec9de95ec6d2119e4c5983e"
+    },
+    "Z_Thrust_Abutment_Washer": {
+      "step_data_sha256": "5e08c936d5eb64697bd9dc582eee723d37ea831d02428836da602c0d05e789f0",
+      "native_file_sha256": "89b253bbcec9a81ca09633a1020cf38cedc285c83defa4d9182d8294a24e27d3"
+    },
+    "F6_12M_6x12x4p5": {
+      "step_data_sha256": "99d5b0d1f0c9a21d9447bb4725d53ca0f355a7a51c4e8f9d1988ed26781f0a2f",
+      "native_file_sha256": "27ad9d111138134fedf4aa391d2d0ad27266c3a4c8ed41a2ad04b1fb7209f237"
+    },
+    "Shaft_Collar_6x16x8": {
+      "step_data_sha256": "b60eebe1c7e7c9a01f87fcd4443d375cef23c05ee43998232993f3e6bd853253",
+      "native_file_sha256": "a9ddf8edc7349fda1be26160c93ef59617a9cea3b02414e7869bcad8c2a9023a"
+    },
+    "Z_Thrust_Cross_Pin_D2p5x16": {
+      "step_data_sha256": "4f50832bba28f5b285195155036edc1842a92c4f4a3d94875e9cd65bf492d435",
+      "native_file_sha256": "e094034d651783c55f351ef8e180d1a2b8b8197d5e1532a2293101820f915123"
+    },
+    "Z_Floating_Bearing_Housing": {
+      "step_data_sha256": "79f81fcc9089dd2f6e9e3cfee11841784d4d5f85262433c5f17a3410d75bd80f",
+      "native_file_sha256": "2729824ea127fe071ed0516114723104f2e0745dc5bb8d9cee7b3aff74a54aae"
+    },
+    "Z_Floating_Bearing_Cap": {
+      "step_data_sha256": "a312d8bb27084f63b0d36bfd7a679aea43918bfccd8a5253d7fc912979503c9c",
+      "native_file_sha256": "c8c8f3ed55f8916a42e6698a4de52a3757c351529ef5bbc2f502917dff448b0b"
+    },
+    "Z_Floating_Bearing_Pedestal": {
+      "step_data_sha256": "8c9c2a46c1ef5c4948aac06a00f9ef747d97f81c3d9c130c904899a78687867d",
+      "native_file_sha256": "209c03c44b044dc3c0f7e1d2bab61853e662081bbe220d3d8d553b020305ba28"
+    },
+    "NEMA17_NC_Brake_Envelope": {
+      "step_data_sha256": "8ddf584ff38aeeef8ee54ab093dd6e5fc23c9498083cf6ceca3353cb430cc7ea",
+      "native_file_sha256": "1045e84397f04f76947bafb01539f1358ff17a39d0bf0ae7489be333977f89a4"
+    },
+    "Coupler_5x6_Envelope": {
+      "step_data_sha256": "e647311f8b4243630c541ff787466f297ddfb9a01a046378ec2705dd92a810cc",
+      "native_file_sha256": "217c4225feffa5232b5270a98f1556711339d774799f1c3a3cf08d6be07703a9"
+    }
+  }
+}

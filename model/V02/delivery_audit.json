@@ -1,0 +1,920 @@
+{
+  "generator_sha256": "87563eaf463a7206f157ec226ce71ac3907b7f4caf93e08f53f833cff9db90db",
+  "prototype_geometry_deliverable_pass": true,
+  "errors": [],
+  "unit_test_count": 15,
+  "motion_pose_count": 2045,
+  "native_positioned_assembly_pass": false,
+  "native_missing_files": [],
+  "native_conversion_status": "failed",
+  "native_saved_part_count": 53,
+  "solidworks_preferences_restored": false,
+  "solidworks_settings_review_required": true,
+  "assembly_step_round_trip": {
+    "valid": true,
+    "solids": 253,
+    "expected_components": 253,
+    "extents_mm": [
+      786.0,
+      546.0,
+      769.0
+    ],
+    "volume_mm3": 23824556.666457914,
+    "expected_volume_mm3": 23824556.6691,
+    "file_sha256": "4f96652b17f593c1a008f1836d2db2182fa053d7216927ebaeff826e2e2f7d39",
+    "pass": true
+  },
+  "step_round_trip": [
+    {
+      "name": "Base_780x540x6",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 2519919.7360164244,
+      "volume_relative_error": 6.517802543466119e-12,
+      "file_sha256": "f820c65c2e567672b036d138a1b58a536680c568de4dea9372dbc8f2e61a70b7"
+    },
+    {
+      "name": "X_Datum_Bar_700x30x24",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 498485.71949478635,
+      "volume_relative_error": 1.0458996083676727e-11,
+      "file_sha256": "22c8d5032ad5a40a5c09fab7a8a1ace78fb9429ba289a1d69e230c6c01de4ce6"
+    },
+    {
+      "name": "2020_Rack_Z650",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 250994.6246584846,
+      "volume_relative_error": 1.6540350947862926e-10,
+      "file_sha256": "67fc5bad7836f46660d46cc74e3d2e12a0b1cd92d4b1d38965e64ab7dd1c56d7"
+    },
+    {
+      "name": "Cell_124x130",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 70321.53099505925,
+      "volume_relative_error": 7.02594710263985e-11,
+      "file_sha256": "bb40f736abecd630532e34e8691ae00032079bdf6c708ed896080ea1aefa75e9"
+    },
+    {
+      "name": "Bin_110x120_TowEye",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 96834.15176759376,
+      "volume_relative_error": 3.3465715861890035e-10,
+      "file_sha256": "5cf8d4a9b5d0cf233bd59f9d9420ee8ada85633137c12e750e1b99fc2e0c42e0"
+    },
+    {
+      "name": "Shelf_Angle_-1",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 17806.132317346972,
+      "volume_relative_error": 9.742132887486524e-10,
+      "file_sha256": "585628b8719aa938fdc3141e4ee3b999cc17eb738d89b9f9470046d3cf0ebc23"
+    },
+    {
+      "name": "Shelf_Angle_1",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 17806.132317346986,
+      "volume_relative_error": 9.74214105990431e-10,
+      "file_sha256": "a7b31c5ac008bf0c83045e383d94a50b1f9f7bf6058c27dec46d758f51efa394"
+    },
+    {
+      "name": "Rack_Rear_Shear_620x630x3",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1171087.2511667176,
+      "volume_relative_error": 2.842012154456088e-11,
+      "file_sha256": "ec600e727c1647f4abf57e1762fef8ce6849c57b16a6acdf2d2e670b68bac498"
+    },
+    {
+      "name": "Rear_Panel_Standoff_2",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 109.56304379394642,
+      "volume_relative_error": 3.9971474327771375e-07,
+      "file_sha256": "924df9d7973ecbebb63b587a87835f0f07e22c4e50246f348238ee4473d9bb5c"
+    },
+    {
+      "name": "Rack_Foot_40x40x6",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 8651.631717697584,
+      "volume_relative_error": 2.0455776629267377e-09,
+      "file_sha256": "73af752adcc34d75e7b5cadc7418ca100e3a256ba039334907fd3ab60c1a607c"
+    },
+    {
+      "name": "Rack_Pedestal_40x40x14",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 21069.535511204696,
+      "volume_relative_error": 5.317959952878092e-10,
+      "file_sha256": "482b66c2dfe352fe8960870b088499efbae77fa7d36a5860849a564a4b6ece5a"
+    },
+    {
+      "name": "2020_Guard_Z720",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 278024.81500632135,
+      "volume_relative_error": 2.273664663782821e-11,
+      "file_sha256": "117982a750e7a83f50e3ff07421ff6c5610c8c40a6f376041140069c4947606b"
+    },
+    {
+      "name": "2020_Guard_X760",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 293470.63806222804,
+      "volume_relative_error": 1.287077335624757e-10,
+      "file_sha256": "eb09ee594d961c83ad4f59b04b3e6e62b716c77a2a596eaedc17e5893dafb001"
+    },
+    {
+      "name": "2020_Guard_Y480",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 185349.87667088088,
+      "volume_relative_error": 1.5710347633440583e-10,
+      "file_sha256": "44106396c663f595ceea0ab4be611c8fc674a3b7a25b8ea756f8edc89383939b"
+    },
+    {
+      "name": "MGN12_Rail_X700",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 65044.867439637455,
+      "volume_relative_error": 6.093863229785825e-10,
+      "file_sha256": "1ca8d05e5d300ae8e7f72b16b0788d25a31e0516f2a366c15941425a877a9da4"
+    },
+    {
+      "name": "MGN12H_X",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 9252.068183660254,
+      "volume_relative_error": 1.766064083210062e-09,
+      "file_sha256": "957a0cefd937adbb24183b095871667c93fbead2bf6e13cea91b1040d327bde3"
+    },
+    {
+      "name": "X_Carriage_160x110x8",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 136293.07247616758,
+      "volume_relative_error": 1.7486162599414777e-10,
+      "file_sha256": "6ede6a9804a2ec21a9c594615a757790f2a244e470d50ab5f72991c7ba4457e8"
+    },
+    {
+      "name": "GT2_20T_6mm_Envelope",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1081.116279879871,
+      "volume_relative_error": 1.861051300916729e-08,
+      "file_sha256": "427994d6cd3cc839b61e4385b6c3dfff23acb119f949c409ccc6dd9a8d9222d4"
+    },
+    {
+      "name": "X_GT2_Belt_Loop",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 11961.451296062174,
+      "volume_relative_error": 3.292097571254102e-10,
+      "file_sha256": "62bb99ed10a0418812e48860fee55fbb91079ea08525fff889a8ffd9da10879a"
+    },
+    {
+      "name": "NEMA17_42x42x40",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 70991.9689898686,
+      "volume_relative_error": 1.4271181333137108e-10,
+      "file_sha256": "78f4af24eb7ec362d4fd6739f2eea7a7a90842f40f091814776595e5d1277405"
+    },
+    {
+      "name": "NEMA17_Inverted",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 70991.9689898686,
+      "volume_relative_error": 1.4271181333137108e-10,
+      "file_sha256": "b5625e504e07f52315e9e3455d9161fd6594b949f701ee6efad0cdb58b9b8db8"
+    },
+    {
+      "name": "X_Motor_Mount",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 12215.033418925848,
+      "volume_relative_error": 1.5493897915323098e-09,
+      "file_sha256": "8a7c3beab2ef6dd2b6cc181d9c1382d8022e3314b6ddae7b64e14e620a103c3c"
+    },
+    {
+      "name": "X_Motor_Mount_Leg",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 24069.506947464575,
+      "volume_relative_error": 1.971979529456406e-09,
+      "file_sha256": "0639d9dcb3e089224b4bae811e59840942b164f68e54d9bcf467808d5956d7aa"
+    },
+    {
+      "name": "X_Idler_Pedestal",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 13183.420382392673,
+      "volume_relative_error": 1.3355660051752834e-09,
+      "file_sha256": "ec5a0e5ac3359e996f644e1b5bee45057e41e5b55cdd744d8f8359b3eead28b6"
+    },
+    {
+      "name": "X_Tension_Adjuster",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4459.171540066178,
+      "volume_relative_error": 8.98511695771172e-09,
+      "file_sha256": "9bd72024a4318d9f866ddc4a793228789279d08d5fc45f2d208af056a507e5c1"
+    },
+    {
+      "name": "X_Belt_Clamp",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4023.9309950592165,
+      "volume_relative_error": 1.2278499763419507e-09,
+      "file_sha256": "bea9fc96f039c68921e0847ce338fe9c914f91a43b84996a6b792a687e24b589"
+    },
+    {
+      "name": "X_Clamp_Steel_Backer",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 384.38274876480483,
+      "volume_relative_error": 1.2686524349463572e-07,
+      "file_sha256": "c8b9cc0804abb58f3105501d04e21e6818e75d6bb871c52346568af07d27b8f0"
+    },
+    {
+      "name": "3030_Z600",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 518209.91335470043,
+      "volume_relative_error": 8.741551843295514e-11,
+      "file_sha256": "594f7c6b22acf40898b1147365406cb330590d50237e57524d421f043f9e33d4"
+    },
+    {
+      "name": "Z_Foot_Angle_30x20x32",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 5229.070841543276,
+      "volume_relative_error": 7.944676515703918e-09,
+      "file_sha256": "1d99e142148b1120d7f0d23d5a62e7142509cb434ba61a8c23dc364c4ac06dfe"
+    },
+    {
+      "name": "Z_Foot_Angle_Front",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 5229.070841543277,
+      "volume_relative_error": 7.94467668963438e-09,
+      "file_sha256": "3dcfda921ef36375450a72cb1bb5aef1616e95f75e1b30afbce5c11b53a3851b"
+    },
+    {
+      "name": "Z_Top_Motor_Plate_130x60x8",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 57605.92961062184,
+      "volume_relative_error": 1.8438789028579672e-10,
+      "file_sha256": "2a7e341e5eca960067ea5105cbbe24c8a3c919747896b7b62d0af656b9124559"
+    },
+    {
+      "name": "MGN12_Rail_Z500",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 46460.61959974093,
+      "volume_relative_error": 5.576071714950075e-12,
+      "file_sha256": "cbdef4a31dfd93e93e25d7926202391e5400fb7e3229ef73f12dcc25250c8742"
+    },
+    {
+      "name": "MGN12H_Z",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 9252.068183660254,
+      "volume_relative_error": 1.766064083210062e-09,
+      "file_sha256": "b6400aeaecfc87a7dbedb0c5f2b22801cc59218bad59d7c1cfa3dbcb38e956de"
+    },
+    {
+      "name": "Z_Rail_Datum_20x4x500",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 38795.84455283927,
+      "volume_relative_error": 1.215612851046491e-09,
+      "file_sha256": "9cc5cfbfd7547cbfe3da755964c343c5b70cb940a55e045eb30eee8b01861fd5"
+    },
+    {
+      "name": "Z_Carriage_130x100x8",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 100211.84320107101,
+      "volume_relative_error": 1.0687423508966772e-11,
+      "file_sha256": "5ea9963e4be20d4e544a7d8013bc6783a91793337f133656b1ec77f404921651"
+    },
+    {
+      "name": "TR8x2_Screw_Machined_Ends",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 25977.304683976865,
+      "volume_relative_error": 6.168128630306893e-10,
+      "file_sha256": "529dc1f02022e3ddbdf1441edab573c2e58fc33a5cb215d6d27bb4b22a146c28"
+    },
+    {
+      "name": "TR8x2_Bronze_Nut",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1453.8426862834244,
+      "volume_relative_error": 9.43470397105681e-09,
+      "file_sha256": "44e6f2d152a54643edd349ddb3e4820382138a82feb0072a3aa348bc49a6728a"
+    },
+    {
+      "name": "Z_Nut_Bridge",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 18879.107215583623,
+      "volume_relative_error": 8.254428572864516e-10,
+      "file_sha256": "49ed5222cacf493b5f213c376702c71ee513a3e4ca9d3ae3272483f80e0c170f"
+    },
+    {
+      "name": "Z_Secondary_Nut_Cage",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 14807.753427803971,
+      "volume_relative_error": 1.8776630581930693e-09,
+      "file_sha256": "1363d938456228ff7fae40c0be09237ae0b5b376b1eeda4ec16296f959e47d9f"
+    },
+    {
+      "name": "Safety_Nut_AntiRotation_Stud",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 123.52742313915044,
+      "volume_relative_error": 1.873199827959644e-07,
+      "file_sha256": "17c6c36d358c76af42c4d7ef28d391b6d4cdef992254804aa3f71bd92e686e32"
+    },
+    {
+      "name": "Z_Fixed_Bearing_Housing",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 50744.87786578526,
+      "volume_relative_error": 6.742501112871036e-10,
+      "file_sha256": "60a41a300732a1e4404ab0fcec16dcd5a1b0ad202aa57dcbe91bdef95ac9df61"
+    },
+    {
+      "name": "Z_Thrust_End_Cap",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 9340.03320791544,
+      "volume_relative_error": 8.474744725644662e-10,
+      "file_sha256": "4b5fe92eb62c7bfab10c7c204014390c6c9091a41a5324571370e71179650458"
+    },
+    {
+      "name": "Z_Bearing_Hanger",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 48810.2555787335,
+      "volume_relative_error": 4.3569729499281614e-10,
+      "file_sha256": "22d13724b23666008fd66ad04a13e0154eb900433cd1a3ef01e297f9089a2161"
+    },
+    {
+      "name": "626ZZ_6x19x6",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1529.2569320921043,
+      "volume_relative_error": 2.0985423848852756e-08,
+      "file_sha256": "f46ee466febc91c45bd096da89b74662ea090aa176ebf047258f313508dcd01d"
+    },
+    {
+      "name": "Z_Thrust_Abutment_Washer",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1257.6188091401918,
+      "volume_relative_error": 7.267855631636594e-09,
+      "file_sha256": "2c58f38e2d71cbc5a36e60d68420a151a4b6b9a43a132243a03d290576d148c1"
+    },
+    {
+      "name": "F6_12M_6x12x4p5",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 377.42701441146903,
+      "volume_relative_error": 3.818346066962882e-08,
+      "file_sha256": "03b4551a92709deb9542b63d13abe5f5d7615d8c4c6f8fcf95e920c903132be4"
+    },
+    {
+      "name": "Shaft_Collar_6x16x8",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1332.8018703664347,
+      "volume_relative_error": 2.223403582410409e-08,
+      "file_sha256": "843a7366e1b1aea773d24c134faeb6f2da9d6c19d14e12b1890f242f23190bd6"
+    },
+    {
+      "name": "Z_Thrust_Cross_Pin_D2p5x16",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 78.53981633974485,
+      "volume_relative_error": 2.0804413617108845e-07,
+      "file_sha256": "75acd766069bc0f0bbff490aeae9481504c69e6e97a7f9989c981b0c5bce75a1"
+    },
+    {
+      "name": "Z_Floating_Bearing_Housing",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 5399.940122811753,
+      "volume_relative_error": 4.224445618756366e-09,
+      "file_sha256": "2ba8055697ba5cd3e70aeed3200ba7c613d4ddfd6a533d7f8a366530d0a12c93"
+    },
+    {
+      "name": "Z_Floating_Bearing_Cap",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1726.3993527225252,
+      "volume_relative_error": 2.7385015760390885e-08,
+      "file_sha256": "584718b77d3ca20e81bd8465b2c698ea60feb8c17e59a3879ef4390eda2bf457"
+    },
+    {
+      "name": "Z_Floating_Bearing_Pedestal",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 39642.65685771804,
+      "volume_relative_error": 1.0665774738223705e-09,
+      "file_sha256": "bf8c67a6efa4694d29067dad4c2a24b42f50c6ddeb012101e60471483ab5d34a"
+    },
+    {
+      "name": "NEMA17_NC_Brake_Envelope",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 115052.69908169874,
+      "volume_relative_error": 1.5906849631397528e-10,
+      "file_sha256": "e102c426d8db1e1f38cee8debfb779ae19f397678793e8f4cfcca2ec995df045"
+    },
+    {
+      "name": "Coupler_5x6_Envelope",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 6467.557526037284,
+      "volume_relative_error": 4.02582960295008e-09,
+      "file_sha256": "db07673126398fa59c20740e1035c03f178c4c2783539c0ba9a829aa0d440152"
+    },
+    {
+      "name": "Tray_Al_Tube_25x25x2_L227",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 41418.497817288124,
+      "volume_relative_error": 4.174010965861707e-10,
+      "file_sha256": "6e08c3062969e1d59de1a34fcb9929a0657ec23c2760d59a6ed41fa7bf7f1229"
+    },
+    {
+      "name": "Tube_End_Plug",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 12185.909696920151,
+      "volume_relative_error": 2.5273855372937155e-10,
+      "file_sha256": "0f49a4d80f3dcbb7ea361bf38a92899485402ca8cc858ddf7ae2f2dbdccb9beb"
+    },
+    {
+      "name": "Carrier_Tray_124x130",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 48556.592985177675,
+      "volume_relative_error": 3.0525877697181056e-10,
+      "file_sha256": "bdc2031bb5694d568a8bf781a6cb75d8406dccfc60d0fa5f00a5c71cd5a17f22"
+    },
+    {
+      "name": "Y_Spine_82x211x6",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 99870.1031917215,
+      "volume_relative_error": 8.289264751582366e-11,
+      "file_sha256": "364f512ed309c351407f9d6f3b378fa93332b506e2d4c1823498ced54c80aa06"
+    },
+    {
+      "name": "Y_Spine_Metal_Spacer",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 5531.834308013251,
+      "volume_relative_error": 1.448570216232267e-09,
+      "file_sha256": "ee0ec6fc75091a3836578f791f8fd1e2f2cb8270bc252f4d84d44901325c9c6c"
+    },
+    {
+      "name": "Y_Spine_Metal_Spacer_Left",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 5531.834308013252,
+      "volume_relative_error": 1.4485703806433198e-09,
+      "file_sha256": "4d47af327f62fe63b83b56a2acdc6ff6d0eadaf5b9f9af70d5ad50300bf8a97d"
+    },
+    {
+      "name": "MGN9_Rail_Y200",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 11074.626712394776,
+      "volume_relative_error": 1.119204830145816e-09,
+      "file_sha256": "f769ecff0fb80ea1c3bb0bb92a4faef2de744f3a1d9dcbb8c16dfe62b3be2272"
+    },
+    {
+      "name": "MGN9H_Y",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4542.678183660252,
+      "volume_relative_error": 3.5969415733463293e-09,
+      "file_sha256": "4a3a9150a6fdea0b56423f953575158d959cd417eebc22d601efdb464f46fad2"
+    },
+    {
+      "name": "Y_Puller_Plate_46x60x4",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 10732.123919948199,
+      "volume_relative_error": 1.8587372360212245e-09,
+      "file_sha256": "a17b5de415d6c84b1e3183abe888f6fbdc139bb115d1585744e3b647d9afa576"
+    },
+    {
+      "name": "Y_GT2_Belt_Loop",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3427.051296062174,
+      "volume_relative_error": 1.1490420416505208e-09,
+      "file_sha256": "ae9bce185ade0458193baf2d52a9f5deb3dcc7df151b2798372da18ab81ab035"
+    },
+    {
+      "name": "Y_Idler_Shoulder_Axle_M5",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 536.819644682153,
+      "volume_relative_error": 8.323495076358727e-08,
+      "file_sha256": "625c0f8237e237be7a34935f13a1544d7897ac9a2ffe3ac917c760cf2923a178"
+    },
+    {
+      "name": "Y_Idler_Tension_Carrier",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1153.9685961312018,
+      "volume_relative_error": 3.352602577932027e-09,
+      "file_sha256": "1de5358c9ee984da29ea5a7aa9a35a8ecdcddce653f0ec31d64b62cdb59e5643"
+    },
+    {
+      "name": "Y_Tension_Adjuster",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1048.3075417977452,
+      "volume_relative_error": 3.9871645796020306e-08,
+      "file_sha256": "049d61d9b614a4cc15f855411a64d6370c97dc7bda942810d5a1dafdf71bc97e"
+    },
+    {
+      "name": "Y_Motor_Spacer_7",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 9170.27903089382,
+      "volume_relative_error": 3.3689072832155736e-09,
+      "file_sha256": "a28dbe0febfef6d87c8049c417d9d9c9eacbda28149960a0421ff74a7120de56"
+    },
+    {
+      "name": "Y_Belt_Clamp",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1682.5501897494194,
+      "volume_relative_error": 6.092288090055068e-09,
+      "file_sha256": "ab0ce12b5761cbe97bc77033be7085f375f0dd963903da58f75a46cc18f69874"
+    },
+    {
+      "name": "M3_Clamp_Nut",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 45.90884398535836,
+      "volume_relative_error": 9.581029859206182e-07,
+      "file_sha256": "067a60423c0391e4ea9a0535facfc207936620c780fefd89ba27df7efc0b2780"
+    },
+    {
+      "name": "Latch_Mast_36x92_L",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 14743.522143634204,
+      "volume_relative_error": 2.9595508520717963e-09,
+      "file_sha256": "ce6afd2a87d5dd945adb95d54b62fc7cc3e86b64828fb084224b7fca951cff3d"
+    },
+    {
+      "name": "Pin_Guide_Cheek",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 2271.1090898927737,
+      "volume_relative_error": 4.45034826562655e-09,
+      "file_sha256": "f7d5fda504840b05f237e35c6ffad48337b9b21391c68db83e469089afc652ec"
+    },
+    {
+      "name": "Pin_Flanged_Bushing_4p1x6",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 75.77521480458726,
+      "volume_relative_error": 1.9537509985227426e-07,
+      "file_sha256": "0ab13d6e9980a6d61fd7e76397821a6b4fc04b07a2713ee8ecf229d39ac142f9"
+    },
+    {
+      "name": "Latch_Pin_D4x60",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 743.5102613496235,
+      "volume_relative_error": 5.198364635399459e-08,
+      "file_sha256": "4fbf13076a49111280bf041f63846fefebed757036733613fcf82ff122295881"
+    },
+    {
+      "name": "MG90S_Envelope",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 8004.0,
+      "volume_relative_error": 0.0,
+      "file_sha256": "beae434e2375def5f363e9f4ebca839ee74f740419a197bc351979baad26713a"
+    },
+    {
+      "name": "Servo_Cradle",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 10242.41699279008,
+      "volume_relative_error": 7.039275206123412e-10,
+      "file_sha256": "d893ba9af4b1b163ca3126eed0e8cc9c5287829ee4ccc324c4cc102114cc1821"
+    },
+    {
+      "name": "Servo_Cradle_Lid",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1331.0548703937739,
+      "volume_relative_error": 2.2242678521408885e-08,
+      "file_sha256": "23ede80a3192bf69a2ce4f245a53089c67002668363d4ddc34b4b8e968f655ad"
+    },
+    {
+      "name": "Latch_Scotch_Yoke",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 606.2938070170245,
+      "volume_relative_error": 1.1573637191389179e-08,
+      "file_sha256": "6b753d152dc65d8d2f338652b77689aad9647b9ba6bef7c33480d6c3607664dc"
+    },
+    {
+      "name": "Pin_Collar_4x10x5",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 329.86722862693557,
+      "volume_relative_error": 8.678321320100032e-08,
+      "file_sha256": "503c04fef1c04fce958d81ca9b8574742c61b9104d357bb4d765d2c149f910cd"
+    },
+    {
+      "name": "Latch_Return_Spring_Envelope",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 101.03361973944988,
+      "volume_relative_error": 1.9537510163390094e-07,
+      "file_sha256": "8c5b8ba5654e79babe3163ceb3494aba37b5d8b286d44bfafc1ecfd2075fd23a"
+    },
+    {
+      "name": "Latch_Crank_R7",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 144.70868574826665,
+      "volume_relative_error": 9.848567050382562e-08,
+      "file_sha256": "0ec3d7352a7917e7d233c39f3648e65ba920e8fae94cdb09fd484955c9b8bf81"
+    },
+    {
+      "name": "Servo_Horn_Interface_Envelope",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 44.0726179390488,
+      "volume_relative_error": 4.070340482696182e-07,
+      "file_sha256": "dea2c5ad73fd2a1e52656d9fc10b8587d193cebeae1d0c467f4a9b8d0e66bd94"
+    },
+    {
+      "name": "Latch_Roller_D3",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 183.78317023500293,
+      "volume_relative_error": 1.619571161357244e-07,
+      "file_sha256": "3427dbe06916282ad0e3bfd0ee1c702abd91ef1f6639757de277bb0764f1e6a1"
+    },
+    {
+      "name": "Roller_Clip_Envelope",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 5.796238445873294,
+      "volume_relative_error": 6.632944566064699e-06,
+      "file_sha256": "1ca1ff143960bf77319ae2e499c169bf3a32e7eb9b674d2df32099c39e3e9c3b"
+    },
+    {
+      "name": "X_Stop_24x20x20",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 9599.999999999998,
+      "volume_relative_error": 1.8947806286936006e-16,
+      "file_sha256": "6fb6007737285ac04d92f4d58f8848482a643a7c02aac0d67c6cc0f71d3c4878"
+    },
+    {
+      "name": "Z_Stop_24x15x10",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3600.0,
+      "volume_relative_error": 0.0,
+      "file_sha256": "391359ca44353a22f3d2a85e335d8dd7f6df775b2ba448542b966c69e4276e69"
+    },
+    {
+      "name": "Y_Stop_24x4x10",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 696.8,
+      "volume_relative_error": 0.0,
+      "file_sha256": "a63003d362e18c8202bfdd1de5be5f5b78f12efa1047b64fe6ad1d209ae1610b"
+    },
+    {
+      "name": "Guard_Front_PC3",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1792440.0,
+      "volume_relative_error": 0.0,
+      "file_sha256": "cfb8b94e22cde7c62ada24689155678a30e79855ca700d8ce84fd602e1c535fb"
+    },
+    {
+      "name": "Guard_Side_-91.5",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1240920.0,
+      "volume_relative_error": 0.0,
+      "file_sha256": "6298088b102a4654e439a567f8a5fbce07679851e36b33c7d6b52d87a1731f1a"
+    },
+    {
+      "name": "Guard_Side_691.5",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1240920.0,
+      "volume_relative_error": 0.0,
+      "file_sha256": "8a1ec4af0f06b504383fd4ab619720a70fe90f91ab79d0e6c4a80593ed65e883"
+    },
+    {
+      "name": "Guard_Rear_PC3",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1792440.0,
+      "volume_relative_error": 0.0,
+      "file_sha256": "bb9c95f56a5094fe46443a4022f975ab75f5b19c012b36f744aeaa814eab64de"
+    },
+    {
+      "name": "Guard_Top_PC3",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1287468.0,
+      "volume_relative_error": 0.0,
+      "file_sha256": "b374b7335af646ff8dce2ed59c214830db55a8c5ee2dfde5c19108fc44787164"
+    }
+  ],
+  "stl_checks": [
+    {
+      "triangles": 2084,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 70321.63645481877,
+      "extents_mm": [
+        124.0,
+        130.0,
+        10.0
+      ],
+      "fits_a1": true,
+      "name": "Cell_124x130",
+      "volume_relative_error": 1.4996795153477423e-06
+    },
+    {
+      "triangles": 552,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 96834.26670973578,
+      "extents_mm": [
+        110.0,
+        136.0,
+        60.0
+      ],
+      "fits_a1": true,
+      "name": "Bin_110x120_TowEye",
+      "volume_relative_error": 1.1870000399049548e-06
+    },
+    {
+      "triangles": 1044,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 4024.0364441372294,
+      "extents_mm": [
+        28.0,
+        20.0,
+        8.0
+      ],
+      "fits_a1": true,
+      "name": "X_Belt_Clamp",
+      "volume_relative_error": 2.6205488648395887e-05
+    },
+    {
+      "triangles": 6156,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 48556.90940009372,
+      "extents_mm": [
+        124.0,
+        130.0,
+        10.0
+      ],
+      "fits_a1": true,
+      "name": "Carrier_Tray_124x130",
+      "volume_relative_error": 6.516415106398769e-06
+    },
+    {
+      "triangles": 1556,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1682.6124537876058,
+      "extents_mm": [
+        18.0,
+        14.0,
+        8.0
+      ],
+      "fits_a1": true,
+      "name": "Y_Belt_Clamp",
+      "volume_relative_error": 3.700575386442763e-05
+    },
+    {
+      "triangles": 1528,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 2271.20227741233,
+      "extents_mm": [
+        26.0,
+        24.0,
+        4.0
+      ],
+      "fits_a1": true,
+      "name": "Pin_Guide_Cheek",
+      "volume_relative_error": 4.1031723210144116e-05
+    },
+    {
+      "triangles": 2056,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 10242.478979656124,
+      "extents_mm": [
+        40.0,
+        20.0,
+        37.0
+      ],
+      "fits_a1": true,
+      "name": "Servo_Cradle",
+      "volume_relative_error": 6.051976412103976e-06
+    },
+    {
+      "triangles": 1028,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1331.0701747774656,
+      "extents_mm": [
+        28.5,
+        16.0,
+        3.0
+      ],
+      "fits_a1": true,
+      "name": "Servo_Cradle_Lid",
+      "volume_relative_error": 1.1497935984562471e-05
+    },
+    {
+      "triangles": 1048,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 606.3021778113851,
+      "extents_mm": [
+        12.0,
+        22.0,
+        5.0
+      ],
+      "fits_a1": true,
+      "name": "Latch_Scotch_Yoke",
+      "volume_relative_error": 1.380649820889411e-05
+    },
+    {
+      "triangles": 1620,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 144.68735906465224,
+      "extents_mm": [
+        3.0,
+        5.999745845794678,
+        12.498301267623901
+      ],
+      "fits_a1": true,
+      "name": "Latch_Crank_R7",
+      "volume_relative_error": 0.00014737666577598524
+    }
+  ],
+  "archived_obsolete_artifacts": [],
+  "obsolete_artifacts_found": [],
+  "manufacturing_release_allowed": false,
+  "hardware_accepted": false,
+  "release_blockers": [
+    "Supplier drawings and purchased interfaces not frozen",
+    "Complete manufacturing drawings, fastener/tool access and tolerance chain pending",
+    "Safety circuit, wiring and feedback not implemented",
+    "Catch impact, brake, frame stiffness, endurance and real load tests pending",
+    "Native Motion Study and physical contact dynamics not verified"
+  ]
+}

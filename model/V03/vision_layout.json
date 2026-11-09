@@ -1,0 +1,417 @@
+{
+  "fingerprint": "85591a8e8d478c15cd7ce83b9e3d36012129888750f780540bda3562168733b2",
+  "units": "mm",
+  "hardware_accepted": false,
+  "family": "tag36h11",
+  "card_outer_mm": 32,
+  "detected_black_square_mm": 25.6,
+  "tag_frame_convention": "X right, Y up, Z outward normal; convert detector conventions explicitly",
+  "T_bin_from_tag": [
+    [
+      1,
+      0,
+      0,
+      -36
+    ],
+    [
+      0,
+      0,
+      -1,
+      -61.2
+    ],
+    [
+      0,
+      1,
+      0,
+      38
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "initial_layout_only": true,
+  "ids_are_not_storage_coordinates": true,
+  "tags": [
+    {
+      "instance": "stored_bin_0_0_marker",
+      "id": 0,
+      "role": "box",
+      "default_centre_mm": [
+        54.0,
+        3.799999999999997,
+        238.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "stored_bin_0_1_marker",
+      "id": 1,
+      "role": "box",
+      "default_centre_mm": [
+        54.0,
+        3.799999999999997,
+        333.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "stored_bin_0_2_marker",
+      "id": 2,
+      "role": "box",
+      "default_centre_mm": [
+        54.0,
+        3.799999999999997,
+        428.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "stored_bin_0_3_marker",
+      "id": 3,
+      "role": "box",
+      "default_centre_mm": [
+        54.0,
+        3.799999999999997,
+        523.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "stored_bin_0_4_marker",
+      "id": 4,
+      "role": "box",
+      "default_centre_mm": [
+        54.0,
+        3.799999999999997,
+        618.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "stored_bin_1_0_marker",
+      "id": 5,
+      "role": "box",
+      "default_centre_mm": [
+        234.0,
+        3.799999999999997,
+        238.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "stored_bin_1_1_marker",
+      "id": 6,
+      "role": "box",
+      "default_centre_mm": [
+        234.0,
+        3.799999999999997,
+        333.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "stored_bin_1_3_marker",
+      "id": 8,
+      "role": "box",
+      "default_centre_mm": [
+        234.0,
+        3.799999999999997,
+        523.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "stored_bin_1_4_marker",
+      "id": 9,
+      "role": "box",
+      "default_centre_mm": [
+        234.0,
+        3.799999999999997,
+        618.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "stored_bin_2_0_marker",
+      "id": 10,
+      "role": "box",
+      "default_centre_mm": [
+        414.0,
+        3.799999999999997,
+        238.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "stored_bin_2_1_marker",
+      "id": 11,
+      "role": "box",
+      "default_centre_mm": [
+        414.0,
+        3.799999999999997,
+        333.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "stored_bin_2_2_marker",
+      "id": 12,
+      "role": "box",
+      "default_centre_mm": [
+        414.0,
+        3.799999999999997,
+        428.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "stored_bin_2_3_marker",
+      "id": 13,
+      "role": "box",
+      "default_centre_mm": [
+        414.0,
+        3.799999999999997,
+        523.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "stored_bin_2_4_marker",
+      "id": 14,
+      "role": "box",
+      "default_centre_mm": [
+        414.0,
+        3.799999999999997,
+        618.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "stored_bin_3_0_marker",
+      "id": 15,
+      "role": "box",
+      "default_centre_mm": [
+        594.0,
+        3.799999999999997,
+        238.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "stored_bin_3_1_marker",
+      "id": 16,
+      "role": "box",
+      "default_centre_mm": [
+        594.0,
+        3.799999999999997,
+        333.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "stored_bin_3_2_marker",
+      "id": 17,
+      "role": "box",
+      "default_centre_mm": [
+        594.0,
+        3.799999999999997,
+        428.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "stored_bin_3_3_marker",
+      "id": 18,
+      "role": "box",
+      "default_centre_mm": [
+        594.0,
+        3.799999999999997,
+        523.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "stored_bin_3_4_marker",
+      "id": 19,
+      "role": "box",
+      "default_centre_mm": [
+        594.0,
+        3.799999999999997,
+        618.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "carried_bin_marker",
+      "id": 7,
+      "role": "box",
+      "default_centre_mm": [
+        234.0,
+        -139.2,
+        428.0
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "column_0_reference_tag",
+      "id": 100,
+      "role": "fixed_column",
+      "default_centre_mm": [
+        12.0,
+        -2.2,
+        270
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "column_1_reference_tag",
+      "id": 101,
+      "role": "fixed_column",
+      "default_centre_mm": [
+        192.0,
+        -2.2,
+        270
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "column_2_reference_tag",
+      "id": 102,
+      "role": "fixed_column",
+      "default_centre_mm": [
+        372.0,
+        -2.2,
+        270
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "column_3_reference_tag",
+      "id": 103,
+      "role": "fixed_column",
+      "default_centre_mm": [
+        552.0,
+        -2.2,
+        270
+      ],
+      "outward_normal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "instance": "io_external_reference_tag",
+      "id": 200,
+      "role": "external_io_reference",
+      "default_centre_mm": [
+        -353.2,
+        69,
+        326
+      ],
+      "outward_normal": [
+        -1,
+        0,
+        0
+      ]
+    }
+  ],
+  "camera_intrinsics_calibrated": false,
+  "camera_tool_extrinsics_calibrated": false,
+  "physical_decode_test_passed": false
+}

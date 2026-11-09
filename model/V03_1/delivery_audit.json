@@ -1,0 +1,1123 @@
+{
+  "fingerprint": "d958d2f4f1aea93802a73d911b2c3ca131ce8b74fa09189d839347eb818fec38",
+  "prototype_geometry_deliverable_pass": true,
+  "errors": [],
+  "part_types": 127,
+  "instances": 376,
+  "printable_types": 24,
+  "regression_test_count": 34,
+  "connection_count": 42,
+  "motion_pose_count": 1097,
+  "assembly_step_readback": {
+    "valid": true,
+    "solid_count": 445,
+    "expected_solids": 445,
+    "sha256": "e447861ef23aec755a02b9f339b55db38ab25be7acc462891a0050560f9d4c67",
+    "extents_mm": [
+      1256.3,
+      596.0,
+      769.0
+    ],
+    "bytes": 65899288,
+    "pass": true
+  },
+  "part_step_readbacks": [
+    {
+      "name": "2020_Rack_Z650",
+      "sha256": "d87b418db10da918c99e9fea91072b5b9894ede0d436c3f742009bd6a15fec23",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Cell_124x130",
+      "sha256": "b8aa619ad78822c150b16f2ce754fc389264d32c31ecbd57b7a7820bcec067d6",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.000699540498191098
+    },
+    {
+      "name": "Shelf_Angle_-1",
+      "sha256": "4fefcbbf3619cacc01b6ad0cf134818bb4da1fc872dc118c9e23c10edb41cc6a",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Shelf_Angle_1",
+      "sha256": "d32141191b991d7aea9b3afe715638994858497e656a76b0db1565272cbde99f",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Rear_Panel_Standoff_2",
+      "sha256": "d2f5a683ce8ea70ed59d7914d72ae65abca7ae867921499ff5a4e87ccfc66d06",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "MGN12H_X",
+      "sha256": "8adf86108d29200c27eaf6d0d81b267861d92ee2608a25d77261b2b05778021d",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "X_Carriage_160x110x8",
+      "sha256": "de64596d559fea1f022de2c4051f1175fe5d20799d4c195762bb1904fd85e2ce",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "3030_Z600",
+      "sha256": "ab4bb31ad9600633d6c69f72598771f63f31e0b29314e9498ab6c770f161d0d5",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Z_Foot_Angle_30x20x32",
+      "sha256": "8ffd292641c8621defc7c304251443dd5147ef84a661b68567c30df8adc4c391",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Z_Foot_Angle_Front",
+      "sha256": "55b6beb1f80969aa40b7c00d47446face623c8e6161890262503dcec6bb2bcda",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Z_Top_Motor_Plate_130x60x8",
+      "sha256": "229a7138d44d9cab68436077c4a6db3bb72422076cf9b8e316980bc809a4ea9f",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "MGN12_Rail_Z500",
+      "sha256": "8abe3621a21e1a38a0832aa226a421ea6ed2e355ba79f0aa0e409fa712546ad4",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 2.842170943040401e-14
+    },
+    {
+      "name": "MGN12H_Z",
+      "sha256": "49d2b5d180fc7f129f5964c417ebaa6610f40fa824baea933d5bd2bfa20ce288",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 1.7763568394002505e-15
+    },
+    {
+      "name": "Z_Rail_Datum_20x4x500",
+      "sha256": "df41b36f8d20388acedfc817eca660fb6e5f5d3e01cf36dd47cf9545c5728c32",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 9.769962616701378e-15
+    },
+    {
+      "name": "Carrier_Tray_124x130",
+      "sha256": "08b310d3af7badf507118018fa1538e2b8a2fb0c6044d8e73a5d2e100da23189",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.000699540498191098
+    },
+    {
+      "name": "Y_Spine_Metal_Spacer_Left",
+      "sha256": "7fe415901d13db586801c43754205b8598de5fdf7b83ea0a53f6a6bd3ee8bb6a",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 3.552713678800501e-15
+    },
+    {
+      "name": "MGN9_Rail_Y200",
+      "sha256": "fd8f4d4e1a7eb0b57fcf8f25a104b13f2bf496c87375c83ec3b85ff60e928abd",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "MGN9H_Y",
+      "sha256": "d8ed6c09b91a250d244925c1c049e73c1aaed5684adcd8618d7e3bd0a76e426a",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Pin_Guide_Cheek",
+      "sha256": "d61b92eae4f72768c47faa6261a0384103e2e1e0a63b628abb9fd129708a56de",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.001896189795022707
+    },
+    {
+      "name": "Pin_Flanged_Bushing_4p1x6",
+      "sha256": "3ad3217a978c87d9531017d105391b9179d6cbce93b3f1c7c48f58a334c1645b",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Latch_Pin_D4x60",
+      "sha256": "3e5892ffdcf9615e9aec155e9c6c302768ca1191e3e71921b8466fc3c7613541",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "MG90S_Envelope",
+      "sha256": "8c7ec0ba232064fae35419ff1747a9ddd069efd9086af4cd220632c3a23ec354",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Servo_Cradle",
+      "sha256": "c0dfa71e7a6f9f67c9c51e0d31ee1a673bd0a4468ceea7e6f146b7c5851e87bd",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0005441314985930035
+    },
+    {
+      "name": "Servo_Cradle_Lid",
+      "sha256": "7ca37f96261a9386d722ee152c53c51706c70b20469e9cc5d7bacb952d20e7a6",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0008704903977285738
+    },
+    {
+      "name": "Latch_Scotch_Yoke",
+      "sha256": "e3979d697187c05e674f9124b205d5ff35b9cd6a0b9afaa58d4db954a9af145d",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.001243471996735579
+    },
+    {
+      "name": "Pin_Collar_4x10x5",
+      "sha256": "d5b170658a0f128105df33a097eb08575645d54b3680e67a0429f9e0d2c3bde8",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Latch_Return_Spring_Envelope",
+      "sha256": "0ee40ee997ff359af612e6a0aa43553e129a988d6f92d53670198be89d52e8e5",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Latch_Crank_R7",
+      "sha256": "e3d08b8d4c03feedb1b108c007132cadd83dc586e907b32651f48dcab228afba",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0018433137373907726
+    },
+    {
+      "name": "Servo_Horn_Interface_Envelope",
+      "sha256": "119facad85dfc4540dd9b99d29d1e6cccf9a51c702c01772bb75fd5d4f746451",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Latch_Roller_D3",
+      "sha256": "ca4f5eadd54ca50662bf1b7ded1ca316e567ec69bfc955b9647cafa122062464",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Roller_Clip_Envelope",
+      "sha256": "8d71db37be73c8e25dbd3c0c59f6fcf856a541817958ab67e30defb864d34b9c",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Y_Stop_24x4x10",
+      "sha256": "0ce9de988420db9ac6d14448c2faee287f4c1988358f46d76cf29633369d357a",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Base_Splice_60x40",
+      "sha256": "6045d9743bfe8226ca7b140ce286a3f8b1e3df6cdd40aa788843cd34f16c52b8",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Column_Foot_28x40",
+      "sha256": "67d49c3effeacc75f2c2e42f2466d092c6a2a90d6ebb3ff816d92e16e6b89662",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Column_Pedestal_28x40",
+      "sha256": "3b0c1cd35fd70386ece7a6da097695447620826f1d33322a61485f5e40b199f5",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Column_Carrier_RoundSlot",
+      "sha256": "b99f27f6e4f8a426981ba968e692a021bccb20a9355ef0f3fd371273f44442be",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Column_Rear_Panel_170x630",
+      "sha256": "3bbceede71f8ebd02ecc85981395bbc7231b4c666f238e2f5d063130be06c9f3",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Column_Datum_Pin_D6",
+      "sha256": "365d7e449b9e6fbb72174b0d6f6b41b8d93480dfea14a475981b533f93270e79",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "X_Datum_Bar_1050",
+      "sha256": "72a43609e3ba742bc49c78408f30d59362076e4a0bc945c74441bda80c6de806",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "MGN12_X1050",
+      "sha256": "4fe3b2464cb39f42a44f74f657ed747019fc28156aa7cdf3c940e6761c6dac12",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "X_Stop_Low_Profile",
+      "sha256": "e2adbf7cd0c1f408ccaf70c9079d63b4cc64d66fc4417823e3f245294031d211",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Z_Stop_Rear_Clearance",
+      "sha256": "69305f73cc21f2939dd59ee203b216f32c1e8ba0ceac564d412ece43a9bdb6c7",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Rack_M1p5_24T_X",
+      "sha256": "349929ebe7fe7099403f9774d84e56f8d3c83e2c1c12c166008d131e274fde85",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0005285905984777628
+    },
+    {
+      "name": "Rack_M1p5_24T_Z",
+      "sha256": "26d873233788f9496106e6db6f5dff9ba054bebf06948235553174c7152808d4",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0005285905984795392
+    },
+    {
+      "name": "Rack_M1p5_24T_Y",
+      "sha256": "b6fba7e9c917aeec8f5f8a32b63a64cd4aff9a3caa710a88d67f60cd4b5945b6",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0005285905984635519
+    },
+    {
+      "name": "Pinion_M1p5_20T_X",
+      "sha256": "61fd65754fccae81bd18ab04378bc64ac6248a3debefd547d60b697cb04e719d",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0037921795900430766
+    },
+    {
+      "name": "Pinion_M1p5_20T_Z",
+      "sha256": "d6ac2e60352a57d4168ff688bacdebaa56ec190ff041dd7db9b65933b4587c2a",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.003792179590044853
+    },
+    {
+      "name": "Pinion_M1p5_20T_Y",
+      "sha256": "e4ceb38ea3aea7719d9284435d534c45c13dd4ef574c0804494de2a951b992fa",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0037921795900430766
+    },
+    {
+      "name": "Y_Spine_TwinGuide",
+      "sha256": "1bbc1e41b506971a6d03457312df9456aadf07769f55835b5dfb9fe27ae0bca3",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Tray_Tube_V03",
+      "sha256": "18401e16cf35071d62e3eed6d704bf58c3f51521ea1ab3c7627d0491a9878c57",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Tube_End_Plug_V03",
+      "sha256": "fc54c9776ad27ac77c40ecf96dc95a11904fb5b24f3cda7c97a8386779560002",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "ZDT_RealMotor_X",
+      "sha256": "edd5c2e84a5dd66ea4f780ccd4b179f6be69707f52b4c115c0712a0d14b82f16",
+      "pass": true,
+      "solids": 24,
+      "max_analytic_extent_difference_mm": 4.447997525858227e-12
+    },
+    {
+      "name": "ZDT_RealMotor_Z",
+      "sha256": "268c268d0a86c2cd6a08872da704bdb9742cd670c2f1b98991e4ccaf6368ec85",
+      "pass": true,
+      "solids": 24,
+      "max_analytic_extent_difference_mm": 9.99982319171977e-08
+    },
+    {
+      "name": "ZDT_RealMotor_Y",
+      "sha256": "a7c77405600b23f261c108fbca532d3a9142d093f5fa02efe374540794d4a317",
+      "pass": true,
+      "solids": 24,
+      "max_analytic_extent_difference_mm": 4.447997525858227e-12
+    },
+    {
+      "name": "Motor_Plate_50x50",
+      "sha256": "ad38b6035c98448dc4208037c3671ea1418fd3480aceda720dcd6e5745289372",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Z_Motor_Plate",
+      "sha256": "f0e2f5b060e2de0edd3728f70006e01db57c4df9a0c762f7da60824e738ffea3",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 1.7763568394002505e-15
+    },
+    {
+      "name": "Z_Reduction_10to1_CANDIDATE",
+      "sha256": "8e2dd70c155c570ac2d853ec02d22178e9b206d979049e5e7b2a53406f9f4685",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Z_Reducer_Output_Shaft_CANDIDATE",
+      "sha256": "3b70abbf63c5392188c978639fef818b680e80c8fd8f71464c2aa23363a7f5cd",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Y_Reduction_3to1_CANDIDATE",
+      "sha256": "508a37426a45c91aceffa8775558853de4aedaad3ec6e31ffe8e0cdf0a40cc1f",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Y_Reducer_Output_CANDIDATE",
+      "sha256": "bdb00270c46540f38d5699c166e102f0ab5effed0118fa20e4505fe7ceacc192",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "X_Motor_Leg",
+      "sha256": "dda8c9a39562d75e85c6c1f38ba614a5132806d2a87b4642d7e96d297b4aacf9",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Z_Motor_Module_Link",
+      "sha256": "6ab813a8cd0ad6246c3edcac3449d64c3bf16cc2a88ee9f32cd9e9d8fc88a880",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Latch_Mast_V03_RoundSlot",
+      "sha256": "f6a1ff2e71e4cfa703d2cb5524be63b38e3ccf738905ef0e9a394007961fe2be",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Head_Locator_D3",
+      "sha256": "7a91b6fbc6db1de6ac190da333eb16113e1ab9fb956b50b6ad6877229a3a3f29",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Y_Motor_Leg",
+      "sha256": "cf11c1241655ff44ced380efd4634fce7857cd7c3a843c63c551eaa8f48a66b3",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Metal_Pinion_Hub_X",
+      "sha256": "4aab68c0d5ed2f15ec83b04f066ddf3ce2a6bea906d607b483138db02841d86b",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 3.552713678800501e-15
+    },
+    {
+      "name": "Metal_Pinion_Hub_Z",
+      "sha256": "c882a89b9f0da3edad8e151297e2824a90796e8b7add4a0ad57ee7fb2dddb860",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Metal_Pinion_Hub_Y",
+      "sha256": "230d0afaa2c90afa81459fbf5062ca115ec7faea4269149eff86301345cd22d9",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Local_Power_Case",
+      "sha256": "658ca8a9232d520cf04ebae2345947f918c8ea51ff371680f178fb6c1e67a450",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0012434719967870933
+    },
+    {
+      "name": "Local_Power_Lid",
+      "sha256": "bddbc235f6fb5db16cf27915ec1452564dcbb704890768333fde577a48a70e80",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0008704903977454492
+    },
+    {
+      "name": "Battery_Candidate_85x65x42",
+      "sha256": "4d40c06344c6755579883bbae498e7912a4974e1d16935fc52487956fd0258f9",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "ESP32_Controller_Candidate",
+      "sha256": "a645978895cd7fb28fa85844f5a74ac8335ee424545a64151e4ea60e98025e5e",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "X_Power_Module_Tray",
+      "sha256": "6e1ee6995625dbecb742837f3256dc355781cd325661ae3c92b804a1d2a88ed5",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Z_Power_Module_Tray",
+      "sha256": "162d4656acff4183fb4db06fd817e8a73ee64b53bf63dc96e13d1fd847996403",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Independent_Steel_Safety_Track",
+      "sha256": "ca817f5c0cd4907bdfc617a46a6eb38e99990e471114f326aeabe67128e43f03",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "NC_Rail_Brake_CANDIDATE",
+      "sha256": "28b1d1ee773220a20405f1509bb6a206b9ec51aa9d839b5af134d4196c92d580",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Safety_Track_Link",
+      "sha256": "9500f1ba9d88fa84381eb4e66394f71e711ba9afbc804656690cd11d4bd182b7",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Brake_Module_Link",
+      "sha256": "c0e0f5ddc97d3f8a400a2e4df58b9fa1d12b4acfb774f4c98e36c4ddaa6e6c93",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Bin_V03_Marker_Rails",
+      "sha256": "3e2634610de0231c26f5ea83ae62b27d923ef6a96478a2e673e3cc21dbcb6e91",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 2.0000004496978363e-07
+    },
+    {
+      "name": "Marker_Card_32mm",
+      "sha256": "98c44ae895b6f4d0260d6ca2805b1d145250cfc3b1ac712ece9e98048355bc8b",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Column_Reference_Tag_Mount",
+      "sha256": "87b27d5eaeb87f879f71805b4e4cb242fb6e59851fc55471ec57fa1b7396f20c",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 2.0000000233721948e-07
+    },
+    {
+      "name": "Camera_CANDIDATE_32x32",
+      "sha256": "9af7af715634724de41b458b8dc789c471edea18409626f80cd712716d62d167",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Camera_Slotted_Mount",
+      "sha256": "0b6903e73ad40c2690d70ebd5d6852d7ca28e55c78e8d3737b2ea3082f2bea95",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0011191447970766433
+    },
+    {
+      "name": "IO_Deck",
+      "sha256": "78fe003370adebdd3a3fcf91ecec63ca52366fc1ecdef4bb5fe3b05214182f5a",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.000699540498191098
+    },
+    {
+      "name": "IO_Inner_Shutter",
+      "sha256": "822deef7d7ed6a222340c570283b2f5b19715cb7cb72f6aa9f8963dd58699e40",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "IO_Shutter_Guide_Right",
+      "sha256": "4b74036fe8801de8fbaaad711bd8fb3e890c3ab8c535f3e20440bcaaa3232dfe",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 2.0000000233721948e-07
+    },
+    {
+      "name": "IO_Shutter_Guide_Left",
+      "sha256": "65285187c551b9d929b8982b65322bb4065ffdf8b53a386859f936a36c8c9505",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 2.0000000233721948e-07
+    },
+    {
+      "name": "IO_Shutter_Header",
+      "sha256": "35249319719a4f6d2ae04810ee95c17b3d3ae1b7e07422dc21de13726469b62f",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "IO_Outer_Door",
+      "sha256": "5a876f2edc7d5d0b068622db1aa87c92320d31e3ac1462170d8e4d695247b1d2",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "IO_Access_Tunnel_Horizontal",
+      "sha256": "836de993e52e9c7606730799f3bad4a1c52af79dfe8cd123514ab5acd17bdb7f",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "IO_Access_Tunnel_Side",
+      "sha256": "0efcc89792d1ee4f6780fc76f0f08b2dba5bdb121c027ea84615890d695df16d",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "IO_Roof",
+      "sha256": "46aba92b98ce16a373c4cd5ada5a007183a8d33ad7e6ccdf142f3a1bbe3bfe1e",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "IO_Rear_Wall",
+      "sha256": "6ab25bd86b131233a2791b07b40d60dedaffeb5cdd436e33b59a263f99f85fa1",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "IO_Right_Wall",
+      "sha256": "a35cce190c0c986422f8f0b918cd40d0bd606f12f9e2fc8522001c0fcb70b11f",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "IO_Upper_Fixed_Shield",
+      "sha256": "110f4d90e96d1b7f338ac37c3280b27f5dd2ff792a7bbf2e1b2006dc16074126",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "IO_Lower_Fixed_Shield",
+      "sha256": "69370dad41f83d5b9ae5d2e36d9570411d9d551b094523bf6a544560cba2a25f",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "IO_Left_Upper_Wall",
+      "sha256": "954ac4f8c0837c76d76f085e710eee41787084074e8cbacbb5bcddae17f296da",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "IO_External_Reference_Card",
+      "sha256": "1e9f8ee6b317e8eb44293908e449e7172f2f95acc78a836eded03734fa3cd9cf",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "IO_Box_Back_Stop",
+      "sha256": "0b206786c0e8b69d527783f7e0636571531f929c6638863e20c592f5add7bd87",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 2.000000072222008e-07
+    },
+    {
+      "name": "Box_Presence_Sensor_CANDIDATE",
+      "sha256": "26ecedc32c4d28965a70b288d684c8c5c39c6bc4a83a03c117e1ab00348fce58",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Guard_Post_740",
+      "sha256": "d3a24bad2c9fc9a20d92af9283c6d0a992cf291fdbb431a902b6ef36297f1f0c",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Guard_Cross_1200",
+      "sha256": "08f17fda3dfa3397e9976cff9b7b71b2422e8bbae99658a8f922a54bae6fa2aa",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Guard_Side_520",
+      "sha256": "9fbe7f97a52daacfc87d4325fce3d66b03ac8bf22519e9fdc0fc7c025c407486",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Guard_Panel_Y-371.5",
+      "sha256": "0619bfcf13715f2b83b0e5926aefbcf6c2da83815059f011d3b77ff52057ccb4",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Guard_Panel_Y221.5",
+      "sha256": "7b36738009a054a564a4b4d921a89fb2fd1dbd45aa937f0570a240016d8bba5a",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Guard_Panel_X-351.5",
+      "sha256": "085425319cf0d75246027b2a80e42ae3377a4f56ab1e2cf726d52b83128eb318",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Guard_Panel_X901.5",
+      "sha256": "f3129620f83b8f16af51b97e29aa7501eaa044283e3024bb60aa622dc641aa42",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Guard_Roof",
+      "sha256": "b037fba93aea8e2310d4295b31b7739ef9e66fc0d0e456e0fb4e6fce8edffb6e",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "X_Rack_Bolted_Adjustable_Foot",
+      "sha256": "4ab1aa6ca5545bf103071809d00ecb1efa1caad9fb082dba8503938651508b92",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "X_Rack_Backbone_R1",
+      "sha256": "2cc67e87ebc480ec8e16e1c8726ea5a92c884fa187ec144dec292dfbfc4224e2",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Base_Panel_1_Located_R1",
+      "sha256": "cb264dbde3515966004b2c939c0eea6bc23e3c100e569934ea84b2c7861b1424",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Z_Rack_Backbone_12x30",
+      "sha256": "ab27c3348eeacb8779ab6b3d8f69eca1b902bb12889a4904868bdd1967b5b5df",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Z_Rack_Support_104x8x12",
+      "sha256": "9a23157959b0567d5ca80971c4c4300027974539812bc45bbcbf16571bbde7cf",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Y_Rack_Tube_Saddle",
+      "sha256": "c83ef64fe5361a4d6d044875f422107adbf621b4153f06cc51d3067fdd92fb1b",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Y_Rack_Backbone_R1",
+      "sha256": "1829d67f2defc95541f04201b3f032517158e527b2252ffe4eec2190083d0141",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Y_Module_Base_Short",
+      "sha256": "608136d76af1c4113fb5e8b1bdc7349249f2de688bbdb1d2547337a6650f1694",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Local_Power_Case_Y_Stationary_Rotated",
+      "sha256": "55945687902ad6812eaf2b773439b2fbf5e7cded6cfb204737e5de7d1339f4b5",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0012434719967728824
+    },
+    {
+      "name": "Local_Power_Lid_Y_Stationary_Rotated",
+      "sha256": "afd2dfdaea3af06dd6b6b94983354907fc1342637aeeb24388770bbc6c8a3025",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0008704903977454492
+    },
+    {
+      "name": "Battery_Candidate_85x65x42_Y_Stationary_Rotated",
+      "sha256": "ed34196c2d35f93cd453e963a8ec82a66f94a532cece09ed674b645ccdf544cc",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 1.4210854715202004e-14
+    },
+    {
+      "name": "ESP32_Controller_Candidate_Y_Stationary_Rotated",
+      "sha256": "66c36aefbb199e8779159e213ca450d3008b7cc1c87e53bffe4dce924d922d27",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 7.105427357601002e-15
+    },
+    {
+      "name": "Y_Power_Tray_On_Z",
+      "sha256": "9904d9ec2b023ec292d9122b7f1f053add962008c639ac2e662919a746115bc1",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Y_Power_Z_Support",
+      "sha256": "6ecafe304e8b4010574ba7e51a7620c3dcdcd95b796644e5e54eef1f4bccb546",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Z_Carriage_130x100x8_R1",
+      "sha256": "795ea0289d8bdd863489d146e77699252b669b9783616fdfbf334ec7a886ba08",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "IO_Flanged_Leg_BaseToFrame",
+      "sha256": "764b820963a768494c2c2fb4d8794ec13e9a0f3af1c551a09d6ed2e18486cef5",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "IO_Frame_Matched_Fasteners",
+      "sha256": "f4e6717ed92a67ffeaea9d1190c2951d9fd1e640d31d37d461c9d400dbdd3793",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Base_Panel_0_Located_R1_R1_R1",
+      "sha256": "ed6de28ee80d64b392d461d15e5d32e12b1f4a915ae8c28764e7ec3fdd2b1f5b",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    },
+    {
+      "name": "Base_Panel_2_Located_R1_R1",
+      "sha256": "4a88d09f7f233d5ed9d46ac5c4efee335da3dc92843902965f8a12cde0f8bd06",
+      "pass": true,
+      "solids": 1,
+      "max_analytic_extent_difference_mm": 0.0
+    }
+  ],
+  "stl_mesh_checks": [
+    {
+      "name": "Cell_124x130",
+      "sha256": "8caf30d1232526b7c970a4f4108ee023fe9c7319248cdfd59902f89ff2668a17",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 1.4996795153477423e-06,
+      "pass": true
+    },
+    {
+      "name": "Carrier_Tray_124x130",
+      "sha256": "91e334a5bb9bcae2bd7929a82e380de9df5427b3f271f4df3ad9d18813cba300",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 6.516415106398769e-06,
+      "pass": true
+    },
+    {
+      "name": "Pin_Guide_Cheek",
+      "sha256": "3c1a750fc17e1f8f657ca70cbdddccf2bbbf6b22d0290a2e175e38e2c840440c",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 4.103172321034435e-05,
+      "pass": true
+    },
+    {
+      "name": "Servo_Cradle",
+      "sha256": "d0bf87df260241a69b64e2eb007e1936db95c88ce025828473eff3523519b794",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 6.051976412636757e-06,
+      "pass": true
+    },
+    {
+      "name": "Servo_Cradle_Lid",
+      "sha256": "952ac143e4454cbc12326ba81c31e047b02a63926557a74af806764b37a1f4fa",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 1.1497935984562471e-05,
+      "pass": true
+    },
+    {
+      "name": "Latch_Scotch_Yoke",
+      "sha256": "618b6394890bb4a2482e67f8b2fa90b8be2b7d1d4fdddd784792b1602794188a",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 1.38064982087066e-05,
+      "pass": true
+    },
+    {
+      "name": "Latch_Crank_R7",
+      "sha256": "d74338fa02beb775253cf62bc015c97d2926c75f2d8a9260992a4b520d17ce89",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 0.00014737666577578884,
+      "pass": true
+    },
+    {
+      "name": "Rack_M1p5_24T_X",
+      "sha256": "3e693295342f3770ba10a8d2aba7a6bdbe3d952c5521dab4ebf2ef8d8fb36ab2",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 4.100735941250315e-06,
+      "pass": true
+    },
+    {
+      "name": "Rack_M1p5_24T_Z",
+      "sha256": "aaddd421fa85f47c80c0cb269655c3aa32fb1bc408b021132b7fcf2de75ee853",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 4.100735940624344e-06,
+      "pass": true
+    },
+    {
+      "name": "Rack_M1p5_24T_Y",
+      "sha256": "84e39b962ae6ea754f3bc582fe625402bd5d2c6e0f95f137b6ea597cb3f56bc5",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 4.100735940937319e-06,
+      "pass": true
+    },
+    {
+      "name": "Pinion_M1p5_20T_X",
+      "sha256": "74580cda667b5f4219c1af7788d8c5e20f96af0f68d839dc333e85c6395d239e",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 0.0001027877427153912,
+      "pass": true
+    },
+    {
+      "name": "Pinion_M1p5_20T_Z",
+      "sha256": "4fb68a1c5482df1b3ec9508cd690bed4ab370837d52366d6960b66db69775e3c",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 0.00010277636275684063,
+      "pass": true
+    },
+    {
+      "name": "Pinion_M1p5_20T_Y",
+      "sha256": "06f7efa4382cabd04e8ee26749fd2b84363b8e2997928354730e96a69edee7e0",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 0.00010278847773182535,
+      "pass": true
+    },
+    {
+      "name": "Local_Power_Case",
+      "sha256": "d691b7b180b866c7cb092f8699bb187923423396626698464d146369054dbf97",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 1.6459968381443824e-06,
+      "pass": true
+    },
+    {
+      "name": "Local_Power_Lid",
+      "sha256": "4ffc3fe4cfc8d32448b7b02a409b869c448b215de6b12a676d2c23e4d00edeb8",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 7.76798388528767e-07,
+      "pass": true
+    },
+    {
+      "name": "Bin_V03_Marker_Rails",
+      "sha256": "9088060323884e30ce75dfda9060d8c458364932549e4dce2aa56760376971d1",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 1.183041668728843e-06,
+      "pass": true
+    },
+    {
+      "name": "Column_Reference_Tag_Mount",
+      "sha256": "af0a79c397a1207673c73a6342a6e53ebc7b465b246bda5b0b603b0b9cb89ef2",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 0.0,
+      "pass": true
+    },
+    {
+      "name": "Camera_Slotted_Mount",
+      "sha256": "53c3eee0d254ea1f2dfcde8c3360ccd25a1d667f923709a296048d0b0322c287",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 1.1184901943811454e-07,
+      "pass": true
+    },
+    {
+      "name": "IO_Deck",
+      "sha256": "c352dde7d51f4f417a7388631adeff407dba574094d64a2e6b5cae064a2f9451",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 1.530497740867036e-06,
+      "pass": true
+    },
+    {
+      "name": "IO_Shutter_Guide_Right",
+      "sha256": "9d1bea130b97666cbd9b519bf3c45b605ee8966fd0ed806039b047b701076a0c",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 3.8872594418733015e-09,
+      "pass": true
+    },
+    {
+      "name": "IO_Shutter_Guide_Left",
+      "sha256": "679c9c4f9781af7c8d433e9b45f920175da98b0dd5c7b5e5e230bb9a8aba5f5c",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 3.8872594418733015e-09,
+      "pass": true
+    },
+    {
+      "name": "IO_Box_Back_Stop",
+      "sha256": "0e575e9cb9fb9085998c9cf37b841da862fbda99bb5a887f7723d2c31e6b58c1",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 0.0,
+      "pass": true
+    },
+    {
+      "name": "Local_Power_Case_Y_Stationary_Rotated",
+      "sha256": "5619bd37f619bb3f44c09778a44cf8f0cb3592031f2db65fb6ccc3d3b2ed19cb",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 1.6459968374073359e-06,
+      "pass": true
+    },
+    {
+      "name": "Local_Power_Lid_Y_Stationary_Rotated",
+      "sha256": "1a2967b9b5157350f3d319f18a696cc114a01deaf2bfc059d061f9b64679f0b9",
+      "watertight": true,
+      "bodies": 1,
+      "volume_relative_error": 7.767983883443371e-07,
+      "pass": true
+    }
+  ],
+  "baseline_V03_CAD_unchanged": true,
+  "native_motion_assembly_created": false,
+  "continuous_collision_detection": false,
+  "hardware_accepted": false,
+  "manufacturing_release_allowed": false,
+  "release_blockers": [
+    "Printed Z teeth have no material/direction/creep/endurance acceptance, even without a 1 kg payload.",
+    "Actual motor torque curves, measured masses, reducer drawings and output radial load ratings.",
+    "Replace candidate flange hubs by selected clamp/keyed hubs with axial retention and torque proof.",
+    "Independent fall protection: verified holding and dynamic capture on tooth fracture and power/control faults.",
+    "Fastener lengths, engagement, tightening torques, T-nuts, tool access and bench anchor capacity.",
+    "Local Y flexible harness, strain relief, bend radius and full-stroke endurance; electrical hardware and firmware.",
+    "Door hardware, interlocks, physical limits, emergency stop and actual camera calibration."
+  ]
+}

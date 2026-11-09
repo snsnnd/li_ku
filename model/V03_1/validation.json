@@ -1,0 +1,927 @@
+{
+  "fingerprint": "d958d2f4f1aea93802a73d911b2c3ca131ce8b74fa09189d839347eb818fec38",
+  "validator_sha256": "14df1cf67430db1e90c2518edc3d5f8d9a0884bf3e0b505207d35165bb0622bb",
+  "connections": [
+    {
+      "a": "x_rack_foot_-210",
+      "b": "x_rack_backbone",
+      "kind": "bolted_face",
+      "fasteners": "4x M4; backing tapped 3.3 pilot",
+      "hole_axes_world": [
+        [
+          [
+            -218,
+            -329,
+            56
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            -218,
+            -329,
+            76
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            -202,
+            -329,
+            56
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            -202,
+            -329,
+            76
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ]
+      ],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 886.5652717223388,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "x_rack_foot_-210",
+      "b": "base_panel_0",
+      "kind": "bolted_seat",
+      "fasteners": "M5 into 6 mm base; screw lengths/torque to be specified",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 756.9668222289088,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "x_rack_foot_-60",
+      "b": "x_rack_backbone",
+      "kind": "bolted_face",
+      "fasteners": "4x M4; backing tapped 3.3 pilot",
+      "hole_axes_world": [
+        [
+          [
+            -68,
+            -329,
+            56
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            -68,
+            -329,
+            76
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            -52,
+            -329,
+            56
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            -52,
+            -329,
+            76
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ]
+      ],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 896.3827487648068,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "x_rack_foot_-60",
+      "b": "base_panel_0",
+      "kind": "bolted_seat",
+      "fasteners": "M5 into 6 mm base; screw lengths/torque to be specified",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 756.9668222289088,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "x_rack_foot_90",
+      "b": "x_rack_backbone",
+      "kind": "bolted_face",
+      "fasteners": "4x M4; backing tapped 3.3 pilot",
+      "hole_axes_world": [
+        [
+          [
+            82,
+            -329,
+            56
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            82,
+            -329,
+            76
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            98,
+            -329,
+            56
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            98,
+            -329,
+            76
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ]
+      ],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 896.3827487648068,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "x_rack_foot_90",
+      "b": "base_panel_1",
+      "kind": "bolted_seat",
+      "fasteners": "M5 into 6 mm base; screw lengths/torque to be specified",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 756.9668222289088,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "x_rack_foot_240",
+      "b": "x_rack_backbone",
+      "kind": "bolted_face",
+      "fasteners": "4x M4; backing tapped 3.3 pilot",
+      "hole_axes_world": [
+        [
+          [
+            232,
+            -329,
+            56
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            232,
+            -329,
+            76
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            248,
+            -329,
+            56
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            248,
+            -329,
+            76
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ]
+      ],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 886.5652717223388,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "x_rack_foot_240",
+      "b": "base_panel_1",
+      "kind": "bolted_seat",
+      "fasteners": "M5 into 6 mm base; screw lengths/torque to be specified",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 756.9668222289088,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "x_rack_foot_390",
+      "b": "x_rack_backbone",
+      "kind": "bolted_face",
+      "fasteners": "4x M4; backing tapped 3.3 pilot",
+      "hole_axes_world": [
+        [
+          [
+            382,
+            -329,
+            56
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            382,
+            -329,
+            76
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            398,
+            -329,
+            56
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            398,
+            -329,
+            76
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ]
+      ],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 896.3827487648068,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "x_rack_foot_390",
+      "b": "base_panel_1",
+      "kind": "bolted_seat",
+      "fasteners": "M5 into 6 mm base; screw lengths/torque to be specified",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 378.4834111144544,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "x_rack_foot_390",
+      "b": "base_panel_2",
+      "kind": "bolted_seat",
+      "fasteners": "M5 into 6 mm base; screw lengths/torque to be specified",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 378.4834111144544,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "x_rack_foot_540",
+      "b": "x_rack_backbone",
+      "kind": "bolted_face",
+      "fasteners": "4x M4; backing tapped 3.3 pilot",
+      "hole_axes_world": [
+        [
+          [
+            532,
+            -329,
+            56
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            532,
+            -329,
+            76
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            548,
+            -329,
+            56
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            548,
+            -329,
+            76
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ]
+      ],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 894.3236359626151,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "x_rack_foot_540",
+      "b": "base_panel_2",
+      "kind": "bolted_seat",
+      "fasteners": "M5 into 6 mm base; screw lengths/torque to be specified",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 756.9668222289088,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "x_rack_foot_750",
+      "b": "x_rack_backbone",
+      "kind": "bolted_face",
+      "fasteners": "4x M4; backing tapped 3.3 pilot",
+      "hole_axes_world": [
+        [
+          [
+            742,
+            -329,
+            56
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            742,
+            -329,
+            76
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            758,
+            -329,
+            56
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ],
+        [
+          [
+            758,
+            -329,
+            76
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          3.3,
+          8
+        ]
+      ],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 886.5652717223388,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "x_rack_foot_750",
+      "b": "base_panel_2",
+      "kind": "bolted_seat",
+      "fasteners": "M5 into 6 mm base; screw lengths/torque to be specified",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 756.9668222289088,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "z_rack_standoff_100",
+      "b": "z_rack_backbone",
+      "kind": "bolted_face",
+      "fasteners": "2x M3, matched backing pilots",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 125.84159446225094,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "z_rack_standoff_100",
+      "b": "z_post_-45",
+      "kind": "slot_nut_face",
+      "fasteners": "M5 at slot centreline plus actual 3030 T-nut; not solid-profile blind tapping",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 336.2417055572272,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "z_rack_standoff_230",
+      "b": "z_rack_backbone",
+      "kind": "bolted_face",
+      "fasteners": "2x M3, matched backing pilots",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 125.84159446225125,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "z_rack_standoff_230",
+      "b": "z_post_-45",
+      "kind": "slot_nut_face",
+      "fasteners": "M5 at slot centreline plus actual 3030 T-nut; not solid-profile blind tapping",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 336.2417055572272,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "z_rack_standoff_360",
+      "b": "z_rack_backbone",
+      "kind": "bolted_face",
+      "fasteners": "2x M3, matched backing pilots",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 125.84159446225125,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "z_rack_standoff_360",
+      "b": "z_post_-45",
+      "kind": "slot_nut_face",
+      "fasteners": "M5 at slot centreline plus actual 3030 T-nut; not solid-profile blind tapping",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 336.2417055572272,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "z_rack_standoff_490",
+      "b": "z_rack_backbone",
+      "kind": "bolted_face",
+      "fasteners": "2x M3, matched backing pilots",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 125.84159446225125,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "z_rack_standoff_490",
+      "b": "z_post_-45",
+      "kind": "slot_nut_face",
+      "fasteners": "M5 at slot centreline plus actual 3030 T-nut; not solid-profile blind tapping",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 336.2417055572272,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "z_rack_standoff_625",
+      "b": "z_rack_backbone",
+      "kind": "bolted_face",
+      "fasteners": "2x M3, matched backing pilots",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 125.84159446225004,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "z_rack_standoff_625",
+      "b": "z_post_-45",
+      "kind": "slot_nut_face",
+      "fasteners": "M5 at slot centreline plus actual 3030 T-nut; not solid-profile blind tapping",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 336.2417055572272,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "y_rack_saddle_rear",
+      "b": "y_spine",
+      "kind": "bolted_seat",
+      "fasteners": "M4 at X+35",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 92.09568719120168,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "y_rack_saddle_rear",
+      "b": "tray_tube_44",
+      "kind": "bolted_seat",
+      "fasteners": "M4 through tube with metal compression sleeve at X+44",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 269.5427011918037,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "y_rack_saddle_rear",
+      "b": "y_rack_backbone",
+      "kind": "bolted_saddle",
+      "fasteners": "M3 lateral screw plus positive bottom seat",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 130.01205870989156,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "y_rack_saddle_front",
+      "b": "y_spine",
+      "kind": "bolted_seat",
+      "fasteners": "M4 at X+35",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 92.09568719120168,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "y_rack_saddle_front",
+      "b": "tray_tube_44",
+      "kind": "bolted_seat",
+      "fasteners": "M4 through tube with metal compression sleeve at X+44",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 261.59054478740455,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "y_rack_saddle_front",
+      "b": "y_rack_backbone",
+      "kind": "bolted_saddle",
+      "fasteners": "M3 lateral screw plus positive bottom seat",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 134.92079723112562,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "y_power_z_support",
+      "b": "z_carriage",
+      "kind": "bolted_face",
+      "fasteners": "2x M4 edge taps, 10 mm nominal engagement",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 160.19137438240335,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "y_power_z_support",
+      "b": "y_power_tray",
+      "kind": "bolted_seat",
+      "fasteners": "2x flush low-head M4; 8 mm counterbores",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 182.59565606876598,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "io_leg_-65_10",
+      "b": "base_panel_0",
+      "kind": "bolted_seat",
+      "fasteners": "4x M5 into base",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1504.966822228908,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "io_leg_-65_10",
+      "b": "io_deck_frame",
+      "kind": "bolted_seat",
+      "fasteners": "M5 into leg top, frame clearance 5.5",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 326.24170555722714,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "io_leg_-65_140",
+      "b": "base_panel_0",
+      "kind": "bolted_seat",
+      "fasteners": "4x M5 into base",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1504.966822228908,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "io_leg_-65_140",
+      "b": "io_deck_frame",
+      "kind": "bolted_seat",
+      "fasteners": "M5 into leg top, frame clearance 5.5",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 176.24170555722716,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "io_leg_65_10",
+      "b": "base_panel_0",
+      "kind": "bolted_seat",
+      "fasteners": "4x M5 into base",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1504.966822228908,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "io_leg_65_10",
+      "b": "io_deck_frame",
+      "kind": "bolted_seat",
+      "fasteners": "M5 into leg top, frame clearance 5.5",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 326.24170555722714,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "io_leg_65_140",
+      "b": "base_panel_0",
+      "kind": "bolted_seat",
+      "fasteners": "4x M5 into base",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1504.966822228908,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "io_leg_65_140",
+      "b": "io_deck_frame",
+      "kind": "bolted_seat",
+      "fasteners": "M5 into leg top, frame clearance 5.5",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 176.24170555722716,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    },
+    {
+      "a": "io_deck_frame",
+      "b": "io_deck",
+      "kind": "bolted_seat",
+      "fasteners": "4x M4, matched nest holes",
+      "hole_axes_world": [],
+      "hardware_accepted": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 5256.382748764806,
+      "geometric_connection_pass": true,
+      "fastener_strength_verified": false
+    }
+  ],
+  "connection_count": 42,
+  "connection_pass": true,
+  "unexpected_static_collisions": [],
+  "static_pass": true,
+  "continuous_collision_detection": false,
+  "fastener_strength_verified": false,
+  "hardware_accepted": false,
+  "manufacturing_release_allowed": false,
+  "motion": {
+    "pose_count": 1097,
+    "y_step_mm": 11.916666666666666,
+    "x_step_mm": 20,
+    "z_step_mm": 10,
+    "boolean_pair_tests": 60005,
+    "failures": [],
+    "sampled_packaging_pass": true,
+    "method": "V03 conservative motor/pinion/rack envelopes, exact teeth tested separately."
+  }
+}

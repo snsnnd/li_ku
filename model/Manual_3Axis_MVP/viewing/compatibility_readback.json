@@ -1,0 +1,41 @@
+{
+  "source_assembly": "Manual_3Axis_Assembly.step",
+  "source_fingerprint": "9aa159701f5f7b92a619567f41d02b170f08e550775c5dcb35b715ba474b2cd7",
+  "source_sha256": "598f6c6827388c95b0ebc4cd7ddcb5737528bb770f0362a1b1dc1c3c801c64f5",
+  "source_unchanged": true,
+  "exporter_sha256": "72207b7eddce0a58315a62cda9144e1fe9490e4304a2cb3659eaf4c00acbd553",
+  "purpose": "Display/import compatibility; all original geometry, no assembly hierarchy or colors.",
+  "file": "Manual_3Axis_SOLIDS_AP203.step",
+  "sha256": "ed5819178ffb3e339c12734a44cf393488b27a8d05f8756fb19471263c1d6816",
+  "bytes": 19015996,
+  "schema": "AP203",
+  "valid": true,
+  "solid_count": 93,
+  "expected_solids": 93,
+  "bbox_mm": [
+    -122.5,
+    -370.0,
+    -6.0,
+    122.5,
+    170.0,
+    340.0
+  ],
+  "max_bbox_error_mm": 0.0,
+  "relative_volume_error": 1.1306453405993262e-15,
+  "assembly_occurrences": 0,
+  "hidden_entities": 0,
+  "readback_pass": true,
+  "view_mesh": {
+    "file": "Manual_3Axis_VIEW_ONLY.stl",
+    "sha256": "17f486ca3cbb3322d69c1d8f0bb6190faf05f9eee455cdbf44769085bbd8a553",
+    "face_count": 115700,
+    "bbox_error_mm": 0.0,
+    "readback_pass": true,
+    "printable": false
+  },
+  "solidworks_gui_import_verified": false,
+  "user_application_available": false,
+  "hardware_accepted": false,
+  "loaded_operation_allowed": false,
+  "note": "Successful OCCT readback/render does not prove display in the user CAD application."
+}

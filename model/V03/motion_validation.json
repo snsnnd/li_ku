@@ -1,0 +1,26 @@
+{
+  "fingerprint": "85591a8e8d478c15cd7ce83b9e3d36012129888750f780540bda3562168733b2",
+  "verifier_sha256": "f8185fe32a38cf9331c7d9cca97abefd2bfab1624d8bec655113c424f47039ea",
+  "method": "Discrete conservative packaging B-reps; exact tooth mesh validated separately",
+  "pose_count": 1097,
+  "y_step_mm": 11.916666666666666,
+  "x_step_mm": 20,
+  "z_step_mm": 10,
+  "storage_targets": 20,
+  "additional_io_targets": 1,
+  "x_traverse_heights_mm": [
+    200.0,
+    295.0,
+    390.0,
+    485.0,
+    580.0
+  ],
+  "io_shutter_stroke_samples": 10,
+  "boolean_pair_tests": 64426,
+  "failures": [],
+  "sampled_packaging_pass": true,
+  "continuous_collision_detection": false,
+  "hardware_accepted": false,
+  "manufacturing_release_allowed": false,
+  "elapsed_seconds": 345.1997019539999
+}

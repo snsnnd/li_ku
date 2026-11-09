@@ -1,0 +1,16 @@
+原生转换未完成，请勿把本目录中的部分零件作为完整装配或制造放行依据。
+
+2026-11-04：SolidWorks导入第54件方管时长时间停留在Open Progress。
+已向该次导入发送取消请求；用户选择保留SolidWorks，不重启。
+未关闭用户原有文档，未强制结束SolidWorks。
+
+请先使用 model/V02/ASRS_Modular_V02.step、当前manifest和交付核验报告。
+本目录没有已完成、已验证的整机原生装配。
+
+取消后导入调用以0x800706BE（RPC调用失败）返回。
+请检查solidworks_validation.json中的设置恢复状态；COM断开时恢复可能失败，
+需要用户确认SolidWorks的默认模板和导入选项。未重启或强制结束SolidWorks。
+按用户选择不再启动新的原生转换；保留已保存的部分零件供后续核验续作。
+
+已保存部分的源STEP数据和原生文件指纹位于 ../native_source_snapshot.json。
+后续续作必须验证指纹，不允许静默覆盖不同版本或手动修改的零件。

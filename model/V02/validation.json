@@ -1,0 +1,95 @@
+{
+  "generator_sha256": "87563eaf463a7206f157ec226ce71ac3907b7f4caf93e08f53f833cff9db90db",
+  "dimensional_checks": [
+    {
+      "name": "x_block_separation",
+      "actual_mm": 34.6,
+      "minimum_mm": 5,
+      "pass": true
+    },
+    {
+      "name": "z_block_separation",
+      "actual_mm": 4.6,
+      "minimum_mm": 4,
+      "pass": true
+    },
+    {
+      "name": "lowest_z_block_end_margin",
+      "actual_mm": 13.3,
+      "minimum_mm": 10,
+      "pass": true
+    },
+    {
+      "name": "highest_z_block_end_margin",
+      "actual_mm": 11.3,
+      "minimum_mm": 10,
+      "pass": true
+    },
+    {
+      "name": "y_retracted_rail_margin",
+      "actual_mm": 9.05,
+      "minimum_mm": 8,
+      "pass": true
+    },
+    {
+      "name": "y_extended_rail_margin",
+      "actual_mm": 8.05,
+      "minimum_mm": 8,
+      "pass": true
+    },
+    {
+      "name": "lowest_plate_to_x_plate",
+      "actual_mm": 45.0,
+      "minimum_mm": 20,
+      "pass": true
+    },
+    {
+      "name": "tray_tube_top_below_bin",
+      "actual_mm": 4,
+      "minimum_mm": 3,
+      "pass": true
+    },
+    {
+      "name": "transfer_gap",
+      "actual_mm": 13.0,
+      "minimum_mm": 1,
+      "pass": true
+    },
+    {
+      "name": "stored_eye_to_retracted_tray",
+      "actual_mm": 2.0,
+      "minimum_mm": 2,
+      "pass": true
+    },
+    {
+      "name": "pin_radial_clearance",
+      "actual_mm": 1.1,
+      "minimum_mm": 0.8,
+      "pass": true
+    },
+    {
+      "name": "released_pin_to_eye_top",
+      "actual_mm": 4,
+      "minimum_mm": 3,
+      "pass": true
+    }
+  ],
+  "unexpected_static_collisions": [],
+  "explicit_contact_exceptions": [
+    {
+      "a": "x_belt",
+      "b": "x_belt_clamp",
+      "volume_mm3": 19.6,
+      "reason": "Intentional clamped belt contact"
+    },
+    {
+      "a": "y_belt",
+      "b": "y_belt_clamp",
+      "volume_mm3": 9.8,
+      "reason": "Belt compresses into adjustable clamping pocket"
+    }
+  ],
+  "review_required": true,
+  "hardware_accepted": false,
+  "native_motion_mates_verified": false
+}

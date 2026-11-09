@@ -1,0 +1,20 @@
+{
+  "fingerprint": "9aa159701f5f7b92a619567f41d02b170f08e550775c5dcb35b715ba474b2cd7",
+  "geometry_drawings_deliverable_pass": true,
+  "errors": [],
+  "drawing_pages": 35,
+  "printed_types": 30,
+  "printed_quantity_including_coupons": 63,
+  "regressions": 14,
+  "motion_poses": 121,
+  "support_interfaces": 25,
+  "all_prints_fit_256": true,
+  "model_contains_motors": false,
+  "hardware_accepted": false,
+  "loaded_operation_allowed": false,
+  "payload_allowed_kg": 0,
+  "pdf_sha256": "c82d39ad82b981e12a58fb28a80ee569a5898b5584c720a31ce15271be985a2b",
+  "flat_compatibility_export_included": true,
+  "solidworks_gui_import_verified": false,
+  "note": "CAD, drawings and packaging consistency only; not physical guide fit, load rating or automatic fall arrest."
+}

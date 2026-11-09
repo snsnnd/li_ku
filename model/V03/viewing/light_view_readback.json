@@ -1,0 +1,69 @@
+{
+  "purpose": "LAYOUT VIEW ONLY - NOT FOR MANUFACTURE OR PRINTING",
+  "source_fingerprint": "85591a8e8d478c15cd7ce83b9e3d36012129888750f780540bda3562168733b2",
+  "source_assembly_sha256": "9e7bad19001c1c6516269023f89892329aed82aa3bc10805c4dbcaa17f69ce28",
+  "source_bytes": 64366452,
+  "view_bytes": 6735508,
+  "file": "ASRS_V03_LIGHT_VIEW.step",
+  "file_sha256": "95282c214e03f59fc25a26cf25e1cfdb45e9f24cf42cd6cf18cf40135cfebb6e",
+  "included_instances": 352,
+  "omitted_guard_instances": [
+    "io_inner_shutter",
+    "io_outer_door",
+    "io_tunnel_horizontal_187",
+    "io_tunnel_horizontal_290",
+    "io_tunnel_side_-1.5",
+    "io_tunnel_side_139.5",
+    "io_roof",
+    "io_rear_wall",
+    "io_right_wall",
+    "io_upper_fixed_shield",
+    "io_lower_fixed_shield",
+    "io_left_upper_wall",
+    "guard_panel_y-371.5",
+    "guard_panel_y221.5",
+    "guard_panel_x-351.5",
+    "guard_panel_x901.5",
+    "guard_roof"
+  ],
+  "simplified_parts": [
+    {
+      "part": "Pinion_M1p5_20T_X",
+      "replacement": "outer-diameter ring, not a printable tooth profile"
+    },
+    {
+      "part": "Pinion_M1p5_20T_Z",
+      "replacement": "outer-diameter ring, not a printable tooth profile"
+    },
+    {
+      "part": "Pinion_M1p5_20T_Y",
+      "replacement": "outer-diameter ring, not a printable tooth profile"
+    },
+    {
+      "part": "ZDT_RealMotor_X",
+      "replacement": "body/driver envelope + pilot + shaft; no detailed electronics"
+    },
+    {
+      "part": "ZDT_RealMotor_Z",
+      "replacement": "body/driver envelope + pilot + shaft; no detailed electronics"
+    },
+    {
+      "part": "ZDT_RealMotor_Y",
+      "replacement": "body/driver envelope + pilot + shaft; no detailed electronics"
+    }
+  ],
+  "actual_rack_teeth_retained": true,
+  "geometry_valid": true,
+  "solid_count": 352,
+  "expected_solids": 352,
+  "extents_mm": [
+    1253.3,
+    590.0,
+    766.0
+  ],
+  "solidworks_display_verified": true,
+  "solidworks_evidence": "solidworks_light_check/solidworks_view_status.json",
+  "solidworks_screenshot": "solidworks_light_check/solidworks_view.png",
+  "manufacturing_release_allowed": false,
+  "readback_pass": true
+}

@@ -1,0 +1,13 @@
+{
+  "generator_sha256": "87563eaf463a7206f157ec226ce71ac3907b7f4caf93e08f53f833cff9db90db",
+  "source": "actual OCCT B-rep tessellation",
+  "guards_hidden_in_inspection_views": true,
+  "render_is_not_a_motion_verification": true,
+  "files": [
+    "assembly_front.png",
+    "assembly_isometric.png",
+    "assembly_side.png",
+    "pickup_extended_released.png",
+    "pickup_retracted.png"
+  ]
+}

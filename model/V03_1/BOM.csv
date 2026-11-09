@@ -1,0 +1,128 @@
+﻿part,quantity,material,process,note
+2020_Rack_Z650,16,aluminum,purchased,
+Cell_124x130,20,PETG,print,Print bottom down; add 0.5 mm entrance chamfer after fit coupon
+Shelf_Angle_-1,20,aluminum,machined,"M5 to slot nuts front/rear, M4 tapped shelf attachment"
+Shelf_Angle_1,20,aluminum,machined,"M5 to slot nuts front/rear, M4 tapped shelf attachment"
+Rear_Panel_Standoff_2,16,aluminum,machined,
+MGN12H_X,4,steel,purchased,
+X_Carriage_160x110x8,1,aluminum,machined,
+3030_Z600,2,aluminum,purchased,
+Z_Foot_Angle_30x20x32,2,aluminum,machined,M6 to 3030 slot nuts; M6x12 to X plate; rail starts 2 mm above bracket
+Z_Foot_Angle_Front,2,aluminum,machined,M6 to 3030 slot nuts; M6x12 to X plate; rail starts 2 mm above bracket
+Z_Top_Motor_Plate_130x60x8,1,aluminum,machined,
+MGN12_Rail_Z500,2,steel,purchased,
+MGN12H_Z,4,steel,purchased,
+Z_Rail_Datum_20x4x500,2,aluminum,machined,Five flush M5 countersunk screws to slot nuts; M3 tapped holes at rail pitch
+Carrier_Tray_124x130,1,PETG,print,"40 mm front-open mast slot, 6 mm rear bridge; supports box on two side wings"
+Y_Spine_Metal_Spacer_Left,2,aluminum,machined,
+MGN9_Rail_Y200,2,steel,purchased,
+MGN9H_Y,2,steel,purchased,
+Pin_Guide_Cheek,2,PETG,print,Ream to steel bushing fit; metal bushings required for wear
+Pin_Flanged_Bushing_4p1x6,2,purchased,purchased,"Replaceable bronze bushing; 6.1 pilot must be fitted/retained, not assumed press fit"
+Latch_Pin_D4x60,1,steel,purchased,"Ground steel pin, not printed; released lift 14 mm"
+MG90S_Envelope,1,purchased,purchased,Supplier output-shaft datum and >=150 degree usable travel must be verified
+Servo_Cradle,1,PETG,print,2x M3x8 to tapped metal mast; separate clamping lid; vendor servo datum still required
+Servo_Cradle_Lid,1,PETG,print,
+Latch_Scotch_Yoke,1,PETG,print,7 mm crank radius; end-to-end vertical stroke 14 mm; bench-test before use
+Pin_Collar_4x10x5,2,steel,purchased,Two miniature shaft collars retain the yoke on the ground pin
+Latch_Return_Spring_Envelope,1,steel,purchased,"Metal return spring, OD7 wire0.3 freeL19, solid<=1.8; target force 0.2..1.2N. Coil envelope only, supplier test mandatory"
+Latch_Crank_R7,1,PETG,print,Use supplier metal spline adapter; servo endpoint calibration required
+Servo_Horn_Interface_Envelope,1,purchased,purchased,Metal spline horn/interface envelope; MUST match selected MG90S output drawing
+Latch_Roller_D3,1,steel,purchased,3 mm ground pin with retaining grooves; two DIN6799 E-clips
+Roller_Clip_Envelope,2,steel,purchased,
+Y_Stop_24x4x10,2,rubber,purchased,
+Base_Splice_60x40,4,aluminum,machined,Four M5 bolts; matched datum and dowel holes to be frozen before machining.
+Column_Foot_28x40,16,aluminum,machined,
+Column_Pedestal_28x40,16,aluminum,machined,
+Column_Carrier_RoundSlot,4,aluminum,machined,One 6.2 round receiver and one 8x6.2 X slot; four M6 mounting bolts. Machine locating fits after first assembly.
+Column_Rear_Panel_170x630,4,aluminum,machined,
+Column_Datum_Pin_D6,8,steel,purchased,"One round H7 receiver, one diamond/slot receiver. Fit and positional tolerances pending."
+X_Datum_Bar_1050,2,aluminum,machined,Continuous metal datum; M3 rail taps and counterbored M5 attachment to base. Bolt lengths/head space require review.
+MGN12_X1050,2,steel,purchased,
+X_Stop_Low_Profile,4,rubber,purchased,Low-profile bumper contacts X plate below local power tray; metal backing and fasteners pending.
+Z_Stop_Rear_Clearance,4,rubber,purchased,
+Rack_M1p5_24T_X,9,PETG,print,"24 pitches=113.097 mm, 20deg, 12 mm tooth face, four M3 holes. Print lateral face down; coupon first."
+Rack_M1p5_24T_Z,5,PETG,print,Experimental printed lift teeth; independent metal catch mandatory.
+Rack_M1p5_24T_Y,2,PETG,print,Same pitch/phase as X/Z; align on continuous metal backing.
+Pinion_M1p5_20T_X,1,PETG,print,"Sampled involute, 0.30 mm total nominal backlash, metal clamping hub required."
+Pinion_M1p5_20T_Z,1,PETG,print,Not a brake. Printed tooth failure must not release the lift.
+Pinion_M1p5_20T_Y,1,PETG,print,
+Y_Spine_TwinGuide,1,aluminum,machined,
+Tray_Tube_V03,2,aluminum,machined,"Metal compression sleeves still required, including the new Y-spine end supports."
+Tube_End_Plug_V03,2,aluminum,machined,
+ZDT_RealMotor_X,1,purchased,purchased,"User STEP, 24 solids. Geometry only; voltage, mass, torque curve and brake not verified."
+ZDT_RealMotor_Z,1,purchased,purchased,"User STEP, 24 solids. Geometry only; voltage, mass, torque curve and brake not verified."
+ZDT_RealMotor_Y,1,purchased,purchased,"User STEP, 24 solids. Geometry only; voltage, mass, torque curve and brake not verified."
+Motor_Plate_50x50,2,aluminum,machined,31x31 M3 pattern; adjust mesh on slotted carrier. Confirm actual motor screw engagement.
+Z_Motor_Plate,1,aluminum,machined,
+Z_Reduction_10to1_CANDIDATE,1,purchased,candidate,"10:1 planetary allocation OD42 L45, input5/output8. Ratio/efficiency/backlash/mount drawing unselected; not a brake."
+Z_Reducer_Output_Shaft_CANDIDATE,1,steel,candidate,"8 mm output, 28 mm exposed candidate; integrate actual selected reducer drawing before fabrication."
+Y_Reduction_3to1_CANDIDATE,1,purchased,candidate,"3:1 gearbox allocation, OD42 L35, input5/output8. Not selected; match actual drawing before manufacturing."
+Y_Reducer_Output_CANDIDATE,1,steel,candidate,
+X_Motor_Leg,2,aluminum,machined,
+Z_Motor_Module_Link,1,aluminum,machined,
+Latch_Mast_V03_RoundSlot,1,aluminum,machined,"Removable head interface: two original M3 clamp screws, one round and one slotted D3 locating receiver."
+Head_Locator_D3,2,steel,purchased,
+Y_Motor_Leg,1,aluminum,machined,"Outboard metal cantilever bracket, clear of the full pinion swept circle."
+Metal_Pinion_Hub_X,1,steel,purchased,"Candidate flange hub, 5 mm clamp shaft; actual clamp/screws and torque proof pending."
+Metal_Pinion_Hub_Z,1,steel,purchased,"Candidate flange hub, 5 mm clamp shaft; actual clamp/screws and torque proof pending."
+Metal_Pinion_Hub_Y,1,steel,purchased,"Candidate flange hub, 5 mm clamp shaft; actual clamp/screws and torque proof pending."
+Local_Power_Case,2,PETG,print,"Pack candidate 85x65x42 + separate ESP32 bay. No battery, BMS, charger or voltage selection is implied."
+Local_Power_Lid,2,PETG,print,
+Battery_Candidate_85x65x42,2,purchased,candidate,"Packaging allocation ONLY. Cell chemistry, voltage, capacity, current, mass, BMS and enclosure fire behaviour pending."
+ESP32_Controller_Candidate,2,purchased,candidate,"Board envelope, local watchdog/limit inputs/driver interface still to be implemented."
+X_Power_Module_Tray,1,aluminum,machined,
+Z_Power_Module_Tray,1,aluminum,machined,
+Independent_Steel_Safety_Track,1,steel,machined,"Separate from printed rack. Hole pattern is for maintenance support, not an automatic ratchet."
+NC_Rail_Brake_CANDIDATE,1,safety,candidate,Unselected commercial normally-engaged brake envelope. Not modelled jaws or a certified catch. NO loaded Z operation yet.
+Safety_Track_Link,2,aluminum,machined,
+Brake_Module_Link,1,aluminum,machined,
+Bin_V03_Marker_Rails,20,PETG,print,"32x32 mm AprilTag card, front-left offset X=-36 Z=38, rails clear the centre latch. ID is not a safety signal."
+Marker_Card_32mm,24,purchased,print_paper,"AprilTag36h11, 32 mm OUTER card including quiet margin; black border square=25.6 mm. Use the latter for pose estimation."
+Column_Reference_Tag_Mount,4,PETG,print,"Fixed reference, distinct ID from box tags. Calibrate column-to-machine transform after reassembly."
+Camera_CANDIDATE_32x32,1,purchased,candidate,"Lens-front mechanical distance about 66..209 mm; camera intrinsics, camera/tool extrinsics and lighting calibration pending."
+Camera_Slotted_Mount,1,PETG,print,M3 slotted adjustment and cable/antenna clearance must match selected camera.
+IO_Deck,1,PETG,print,"Single-box exchange nest, human access from left; not an extra storage cell."
+IO_Inner_Shutter,1,guard,cut_panel,Manual prototype gate; powered latch/dual door interlock not implemented. Open pose +90 mm.
+IO_Shutter_Guide_Right,1,PETG,print,
+IO_Shutter_Guide_Left,1,PETG,print,
+IO_Shutter_Header,1,aluminum,machined,
+IO_Outer_Door,1,guard,cut_panel,Hinged left-side access; outer and inner doors must never both permit access.
+IO_Access_Tunnel_Horizontal,2,guard,cut_panel,
+IO_Access_Tunnel_Side,2,guard,cut_panel,
+IO_Roof,1,guard,cut_panel,
+IO_Rear_Wall,1,guard,cut_panel,
+IO_Right_Wall,1,guard,cut_panel,
+IO_Upper_Fixed_Shield,1,guard,cut_panel,Overlaps the closed shutter by 4 mm; prevents reaching over the inner door through the human port.
+IO_Lower_Fixed_Shield,1,guard,cut_panel,
+IO_Left_Upper_Wall,1,guard,cut_panel,
+IO_External_Reference_Card,1,purchased,print_paper,"AprilTag36h11 ID200 on the outside left guard, not a box ID."
+IO_Box_Back_Stop,1,PETG,print,
+Box_Presence_Sensor_CANDIDATE,1,purchased,candidate,
+Guard_Post_740,4,aluminum,machined,
+Guard_Cross_1200,2,aluminum,machined,
+Guard_Side_520,2,aluminum,machined,
+Guard_Panel_Y-371.5,1,guard,cut_panel,
+Guard_Panel_Y221.5,1,guard,cut_panel,
+Guard_Panel_X-351.5,1,guard,cut_panel,
+Guard_Panel_X901.5,1,guard,cut_panel,
+Guard_Roof,1,guard,cut_panel,
+X_Rack_Bolted_Adjustable_Foot,7,aluminum,machined,"Metal welded/machined L foot. Four M5 base slots (+/-1 mm Y); four M4 to rack backing. Align as ONE straight datum, lock after coupon setup."
+X_Rack_Backbone_R1,1,aluminum,machined,
+Base_Panel_1_Located_R1,1,aluminum,machined,Metal plate. Panel joints do not make a traversable rail splice.
+Z_Rack_Backbone_12x30,1,aluminum,machined,"12 mm metal backing, same rack mating face X=machine X-122. Five bolted rear supports; no printed member credited as composite stiffening."
+Z_Rack_Support_104x8x12,5,aluminum,machined,"Two M3 into backing, one M5 at actual centreline of left 3030 rear slot. Five spaced brackets act together; supplier T-nut and tool access require physical check."
+Y_Rack_Tube_Saddle,2,aluminum,machined,"Metal combined support: seated on spine, tube on top, rack backing on outer ledge. M4 spine/tube attachment; M3 lateral backing clamp."
+Y_Rack_Backbone_R1,1,aluminum,machined,
+Y_Module_Base_Short,1,aluminum,machined,"Moving head/motor bridge only, shortened from X+256 to X+120. Power node no longer rides on this cantilever."
+Local_Power_Case_Y_Stationary_Rotated,1,PETG,print,"Pack candidate 85x65x42 + separate ESP32 bay. No battery, BMS, charger or voltage selection is implied. Y node rides on Z; requires a local flexible 143 mm Y-stroke harness."
+Local_Power_Lid_Y_Stationary_Rotated,1,PETG,print, Y node rides on Z; requires a local flexible 143 mm Y-stroke harness.
+Battery_Candidate_85x65x42_Y_Stationary_Rotated,1,purchased,candidate,"Packaging allocation ONLY. Cell chemistry, voltage, capacity, current, mass, BMS and enclosure fire behaviour pending. Y node rides on Z; requires a local flexible 143 mm Y-stroke harness."
+ESP32_Controller_Candidate_Y_Stationary_Rotated,1,purchased,candidate,"Board envelope, local watchdog/limit inputs/driver interface still to be implemented. Y node rides on Z; requires a local flexible 143 mm Y-stroke harness."
+Y_Power_Tray_On_Z,1,aluminum,machined,"Dedicated Y battery, fixed on Z platform. Two flush low-head M4 at X-30 into support; four case M4 taps. Verify real screw/head and flexible harness."
+Y_Power_Z_Support,1,aluminum,machined,"Metal stepped bracket. Two M4 into carriage right edge, two flush tray M4. No Y-slider attachment; inspect edge thread and weld/machining route."
+Z_Carriage_130x100x8_R1,1,aluminum,machined,
+IO_Flanged_Leg_BaseToFrame,4,aluminum,machined,"Metal integral/welded flange. Bottom Z6, frame seat Z190. Four M5 to base; one M5 frame bolt into top pilot."
+IO_Frame_Matched_Fasteners,1,aluminum,machined,"Metal frame; four M5 to leg tops, four M4 nest attachment taps at actual nest hole positions."
+Base_Panel_0_Located_R1_R1_R1,1,aluminum,machined,Metal plate. Panel joints do not make a traversable rail splice.
+Base_Panel_2_Located_R1_R1,1,aluminum,machined,Metal plate. Panel joints do not make a traversable rail splice.

@@ -1,0 +1,16 @@
+{
+  "generator_sha256": "87563eaf463a7206f157ec226ce71ac3907b7f4caf93e08f53f833cff9db90db",
+  "assembly_step_readback": true,
+  "solid_count": 253,
+  "expected_component_count": 253,
+  "valid": true,
+  "extents_mm": [
+    786.0,
+    546.0,
+    769.0
+  ],
+  "volume_mm3": 23824556.666457914,
+  "expected_volume_mm3": 23824556.6691,
+  "manufacturing_release_allowed": false,
+  "pass": true
+}

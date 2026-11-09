@@ -1,0 +1,35 @@
+{
+  "fingerprint": "85591a8e8d478c15cd7ce83b9e3d36012129888750f780540bda3562168733b2",
+  "units": "mm",
+  "hardware_accepted": false,
+  "contract_version": "0.1-requirements-only",
+  "firmware_implemented": false,
+  "control_contract_sha256": "a776629809d91e086eddc9630643497b7ab95270b4084e5326c216c138eac4d2",
+  "nodes": [
+    "X",
+    "Z",
+    "Y"
+  ],
+  "radio_selected": false,
+  "heartbeat_timeout_ms_candidate": 250,
+  "command_max_age_ms_candidate": 150,
+  "message_requirements": [
+    "module identity",
+    "session identity",
+    "strictly increasing sequence",
+    "expiry",
+    "bounded target in mm",
+    "speed and acceleration limits",
+    "authenticated origin"
+  ],
+  "local_requirements": [
+    "trajectory generation",
+    "hard limits and homing",
+    "battery status",
+    "watchdog",
+    "independent safety-chain input",
+    "Z brake/anti-fall feedback",
+    "no auto-resume after fault"
+  ],
+  "ordinary_wifi_is_not_safety_rated": true
+}

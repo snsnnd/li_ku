@@ -1,0 +1,2189 @@
+{
+  "fingerprint": "04b8a5c32f1246951041e7caba7b6750a040deaca9065187ea2c9e3b2830f133",
+  "payload_target_kg": 1,
+  "mass_breakdown": [
+    {
+      "name": "z_post_-45",
+      "group": "xy",
+      "kg": 0.35,
+      "method": "ASSUMED3030 1kg/m"
+    },
+    {
+      "name": "z_post_45",
+      "group": "xy",
+      "kg": 0.35,
+      "method": "ASSUMED3030 1kg/m"
+    },
+    {
+      "name": "z_foot_rear_-45",
+      "group": "xy",
+      "kg": 0.014118491272166847,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_foot_front_-45",
+      "group": "xy",
+      "kg": 0.014118491272166848,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_foot_rear_45",
+      "group": "xy",
+      "kg": 0.014118491272166847,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_foot_front_45",
+      "group": "xy",
+      "kg": 0.014118491272166848,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_top_plate",
+      "group": "xy",
+      "kg": 0.23267950557339306,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_strip_-45",
+      "group": "xy",
+      "kg": 0.05215529692765813,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_-45",
+      "group": "xy",
+      "kg": 0.1772329634758887,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_-45_-79.0",
+      "group": "lift",
+      "kg": 0.072628735241733,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_-45_-29.0",
+      "group": "lift",
+      "kg": 0.072628735241733,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_strip_45",
+      "group": "xy",
+      "kg": 0.05215529692765813,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_45",
+      "group": "xy",
+      "kg": 0.1772329634758887,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_45_-79.0",
+      "group": "lift",
+      "kg": 0.072628735241733,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_45_-29.0",
+      "group": "lift",
+      "kg": 0.072628735241733,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_carriage",
+      "group": "lift",
+      "kg": 0.2676592395893381,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_stop_-45_80",
+      "group": "xy",
+      "kg": 0.0025919999999999997,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_stop_-45_584",
+      "group": "xy",
+      "kg": 0.0025919999999999997,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_stop_45_80",
+      "group": "xy",
+      "kg": 0.0025919999999999997,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_stop_45_584",
+      "group": "xy",
+      "kg": 0.0025919999999999997,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_independent_safety_track",
+      "group": "xy",
+      "kg": 0.41672202313163187,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_brake_candidate",
+      "group": "lift",
+      "kg": 0.6301352000000002,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "safety_track_link_85",
+      "group": "xy",
+      "kg": 0.017496,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "safety_track_link_625",
+      "group": "xy",
+      "kg": 0.017496,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "brake_module_link",
+      "group": "lift",
+      "kg": 0.00378,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_real_motor",
+      "group": "xy",
+      "kg": 0.5,
+      "method": "ASSUMED motor+driver0.50kg; weigh actual unit"
+    },
+    {
+      "name": "z_working_nut",
+      "group": "lift",
+      "kg": 0.01141266508732488,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_safety_nut",
+      "group": "lift",
+      "kg": 0.01141266508732488,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_nut_bridge",
+      "group": "lift",
+      "kg": 0.2669050028253356,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_safety_cage",
+      "group": "lift",
+      "kg": 0.11624086440826116,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "safety_nut_key_-8",
+      "group": "lift",
+      "kg": 0.0009696902716423309,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "safety_nut_key_8",
+      "group": "lift",
+      "kg": 0.0009696902716423309,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_fixed_bearing_housing",
+      "group": "xy",
+      "kg": 0.1370111702376202,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_thrust_end_cap",
+      "group": "xy",
+      "kg": 0.07331926068213619,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_bearing_hanger",
+      "group": "xy",
+      "kg": 0.13178769006258045,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_fixed_radial_bearing",
+      "group": "xy",
+      "kg": 0.012004666916923017,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_thrust_abutment",
+      "group": "xy",
+      "kg": 0.009872307651750505,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_thrust_bearing_604",
+      "group": "xy",
+      "kg": 0.0029628020631300316,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_thrust_bearing_616.5",
+      "group": "xy",
+      "kg": 0.0029628020631300316,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_shaft_collar",
+      "group": "xy",
+      "kg": 0.010462494682376512,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_thrust_cross_pin",
+      "group": "xy",
+      "kg": 0.000616537558266997,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_floating_bearing",
+      "group": "xy",
+      "kg": 0.014579838331591733,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_floating_bearing_cap",
+      "group": "xy",
+      "kg": 0.013552234918871822,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_floating_radial_bearing",
+      "group": "xy",
+      "kg": 0.012004666916923017,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_floating_pedestal",
+      "group": "xy",
+      "kg": 0.1070351735158387,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_coupling",
+      "group": "xy",
+      "kg": 0.05077032657939268,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_screw",
+      "group": "xy",
+      "kg": 0.10527583552022506,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "maintenance_shoe",
+      "group": "lift",
+      "kg": 0.04845091561570044,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "maintenance_pin",
+      "group": "pin",
+      "kg": 0.003945840372908779,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_-45_0",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_-45_1",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_-45_2",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_-45_3",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_-45_4",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_-45_5",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_-45_6",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_-45_7",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_-45_8",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_-45_9",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_45_0",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_45_1",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_45_2",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_45_3",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_45_4",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_45_5",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_45_6",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_45_7",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_45_8",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_rail_bolt_45_9",
+      "group": "xy",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_bolt_-45_-79_-10_-10",
+      "group": "lift",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_bolt_-45_-79_-10_10",
+      "group": "lift",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_bolt_-45_-79_10_-10",
+      "group": "lift",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_bolt_-45_-79_10_10",
+      "group": "lift",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_bolt_-45_-29_-10_-10",
+      "group": "lift",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_bolt_-45_-29_-10_10",
+      "group": "lift",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_bolt_-45_-29_10_-10",
+      "group": "lift",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_bolt_-45_-29_10_10",
+      "group": "lift",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_bolt_45_-79_-10_-10",
+      "group": "lift",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_bolt_45_-79_-10_10",
+      "group": "lift",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_bolt_45_-79_10_-10",
+      "group": "lift",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_bolt_45_-79_10_10",
+      "group": "lift",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_bolt_45_-29_-10_-10",
+      "group": "lift",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_bolt_45_-29_-10_10",
+      "group": "lift",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_bolt_45_-29_10_-10",
+      "group": "lift",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_block_bolt_45_-29_10_10",
+      "group": "lift",
+      "kg": 0.0008436083409767307,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_motor_flange_bolt_-15.5_-15.5",
+      "group": "xy",
+      "kg": 0.000985658594401443,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_motor_flange_bolt_-15.5_15.5",
+      "group": "xy",
+      "kg": 0.000985658594401443,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_motor_flange_bolt_15.5_-15.5",
+      "group": "xy",
+      "kg": 0.000985658594401443,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_motor_flange_bolt_15.5_15.5",
+      "group": "xy",
+      "kg": 0.000985658594401443,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_bridge_bolt_-23_-54",
+      "group": "lift",
+      "kg": 0.002689645097939748,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_bridge_washer_-23_-54",
+      "group": "lift",
+      "kg": 0.0003853976276727083,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_bridge_nut_-23_-54",
+      "group": "lift",
+      "kg": 0.0007179502281196852,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_bridge_bolt_-23_-22",
+      "group": "lift",
+      "kg": 0.002689645097939748,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_bridge_washer_-23_-22",
+      "group": "lift",
+      "kg": 0.0003853976276727083,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_bridge_nut_-23_-22",
+      "group": "lift",
+      "kg": 0.0007179502281196852,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_bridge_bolt_23_-54",
+      "group": "lift",
+      "kg": 0.002689645097939748,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_bridge_washer_23_-54",
+      "group": "lift",
+      "kg": 0.0003853976276727083,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_bridge_nut_23_-54",
+      "group": "lift",
+      "kg": 0.0007179502281196852,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_bridge_bolt_23_-22",
+      "group": "lift",
+      "kg": 0.002689645097939748,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_bridge_washer_23_-22",
+      "group": "lift",
+      "kg": 0.0003853976276727083,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_bridge_nut_23_-22",
+      "group": "lift",
+      "kg": 0.0007179502281196852,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_top_M8_-45",
+      "group": "xy",
+      "kg": 0.015049681797297342,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_top_M8_45",
+      "group": "xy",
+      "kg": 0.015049681797297342,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_base_M8_-45",
+      "group": "xy",
+      "kg": 0.00802250179518395,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "z_base_M8_45",
+      "group": "xy",
+      "kg": 0.00802250179518395,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "base",
+      "group": "fixed",
+      "kg": 9.676534531755328,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_datum_-1",
+      "group": "fixed",
+      "kg": 0.7693212750392592,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_-1",
+      "group": "fixed",
+      "kg": 0.28357274156142254,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "gantry_end_-1",
+      "group": "gantry",
+      "kg": 0.14778267774407383,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_-1_-55",
+      "group": "gantry",
+      "kg": 0.07262873524173302,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_-1_55",
+      "group": "gantry",
+      "kg": 0.07262873524173302,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_datum_1",
+      "group": "fixed",
+      "kg": 0.7693212750392592,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_1",
+      "group": "fixed",
+      "kg": 0.28357274156142254,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "gantry_end_1",
+      "group": "gantry",
+      "kg": 0.14778267774407383,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_1_-55",
+      "group": "gantry",
+      "kg": 0.07262873524173302,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_1_55",
+      "group": "gantry",
+      "kg": 0.07262873524173302,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "gantry_beam_-55",
+      "group": "gantry",
+      "kg": 0.9923292666123277,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_-55",
+      "group": "gantry",
+      "kg": 0.3126000379090113,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_-55_-45",
+      "group": "xy",
+      "kg": 0.07262873524173304,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_-55_45",
+      "group": "xy",
+      "kg": 0.07262873524173304,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "gantry_beam_55",
+      "group": "gantry",
+      "kg": 0.9923292666123277,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_55",
+      "group": "gantry",
+      "kg": 0.3126000379090113,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_55_-45",
+      "group": "xy",
+      "kg": 0.07262873524173304,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_55_45",
+      "group": "xy",
+      "kg": 0.07262873524173304,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "xy_plate",
+      "group": "xy",
+      "kg": 0.8934139790013381,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "fork",
+      "group": "lift",
+      "kg": 0.969771634757886,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "fork_bolt_-45_-54",
+      "group": "lift",
+      "kg": 0.0021564017637946487,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "fork_bolt_-45_-12",
+      "group": "lift",
+      "kg": 0.0021564017637946487,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "fork_bolt_45_-54",
+      "group": "lift",
+      "kg": 0.0021564017637946487,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "fork_bolt_45_-12",
+      "group": "lift",
+      "kg": 0.0021564017637946487,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "bin",
+      "group": "bin",
+      "kg": 0.11930798591999979,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "bin_insert",
+      "group": "bin",
+      "kg": 0.04455,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "cell_rail_-1",
+      "group": "fixed",
+      "kg": 0.046656,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "cell_post_-1_-55",
+      "group": "fixed",
+      "kg": 0.37324831414598686,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "cell_bracket_-1_-55",
+      "group": "fixed",
+      "kg": 0.01763082084003611,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "cell_post_-1_55",
+      "group": "fixed",
+      "kg": 0.37324831414598686,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "cell_bracket_-1_55",
+      "group": "fixed",
+      "kg": 0.01763082084003611,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "cell_rail_1",
+      "group": "fixed",
+      "kg": 0.046656,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "cell_post_1_-55",
+      "group": "fixed",
+      "kg": 0.37324831414598686,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "cell_bracket_1_-55",
+      "group": "fixed",
+      "kg": 0.01763082084003611,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "cell_post_1_55",
+      "group": "fixed",
+      "kg": 0.37324831414598686,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "cell_bracket_1_55",
+      "group": "fixed",
+      "kg": 0.01763082084003611,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "cell_back_stop",
+      "group": "fixed",
+      "kg": 0.012192,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_rail_-1",
+      "group": "fixed",
+      "kg": 0.046656,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_post_-1_-55",
+      "group": "fixed",
+      "kg": 0.2825427182501744,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_bracket_-1_-55",
+      "group": "fixed",
+      "kg": 0.01763082084003611,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_post_-1_55",
+      "group": "fixed",
+      "kg": 0.2825427182501744,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_bracket_-1_55",
+      "group": "fixed",
+      "kg": 0.01763082084003611,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_rail_1",
+      "group": "fixed",
+      "kg": 0.046656,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_post_1_-55",
+      "group": "fixed",
+      "kg": 0.2825427182501744,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_bracket_1_-55",
+      "group": "fixed",
+      "kg": 0.01763082084003611,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_post_1_55",
+      "group": "fixed",
+      "kg": 0.2825427182501744,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_bracket_1_55",
+      "group": "fixed",
+      "kg": 0.01763082084003611,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_back_stop",
+      "group": "fixed",
+      "kg": 0.012192,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_inner_shutter",
+      "group": "door",
+      "kg": 0.1011024,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_shutter_guide_right",
+      "group": "fixed",
+      "kg": 0.01191768,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_shutter_guide_left",
+      "group": "fixed",
+      "kg": 0.01191768,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_shutter_header",
+      "group": "fixed",
+      "kg": 0.02332800000000001,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_outer_door",
+      "group": "fixed",
+      "kg": 0.049679999999999995,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_tunnel_horizontal_187",
+      "group": "fixed",
+      "kg": 0.0762588,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_tunnel_horizontal_290",
+      "group": "fixed",
+      "kg": 0.0762588,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_tunnel_side_-1.5",
+      "group": "fixed",
+      "kg": 0.0585756,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_tunnel_side_139.5",
+      "group": "fixed",
+      "kg": 0.0585756,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_roof",
+      "group": "fixed",
+      "kg": 0.143208,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_rear_wall",
+      "group": "fixed",
+      "kg": 0.12117599999999999,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_right_wall",
+      "group": "fixed",
+      "kg": 0.10891079999999999,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_upper_fixed_shield",
+      "group": "fixed",
+      "kg": 0.0855648,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_lower_fixed_shield",
+      "group": "fixed",
+      "kg": 0.004896,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_left_upper_wall",
+      "group": "fixed",
+      "kg": 0.0560448,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "io_external_reference_tag",
+      "group": "fixed",
+      "kg": 0.0016076799999999996,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "motor_A",
+      "group": "fixed",
+      "kg": 0.5,
+      "method": "ASSUMED motor+driver0.50kg; weigh actual unit"
+    },
+    {
+      "name": "motor_stand_A",
+      "group": "fixed",
+      "kg": 0.32200859823492506,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "motor_A_pulley",
+      "group": "fixed",
+      "kg": 0.01760891329846311,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "motor_A_flange_-15.5_-15.5",
+      "group": "fixed",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "motor_A_flange_-15.5_15.5",
+      "group": "fixed",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "motor_A_flange_15.5_-15.5",
+      "group": "fixed",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "motor_A_flange_15.5_15.5",
+      "group": "fixed",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "motor_B",
+      "group": "fixed",
+      "kg": 0.5,
+      "method": "ASSUMED motor+driver0.50kg; weigh actual unit"
+    },
+    {
+      "name": "motor_stand_B",
+      "group": "fixed",
+      "kg": 0.32200859823492506,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "motor_B_pulley",
+      "group": "fixed",
+      "kg": 0.01760891329846311,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "motor_B_flange_-15.5_-15.5",
+      "group": "fixed",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "motor_B_flange_-15.5_15.5",
+      "group": "fixed",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "motor_B_flange_15.5_-15.5",
+      "group": "fixed",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "motor_B_flange_15.5_15.5",
+      "group": "fixed",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_0",
+      "group": "gantry",
+      "kg": 0.0049954796626577504,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_0_bearing_0",
+      "group": "gantry",
+      "kg": 0.0018247045574470038,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_0_bearing_1",
+      "group": "gantry",
+      "kg": 0.0018247045574470038,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_0_stem",
+      "group": "gantry",
+      "kg": 0.00061592102070873,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_0_axle",
+      "group": "gantry",
+      "kg": 0.00702655524405731,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_0_middle",
+      "group": "gantry",
+      "kg": 0.0009368904735425284,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_0_top",
+      "group": "gantry",
+      "kg": 0.0002342226183856321,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "gantry_idler_arm_-1",
+      "group": "gantry",
+      "kg": 0.05560134684268388,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_2",
+      "group": "fixed",
+      "kg": 0.0049954796626577504,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_2_bearing_0",
+      "group": "fixed",
+      "kg": 0.0018247045574470038,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_2_bearing_1",
+      "group": "fixed",
+      "kg": 0.0018247045574470038,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_2_stem",
+      "group": "fixed",
+      "kg": 0.00061592102070873,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_2_axle",
+      "group": "fixed",
+      "kg": 0.0051769425692563195,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_2_stand",
+      "group": "fixed",
+      "kg": 0.020732618742883104,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_3",
+      "group": "fixed",
+      "kg": 0.0049954796626577504,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_3_bearing_0",
+      "group": "fixed",
+      "kg": 0.0018247045574470038,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_3_bearing_1",
+      "group": "fixed",
+      "kg": 0.0018247045574470038,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_3_stem",
+      "group": "fixed",
+      "kg": 0.00061592102070873,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_3_axle",
+      "group": "fixed",
+      "kg": 0.0051769425692563195,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_3_stand",
+      "group": "fixed",
+      "kg": 0.020732618742883104,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_4",
+      "group": "gantry",
+      "kg": 0.0049954796626577504,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_4_bearing_0",
+      "group": "gantry",
+      "kg": 0.0018247045574470038,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_4_bearing_1",
+      "group": "gantry",
+      "kg": 0.0018247045574470038,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_4_stem",
+      "group": "gantry",
+      "kg": 0.00061592102070873,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_4_axle",
+      "group": "gantry",
+      "kg": 0.00702655524405731,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_4_middle",
+      "group": "gantry",
+      "kg": 0.0009368904735425284,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_A_4_top",
+      "group": "gantry",
+      "kg": 0.0002342226183856321,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "gantry_idler_arm_1",
+      "group": "gantry",
+      "kg": 0.055601346842683884,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_B_0",
+      "group": "gantry",
+      "kg": 0.0049954796626577504,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_B_0_bearing_0",
+      "group": "gantry",
+      "kg": 0.0018247045574470038,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_B_0_bearing_1",
+      "group": "gantry",
+      "kg": 0.0018247045574470038,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_B_2",
+      "group": "fixed",
+      "kg": 0.0049954796626577504,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_B_2_bearing_0",
+      "group": "fixed",
+      "kg": 0.0018247045574470038,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_B_2_bearing_1",
+      "group": "fixed",
+      "kg": 0.0018247045574470038,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_B_2_stem",
+      "group": "fixed",
+      "kg": 0.0013550262455592063,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_B_2_axle",
+      "group": "fixed",
+      "kg": 0.00702655524405731,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_B_2_stand",
+      "group": "fixed",
+      "kg": 0.020732618742883104,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_B_3",
+      "group": "fixed",
+      "kg": 0.0049954796626577504,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_B_3_bearing_0",
+      "group": "fixed",
+      "kg": 0.0018247045574470038,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_B_3_bearing_1",
+      "group": "fixed",
+      "kg": 0.0018247045574470038,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_B_3_stem",
+      "group": "fixed",
+      "kg": 0.0013550262455592063,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_B_3_axle",
+      "group": "fixed",
+      "kg": 0.00702655524405731,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_B_3_stand",
+      "group": "fixed",
+      "kg": 0.020732618742883104,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_B_4",
+      "group": "gantry",
+      "kg": 0.0049954796626577504,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_B_4_bearing_0",
+      "group": "gantry",
+      "kg": 0.0018247045574470038,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "idler_B_4_bearing_1",
+      "group": "gantry",
+      "kg": 0.0018247045574470038,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "belt_A",
+      "group": "belt",
+      "kg": 0.02059017695963232,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "clamp_A_-1",
+      "group": "xy",
+      "kg": 0.005656475187107781,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "clamp_A_1",
+      "group": "xy",
+      "kg": 0.005656475187107781,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "belt_B",
+      "group": "belt",
+      "kg": 0.019682976959632222,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "clamp_B_-1",
+      "group": "xy",
+      "kg": 0.0035810705856053737,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "clamp_B_1",
+      "group": "xy",
+      "kg": 0.0035810705856053737,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "guard_post_-315_-385",
+      "group": "fixed",
+      "kg": 0.6464076948896978,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "guard_post_-315_250",
+      "group": "fixed",
+      "kg": 0.6464076948896978,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "guard_side_-315",
+      "group": "fixed",
+      "kg": 0.6411947296083294,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "guard_post_315_-385",
+      "group": "fixed",
+      "kg": 0.6464076948896978,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "guard_post_315_250",
+      "group": "fixed",
+      "kg": 0.6464076948896978,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "guard_side_315",
+      "group": "fixed",
+      "kg": 0.6411947296083294,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "guard_cross_-385",
+      "group": "fixed",
+      "kg": 0.6359817643269609,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "guard_cross_250",
+      "group": "fixed",
+      "kg": 0.6359817643269609,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "guard_panel_x-331.5",
+      "group": "fixed",
+      "kg": 1.536624,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "guard_panel_x331.5",
+      "group": "fixed",
+      "kg": 1.586304,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "guard_panel_y-401.5",
+      "group": "fixed",
+      "kg": 1.539648,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "guard_panel_y281.5",
+      "group": "fixed",
+      "kg": 1.539648,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "guard_roof",
+      "group": "fixed",
+      "kg": 1.6447535999999998,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_-1_0",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_-1_1",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_-1_2",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_-1_3",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_-1_4",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_-1_5",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_-1_6",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_-1_7",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_-1_8",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_-1_9",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_-1_10",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_-1_11",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_-1_12",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_-1_13",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_-1_14",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_-1_15",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_bolt_-1_-55_-10_-10",
+      "group": "gantry",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_bolt_-1_-55_-10_10",
+      "group": "gantry",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_bolt_-1_-55_10_-10",
+      "group": "gantry",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_bolt_-1_-55_10_10",
+      "group": "gantry",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_bolt_-1_55_-10_-10",
+      "group": "gantry",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_bolt_-1_55_-10_10",
+      "group": "gantry",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_bolt_-1_55_10_-10",
+      "group": "gantry",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_bolt_-1_55_10_10",
+      "group": "gantry",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_1_0",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_1_1",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_1_2",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_1_3",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_1_4",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_1_5",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_1_6",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_1_7",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_1_8",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_1_9",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_1_10",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_1_11",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_1_12",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_1_13",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_1_14",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_rail_bolt_1_15",
+      "group": "fixed",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_bolt_1_-55_-10_-10",
+      "group": "gantry",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_bolt_1_-55_-10_10",
+      "group": "gantry",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_bolt_1_-55_10_-10",
+      "group": "gantry",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_bolt_1_-55_10_10",
+      "group": "gantry",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_bolt_1_55_-10_-10",
+      "group": "gantry",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_bolt_1_55_-10_10",
+      "group": "gantry",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_bolt_1_55_10_-10",
+      "group": "gantry",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "y_block_bolt_1_55_10_10",
+      "group": "gantry",
+      "kg": 0.0008436083409767318,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_-55_0",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_-55_1",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_-55_2",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_-55_3",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_-55_4",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_-55_5",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_-55_6",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_-55_7",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_-55_8",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_-55_9",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_-55_10",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_-55_11",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_-55_12",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_-55_13",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_-55_14",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_-55_15",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_-55_16",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_bolt_-55_-45_-10_-10",
+      "group": "xy",
+      "kg": 0.0011277088478261637,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_bolt_-55_-45_-10_10",
+      "group": "xy",
+      "kg": 0.0011277088478261637,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_bolt_-55_-45_10_-10",
+      "group": "xy",
+      "kg": 0.0011277088478261637,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_bolt_-55_-45_10_10",
+      "group": "xy",
+      "kg": 0.0011277088478261637,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_bolt_-55_45_-10_-10",
+      "group": "xy",
+      "kg": 0.0011277088478261637,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_bolt_-55_45_-10_10",
+      "group": "xy",
+      "kg": 0.0011277088478261637,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_bolt_-55_45_10_-10",
+      "group": "xy",
+      "kg": 0.0011277088478261637,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_bolt_-55_45_10_10",
+      "group": "xy",
+      "kg": 0.0011277088478261637,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_55_0",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_55_1",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_55_2",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_55_3",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_55_4",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_55_5",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_55_6",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_55_7",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_55_8",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_55_9",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_55_10",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_55_11",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_55_12",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_55_13",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_55_14",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_55_15",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_rail_bolt_55_16",
+      "group": "gantry",
+      "kg": 0.0009146334676890899,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_bolt_55_-45_-10_-10",
+      "group": "xy",
+      "kg": 0.0011277088478261637,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_bolt_55_-45_-10_10",
+      "group": "xy",
+      "kg": 0.0011277088478261637,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_bolt_55_-45_10_-10",
+      "group": "xy",
+      "kg": 0.0011277088478261637,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_bolt_55_-45_10_10",
+      "group": "xy",
+      "kg": 0.0011277088478261637,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_bolt_55_45_-10_-10",
+      "group": "xy",
+      "kg": 0.0011277088478261637,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_bolt_55_45_-10_10",
+      "group": "xy",
+      "kg": 0.0011277088478261637,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_bolt_55_45_10_-10",
+      "group": "xy",
+      "kg": 0.0011277088478261637,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "x_block_bolt_55_45_10_10",
+      "group": "xy",
+      "kg": 0.0011277088478261637,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "limit_x_min",
+      "group": "gantry",
+      "kg": 0.0065312,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "limit_x_max",
+      "group": "gantry",
+      "kg": 0.0065312,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "limit_y_min",
+      "group": "fixed",
+      "kg": 0.0065312,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "limit_y_max",
+      "group": "fixed",
+      "kg": 0.0065312,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "limit_z_min",
+      "group": "xy",
+      "kg": 0.0065312,
+      "method": "CAD volume x assumed density"
+    },
+    {
+      "name": "limit_z_max",
+      "group": "xy",
+      "kg": 0.0065312,
+      "method": "CAD volume x assumed density"
+    }
+  ],
+  "moving_masses_kg_including_payload_and_allowance": {
+    "X": 8.814074550889684,
+    "Y": 12.531080555253462,
+    "Z": 4.119375807127122
+  },
+  "axis_force_N": {
+    "X": 6.857518562361159,
+    "Y": 8.062570050472894,
+    "Z": 48.43847051703446
+  },
+  "AB_motor_screen": {
+    "mapping": "A=X+Y;B=-X+Y",
+    "motor_force_worst_N": 7.460044306417027,
+    "required_each_motor_torque_SF2_Nm": 0.11873029270508197,
+    "candidate_axis_speed_mm_s": 8,
+    "worst_simultaneous_motor_rpm": 24.0,
+    "motor_curve_verified": false,
+    "efficiency_assumed": 0.8
+  },
+  "Z_motor_screen": {
+    "required_torque_SF2_Nm": 0.12334755229755312,
+    "speed_mm_s": 2,
+    "rpm": 60,
+    "efficiency_assumed": 0.25,
+    "motor_curve_verified": false
+  },
+  "fork_screen": {
+    "two_steel_fingers_mm": [
+      18,
+      8,
+      165
+    ],
+    "assumed_E_MPa": 200000,
+    "conservative_all_lift_mass_at_tip_deflection_mm": 0.19690713635075688,
+    "nominal_root_stress_MPa": 17.358204857366996,
+    "note": "Over-conservative all lifted assembly mass on both fingers; ideal equal sharing/weld clamp. No weld/fastener/bin creep acceptance."
+  },
+  "gantry_beam_screen": {
+    "two_box_sections_mm": [
+      40,
+      60,
+      4
+    ],
+    "support_span_mm": 410,
+    "I_each_mm4": 345045.3333333333,
+    "ideal_shared_central_load_deflection_mm": 0.00260646851642252,
+    "note": "Two ideal simple beams share weight equally; rail/joint/endplate flexibility and unequal loading excluded. Not a guide moment or actual deflection acceptance."
+  },
+  "belt_pretension_screen": {
+    "example_only_N": 15,
+    "motor_radial_load_approx_N": 30,
+    "working_tension_selected": false,
+    "shaft_bearing_rating_verified": false
+  },
+  "architecture_tradeoff": "No moving Ymotor/servo/pusher, but BOTH XY directions now move fullZ tower; gantry and base larger. Not claimed smaller/lighter/optimal overall thanE02.",
+  "hardware_accepted": false,
+  "loaded_operation_allowed": false,
+  "blockers": [
+    "Actual A/B coordinated ZDT interface, torque-speed/current/voltage/temperature and measured mass",
+    "Open belt clamp teeth, tension/locking, idler inner-ring stack/axles and actual motor shaft/hub retention",
+    "Rail/block ratings and planar anti-tip moments; box-beam flatness/joints, fork welds/fasteners and bench anchors",
+    "New bin/outer support/fork seating and micro-lift clearance/endurance; no direct shelf/bin compatibility withE02",
+    "Independent automatic fall protection and actual limit/door/E-stop/earthing/protection unimplemented",
+    "Z journal/nut/thrust/cross-pin fits and preload; flexible XY/Z wiring; full automation firmware absent"
+  ]
+}

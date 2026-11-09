@@ -1,0 +1,3122 @@
+{
+  "fingerprint": "9aa159701f5f7b92a619567f41d02b170f08e550775c5dcb35b715ba474b2cd7",
+  "units": "mm",
+  "parts": [
+    {
+      "code": "P01",
+      "name": "齿条_原齿形24齿距",
+      "quantity": 6,
+      "process": "print",
+      "volume_mm3": 23246.916340990603,
+      "notes": [
+        "m1.5 / 20deg；24齿距，L=113.097336；不可取整为113。",
+        "每轴两段，接缝必须共面、共相位。"
+      ],
+      "features": [
+        "齿宽12；底宽30；底厚6.3；节线高8；齿顶高9.5。",
+        "4x Ø3.4：X=28.274334/84.823002，Y=±11；基准为左端X0/底面Z0。"
+      ],
+      "local_bounds_mm": [
+        0.0,
+        -15.0,
+        0.0,
+        113.09733552923255,
+        15.0,
+        9.5
+      ],
+      "extents_mm": [
+        113.09733552923255,
+        30.0,
+        9.5
+      ],
+      "print_extents_mm": [
+        113.0973357292326,
+        30.00000020000006,
+        9.50052859059864
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P02",
+      "name": "小齿轮_原渐开线20T",
+      "quantity": 3,
+      "process": "print",
+      "volume_mm3": 6533.896387183715,
+      "notes": [
+        "原 V03 齿形；不承担防坠；不得做载荷认证。"
+      ],
+      "features": [
+        "m1.5 / 20齿 / 20deg；节圆Ø30，齿顶圆Ø33，齿根圆Ø26.25。",
+        "厚12；中心孔Ø12.2；2x Ø3.4，中心X=±9、Y=0。"
+      ],
+      "local_bounds_mm": [
+        -16.5,
+        -16.5,
+        0.0,
+        16.5,
+        16.5,
+        12.0
+      ],
+      "extents_mm": [
+        33.0,
+        33.0,
+        12.0
+      ],
+      "print_extents_mm": [
+        33.00000020000002,
+        33.00000020000002,
+        12.00379217959005
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P03",
+      "name": "手轮与齿轮连接套",
+      "quantity": 3,
+      "process": "print",
+      "volume_mm3": 7643.243598771676,
+      "notes": [
+        "只用于空箱手动验证；去掉支撑后不得磨削定位套圆柱。",
+        "打印时套筒端朝下，法兰下方需要支撑。"
+      ],
+      "features": [
+        "套筒Ø11.8、通孔Ø6.4；Z=-6..26；法兰Ø24，Z12..16。",
+        "手轮Ø38，Z26..30；2xØ6工具孔X±9；2xØ7手指孔Y±12。",
+        "法兰2xØ3.4，X±9；用M3x20穿齿轮锁紧。"
+      ],
+      "local_bounds_mm": [
+        -19.0,
+        -19.0,
+        -6.0,
+        19.0,
+        19.0,
+        30.0
+      ],
+      "extents_mm": [
+        38.0,
+        38.0,
+        36.0
+      ],
+      "print_extents_mm": [
+        38.011811283968996,
+        38.00000020000002,
+        36.00773956817969
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P04",
+      "name": "轴向垫片_1p8",
+      "quantity": 6,
+      "process": "print",
+      "volume_mm3": 145.66936816165156,
+      "notes": [
+        "配金属隔套L40；总名义轴向游隙0.4，不得拧紧到夹住转动件。"
+      ],
+      "features": [
+        "Ø12 / Ø6.4 / 厚1.8。"
+      ],
+      "local_bounds_mm": [
+        -6.0,
+        -6.0,
+        0.0,
+        6.0,
+        6.0,
+        1.8
+      ],
+      "extents_mm": [
+        12.0,
+        12.0,
+        1.8
+      ],
+      "print_extents_mm": [
+        12.003730015990207,
+        12.000000200000004,
+        1.8037300159902083
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P05",
+      "name": "通用手动滑台",
+      "quantity": 2,
+      "process": "print",
+      "volume_mm3": 90540.36641643386,
+      "notes": [
+        "沿X端面朝下打印；先用配合试块检查导向间隙。",
+        "只有X/Y使用；Z用P06带锁孔版。"
+      ],
+      "features": [
+        "导向中心距80；滑块长60；桥板60x112x6，Z49..55。",
+        "安装孔Ø3.4：X±20，Y±20/±40，穿桥板。",
+        "M4轴孔：X0,Z29，沿Y；轴座Y14..20。",
+        "截面参照S02：标称间隙0.35，不能按外廓猜滑槽。"
+      ],
+      "local_bounds_mm": [
+        -30.0,
+        -56.0,
+        6.349999999999999,
+        30.000000000000007,
+        56.0,
+        55.0
+      ],
+      "extents_mm": [
+        60.00000000000001,
+        112.0,
+        48.65
+      ],
+      "print_extents_mm": [
+        48.65052859059865,
+        112.00000020000007,
+        60.00000020000006
+      ],
+      "print_orientation": "X end on bed"
+    },
+    {
+      "code": "P06",
+      "name": "Z滑台_带手动锁孔",
+      "quantity": 1,
+      "process": "print",
+      "volume_mm3": 92753.13456577351,
+      "notes": [
+        "必须装钢制M4锁销；打印滑台与齿轮都不是安全防坠器。"
+      ],
+      "features": [
+        "P05全部尺寸；另加锁耳X±12,Y=-72..-50,Z49..55；Ø4.4位于X0,Y-66。"
+      ],
+      "local_bounds_mm": [
+        -30.0,
+        -72.0,
+        6.349999999999999,
+        30.000000000000007,
+        56.0,
+        55.0
+      ],
+      "extents_mm": [
+        60.00000000000001,
+        128.0,
+        48.65
+      ],
+      "print_extents_mm": [
+        48.65068399959823,
+        128.00000020000002,
+        60.00000020000006
+      ],
+      "print_orientation": "X end on bed"
+    },
+    {
+      "code": "P07",
+      "name": "可拆行程端挡",
+      "quantity": 6,
+      "process": "print",
+      "volume_mm3": 9272.925511396019,
+      "notes": [
+        "滑台从轨道端部装入后，再安装两端挡。不可省略。"
+      ],
+      "features": [
+        "8x120，Z6..22；两安装孔Ø3.4位于X0,Y±23；中央通道宽36、顶高17。"
+      ],
+      "local_bounds_mm": [
+        -4.0,
+        -60.0,
+        5.999999999999998,
+        4.000000000000001,
+        60.0,
+        22.0
+      ],
+      "extents_mm": [
+        8.0,
+        120.0,
+        16.0
+      ],
+      "print_extents_mm": [
+        16.00105698119725,
+        120.00000020000002,
+        8.000000200000056
+      ],
+      "print_orientation": "X end on bed"
+    },
+    {
+      "code": "P08",
+      "name": "X轴打印导向底座",
+      "quantity": 1,
+      "process": "print",
+      "volume_mm3": 236214.15463470735,
+      "notes": [
+        "导向截面见S02；这是打印滑动导向，不等效于正式金属直线导轨。",
+        "所有M3接收孔下方为5.8对边六角螺母窝，深2.6。"
+      ],
+      "features": [
+        "240x120x6；导轨长220，中心Y±40；截面顶高16。",
+        "齿条左端X=-113.097336/0；两段共8孔，Ø3.4。",
+        "端挡安装孔X±106,Y±23；其余孔坐标见本页坐标表。",
+        "M3孔坐标：X=-84.823002, Y=-11.000000。",
+        "M3孔坐标：X=-84.823002, Y=11.000000。",
+        "M3孔坐标：X=-28.274334, Y=-11.000000。",
+        "M3孔坐标：X=-28.274334, Y=11.000000。",
+        "M3孔坐标：X=28.274334, Y=-11.000000。",
+        "M3孔坐标：X=28.274334, Y=11.000000。",
+        "M3孔坐标：X=84.823002, Y=-11.000000。",
+        "M3孔坐标：X=84.823002, Y=11.000000。",
+        "M3孔坐标：X=-106.000000, Y=-23.000000。",
+        "M3孔坐标：X=-106.000000, Y=23.000000。",
+        "M3孔坐标：X=106.000000, Y=-23.000000。",
+        "M3孔坐标：X=106.000000, Y=23.000000。",
+        "M3孔坐标：X=-116.000000, Y=-40.000000。",
+        "M3孔坐标：X=-116.000000, Y=40.000000。",
+        "M3孔坐标：X=116.000000, Y=-40.000000。",
+        "M3孔坐标：X=116.000000, Y=40.000000。"
+      ],
+      "local_bounds_mm": [
+        -120.0,
+        -60.0,
+        0.0,
+        120.0,
+        60.0,
+        16.0
+      ],
+      "extents_mm": [
+        240.0,
+        120.0,
+        16.0
+      ],
+      "print_extents_mm": [
+        240.0000002000001,
+        120.00000020000013,
+        16.00000020000006
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P09",
+      "name": "Z轴打印导向底座",
+      "quantity": 1,
+      "process": "print",
+      "volume_mm3": 378952.96023494896,
+      "notes": [
+        "导向截面见S02；这是打印滑动导向，不等效于正式金属直线导轨。",
+        "所有M3接收孔下方为5.8对边六角螺母窝，深2.6。"
+      ],
+      "features": [
+        "240x150x6；导轨长220，中心Y±40；截面顶高16。",
+        "齿条左端X=-113.097336/0；两段共8孔，Ø3.4。",
+        "端挡安装孔X±106,Y±23；其余孔坐标见本页坐标表。",
+        "锁孔：X=-40/-20/0/20/40，Y=-66，Ø4.4贯穿；锁条Z6..45。",
+        "M3孔坐标：X=-84.823002, Y=-11.000000。",
+        "M3孔坐标：X=-84.823002, Y=11.000000。",
+        "M3孔坐标：X=-28.274334, Y=-11.000000。",
+        "M3孔坐标：X=-28.274334, Y=11.000000。",
+        "M3孔坐标：X=28.274334, Y=-11.000000。",
+        "M3孔坐标：X=28.274334, Y=11.000000。",
+        "M3孔坐标：X=84.823002, Y=-11.000000。",
+        "M3孔坐标：X=84.823002, Y=11.000000。",
+        "M3孔坐标：X=-106.000000, Y=-23.000000。",
+        "M3孔坐标：X=-106.000000, Y=23.000000。",
+        "M3孔坐标：X=106.000000, Y=-23.000000。",
+        "M3孔坐标：X=106.000000, Y=23.000000。",
+        "M3孔坐标：X=-105.000000, Y=-50.000000。",
+        "M3孔坐标：X=-105.000000, Y=50.000000。",
+        "M3孔坐标：X=-95.000000, Y=-50.000000。",
+        "M3孔坐标：X=-95.000000, Y=50.000000。"
+      ],
+      "local_bounds_mm": [
+        -120.0,
+        -75.0,
+        0.0,
+        120.0,
+        75.0,
+        45.0
+      ],
+      "extents_mm": [
+        240.0,
+        150.0,
+        45.0
+      ],
+      "print_extents_mm": [
+        240.0000002000001,
+        150.0000002000001,
+        45.00136779919649
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P10",
+      "name": "Y轴打印导向底座",
+      "quantity": 1,
+      "process": "print",
+      "volume_mm3": 291410.46262272267,
+      "notes": [
+        "导向截面见S02；这是打印滑动导向，不等效于正式金属直线导轨。",
+        "所有M3接收孔下方为5.8对边六角螺母窝，深2.6。"
+      ],
+      "features": [
+        "240x160x6；导轨长220，中心Y±40；截面顶高16。",
+        "齿条左端X=-113.097336/0；两段共8孔，Ø3.4。",
+        "端挡安装孔X±106,Y±23；其余孔坐标见本页坐标表。",
+        "M3孔坐标：X=-84.823002, Y=-11.000000。",
+        "M3孔坐标：X=-84.823002, Y=11.000000。",
+        "M3孔坐标：X=-28.274334, Y=-11.000000。",
+        "M3孔坐标：X=-28.274334, Y=11.000000。",
+        "M3孔坐标：X=28.274334, Y=-11.000000。",
+        "M3孔坐标：X=28.274334, Y=11.000000。",
+        "M3孔坐标：X=84.823002, Y=-11.000000。",
+        "M3孔坐标：X=84.823002, Y=11.000000。",
+        "M3孔坐标：X=-106.000000, Y=-23.000000。",
+        "M3孔坐标：X=-106.000000, Y=23.000000。",
+        "M3孔坐标：X=106.000000, Y=-23.000000。",
+        "M3孔坐标：X=106.000000, Y=23.000000。",
+        "M3孔坐标：X=-90.000000, Y=-23.000000。",
+        "M3孔坐标：X=-90.000000, Y=23.000000。",
+        "M3孔坐标：X=-3.000000, Y=-70.000000。",
+        "M3孔坐标：X=17.000000, Y=-70.000000。",
+        "M3孔坐标：X=-3.000000, Y=70.000000。",
+        "M3孔坐标：X=17.000000, Y=70.000000。",
+        "M3孔坐标：X=97.000000, Y=-70.000000。",
+        "M3孔坐标：X=117.000000, Y=-70.000000。",
+        "M3孔坐标：X=97.000000, Y=70.000000。",
+        "M3孔坐标：X=117.000000, Y=70.000000。"
+      ],
+      "local_bounds_mm": [
+        -120.0,
+        -80.0,
+        0.0,
+        120.0,
+        80.0,
+        16.0
+      ],
+      "extents_mm": [
+        240.0,
+        160.0,
+        16.0
+      ],
+      "print_extents_mm": [
+        240.0000002000001,
+        160.0000002000001,
+        16.00000020000006
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P11",
+      "name": "Z立柱落座底脚",
+      "quantity": 1,
+      "process": "print",
+      "volume_mm3": 86645.91109201395,
+      "notes": [
+        "底面贴X滑台桥板，立柱底面落座；不能只靠背面螺钉吊住。"
+      ],
+      "features": [
+        "底板150x80x5，Y=-20..60,Z55..60；背板Y=-6..0,Z60..90。",
+        "底板Ø3.4：X±20,Y±20；背板Ø3.4：X±50,Z75/85，沿Y。"
+      ],
+      "local_bounds_mm": [
+        -75.0,
+        -20.0,
+        55.0,
+        75.0,
+        60.0,
+        90.0
+      ],
+      "extents_mm": [
+        150.0,
+        80.0,
+        35.0
+      ],
+      "print_extents_mm": [
+        150.0000002000001,
+        80.00052859059873,
+        35.00052859059871
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P12",
+      "name": "Y台与Z桥板连接角座",
+      "quantity": 1,
+      "process": "print",
+      "volume_mm3": 10832.250071996506,
+      "notes": [
+        "两件镜像安装；Z桥板前表面贴本件Y0；Y底座贴本件Z-15。"
+      ],
+      "features": [
+        "立面20x6x56，Z=-28..28；承托面X=-14..4,Y6..50,Z-21..-15。",
+        "立面2xØ3.4：X0,Z±20，沿Y；托面Ø3.4：X-3,Y30，底部M3螺母窝。",
+        "下螺母让位槽：X±4.5,Y5.8..14,Z=-24..-14；不可省略。"
+      ],
+      "local_bounds_mm": [
+        -14.0,
+        0.0,
+        -28.0,
+        10.0,
+        50.0,
+        28.0
+      ],
+      "extents_mm": [
+        24.0,
+        50.0,
+        56.0
+      ],
+      "print_extents_mm": [
+        24.000000200000024,
+        50.00052859059863,
+        56.00000020000003
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P13",
+      "name": "承托盘外置支柱",
+      "quantity": 4,
+      "process": "print",
+      "volume_mm3": 16245.056179901196,
+      "notes": [
+        "共4件；左侧两件绕Z转180度；斜撑面朝托盘内侧。"
+      ],
+      "features": [
+        "底脚18x30x6；柱12x12，Z6..69；顶帽X=-24..10,Y±8,Z69..75。",
+        "底孔2xØ3.4：X0,Y±10；顶孔Ø4.5：X-18,Y0，M4螺母窝对边7.2深3.4。",
+        "双侧45deg斜撑，Y=-8..-5/5..8；中央留螺钉/螺母通道。"
+      ],
+      "local_bounds_mm": [
+        -24.0,
+        -15.0,
+        0.0,
+        10.0,
+        15.0,
+        75.0
+      ],
+      "extents_mm": [
+        34.0,
+        30.0,
+        75.0
+      ],
+      "print_extents_mm": [
+        34.0000002,
+        30.000000200000017,
+        75.00122793109678
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P14",
+      "name": "移动承托盘_沉头孔",
+      "quantity": 1,
+      "process": "print",
+      "volume_mm3": 48874.679241353624,
+      "notes": [
+        "4颗M4沉头螺钉头必须齐平或略低，不得顶起料盒。"
+      ],
+      "features": [
+        "124x130；底厚4；导边内宽111.2，导边高6。",
+        "4xØ4.5，X±52,Y±50；沉孔Ø9x90deg；中央40宽前开槽，后桥6。"
+      ],
+      "local_bounds_mm": [
+        -62.0,
+        -65.0,
+        0.0,
+        62.0,
+        65.0,
+        10.0
+      ],
+      "extents_mm": [
+        124.0,
+        130.0,
+        10.0
+      ],
+      "print_extents_mm": [
+        124.00000019999999,
+        130.00000020000016,
+        10.000699540498257
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P15",
+      "name": "单库位托板_沉头孔",
+      "quantity": 1,
+      "process": "print",
+      "volume_mm3": 70130.67924135368,
+      "notes": [
+        "4颗M4沉头螺钉头不得高出滑动面；空箱手动验证。"
+      ],
+      "features": [
+        "124x130，底厚4；4xØ4.5，X±52,Y±50；沉孔Ø9x90deg。",
+        "侧导边内宽111.2；后挡边Y63..65，高6。"
+      ],
+      "local_bounds_mm": [
+        -62.0,
+        -65.0,
+        0.0,
+        62.0,
+        65.0,
+        10.0
+      ],
+      "extents_mm": [
+        124.0,
+        130.0,
+        10.0
+      ],
+      "print_extents_mm": [
+        124.00000019999999,
+        130.0000002000001,
+        10.000699540498257
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P16",
+      "name": "原尺寸空料盒",
+      "quantity": 1,
+      "process": "print",
+      "volume_mm3": 96834.15176759376,
+      "notes": [
+        "只允许空盒；不加砝码、物料或1kg载荷。"
+      ],
+      "features": [
+        "箱体110x120x60；底/壁2.4；牵引耳32x18x6，中心Y-67,Z10..16。",
+        "牵引孔Ø6.2，X0,Y-68，沿Z。"
+      ],
+      "local_bounds_mm": [
+        -55.0,
+        -76.0,
+        0.0,
+        55.0,
+        60.0,
+        60.0
+      ],
+      "extents_mm": [
+        110.0,
+        136.0,
+        60.0
+      ],
+      "print_extents_mm": [
+        110.00000020000004,
+        136.00000020000004,
+        60.00000020000003
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P17",
+      "name": "手动插销取放头",
+      "quantity": 1,
+      "process": "print",
+      "volume_mm3": 64440.2690543775,
+      "notes": [
+        "指南：支撑仅加在导销耳下；孔去毛刺后同轴通铰Ø4.4。",
+        "插销抬高14mm后才回撤；不允许用推箱摩擦代替插销连接。"
+      ],
+      "features": [
+        "底板100x100x4：X±50,Y=-30..70,Z=-30..-26。",
+        "立板36x6x80，Y37.5..43.5；导销耳Z22..28/48..54。",
+        "销孔Ø4.4：X0,Y60.5；底板4xØ3.4：X±20,Y±20。"
+      ],
+      "local_bounds_mm": [
+        -50.0,
+        -30.0,
+        -30.0,
+        50.0,
+        70.0,
+        54.0
+      ],
+      "extents_mm": [
+        100.0,
+        100.0,
+        84.0
+      ],
+      "print_extents_mm": [
+        100.00000020000004,
+        100.00000020000004,
+        84.00121239019684
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P18",
+      "name": "插销手拉帽",
+      "quantity": 1,
+      "process": "print",
+      "volume_mm3": 2270.9944974269897,
+      "notes": [
+        "套在M4x80半牙螺钉头下；手拉帽不承担货物重量。"
+      ],
+      "features": [
+        "Ø20x8；通孔Ø4.4；头部凹窝Ø7.6，深4。"
+      ],
+      "local_bounds_mm": [
+        -10.0,
+        -10.0,
+        0.0,
+        10.0,
+        10.0,
+        8.0
+      ],
+      "extents_mm": [
+        20.0,
+        20.0,
+        8.0
+      ],
+      "print_extents_mm": [
+        20.006216559983685,
+        20.000000200000013,
+        8.006216559983685
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P19",
+      "name": "单库位支腿",
+      "quantity": 4,
+      "process": "print",
+      "volume_mm3": 64015.607463983295,
+      "notes": [
+        "M3螺母从柱顶侧窗装入；总高234，可加Brim竖打或侧放加支撑。"
+      ],
+      "features": [
+        "底脚32x32x6；柱16x16，Z6..234；底孔X±11,Y±11。",
+        "顶孔Ø3.4；螺母窗Z228..231，M3六角窝5.8对边。"
+      ],
+      "local_bounds_mm": [
+        -16.0,
+        -16.0,
+        0.0,
+        16.0,
+        16.0,
+        234.0
+      ],
+      "extents_mm": [
+        32.0,
+        32.0,
+        234.0
+      ],
+      "print_extents_mm": [
+        32.00000020000002,
+        32.00000020000002,
+        234.00105698119722
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P20",
+      "name": "单库位承托框",
+      "quantity": 1,
+      "process": "print",
+      "volume_mm3": 55934.12558605777,
+      "notes": [
+        "先装M4螺母，再装P15；四角M3连接支腿顶螺母。"
+      ],
+      "features": [
+        "外宽164，Y=-6..156，厚6；框条见三视图。",
+        "支腿孔Ø3.4：X±76,Y10/140；托板孔Ø4.5：X±52,Y15/115，底部M4窝。"
+      ],
+      "local_bounds_mm": [
+        -82.0,
+        -6.0,
+        0.0,
+        82.0,
+        156.0,
+        6.0
+      ],
+      "extents_mm": [
+        164.0,
+        162.0,
+        6.0
+      ],
+      "print_extents_mm": [
+        164.0000002000001,
+        162.0000002000001,
+        6.0012279310968415
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P21",
+      "name": "底架纵梁第1段",
+      "quantity": 2,
+      "process": "print",
+      "volume_mm3": 26360.30798801533,
+      "notes": [
+        "每侧3段，从后至前顺序安装；底面贴平整台面。"
+      ],
+      "features": [
+        "25x180x6；孔均Ø3.4，下方M3螺母窝5.8对边深2.6。",
+        "孔：X=-6,Y=-70.0。",
+        "孔：X=-6,Y=10。",
+        "孔：X=-6,Y=70.0。",
+        "孔：X=6,Y=-70.0。",
+        "孔：X=6,Y=10。",
+        "孔：X=6,Y=70.0。"
+      ],
+      "local_bounds_mm": [
+        -12.5,
+        -90.0,
+        0.0,
+        12.5,
+        90.0,
+        6.0
+      ],
+      "extents_mm": [
+        25.0,
+        180.0,
+        6.0
+      ],
+      "print_extents_mm": [
+        25.000000200000116,
+        180.0000002000001,
+        6.000528590598663
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P22",
+      "name": "底架纵梁第2段",
+      "quantity": 2,
+      "process": "print",
+      "volume_mm3": 20573.538658676895,
+      "notes": [
+        "每侧3段，从后至前顺序安装；底面贴平整台面。"
+      ],
+      "features": [
+        "25x140x6；孔均Ø3.4，下方M3螺母窝5.8对边深2.6。",
+        "孔：X=-6,Y=-50.0。",
+        "孔：X=-6,Y=50.0。",
+        "孔：X=6,Y=-50.0。",
+        "孔：X=6,Y=50.0。"
+      ],
+      "local_bounds_mm": [
+        -12.5,
+        -70.0,
+        0.0,
+        12.5,
+        70.0,
+        6.0
+      ],
+      "extents_mm": [
+        25.0,
+        140.0,
+        6.0
+      ],
+      "print_extents_mm": [
+        25.00000020000006,
+        140.00000020000004,
+        6.0005285905986545
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P23",
+      "name": "底架纵梁第3段",
+      "quantity": 2,
+      "process": "print",
+      "volume_mm3": 32147.07731735376,
+      "notes": [
+        "每侧3段，从后至前顺序安装；底面贴平整台面。"
+      ],
+      "features": [
+        "25x220x6；孔均Ø3.4，下方M3螺母窝5.8对边深2.6。",
+        "孔：X=-6,Y=-90.0。",
+        "孔：X=-6,Y=-50。",
+        "孔：X=-6,Y=80。",
+        "孔：X=-6,Y=90.0。",
+        "孔：X=6,Y=-90.0。",
+        "孔：X=6,Y=-50。",
+        "孔：X=6,Y=80。",
+        "孔：X=6,Y=90.0。"
+      ],
+      "local_bounds_mm": [
+        -12.5,
+        -110.0,
+        0.0,
+        12.5,
+        110.0,
+        6.0
+      ],
+      "extents_mm": [
+        25.0,
+        220.0,
+        6.0
+      ],
+      "print_extents_mm": [
+        25.000000200000116,
+        220.0000002000001,
+        6.000528590598664
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P24",
+      "name": "底架纵梁拼接板",
+      "quantity": 4,
+      "process": "print",
+      "volume_mm3": 6254.732755698009,
+      "notes": [
+        "每条接缝4颗M3x12；不能只靠对接边承重。"
+      ],
+      "features": [
+        "25x64x4；4xØ3.4：X±6,Y±20。"
+      ],
+      "local_bounds_mm": [
+        -12.5,
+        -32.0,
+        0.0,
+        12.5,
+        32.0,
+        4.0
+      ],
+      "extents_mm": [
+        25.0,
+        64.0,
+        4.0
+      ],
+      "print_extents_mm": [
+        25.00000020000003,
+        64.00000020000002,
+        4.001056981197241
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "P25",
+      "name": "底架前横梁",
+      "quantity": 2,
+      "process": "print",
+      "volume_mm3": 45969.17645090079,
+      "notes": [
+        "两根分别支承前/后排库位支腿。"
+      ],
+      "features": [
+        "245x32x6；纵梁连接孔X=-116/-104/104/116,Y0。",
+        "支腿孔X=±76±11，Y±11；底部M3螺母窝。"
+      ],
+      "local_bounds_mm": [
+        -122.5,
+        -16.0,
+        0.0,
+        122.5,
+        16.0,
+        6.0
+      ],
+      "extents_mm": [
+        245.0,
+        32.0,
+        6.0
+      ],
+      "print_extents_mm": [
+        245.0000002000001,
+        32.000000200000116,
+        6.001056981197284
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "H01",
+      "name": "M4x60内六角轴螺钉",
+      "quantity": 3,
+      "process": "buy",
+      "volume_mm3": 907.9202768874501,
+      "notes": [],
+      "features": [],
+      "local_bounds_mm": [
+        -3.5,
+        -3.5,
+        -27.0,
+        3.5,
+        3.5,
+        37.0
+      ],
+      "extents_mm": [
+        7.0,
+        7.0,
+        64.0
+      ]
+    },
+    {
+      "code": "H02",
+      "name": "金属光滑隔套_6x4p2x40",
+      "quantity": 3,
+      "process": "buy",
+      "volume_mm3": 576.7964111990857,
+      "notes": [],
+      "features": [],
+      "local_bounds_mm": [
+        -3.0,
+        -3.0,
+        -8.0,
+        3.0,
+        3.0,
+        32.0
+      ],
+      "extents_mm": [
+        6.0,
+        6.0,
+        40.0
+      ]
+    },
+    {
+      "code": "H03",
+      "name": "M4平垫圈",
+      "quantity": 7,
+      "process": "buy",
+      "volume_mm3": 49.0952391939745,
+      "notes": [],
+      "features": [],
+      "local_bounds_mm": [
+        -4.5,
+        -4.5,
+        0.0,
+        4.5,
+        4.5,
+        1.0
+      ],
+      "extents_mm": [
+        9.0,
+        9.0,
+        1.0
+      ]
+    },
+    {
+      "code": "H04",
+      "name": "M4普通六角螺母",
+      "quantity": 7,
+      "process": "buy",
+      "volume_mm3": 91.45862778594085,
+      "notes": [],
+      "features": [],
+      "local_bounds_mm": [
+        -3.500000000000001,
+        -4.041451884327381,
+        0.0,
+        3.5000000000000004,
+        4.0414518843273814,
+        3.2
+      ],
+      "extents_mm": [
+        7.000000000000002,
+        8.082903768654763,
+        3.2
+      ]
+    },
+    {
+      "code": "H05",
+      "name": "M3x20齿轮连接螺钉",
+      "quantity": 6,
+      "process": "buy",
+      "volume_mm3": 212.64655273985912,
+      "notes": [],
+      "features": [],
+      "local_bounds_mm": [
+        -2.75,
+        -2.75,
+        -4.0,
+        2.75,
+        2.75,
+        19.0
+      ],
+      "extents_mm": [
+        5.5,
+        5.5,
+        23.0
+      ]
+    },
+    {
+      "code": "H06",
+      "name": "M3螺母",
+      "quantity": 6,
+      "process": "buy",
+      "volume_mm3": 54.464373813868214,
+      "notes": [],
+      "features": [],
+      "local_bounds_mm": [
+        -2.7500000000000004,
+        -3.1754264805429417,
+        -3.0,
+        2.7500000000000004,
+        3.175426480542942,
+        0.0
+      ],
+      "extents_mm": [
+        5.500000000000001,
+        6.350852961085884,
+        3.0
+      ]
+    },
+    {
+      "code": "P26",
+      "name": "Y台连接角座_右",
+      "quantity": 1,
+      "process": "print",
+      "volume_mm3": 10832.250071996508,
+      "notes": [
+        "两件镜像安装；Z桥板前表面贴本件Y0；Y底座贴本件Z-15。"
+      ],
+      "features": [
+        "P12关于YZ平面镜像；托面孔X+3,Y30；其余尺寸同P12。"
+      ],
+      "local_bounds_mm": [
+        -10.0,
+        0.0,
+        -28.0,
+        14.0,
+        50.0,
+        28.0
+      ],
+      "extents_mm": [
+        24.0,
+        50.0,
+        56.0
+      ],
+      "print_extents_mm": [
+        24.000000200000024,
+        50.00052859059863,
+        56.00000020000003
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "H07",
+      "name": "M4x80手动牵引销",
+      "quantity": 1,
+      "process": "buy",
+      "volume_mm3": 1159.2476891746335,
+      "notes": [],
+      "features": [],
+      "local_bounds_mm": [
+        -3.5,
+        -3.5,
+        6.0,
+        3.5,
+        3.5,
+        90.0
+      ],
+      "extents_mm": [
+        7.0,
+        7.0,
+        84.0
+      ]
+    },
+    {
+      "code": "H08",
+      "name": "M4x70手动Z锁销",
+      "quantity": 1,
+      "process": "buy",
+      "volume_mm3": 1033.5839830310415,
+      "notes": [],
+      "features": [],
+      "local_bounds_mm": [
+        -3.5,
+        -69.5,
+        -5.0,
+        3.5,
+        -62.5,
+        69.0
+      ],
+      "extents_mm": [
+        7.0,
+        7.0,
+        74.0
+      ]
+    },
+    {
+      "code": "C01",
+      "name": "导向试块_轨",
+      "quantity": 1,
+      "process": "print",
+      "volume_mm3": 16399.999999999996,
+      "notes": [
+        "先打印；测试轨不装到整机。"
+      ],
+      "features": [
+        "长50，底宽30；截面与正式导向一致。"
+      ],
+      "local_bounds_mm": [
+        -25.0,
+        -15.0,
+        0.0,
+        25.0,
+        15.0,
+        16.0
+      ],
+      "extents_mm": [
+        50.0,
+        30.0,
+        16.0
+      ],
+      "print_extents_mm": [
+        50.0000002,
+        30.000000200000002,
+        16.000000200000002
+      ],
+      "print_orientation": "local Z bottom on bed"
+    },
+    {
+      "code": "C02",
+      "name": "导向试块_滑块_0.2",
+      "quantity": 1,
+      "process": "print",
+      "volume_mm3": 4297.600000000001,
+      "notes": [
+        "从端部套入C01；正式滑台名义间隙0.35。"
+      ],
+      "features": [
+        "长20，外宽25；截面间隙参数c=0.2。"
+      ],
+      "local_bounds_mm": [
+        -10.0,
+        -12.5,
+        6.199999999999999,
+        10.0,
+        12.5,
+        21.0
+      ],
+      "extents_mm": [
+        20.0,
+        25.0,
+        14.8
+      ],
+      "print_extents_mm": [
+        14.800000200000008,
+        25.00000020000001,
+        20.00000020000001
+      ],
+      "print_orientation": "X end on bed"
+    },
+    {
+      "code": "C03",
+      "name": "导向试块_滑块_0.35",
+      "quantity": 1,
+      "process": "print",
+      "volume_mm3": 4117.899999999999,
+      "notes": [
+        "从端部套入C01；正式滑台名义间隙0.35。"
+      ],
+      "features": [
+        "长20，外宽25；截面间隙参数c=0.35。"
+      ],
+      "local_bounds_mm": [
+        -10.0,
+        -12.5,
+        6.349999999999999,
+        10.000000000000002,
+        12.5,
+        21.0
+      ],
+      "extents_mm": [
+        20.0,
+        25.0,
+        14.650000000000002
+      ],
+      "print_extents_mm": [
+        14.65000020000001,
+        25.00000020000001,
+        20.00000020000001
+      ],
+      "print_orientation": "X end on bed"
+    },
+    {
+      "code": "C04",
+      "name": "导向试块_滑块_0.5",
+      "quantity": 1,
+      "process": "print",
+      "volume_mm3": 3939.9999999999986,
+      "notes": [
+        "从端部套入C01；正式滑台名义间隙0.35。"
+      ],
+      "features": [
+        "长20，外宽25；截面间隙参数c=0.5。"
+      ],
+      "local_bounds_mm": [
+        -10.0,
+        -12.5,
+        6.499999999999999,
+        10.000000000000002,
+        12.5,
+        21.0
+      ],
+      "extents_mm": [
+        20.0,
+        25.0,
+        14.5
+      ],
+      "print_extents_mm": [
+        14.500000200000008,
+        25.000000200000002,
+        20.00000020000001
+      ],
+      "print_orientation": "X end on bed"
+    }
+  ],
+  "instances": [
+    {
+      "name": "x_base",
+      "code": "P08",
+      "origin": [
+        0,
+        -310,
+        0
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "x_rack_0",
+      "code": "P01",
+      "origin": [
+        -113.09733552923255,
+        -310.0,
+        6.0
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "x_rack_1",
+      "code": "P01",
+      "origin": [
+        0.0,
+        -310.0,
+        6.0
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "x_stop_-106",
+      "code": "P07",
+      "origin": [
+        -106.0,
+        -310.0,
+        0.0
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "x_stop_106",
+      "code": "P07",
+      "origin": [
+        106.0,
+        -310.0,
+        0.0
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "x_carriage",
+      "code": "P05",
+      "origin": [
+        0.0,
+        -310.0,
+        0.0
+      ],
+      "frame": "I",
+      "group": "x",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "x_pinion",
+      "code": "P02",
+      "origin": [
+        0,
+        -310,
+        0
+      ],
+      "frame": "I",
+      "group": "gear_x",
+      "axis_mount": true,
+      "rotates": true,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "x_handwheel",
+      "code": "P03",
+      "origin": [
+        0,
+        -310,
+        0
+      ],
+      "frame": "I",
+      "group": "gear_x",
+      "axis_mount": true,
+      "rotates": true,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "x_axle",
+      "code": "H01",
+      "origin": [
+        0,
+        -310,
+        0
+      ],
+      "frame": "I",
+      "group": "gear_x",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "x_tube",
+      "code": "H02",
+      "origin": [
+        0,
+        -310,
+        0
+      ],
+      "frame": "I",
+      "group": "gear_x",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "x_washer_front",
+      "code": "H03",
+      "origin": [
+        0,
+        -310,
+        0
+      ],
+      "frame": "I",
+      "group": "gear_x",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "name": "x_washer_rear",
+      "code": "H03",
+      "origin": [
+        0,
+        -310,
+        0
+      ],
+      "frame": "I",
+      "group": "gear_x",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        -15
+      ]
+    },
+    {
+      "name": "x_nut",
+      "code": "H04",
+      "origin": [
+        0,
+        -310,
+        0
+      ],
+      "frame": "I",
+      "group": "gear_x",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        -18.2
+      ]
+    },
+    {
+      "name": "x_jam_nut",
+      "code": "H04",
+      "origin": [
+        0,
+        -310,
+        0
+      ],
+      "frame": "I",
+      "group": "gear_x",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        -21.4
+      ]
+    },
+    {
+      "name": "x_shim_front",
+      "code": "P04",
+      "origin": [
+        0,
+        -310,
+        0
+      ],
+      "frame": "I",
+      "group": "gear_x",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        30
+      ]
+    },
+    {
+      "name": "x_shim_rear",
+      "code": "P04",
+      "origin": [
+        0,
+        -310,
+        0
+      ],
+      "frame": "I",
+      "group": "gear_x",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        -7.8
+      ]
+    },
+    {
+      "name": "x_gear_bolt_-9",
+      "code": "H05",
+      "origin": [
+        0,
+        -310,
+        0
+      ],
+      "frame": "I",
+      "group": "gear_x",
+      "axis_mount": true,
+      "rotates": true,
+      "initial_s": 0,
+      "raw_offset": [
+        -9,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "x_gear_nut_-9",
+      "code": "H06",
+      "origin": [
+        0,
+        -310,
+        0
+      ],
+      "frame": "I",
+      "group": "gear_x",
+      "axis_mount": true,
+      "rotates": true,
+      "initial_s": 0,
+      "raw_offset": [
+        -9,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "x_gear_bolt_9",
+      "code": "H05",
+      "origin": [
+        0,
+        -310,
+        0
+      ],
+      "frame": "I",
+      "group": "gear_x",
+      "axis_mount": true,
+      "rotates": true,
+      "initial_s": 0,
+      "raw_offset": [
+        9,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "x_gear_nut_9",
+      "code": "H06",
+      "origin": [
+        0,
+        -310,
+        0
+      ],
+      "frame": "I",
+      "group": "gear_x",
+      "axis_mount": true,
+      "rotates": true,
+      "initial_s": 0,
+      "raw_offset": [
+        9,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "z_base",
+      "code": "P09",
+      "origin": [
+        0,
+        -310,
+        180
+      ],
+      "frame": "Z",
+      "group": "x",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "z_rack_0",
+      "code": "P01",
+      "origin": [
+        7.800249481608682e-14,
+        -304.00000000000006,
+        66.90266447076742
+      ],
+      "frame": "Z",
+      "group": "x",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "z_rack_1",
+      "code": "P01",
+      "origin": [
+        2.6645352591003757e-15,
+        -304.0,
+        180.0
+      ],
+      "frame": "Z",
+      "group": "x",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "z_stop_-106",
+      "code": "P07",
+      "origin": [
+        7.061018436615996e-14,
+        -310.00000000000006,
+        73.99999999999997
+      ],
+      "frame": "Z",
+      "group": "x",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "z_stop_106",
+      "code": "P07",
+      "origin": [
+        -7.061018436615996e-14,
+        -309.99999999999994,
+        286.0
+      ],
+      "frame": "Z",
+      "group": "x",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "z_carriage",
+      "code": "P06",
+      "origin": [
+        0.0,
+        -310.0,
+        180.0
+      ],
+      "frame": "Z",
+      "group": "z",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "z_pinion",
+      "code": "P02",
+      "origin": [
+        0,
+        -310,
+        180
+      ],
+      "frame": "Z",
+      "group": "gear_z",
+      "axis_mount": true,
+      "rotates": true,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "z_handwheel",
+      "code": "P03",
+      "origin": [
+        0,
+        -310,
+        180
+      ],
+      "frame": "Z",
+      "group": "gear_z",
+      "axis_mount": true,
+      "rotates": true,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "z_axle",
+      "code": "H01",
+      "origin": [
+        0,
+        -310,
+        180
+      ],
+      "frame": "Z",
+      "group": "gear_z",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "z_tube",
+      "code": "H02",
+      "origin": [
+        0,
+        -310,
+        180
+      ],
+      "frame": "Z",
+      "group": "gear_z",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "z_washer_front",
+      "code": "H03",
+      "origin": [
+        0,
+        -310,
+        180
+      ],
+      "frame": "Z",
+      "group": "gear_z",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "name": "z_washer_rear",
+      "code": "H03",
+      "origin": [
+        0,
+        -310,
+        180
+      ],
+      "frame": "Z",
+      "group": "gear_z",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        -15
+      ]
+    },
+    {
+      "name": "z_nut",
+      "code": "H04",
+      "origin": [
+        0,
+        -310,
+        180
+      ],
+      "frame": "Z",
+      "group": "gear_z",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        -18.2
+      ]
+    },
+    {
+      "name": "z_jam_nut",
+      "code": "H04",
+      "origin": [
+        0,
+        -310,
+        180
+      ],
+      "frame": "Z",
+      "group": "gear_z",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        -21.4
+      ]
+    },
+    {
+      "name": "z_shim_front",
+      "code": "P04",
+      "origin": [
+        0,
+        -310,
+        180
+      ],
+      "frame": "Z",
+      "group": "gear_z",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        30
+      ]
+    },
+    {
+      "name": "z_shim_rear",
+      "code": "P04",
+      "origin": [
+        0,
+        -310,
+        180
+      ],
+      "frame": "Z",
+      "group": "gear_z",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        -7.8
+      ]
+    },
+    {
+      "name": "z_gear_bolt_-9",
+      "code": "H05",
+      "origin": [
+        0,
+        -310,
+        180
+      ],
+      "frame": "Z",
+      "group": "gear_z",
+      "axis_mount": true,
+      "rotates": true,
+      "initial_s": 0,
+      "raw_offset": [
+        -9,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "z_gear_nut_-9",
+      "code": "H06",
+      "origin": [
+        0,
+        -310,
+        180
+      ],
+      "frame": "Z",
+      "group": "gear_z",
+      "axis_mount": true,
+      "rotates": true,
+      "initial_s": 0,
+      "raw_offset": [
+        -9,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "z_gear_bolt_9",
+      "code": "H05",
+      "origin": [
+        0,
+        -310,
+        180
+      ],
+      "frame": "Z",
+      "group": "gear_z",
+      "axis_mount": true,
+      "rotates": true,
+      "initial_s": 0,
+      "raw_offset": [
+        9,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "z_gear_nut_9",
+      "code": "H06",
+      "origin": [
+        0,
+        -310,
+        180
+      ],
+      "frame": "Z",
+      "group": "gear_z",
+      "axis_mount": true,
+      "rotates": true,
+      "initial_s": 0,
+      "raw_offset": [
+        9,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "y_base",
+      "code": "P10",
+      "origin": [
+        0,
+        -135,
+        165
+      ],
+      "frame": "Y",
+      "group": "z",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "y_rack_0",
+      "code": "P01",
+      "origin": [
+        -1.2556326592831074e-14,
+        -248.09733552923257,
+        171.0
+      ],
+      "frame": "Y",
+      "group": "z",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "y_rack_1",
+      "code": "P01",
+      "origin": [
+        0.0,
+        -135.0,
+        171.0
+      ],
+      "frame": "Y",
+      "group": "z",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "y_stop_-106",
+      "code": "P07",
+      "origin": [
+        -1.176836406102666e-14,
+        -241.0,
+        165.0
+      ],
+      "frame": "Y",
+      "group": "z",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "y_stop_106",
+      "code": "P07",
+      "origin": [
+        1.176836406102666e-14,
+        -29.0,
+        165.0
+      ],
+      "frame": "Y",
+      "group": "z",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "y_carriage",
+      "code": "P05",
+      "origin": [
+        -7.93809462606987e-15,
+        -206.5,
+        165.0
+      ],
+      "frame": "Y",
+      "group": "y",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "y_pinion",
+      "code": "P02",
+      "origin": [
+        0,
+        -135,
+        165
+      ],
+      "frame": "Y",
+      "group": "gear_y",
+      "axis_mount": true,
+      "rotates": true,
+      "initial_s": -71.5,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "y_handwheel",
+      "code": "P03",
+      "origin": [
+        0,
+        -135,
+        165
+      ],
+      "frame": "Y",
+      "group": "gear_y",
+      "axis_mount": true,
+      "rotates": true,
+      "initial_s": -71.5,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "y_axle",
+      "code": "H01",
+      "origin": [
+        0,
+        -135,
+        165
+      ],
+      "frame": "Y",
+      "group": "gear_y",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": -71.5,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "y_tube",
+      "code": "H02",
+      "origin": [
+        0,
+        -135,
+        165
+      ],
+      "frame": "Y",
+      "group": "gear_y",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": -71.5,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "y_washer_front",
+      "code": "H03",
+      "origin": [
+        0,
+        -135,
+        165
+      ],
+      "frame": "Y",
+      "group": "gear_y",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": -71.5,
+      "raw_offset": [
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "name": "y_washer_rear",
+      "code": "H03",
+      "origin": [
+        0,
+        -135,
+        165
+      ],
+      "frame": "Y",
+      "group": "gear_y",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": -71.5,
+      "raw_offset": [
+        0,
+        0,
+        -15
+      ]
+    },
+    {
+      "name": "y_nut",
+      "code": "H04",
+      "origin": [
+        0,
+        -135,
+        165
+      ],
+      "frame": "Y",
+      "group": "gear_y",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": -71.5,
+      "raw_offset": [
+        0,
+        0,
+        -18.2
+      ]
+    },
+    {
+      "name": "y_jam_nut",
+      "code": "H04",
+      "origin": [
+        0,
+        -135,
+        165
+      ],
+      "frame": "Y",
+      "group": "gear_y",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": -71.5,
+      "raw_offset": [
+        0,
+        0,
+        -21.4
+      ]
+    },
+    {
+      "name": "y_shim_front",
+      "code": "P04",
+      "origin": [
+        0,
+        -135,
+        165
+      ],
+      "frame": "Y",
+      "group": "gear_y",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": -71.5,
+      "raw_offset": [
+        0,
+        0,
+        30
+      ]
+    },
+    {
+      "name": "y_shim_rear",
+      "code": "P04",
+      "origin": [
+        0,
+        -135,
+        165
+      ],
+      "frame": "Y",
+      "group": "gear_y",
+      "axis_mount": true,
+      "rotates": false,
+      "initial_s": -71.5,
+      "raw_offset": [
+        0,
+        0,
+        -7.8
+      ]
+    },
+    {
+      "name": "y_gear_bolt_-9",
+      "code": "H05",
+      "origin": [
+        0,
+        -135,
+        165
+      ],
+      "frame": "Y",
+      "group": "gear_y",
+      "axis_mount": true,
+      "rotates": true,
+      "initial_s": -71.5,
+      "raw_offset": [
+        -9,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "y_gear_nut_-9",
+      "code": "H06",
+      "origin": [
+        0,
+        -135,
+        165
+      ],
+      "frame": "Y",
+      "group": "gear_y",
+      "axis_mount": true,
+      "rotates": true,
+      "initial_s": -71.5,
+      "raw_offset": [
+        -9,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "y_gear_bolt_9",
+      "code": "H05",
+      "origin": [
+        0,
+        -135,
+        165
+      ],
+      "frame": "Y",
+      "group": "gear_y",
+      "axis_mount": true,
+      "rotates": true,
+      "initial_s": -71.5,
+      "raw_offset": [
+        9,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "y_gear_nut_9",
+      "code": "H06",
+      "origin": [
+        0,
+        -135,
+        165
+      ],
+      "frame": "Y",
+      "group": "gear_y",
+      "axis_mount": true,
+      "rotates": true,
+      "initial_s": -71.5,
+      "raw_offset": [
+        9,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "tower_foot",
+      "code": "P11",
+      "origin": [
+        0,
+        -310,
+        0
+      ],
+      "frame": "I",
+      "group": "x",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "y_mount_left",
+      "code": "P12",
+      "origin": [
+        -20,
+        -255,
+        180
+      ],
+      "frame": "I",
+      "group": "z",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "y_mount_right",
+      "code": "P26",
+      "origin": [
+        20,
+        -255,
+        180
+      ],
+      "frame": "I",
+      "group": "z",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "carrier_pillar_-1_-128",
+      "code": "P13",
+      "origin": [
+        -70,
+        -128,
+        171
+      ],
+      "frame": "R",
+      "group": "z",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "carrier_pillar_-1_-28",
+      "code": "P13",
+      "origin": [
+        -70,
+        -28,
+        171
+      ],
+      "frame": "R",
+      "group": "z",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "carrier_pillar_1_-128",
+      "code": "P13",
+      "origin": [
+        70,
+        -128,
+        171
+      ],
+      "frame": "I",
+      "group": "z",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "carrier_pillar_1_-28",
+      "code": "P13",
+      "origin": [
+        70,
+        -28,
+        171
+      ],
+      "frame": "I",
+      "group": "z",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "carrier_tray",
+      "code": "P14",
+      "origin": [
+        0,
+        -78,
+        246
+      ],
+      "frame": "I",
+      "group": "z",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "manual_head",
+      "code": "P17",
+      "origin": [
+        0,
+        -206.5,
+        250.0
+      ],
+      "frame": "I",
+      "group": "y",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "pickup_pin",
+      "code": "H07",
+      "origin": [
+        0,
+        -146,
+        250.0
+      ],
+      "frame": "I",
+      "group": "pin",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "pickup_handle",
+      "code": "P18",
+      "origin": [
+        0,
+        -146,
+        332.0
+      ],
+      "frame": "I",
+      "group": "pin",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "bin",
+      "code": "P16",
+      "origin": [
+        0,
+        -78,
+        250.0
+      ],
+      "frame": "I",
+      "group": "bin",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "floor_-1_0",
+      "code": "P21",
+      "origin": [
+        -110,
+        -280,
+        -6
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "floor_-1_1",
+      "code": "P22",
+      "origin": [
+        -110,
+        -120,
+        -6
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "floor_-1_2",
+      "code": "P23",
+      "origin": [
+        -110,
+        60,
+        -6
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "splice_-1_-190",
+      "code": "P24",
+      "origin": [
+        -110,
+        -190,
+        0
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "splice_-1_-50",
+      "code": "P24",
+      "origin": [
+        -110,
+        -50,
+        0
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "floor_1_0",
+      "code": "P21",
+      "origin": [
+        110,
+        -280,
+        -6
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "floor_1_1",
+      "code": "P22",
+      "origin": [
+        110,
+        -120,
+        -6
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "floor_1_2",
+      "code": "P23",
+      "origin": [
+        110,
+        60,
+        -6
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "splice_1_-190",
+      "code": "P24",
+      "origin": [
+        110,
+        -190,
+        0
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "splice_1_-50",
+      "code": "P24",
+      "origin": [
+        110,
+        -50,
+        0
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "floor_cross_10",
+      "code": "P25",
+      "origin": [
+        0,
+        10,
+        0
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "stand_leg_-76_10",
+      "code": "P19",
+      "origin": [
+        -76,
+        10,
+        6
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "stand_leg_76_10",
+      "code": "P19",
+      "origin": [
+        76,
+        10,
+        6
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "floor_cross_140",
+      "code": "P25",
+      "origin": [
+        0,
+        140,
+        0
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "stand_leg_-76_140",
+      "code": "P19",
+      "origin": [
+        -76,
+        140,
+        6
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "stand_leg_76_140",
+      "code": "P19",
+      "origin": [
+        76,
+        140,
+        6
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "stand_frame",
+      "code": "P20",
+      "origin": [
+        0,
+        0,
+        240
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "cell",
+      "code": "P15",
+      "origin": [
+        0,
+        65,
+        246
+      ],
+      "frame": "I",
+      "group": "fixed",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "z_lock_pin",
+      "code": "H08",
+      "origin": [
+        0,
+        -310,
+        180
+      ],
+      "frame": "Z",
+      "group": "lock",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "z_lock_washer",
+      "code": "H03",
+      "origin": [
+        0,
+        -310,
+        180
+      ],
+      "frame": "Z",
+      "group": "lock",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        -66,
+        -1
+      ]
+    },
+    {
+      "name": "z_lock_nut",
+      "code": "H04",
+      "origin": [
+        0,
+        -310,
+        180
+      ],
+      "frame": "Z",
+      "group": "lock",
+      "axis_mount": false,
+      "rotates": false,
+      "initial_s": 0,
+      "raw_offset": [
+        0,
+        -66,
+        -4.2
+      ]
+    }
+  ],
+  "motion_limits_mm": {
+    "X": [
+      -50,
+      50
+    ],
+    "Z": [
+      -40,
+      40
+    ],
+    "Y": [
+      0,
+      143
+    ]
+  },
+  "deck_mm": 250.0,
+  "z_lock_positions_mm": [
+    -40,
+    -20,
+    0,
+    20,
+    40
+  ],
+  "hardware": [
+    {
+      "specification": "M3x16 内六角螺钉",
+      "quantity": 50,
+      "purpose": "齿条24、立柱底脚4、立柱背板4、Y角座立面4/托面2、承托支柱8、取放头4"
+    },
+    {
+      "specification": "M3x25 内六角螺钉",
+      "quantity": 12,
+      "purpose": "三轴端挡，各轴4"
+    },
+    {
+      "specification": "M3x20 内六角螺钉",
+      "quantity": 6,
+      "purpose": "三轴齿轮与手轮，各2；已建模"
+    },
+    {
+      "specification": "M3x12 内六角螺钉",
+      "quantity": 32,
+      "purpose": "X底座4、库位脚16、前横梁8、库位柱顶4"
+    },
+    {
+      "specification": "M3x10 内六角螺钉",
+      "quantity": 16,
+      "purpose": "底架拼接板；不能改成长螺钉顶住工作台"
+    },
+    {
+      "specification": "M3 六角螺母，AF5.5，厚2.4",
+      "quantity": 116,
+      "purpose": "配上述M3连接；螺母窝名义深2.6，不可换厚螺母强压"
+    },
+    {
+      "specification": "M4x16 90度沉头螺钉，头径≤9",
+      "quantity": 8,
+      "purpose": "移动托盘4、库位托板4；必须沉平"
+    },
+    {
+      "specification": "M4 六角螺母，AF7",
+      "quantity": 8,
+      "purpose": "承托盘与库位托板"
+    },
+    {
+      "specification": "M4x60 内六角螺钉",
+      "quantity": 3,
+      "purpose": "手动齿轮轴，已建模"
+    },
+    {
+      "specification": "Ø6外径/Ø4.2内径 金属光滑隔套 L40±0.1",
+      "quantity": 3,
+      "purpose": "齿轮轴承面；不能用螺纹直接磨打印孔"
+    },
+    {
+      "specification": "M4平垫圈，OD≤9，厚1",
+      "quantity": 7,
+      "purpose": "三轴轴端6、Z锁销1"
+    },
+    {
+      "specification": "M4普通六角螺母，AF7，厚3.2",
+      "quantity": 6,
+      "purpose": "每根手轮轴两颗对锁，不能把轴向转动件夹死；已建模"
+    },
+    {
+      "specification": "M4x70 半牙螺钉 + M4手拧保持螺母",
+      "quantity": 1,
+      "purpose": "Z定位锁销；保持螺母只防脱，不预紧弯曲锁耳"
+    },
+    {
+      "specification": "M4x80 半牙螺钉",
+      "quantity": 1,
+      "purpose": "手动牵引销；去毛刺倒钝端部，导向处优先光杆"
+    },
+    {
+      "specification": "工作台夹具",
+      "quantity": 4,
+      "purpose": "前后夹紧底架；未夹紧禁止升Z"
+    }
+  ],
+  "motors_included": false,
+  "payload_allowed_kg": 0,
+  "hardware_accepted": false,
+  "loaded_operation_allowed": false,
+  "continuous_collision_detection": false,
+  "note": "Manual empty-bin fit prototype. Not a scale structural certification or replacement for the V03.1 metal machine."
+}

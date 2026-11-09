@@ -1,0 +1,2484 @@
+{
+  "fingerprint": "85591a8e8d478c15cd7ce83b9e3d36012129888750f780540bda3562168733b2",
+  "prototype_geometry_deliverable_pass": true,
+  "errors": [],
+  "part_types": 123,
+  "instances": 369,
+  "printable_types": 22,
+  "regression_test_count": 23,
+  "motion_pose_count": 1097,
+  "assembly_step_readback": {
+    "valid": true,
+    "solid_count": 438,
+    "expected_solids": 438,
+    "extents_mm": [
+      1256.3,
+      596.0,
+      769.0
+    ],
+    "volume_mm3": 35681054.327756956,
+    "file_sha256": "9e7bad19001c1c6516269023f89892329aed82aa3bc10805c4dbcaa17f69ce28",
+    "pass": true
+  },
+  "part_step_readbacks": [
+    {
+      "name": "2020_Rack_Z650",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        20.0,
+        20.0,
+        650.0
+      ],
+      "comparable_export_bounds_mm": [
+        20.0,
+        20.0,
+        650.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "00e933e34660cd5eb919576fb25da7a12a7823adf6839f5712f0b52b63b9efe9"
+    },
+    {
+      "name": "Cell_124x130",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        124.0,
+        130.0,
+        10.0
+      ],
+      "comparable_export_bounds_mm": [
+        124.00000020000004,
+        130.00000020000004,
+        10.000699540498191
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "31cee301f0a4fe6de81eb1d76291bf3750cc785978e90cd6b108146b6f8c691c"
+    },
+    {
+      "name": "Shelf_Angle_-1",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        20.0,
+        150.0,
+        23.0
+      ],
+      "comparable_export_bounds_mm": [
+        20.0,
+        150.0,
+        23.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "fdad5719dbd7703d79032a2aee9351217e897cefccd6054891a64c2ece8c6856"
+    },
+    {
+      "name": "Shelf_Angle_1",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        20.0,
+        150.0,
+        23.0
+      ],
+      "comparable_export_bounds_mm": [
+        20.0,
+        150.0,
+        23.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "f311abb03cd12445f1c91622e9f76f7950b29f93486cdb3cb25a45cad12d5582"
+    },
+    {
+      "name": "Rear_Panel_Standoff_2",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        10.0,
+        2.0,
+        10.0
+      ],
+      "comparable_export_bounds_mm": [
+        10.0,
+        2.0,
+        10.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "06cfce1e489154004c750b6de4532477681d79255946ab270f68e6a8f1e07034"
+    },
+    {
+      "name": "MGN12H_X",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        45.400000000000006,
+        27.000000000000007,
+        10.0
+      ],
+      "comparable_export_bounds_mm": [
+        45.400000000000006,
+        27.000000000000007,
+        10.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "30489eb03f515facad92501670fa496d7850efd86bbeda7af1e214b8d8329277"
+    },
+    {
+      "name": "X_Carriage_160x110x8",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        160.0,
+        110.0,
+        8.0
+      ],
+      "comparable_export_bounds_mm": [
+        160.0,
+        110.0,
+        8.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "cf427392f29c7f65ea99b8e33cf6f52831102e125244e11655cc7339548cdf63"
+    },
+    {
+      "name": "3030_Z600",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        30.0,
+        30.0,
+        600.0
+      ],
+      "comparable_export_bounds_mm": [
+        30.0,
+        30.0,
+        600.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "b12c015e091e3b0e8af09fc77f367b31d42e6ef215e8793185c1102dfad943d6"
+    },
+    {
+      "name": "Z_Foot_Angle_30x20x32",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        30.0,
+        20.0,
+        32.0
+      ],
+      "comparable_export_bounds_mm": [
+        30.0,
+        20.0,
+        32.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "b61ed6e5a030d7751bd817202f19df67a91a215b5a4d0ba3d24e7c6784d47bf0"
+    },
+    {
+      "name": "Z_Foot_Angle_Front",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        30.0,
+        20.000000000000007,
+        32.0
+      ],
+      "comparable_export_bounds_mm": [
+        30.0,
+        20.000000000000007,
+        32.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "4c64b70da2603f83c656a6d453c883441e064bf9482115c1e5e9699143c9757f"
+    },
+    {
+      "name": "Z_Top_Motor_Plate_130x60x8",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        130.0,
+        60.0,
+        8.0
+      ],
+      "comparable_export_bounds_mm": [
+        130.0,
+        60.0,
+        8.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "a77dc2d5d65ab0decd8953326cc3c572e30d6eddc2bdfc2cf8a6fe3c235ea50d"
+    },
+    {
+      "name": "MGN12_Rail_Z500",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        12.0,
+        8.00000000000003,
+        500.0
+      ],
+      "comparable_export_bounds_mm": [
+        12.0,
+        8.00000000000003,
+        500.0
+      ],
+      "max_extent_difference_mm": 2.842170943040401e-14,
+      "sha256": "9a011633b6762ba6d2f1bd4601d03127921d0e5b3c5e2061dc0100259a4dd7d4"
+    },
+    {
+      "name": "MGN12H_Z",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        27.0,
+        10.000000000000009,
+        45.4
+      ],
+      "comparable_export_bounds_mm": [
+        27.0,
+        10.000000000000009,
+        45.4
+      ],
+      "max_extent_difference_mm": 1.7763568394002505e-15,
+      "sha256": "8af0102a5cebd72486b8b8d4524588f816854c65dc9e5138a5db7fd2822c5f4c"
+    },
+    {
+      "name": "Z_Rail_Datum_20x4x500",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        20.0,
+        4.000000000000002,
+        500.0
+      ],
+      "comparable_export_bounds_mm": [
+        20.0,
+        4.000000000000002,
+        500.0
+      ],
+      "max_extent_difference_mm": 9.769962616701378e-15,
+      "sha256": "3be9be48e557a3791ddf522e35be6c20bf47eebdb2ada4f4005383ccfa42a94d"
+    },
+    {
+      "name": "Z_Carriage_130x100x8",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        130.0,
+        8.0,
+        100.0
+      ],
+      "comparable_export_bounds_mm": [
+        130.0,
+        8.0,
+        100.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "915ae25b4c8f8233d070248f3d22c251b6763e755692cc9b9beb2f9dc28b413b"
+    },
+    {
+      "name": "Carrier_Tray_124x130",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        124.0,
+        130.0,
+        10.0
+      ],
+      "comparable_export_bounds_mm": [
+        124.00000020000006,
+        130.00000020000007,
+        10.000699540498191
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "1692d3363fe1f6560af0d4339d1b9996330fc0b9ada205958f2ce8fd783c04bd"
+    },
+    {
+      "name": "Y_Spine_Metal_Spacer",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        26.0,
+        20.0,
+        11.0
+      ],
+      "comparable_export_bounds_mm": [
+        26.0,
+        20.0,
+        11.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "f908be093d395eeec8cc6a1fd32c1451e9e97f1f4492d3a741123876c159ae51"
+    },
+    {
+      "name": "Y_Spine_Metal_Spacer_Left",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        26.0,
+        20.000000000000004,
+        11.0
+      ],
+      "comparable_export_bounds_mm": [
+        26.0,
+        20.000000000000004,
+        11.0
+      ],
+      "max_extent_difference_mm": 3.552713678800501e-15,
+      "sha256": "527b4e9b2dafadae53dcf4abd37a267a89018a83d27b3f8b72656a8fc1bc71d7"
+    },
+    {
+      "name": "MGN9_Rail_Y200",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        9.0,
+        200.0,
+        6.5
+      ],
+      "comparable_export_bounds_mm": [
+        9.0,
+        200.0,
+        6.5
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "9c30893f0bd64fb27daadbdb64c1878d37390502515a4a14e18bf73f98feca75"
+    },
+    {
+      "name": "MGN9H_Y",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        20.0,
+        39.9,
+        8.0
+      ],
+      "comparable_export_bounds_mm": [
+        20.0,
+        39.9,
+        8.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "e5af1c8f32551cd020067158823c1151295f6f3ac6f6ed7829e66b3979abf8b1"
+    },
+    {
+      "name": "Pin_Guide_Cheek",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        26.0,
+        24.0,
+        4.0
+      ],
+      "comparable_export_bounds_mm": [
+        26.00000020000001,
+        24.000388722498986,
+        4.001896189795023
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "59a89492580a6c359691910cf7057b87f8f0495614b99458110639004217f9a4"
+    },
+    {
+      "name": "Pin_Flanged_Bushing_4p1x6",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        7.5,
+        7.5,
+        4.5
+      ],
+      "comparable_export_bounds_mm": [
+        7.5,
+        7.5,
+        4.5
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "47e65fc15ec2158cb79749a9e2a1847a597e10bb938d671be864da32c2f7377f"
+    },
+    {
+      "name": "Latch_Pin_D4x60",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        4.0,
+        4.0,
+        60.0
+      ],
+      "comparable_export_bounds_mm": [
+        4.0,
+        4.0,
+        60.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "9b27e0f7b81ca2a3adaeefeb6b925f01cda3dab53c11b93e039a7bce587c208e"
+    },
+    {
+      "name": "MG90S_Envelope",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        23.0,
+        12.0,
+        29.0
+      ],
+      "comparable_export_bounds_mm": [
+        23.0,
+        12.0,
+        29.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "1dfd68da642c1d0913b9abfd5acef16b372b979d9152441309c26f4997f69d85"
+    },
+    {
+      "name": "Servo_Cradle",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        40.0,
+        20.0,
+        37.0
+      ],
+      "comparable_export_bounds_mm": [
+        40.00000020000003,
+        20.000544131498593,
+        37.00000020000003
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "20e1d5d0da1f60815070269465d16cee6177319683dd3dcfd6656648f7060123"
+    },
+    {
+      "name": "Servo_Cradle_Lid",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        28.5,
+        16.0,
+        3.0
+      ],
+      "comparable_export_bounds_mm": [
+        28.50000020000003,
+        16.00000020000003,
+        3.0008704903977286
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "2c6f567ab76f508328fb17f9a284653eb700fb913c161545d018fd938c48c80b"
+    },
+    {
+      "name": "Latch_Scotch_Yoke",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        12.0,
+        22.0,
+        5.0
+      ],
+      "comparable_export_bounds_mm": [
+        12.000000200000008,
+        22.00000020000001,
+        5.001243471996736
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "59c701a3dcdfa937f6103d912e5b481237eb09c551ac033e1af9054745938e65"
+    },
+    {
+      "name": "Pin_Collar_4x10x5",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        10.0,
+        10.0,
+        5.0
+      ],
+      "comparable_export_bounds_mm": [
+        10.0,
+        10.0,
+        5.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "38f8ee12c18336b045452d36f9129bd72dafaf1166aa6269f369f2d262e0575f"
+    },
+    {
+      "name": "Latch_Return_Spring_Envelope",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        7.0,
+        7.0,
+        16.0
+      ],
+      "comparable_export_bounds_mm": [
+        7.0,
+        7.0,
+        16.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "7cd9974875bf07669a7bc3bb565ad2201528fc04a7f1f4360326424cb67e5cd1"
+    },
+    {
+      "name": "Latch_Crank_R7",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        3.0,
+        6.0,
+        12.5
+      ],
+      "comparable_export_bounds_mm": [
+        3.0018433137373943,
+        6.001589063840791,
+        12.500000200000038
+      ],
+      "max_extent_difference_mm": 3.019806626980426e-14,
+      "sha256": "00b038a33ab4f7fda92064644b859e7c8525f695db1ccc31970a2611b835bf08"
+    },
+    {
+      "name": "Servo_Horn_Interface_Envelope",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        1.5,
+        6.5,
+        6.5
+      ],
+      "comparable_export_bounds_mm": [
+        1.5,
+        6.5,
+        6.5
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "071695ea85cb4ecf9a7b4b5268eca2b30c9482a0eb5fadc5bb8cc26a0f093f93"
+    },
+    {
+      "name": "Latch_Roller_D3",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        26.0,
+        3.0,
+        3.0
+      ],
+      "comparable_export_bounds_mm": [
+        26.0,
+        3.0,
+        3.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "f767bbcf3045b7201b57069371c11f606bd095cb85f0ac5943adab6b8ded5802"
+    },
+    {
+      "name": "Roller_Clip_Envelope",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        0.5,
+        5.0,
+        5.0
+      ],
+      "comparable_export_bounds_mm": [
+        0.5,
+        5.0,
+        5.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "a682cca9f6e31f43ca6562bcc0f2a240f6425ebbde24a3a4c49efff04d27b624"
+    },
+    {
+      "name": "Y_Stop_24x4x10",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        24.0,
+        4.0,
+        10.0
+      ],
+      "comparable_export_bounds_mm": [
+        24.0,
+        4.0,
+        10.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "66b2c5b325078394816b043b449b355bef81e9e3de5be8c00cfffb0d95a68f46"
+    },
+    {
+      "name": "Base_Splice_60x40",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        60.0,
+        40.0,
+        4.0
+      ],
+      "comparable_export_bounds_mm": [
+        60.0,
+        40.0,
+        4.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "58fbdeda9796aa258523609cea049020a1858e156803744e2b03b77af5b1462e"
+    },
+    {
+      "name": "Column_Foot_28x40",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        28.0,
+        40.0,
+        6.0
+      ],
+      "comparable_export_bounds_mm": [
+        28.0,
+        40.0,
+        6.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "67336fcbc5410840c60b19e33e4574b103763121ce6ce58eb6f67f37df98d57a"
+    },
+    {
+      "name": "Column_Pedestal_28x40",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        28.0,
+        40.0,
+        14.0
+      ],
+      "comparable_export_bounds_mm": [
+        28.0,
+        40.0,
+        14.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "58ea860299b0cebe7d68c941135aca24d4611d237ef46158dc6abe3e2f2581a3"
+    },
+    {
+      "name": "Column_Carrier_RoundSlot",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        178.0,
+        170.0,
+        6.0
+      ],
+      "comparable_export_bounds_mm": [
+        178.0,
+        170.0,
+        6.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "375046f4c897ff7a832a3f949089ab19c715b1017d9c110d48b236bd009b3e40"
+    },
+    {
+      "name": "Column_Rear_Panel_170x630",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        170.0,
+        3.0,
+        630.0
+      ],
+      "comparable_export_bounds_mm": [
+        170.0,
+        3.0,
+        630.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "bdc0c5094da00d38038b9cbd2a3cd0f4cd33b3d42bea1193065b4e182aa7eac9"
+    },
+    {
+      "name": "Column_Datum_Pin_D6",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        6.0,
+        6.0,
+        12.0
+      ],
+      "comparable_export_bounds_mm": [
+        6.0,
+        6.0,
+        12.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "8fc44013b8b7e043e5b86cbf6f5b327b5319cd1b61cc3bec77cb62265de9f1e6"
+    },
+    {
+      "name": "Base_Panel_0_Located",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        320.0,
+        590.0,
+        6.0
+      ],
+      "comparable_export_bounds_mm": [
+        320.0,
+        590.0,
+        6.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "4e422d9a0eddcb37b72183b7821fd78d701c56dcb192ea713303af0f970ae792"
+    },
+    {
+      "name": "Base_Panel_1_Located",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        420.0,
+        590.0,
+        6.0
+      ],
+      "comparable_export_bounds_mm": [
+        420.0,
+        590.0,
+        6.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "a487c6e450fb54431956dc5edbebdf67cef7361df0394e77621b08201e4b5f19"
+    },
+    {
+      "name": "Base_Panel_2_Located",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        510.0,
+        590.0,
+        6.0
+      ],
+      "comparable_export_bounds_mm": [
+        510.0,
+        590.0,
+        6.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "1246ae1bfb2ed33d73c4ea84dad28f1b3b5fcbcb84b1a9af5467fb871a11d27a"
+    },
+    {
+      "name": "X_Datum_Bar_1050",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        1050.0,
+        30.0,
+        24.0
+      ],
+      "comparable_export_bounds_mm": [
+        1050.0,
+        30.0,
+        24.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "bfc1508975622b8f55740511759bbf25ddac9ca112017e67ebedb122b7503d70"
+    },
+    {
+      "name": "MGN12_X1050",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        1050.0,
+        12.000000000000117,
+        8.0
+      ],
+      "comparable_export_bounds_mm": [
+        1050.0,
+        12.000000000000117,
+        8.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "da0266cf65805bdf616bf9aae7d7ff1f3057ca25f7ce5a6a7b0af63cb97ead04"
+    },
+    {
+      "name": "X_Stop_Low_Profile",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        24.0,
+        20.0,
+        8.0
+      ],
+      "comparable_export_bounds_mm": [
+        24.0,
+        20.0,
+        8.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "33268bde9f6fcf59fe5dd242948702cad0cd235d349c13792804c48a48423c26"
+    },
+    {
+      "name": "Z_Stop_Rear_Clearance",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        24.0,
+        9.0,
+        10.0
+      ],
+      "comparable_export_bounds_mm": [
+        24.0,
+        9.0,
+        10.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "ff957c97b9e43dc6a2a2b1af85ca9f7892275162a84e8eee4dbdefbc99f7276e"
+    },
+    {
+      "name": "Rack_M1p5_24T_X",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        113.09733552923,
+        9.500000000000162,
+        30.0
+      ],
+      "comparable_export_bounds_mm": [
+        113.09733572923004,
+        9.500528590602633,
+        30.000000200000056
+      ],
+      "max_extent_difference_mm": 3.993250174971763e-12,
+      "sha256": "36d5f373f28f64bf51b912c5aab66107bbeb35c4b989838dcd55cf05dc92fc81"
+    },
+    {
+      "name": "Rack_M1p5_24T_Z",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        9.50000000000016,
+        30.000000000000014,
+        113.09733552923
+      ],
+      "comparable_export_bounds_mm": [
+        9.500528590602622,
+        30.00000020000006,
+        113.09733572923007
+      ],
+      "max_extent_difference_mm": 3.9825920339353615e-12,
+      "sha256": "50397156c90e119673558af94efad43f6f10289fe2487f9766a0d0a12953f12e"
+    },
+    {
+      "name": "Rack_M1p5_24T_Y",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        9.500000000000185,
+        113.09733552923,
+        30.0
+      ],
+      "comparable_export_bounds_mm": [
+        9.50052859060265,
+        113.09733572923102,
+        30.000000200001022
+      ],
+      "max_extent_difference_mm": 4.002131959168764e-12,
+      "sha256": "7646bd25cd5e68a08acb11a11dba090e1e94376a04a07234a01da3a0d9c18298"
+    },
+    {
+      "name": "Pinion_M1p5_20T_X",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        32.967749934904,
+        32.967749934904,
+        12.0
+      ],
+      "comparable_export_bounds_mm": [
+        32.967750134910716,
+        32.967750134910716,
+        12.003792179590228
+      ],
+      "max_extent_difference_mm": 2.7426949600339867e-12,
+      "sha256": "6f95295994374557b706c9447a8fc67cd37b008ae26a32ea300aad33b6a4ec38"
+    },
+    {
+      "name": "Pinion_M1p5_20T_Z",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        32.99967135916,
+        12.000000000000002,
+        32.99967135916
+      ],
+      "comparable_export_bounds_mm": [
+        32.99967155916505,
+        12.003792179590047,
+        32.99967155916505
+      ],
+      "max_extent_difference_mm": 4.817479748453479e-12,
+      "sha256": "93af3e828169940e8f22a05a95cf303e3047eaf2bf6466a21af25900cd8337b2"
+    },
+    {
+      "name": "Pinion_M1p5_20T_Y",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        32.961450190045426,
+        32.961450190045426,
+        12.0
+      ],
+      "comparable_export_bounds_mm": [
+        32.961450390050466,
+        32.961450390050466,
+        12.003792179590043
+      ],
+      "max_extent_difference_mm": 2.5579538487363607e-13,
+      "sha256": "4b96371a16d4829532fc3944404746dc64c7bfd246be530bdbd5d5e1d2b2c080"
+    },
+    {
+      "name": "X_Rack_Backbone",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        1040.0,
+        6.0,
+        30.0
+      ],
+      "comparable_export_bounds_mm": [
+        1040.0,
+        6.0,
+        30.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "b459325ac47a856fea87f522f2972f51afdcee6737c39eef12db84e0e196916b"
+    },
+    {
+      "name": "Z_Rack_Backbone",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        4.0,
+        30.0,
+        566.0
+      ],
+      "comparable_export_bounds_mm": [
+        4.0,
+        30.0,
+        566.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "e6adba43ef6a172fe7bab991200e32f1521f87bbdbc31b6067415ce44fb65f8b"
+    },
+    {
+      "name": "Z_Rack_StandOff",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        96.0,
+        8.0,
+        12.0
+      ],
+      "comparable_export_bounds_mm": [
+        96.0,
+        8.0,
+        12.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "c02fc6ee9759b801d5a76d37755bf35a9a5e5110f3c0cc4807de86e0ab6f3692"
+    },
+    {
+      "name": "Y_Rack_Backbone",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        4.0,
+        227.0,
+        30.0
+      ],
+      "comparable_export_bounds_mm": [
+        4.0,
+        227.0,
+        30.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "31134c7c243a996f109fa8262dbefeb61b40d0f876be9ab53e53fd50e702b122"
+    },
+    {
+      "name": "Y_Rack_StandOff",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        25.0,
+        12.0,
+        6.0
+      ],
+      "comparable_export_bounds_mm": [
+        25.0,
+        12.0,
+        6.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "2e30bfe3496c84a7a80b0a330d6cfffc9b8a1a038466a925639c0642de978665"
+    },
+    {
+      "name": "Y_Spine_TwinGuide",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        82.0,
+        211.0,
+        6.0
+      ],
+      "comparable_export_bounds_mm": [
+        82.0,
+        211.0,
+        6.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "52d21babd990b2f51b253a210f7290dd925ce2d03239cd05c583066a8501a82d"
+    },
+    {
+      "name": "Tray_Tube_V03",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        25.0,
+        213.5,
+        25.0
+      ],
+      "comparable_export_bounds_mm": [
+        25.0,
+        213.5,
+        25.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "c3af0e3314dac270b7d6cdb71df65d44c9089448f7dafca20b48880eace5dd31"
+    },
+    {
+      "name": "Tube_End_Plug_V03",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        20.8,
+        30.0,
+        20.8
+      ],
+      "comparable_export_bounds_mm": [
+        20.8,
+        30.0,
+        20.8
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "bb802fd9d7db4f0aa73e17713998bdb7cea2d98cfa858c22680c6ca4123ab7ab"
+    },
+    {
+      "name": "ZDT_RealMotor_X",
+      "pass": true,
+      "solids": 24,
+      "raw_step_extents_mm": [
+        44.650001504116815,
+        62.90000009999521,
+        83.00000010000005
+      ],
+      "comparable_export_bounds_mm": [
+        44.650001504116815,
+        62.90000009999521,
+        83.00000010000005
+      ],
+      "max_extent_difference_mm": 4.447997525858227e-12,
+      "sha256": "349c8bdd7b9a764f2e1c2483ccc0fec4480610706b897865bbb06ed06014912d"
+    },
+    {
+      "name": "ZDT_RealMotor_Z",
+      "pass": true,
+      "solids": 24,
+      "raw_step_extents_mm": [
+        44.65000150411693,
+        83.00000009999555,
+        62.90000019999792
+      ],
+      "comparable_export_bounds_mm": [
+        44.65000150411693,
+        83.00000009999555,
+        62.90000019999792
+      ],
+      "max_extent_difference_mm": 9.99982319171977e-08,
+      "sha256": "ec2e1f8d4a8230ebcf037a6263103a1e8e58bd18dd4ee0930412426098a12ead"
+    },
+    {
+      "name": "ZDT_RealMotor_Y",
+      "pass": true,
+      "solids": 24,
+      "raw_step_extents_mm": [
+        44.650001504116815,
+        62.90000009999521,
+        83.00000010000005
+      ],
+      "comparable_export_bounds_mm": [
+        44.650001504116815,
+        62.90000009999521,
+        83.00000010000005
+      ],
+      "max_extent_difference_mm": 4.447997525858227e-12,
+      "sha256": "3b95ac3b09a440142419747b460a310204cf1da858be2f62835ef286edc85634"
+    },
+    {
+      "name": "Motor_Plate_50x50",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        50.0,
+        50.0,
+        4.0
+      ],
+      "comparable_export_bounds_mm": [
+        50.0,
+        50.0,
+        4.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "b767fdc774d7fd4b256924915be43a0940483708917dfbc02df8431f17793c50"
+    },
+    {
+      "name": "Z_Motor_Plate",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        50.0,
+        4.0000000000000036,
+        50.0
+      ],
+      "comparable_export_bounds_mm": [
+        50.0,
+        4.0000000000000036,
+        50.0
+      ],
+      "max_extent_difference_mm": 1.7763568394002505e-15,
+      "sha256": "9a66f9b4355cc6b1f2a05f377717b00f56f4aba046a78b42b78d30fc029efbeb"
+    },
+    {
+      "name": "Z_Reduction_10to1_CANDIDATE",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        42.0,
+        45.0,
+        42.0
+      ],
+      "comparable_export_bounds_mm": [
+        42.0,
+        45.0,
+        42.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "9abab5707062bc3615ea29798aa121519a90cdcc1a0b9777d68f40cb3b18e63d"
+    },
+    {
+      "name": "Z_Reducer_Output_Shaft_CANDIDATE",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        8.0,
+        28.0,
+        8.0
+      ],
+      "comparable_export_bounds_mm": [
+        8.0,
+        28.0,
+        8.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "f6dee456630575cd441e0f40acb6d592c8f8898404950e7a3847d98bb033854a"
+    },
+    {
+      "name": "Y_Reduction_3to1_CANDIDATE",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        42.0,
+        42.0,
+        35.0
+      ],
+      "comparable_export_bounds_mm": [
+        42.0,
+        42.0,
+        35.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "e32589355b486896a286ab84f0ae64ad78cb389563ae1d97ed0f8080b36d2212"
+    },
+    {
+      "name": "Y_Reducer_Output_CANDIDATE",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        8.0,
+        8.0,
+        28.0
+      ],
+      "comparable_export_bounds_mm": [
+        8.0,
+        8.0,
+        28.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "303b83b22e1c3298225d50d9cebc9c08997188e22e5c6b8a727a4b29daa64f5c"
+    },
+    {
+      "name": "X_Motor_Leg",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        6.0,
+        16.0,
+        31.0
+      ],
+      "comparable_export_bounds_mm": [
+        6.0,
+        16.0,
+        31.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "92108f3079a2d5463a689cddaa3d42caa0d2536c5f3d55c2b9455d850f926718"
+    },
+    {
+      "name": "Z_Motor_Module_Link",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        19.0,
+        26.0,
+        6.0
+      ],
+      "comparable_export_bounds_mm": [
+        19.0,
+        26.0,
+        6.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "fc8d474e17d67784603ddc97dd6b369196c5bd7258801518515de7d987472df9"
+    },
+    {
+      "name": "Y_Module_Base_Located",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        284.0,
+        138.0,
+        13.0
+      ],
+      "comparable_export_bounds_mm": [
+        284.0,
+        138.0,
+        13.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "4fbdde496e7ce0c4206f933894fd5ba52a2465cf013825a8f223e2ffe72beab9"
+    },
+    {
+      "name": "Latch_Mast_V03_RoundSlot",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        36.0,
+        16.0,
+        92.0
+      ],
+      "comparable_export_bounds_mm": [
+        36.0,
+        16.0,
+        92.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "44339cab7a91fbb37337318ac07fda4fb2ba56e732893c0c3a3b73a7a7713eda"
+    },
+    {
+      "name": "Head_Locator_D3",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        3.0,
+        3.0,
+        9.0
+      ],
+      "comparable_export_bounds_mm": [
+        3.0,
+        3.0,
+        9.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "566f0746bf469e59da9e6a6ae569679b05adb0198ac4d32b1ce2ac1a45992f4a"
+    },
+    {
+      "name": "Y_Motor_Leg",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        6.0,
+        40.0,
+        32.0
+      ],
+      "comparable_export_bounds_mm": [
+        6.0,
+        40.0,
+        32.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "f640a1e3bff285eeae4f4139a6cfc4a7f11c6879a794a7a21241b379c80552c7"
+    },
+    {
+      "name": "Metal_Pinion_Hub_X",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        24.0,
+        24.0,
+        14.0
+      ],
+      "comparable_export_bounds_mm": [
+        24.0,
+        24.0,
+        14.0
+      ],
+      "max_extent_difference_mm": 3.552713678800501e-15,
+      "sha256": "56681844e1607d4109e0532b5e17844034468c396af4cc95abafdc9815f20d76"
+    },
+    {
+      "name": "Metal_Pinion_Hub_Z",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        24.0,
+        14.000000000000002,
+        24.0
+      ],
+      "comparable_export_bounds_mm": [
+        24.0,
+        14.000000000000002,
+        24.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "5f52d352de16e5a91c945cda9ee4d6eef80718a493d3f07a92035e4f8222a9b0"
+    },
+    {
+      "name": "Metal_Pinion_Hub_Y",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        24.0,
+        24.0,
+        14.0
+      ],
+      "comparable_export_bounds_mm": [
+        24.0,
+        24.0,
+        14.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "eebb5b09c6da00ce3bef272e35122486065b44f8d29cd41503b0101b63f376be"
+    },
+    {
+      "name": "Local_Power_Case",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        155.0,
+        85.0,
+        50.0
+      ],
+      "comparable_export_bounds_mm": [
+        155.00000020000007,
+        85.00124347199679,
+        50.00068399959823
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "f5d66880bf0ee035ad5a3330d6490503fb99e10ece3cd75abeca5e95a29e3b01"
+    },
+    {
+      "name": "Local_Power_Lid",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        155.0,
+        85.0,
+        3.0
+      ],
+      "comparable_export_bounds_mm": [
+        155.00000020000007,
+        85.00000020000009,
+        3.0008704903977454
+      ],
+      "max_extent_difference_mm": 2.842170943040401e-14,
+      "sha256": "dfd6bcf5e07df8a27b790b0a38f0e9240766a792c3b85385a0abba91e4e4700d"
+    },
+    {
+      "name": "Battery_Candidate_85x65x42",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        85.0,
+        65.0,
+        42.0
+      ],
+      "comparable_export_bounds_mm": [
+        85.0,
+        65.0,
+        42.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "d224001015ff137cc95f2bb8866b2a2cb0f9b1c5d4bf721469f8d1cab35db14e"
+    },
+    {
+      "name": "ESP32_Controller_Candidate",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        40.0,
+        55.0,
+        12.0
+      ],
+      "comparable_export_bounds_mm": [
+        40.0,
+        55.0,
+        12.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "fb825652c9b6d16610f9f68987e8fac87a4c30953be8b3fcf676c88bc8ec6987"
+    },
+    {
+      "name": "Power_Module_Tray",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        165.0,
+        90.0,
+        4.0
+      ],
+      "comparable_export_bounds_mm": [
+        165.0,
+        90.0,
+        4.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "0cbff9cdb2364a1e21c5f300ce3b91b4f7cf3e0f380aad994a2437ce88688f4f"
+    },
+    {
+      "name": "X_Power_Module_Tray",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        212.5,
+        90.0,
+        4.0
+      ],
+      "comparable_export_bounds_mm": [
+        212.5,
+        90.0,
+        4.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "7ee478e930f1c2592fb4774d24c9baa0d59ac15562b22ed569d30b827e13fb5f"
+    },
+    {
+      "name": "Z_Power_Module_Tray",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        165.0,
+        94.0,
+        16.0
+      ],
+      "comparable_export_bounds_mm": [
+        165.0,
+        94.0,
+        16.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "4b1cf765af809bed75097ea59965ac658e21750f8179fa3095ea722fad981998"
+    },
+    {
+      "name": "Y_Power_Module_Leg",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        8.0,
+        24.0,
+        65.0
+      ],
+      "comparable_export_bounds_mm": [
+        8.0,
+        24.0,
+        65.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "77aed912a7a4427f0a1b5c74f7e3894d82afb853bb1d2c702aa830b788f6206f"
+    },
+    {
+      "name": "Independent_Steel_Safety_Track",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        6.0,
+        30.0,
+        566.0
+      ],
+      "comparable_export_bounds_mm": [
+        6.0,
+        30.0,
+        566.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "3f1ffd3366e881a90bc23cd669a2525799961d681628e4cc22ab806705ad7f5e"
+    },
+    {
+      "name": "NC_Rail_Brake_CANDIDATE",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        36.0,
+        50.0,
+        50.0
+      ],
+      "comparable_export_bounds_mm": [
+        36.0,
+        50.0,
+        50.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "d1b2501855a3a098813e9326c6475e4e8315738ff6774ab176772254ad17e28f"
+    },
+    {
+      "name": "Safety_Track_Link",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        27.0,
+        20.0,
+        12.0
+      ],
+      "comparable_export_bounds_mm": [
+        27.0,
+        20.0,
+        12.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "b61fb8325b95e8938a6a0f7e0bc410e99520fae3292fe8c45228680761b2a2ea"
+    },
+    {
+      "name": "Brake_Module_Link",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        7.0,
+        25.0,
+        8.0
+      ],
+      "comparable_export_bounds_mm": [
+        7.0,
+        25.0,
+        8.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "c030f7e64d1999f038b42b416721d5fe1aa67707640d970635f4ddcfd02a0c33"
+    },
+    {
+      "name": "Bin_V03_Marker_Rails",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        110.0,
+        136.0,
+        60.0
+      ],
+      "comparable_export_bounds_mm": [
+        110.00000020000004,
+        136.00000020000004,
+        60.000000200000024
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "8408fbb07219dfa360266b703caf3e4559d2ca701a2fbf2f02ff23a7d650d4eb"
+    },
+    {
+      "name": "Marker_Card_32mm",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        32.0,
+        0.2,
+        32.0
+      ],
+      "comparable_export_bounds_mm": [
+        32.0,
+        0.2,
+        32.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "5a1a8101fc8a21a74c84145033e1ae5181bd503fb5aa7ec9495c6547cbb0fdd0"
+    },
+    {
+      "name": "Column_Reference_Tag_Mount",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        36.0,
+        2.0,
+        40.0
+      ],
+      "comparable_export_bounds_mm": [
+        36.0000002,
+        2.0000002,
+        40.0000002
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "2982c22b1b1c70389d760baedfd979d5d3b0264aabbd439365ddfd37804f0477"
+    },
+    {
+      "name": "Camera_CANDIDATE_32x32",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        32.0,
+        18.0,
+        32.0
+      ],
+      "comparable_export_bounds_mm": [
+        32.0,
+        18.0,
+        32.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "a355873f729842a7069b316a197c35cbc97a1b1f3720c8c87ade29cbe7615e06"
+    },
+    {
+      "name": "Camera_Slotted_Mount",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        53.0,
+        5.0,
+        88.0
+      ],
+      "comparable_export_bounds_mm": [
+        53.000000200000045,
+        5.001119144797077,
+        88.00000020000004
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "bd32061a66b0ff0b03f162010d57fa97721881ee3cec06deb142a3d60c4a11a7"
+    },
+    {
+      "name": "IO_Deck",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        124.0,
+        130.0,
+        10.0
+      ],
+      "comparable_export_bounds_mm": [
+        124.00000020000004,
+        130.00000020000004,
+        10.000699540498191
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "a4357320b58f74f30c88ad5ea09df9d45ae283ce4f8ee8977f3c1c8133f1ca31"
+    },
+    {
+      "name": "IO_Stand_Leg",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        20.0,
+        20.0,
+        170.0
+      ],
+      "comparable_export_bounds_mm": [
+        20.0,
+        20.0,
+        170.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "c5cebe7135dcec7f7fef13ab2390c8dea2158fe79f549c4886d976c6c07febe0"
+    },
+    {
+      "name": "IO_Metal_Deck_Frame",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        150.0,
+        110.0,
+        6.0
+      ],
+      "comparable_export_bounds_mm": [
+        150.0,
+        110.0,
+        6.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "abbcfb35c954f49d49b69f85962e869e11093322db015dae51e8e94bc6b6c0b2"
+    },
+    {
+      "name": "IO_Inner_Shutter",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        250.0,
+        3.0,
+        104.0
+      ],
+      "comparable_export_bounds_mm": [
+        250.0,
+        3.0,
+        104.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "0bc596a8ab6b8870021bf6593041750281a648ad3f3891530dd94e0e7a35ce9e"
+    },
+    {
+      "name": "IO_Shutter_Guide_Right",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        8.0,
+        8.0,
+        204.0
+      ],
+      "comparable_export_bounds_mm": [
+        8.000000200000002,
+        8.000000200000002,
+        204.0000002
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "e5b3b2d1a3409d357541ee89350028370d1180aa9d58cb57b42e326c3372e400"
+    },
+    {
+      "name": "IO_Shutter_Guide_Left",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        8.000000000000025,
+        8.0,
+        204.0
+      ],
+      "comparable_export_bounds_mm": [
+        8.000000200000034,
+        8.000000200000034,
+        204.00000020000004
+      ],
+      "max_extent_difference_mm": 5.684341886080802e-14,
+      "sha256": "586be8c59b17e8368b3c96f71e65ce3871e1baca3217ae8425611bf7ede367d4"
+    },
+    {
+      "name": "IO_Shutter_Header",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        260.0,
+        19.0,
+        4.0
+      ],
+      "comparable_export_bounds_mm": [
+        260.0,
+        19.0,
+        4.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "de0d6e7402e1c802bc7aeacf0fd4c5d65b201240b246cfe9b73dc2c4d83d107f"
+    },
+    {
+      "name": "IO_Outer_Door",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        3.0,
+        138.0,
+        100.0
+      ],
+      "comparable_export_bounds_mm": [
+        3.0,
+        138.0,
+        100.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "993c5e6d577f3a2d138582da18ed18f9575e44e4192e0e6bea8acfdc8795945e"
+    },
+    {
+      "name": "IO_Access_Tunnel_Horizontal",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        113.5,
+        138.0,
+        3.0
+      ],
+      "comparable_export_bounds_mm": [
+        113.5,
+        138.0,
+        3.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "040d5072cc1e54ea737ac71b112bb0aa6e3caa3be776399b272b2ed2158c4367"
+    },
+    {
+      "name": "IO_Access_Tunnel_Side",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        113.5,
+        3.0,
+        106.0
+      ],
+      "comparable_export_bounds_mm": [
+        113.5,
+        3.0,
+        106.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "6c8e3853ec382ebde7d71bb50748a07ad6abdbeebe2de4ff03af63d83700dec5"
+    },
+    {
+      "name": "IO_Roof",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        260.0,
+        153.0,
+        3.0
+      ],
+      "comparable_export_bounds_mm": [
+        260.0,
+        153.0,
+        3.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "620cdd0bea4a3f3aebf5b7157a75aab56ff332c7dc194789dae4600ef2a487d0"
+    },
+    {
+      "name": "IO_Rear_Wall",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        170.0,
+        3.0,
+        198.0
+      ],
+      "comparable_export_bounds_mm": [
+        170.0,
+        3.0,
+        198.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "c2ba790c50595239ffae729c9be6efc7731a6f17540146eb6ebe381d2de1de49"
+    },
+    {
+      "name": "IO_Right_Wall",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        3.0,
+        154.5,
+        198.0
+      ],
+      "comparable_export_bounds_mm": [
+        3.0,
+        154.5,
+        198.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "ed6b943f92f6b5992daffdc9c1d334dd3a4c0d523129671f3437a011bfea379f"
+    },
+    {
+      "name": "IO_Upper_Fixed_Shield",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        250.0,
+        3.0,
+        100.0
+      ],
+      "comparable_export_bounds_mm": [
+        250.0,
+        3.0,
+        100.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "9efdd74a04ea3d8752ad9ae9aca71cf72d039f8c890c2d287dca880afdfc187d"
+    },
+    {
+      "name": "IO_Lower_Fixed_Shield",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        170.0,
+        3.0,
+        8.0
+      ],
+      "comparable_export_bounds_mm": [
+        170.0,
+        3.0,
+        8.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "7c1e4ce1c04f83f3c5db67fa6fa9fa9fe816689fc85f64128fcfd39e38b30e8c"
+    },
+    {
+      "name": "IO_Left_Upper_Wall",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        3.0,
+        150.0,
+        104.0
+      ],
+      "comparable_export_bounds_mm": [
+        3.0,
+        150.0,
+        104.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "8322d3b6d36e75bbcac1ac322710e6fd70deb61f96e0cb7b6154cbdd0b93f4f6"
+    },
+    {
+      "name": "IO_External_Reference_Card",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        0.20000000000000356,
+        32.0,
+        32.0
+      ],
+      "comparable_export_bounds_mm": [
+        0.20000000000000356,
+        32.0,
+        32.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "3056359f05f30d992b4f93ce0a60c373a91c8ed5cf57a5f61cf61b2c3bfed32e"
+    },
+    {
+      "name": "IO_Box_Back_Stop",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        110.0,
+        3.0,
+        8.0
+      ],
+      "comparable_export_bounds_mm": [
+        110.0000002,
+        3.0000002000000072,
+        8.000000200000006
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "63b51d377bfa7f131f6843a95ed28b1ac61725b97cc9da44334f61c5ea6549b1"
+    },
+    {
+      "name": "Box_Presence_Sensor_CANDIDATE",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        12.0,
+        12.0,
+        20.0
+      ],
+      "comparable_export_bounds_mm": [
+        12.0,
+        12.0,
+        20.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "1d19d1c3781ad9c8dcb7e43c292ae14aaf63b6c916f7855217421ee6878cbca2"
+    },
+    {
+      "name": "Guard_Post_740",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        20.0,
+        20.0,
+        740.0
+      ],
+      "comparable_export_bounds_mm": [
+        20.0,
+        20.0,
+        740.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "b055c3d9e10d59b3ad9d91c248af48fea304690e27f98809b4b52b793e5c771b"
+    },
+    {
+      "name": "Guard_Cross_1200",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        1200.0,
+        20.0,
+        20.0
+      ],
+      "comparable_export_bounds_mm": [
+        1200.0,
+        20.0,
+        20.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "8de673874d92e869be5e58404de14dd034a7a0d17674b97e282b401b44229aac"
+    },
+    {
+      "name": "Guard_Side_520",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        20.0,
+        520.0,
+        20.0
+      ],
+      "comparable_export_bounds_mm": [
+        20.0,
+        520.0,
+        20.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "df0fc5af35e026a1c94560cbf5707dc900de4e581abddad09b54d5a99abf06aa"
+    },
+    {
+      "name": "Guard_Panel_Y-371.5",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        1250.0,
+        3.0,
+        766.0
+      ],
+      "comparable_export_bounds_mm": [
+        1250.0,
+        3.0,
+        766.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "18fc63cbeb020703f726caf3ef2bc1d7438048fb82a28e8066c2ca71ac9e56e3"
+    },
+    {
+      "name": "Guard_Panel_Y221.5",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        1250.0,
+        3.0,
+        766.0
+      ],
+      "comparable_export_bounds_mm": [
+        1250.0,
+        3.0,
+        766.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "a679ce56178e4161677b0b50f93c5e74e3223666716dac7c0c621017e33293a9"
+    },
+    {
+      "name": "Guard_Panel_X-351.5",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        3.0,
+        590.0,
+        766.0
+      ],
+      "comparable_export_bounds_mm": [
+        3.0,
+        590.0,
+        766.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "d82a85617490f0bc95598bee7972cc2b8afa4e9ce607a8f99fbf48d283a398c3"
+    },
+    {
+      "name": "Guard_Panel_X901.5",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        3.0,
+        590.0,
+        766.0
+      ],
+      "comparable_export_bounds_mm": [
+        3.0,
+        590.0,
+        766.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "a3d3a84684ca041150640d02a0dbcd27565c54d83c2f3ed4bc4ed7fa6c1d1d38"
+    },
+    {
+      "name": "Guard_Roof",
+      "pass": true,
+      "solids": 1,
+      "raw_step_extents_mm": [
+        1256.0,
+        596.0,
+        3.0
+      ],
+      "comparable_export_bounds_mm": [
+        1256.0,
+        596.0,
+        3.0
+      ],
+      "max_extent_difference_mm": 0.0,
+      "sha256": "48341c56f39b96237968a634bd184529cd35495a80d94e4f1d9922b99adeaac9"
+    }
+  ],
+  "stl_mesh_checks": [
+    {
+      "triangles": 2084,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 70321.63645481877,
+      "extents_mm": [
+        124.0,
+        130.0,
+        10.0
+      ],
+      "fits_a1": true,
+      "name": "Cell_124x130",
+      "volume_relative_error": 1.4996795153477423e-06,
+      "pass": true
+    },
+    {
+      "triangles": 6156,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 48556.90940009372,
+      "extents_mm": [
+        124.0,
+        130.0,
+        10.0
+      ],
+      "fits_a1": true,
+      "name": "Carrier_Tray_124x130",
+      "volume_relative_error": 6.516415106398769e-06,
+      "pass": true
+    },
+    {
+      "triangles": 1528,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 2271.20227741233,
+      "extents_mm": [
+        26.0,
+        24.0,
+        4.0
+      ],
+      "fits_a1": true,
+      "name": "Pin_Guide_Cheek",
+      "volume_relative_error": 4.1031723210144116e-05,
+      "pass": true
+    },
+    {
+      "triangles": 2056,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 10242.478979656124,
+      "extents_mm": [
+        40.0,
+        20.0,
+        37.0
+      ],
+      "fits_a1": true,
+      "name": "Servo_Cradle",
+      "volume_relative_error": 6.051976412103976e-06,
+      "pass": true
+    },
+    {
+      "triangles": 1028,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1331.0701747774656,
+      "extents_mm": [
+        28.5,
+        16.0,
+        3.0
+      ],
+      "fits_a1": true,
+      "name": "Servo_Cradle_Lid",
+      "volume_relative_error": 1.1497935984562471e-05,
+      "pass": true
+    },
+    {
+      "triangles": 1048,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 606.3021778113851,
+      "extents_mm": [
+        12.0,
+        22.0,
+        5.0
+      ],
+      "fits_a1": true,
+      "name": "Latch_Scotch_Yoke",
+      "volume_relative_error": 1.380649820889411e-05,
+      "pass": true
+    },
+    {
+      "triangles": 1620,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 144.68735906465224,
+      "extents_mm": [
+        3.0,
+        5.999745845794678,
+        12.498301267623901
+      ],
+      "fits_a1": true,
+      "name": "Latch_Crank_R7",
+      "volume_relative_error": 0.00014737666577598524,
+      "pass": true
+    },
+    {
+      "triangles": 2428,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 23247.011670455657,
+      "extents_mm": [
+        113.09733581542969,
+        9.500000000000002,
+        30.0
+      ],
+      "fits_a1": true,
+      "name": "Rack_M1p5_24T_X",
+      "volume_relative_error": 4.1007359417197936e-06,
+      "pass": true
+    },
+    {
+      "triangles": 2428,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 23247.011670455628,
+      "extents_mm": [
+        9.5,
+        30.0,
+        113.09733581542969
+      ],
+      "fits_a1": true,
+      "name": "Rack_M1p5_24T_Z",
+      "volume_relative_error": 4.100735940624344e-06,
+      "pass": true
+    },
+    {
+      "triangles": 2428,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 23247.01167045569,
+      "extents_mm": [
+        9.500000000000025,
+        113.09733581542969,
+        30.0
+      ],
+      "fits_a1": true,
+      "name": "Rack_M1p5_24T_Y",
+      "volume_relative_error": 4.100735940624333e-06,
+      "pass": true
+    },
+    {
+      "triangles": 4240,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 6534.567991642781,
+      "extents_mm": [
+        32.967750549316406,
+        32.967750549316406,
+        12.0
+      ],
+      "fits_a1": true,
+      "name": "Pinion_M1p5_20T_X",
+      "volume_relative_error": 0.0001027877427155304,
+      "pass": true
+    },
+    {
+      "triangles": 4240,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 6534.567917286598,
+      "extents_mm": [
+        32.999671936035156,
+        12.000000000000002,
+        32.999671936035156
+      ],
+      "fits_a1": true,
+      "name": "Pinion_M1p5_20T_Z",
+      "volume_relative_error": 0.00010277636275684063,
+      "pass": true
+    },
+    {
+      "triangles": 4240,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 6534.567996445938,
+      "extents_mm": [
+        32.961448669433594,
+        32.961448669433594,
+        12.0
+      ],
+      "fits_a1": true,
+      "name": "Pinion_M1p5_20T_Y",
+      "volume_relative_error": 0.00010278847773168615,
+      "pass": true
+    },
+    {
+      "triangles": 4808,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 118461.49015963014,
+      "extents_mm": [
+        155.0,
+        85.0,
+        50.0
+      ],
+      "fits_a1": true,
+      "name": "Local_Power_Case",
+      "volume_relative_error": 1.6459968380215413e-06,
+      "pass": true
+    },
+    {
+      "triangles": 2044,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 39451.14038634603,
+      "extents_mm": [
+        155.0,
+        85.0,
+        3.0
+      ],
+      "fits_a1": true,
+      "name": "Local_Power_Lid",
+      "volume_relative_error": 7.76798388528767e-07,
+      "pass": true
+    },
+    {
+      "triangles": 584,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 97158.26670973569,
+      "extents_mm": [
+        110.0,
+        136.0,
+        60.0
+      ],
+      "fits_a1": true,
+      "name": "Bin_V03_Marker_Rails",
+      "volume_relative_error": 1.1830416678301897e-06,
+      "pass": true
+    },
+    {
+      "triangles": 12,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 2880.0,
+      "extents_mm": [
+        36.0,
+        2.0,
+        40.0
+      ],
+      "fits_a1": true,
+      "name": "Column_Reference_Tag_Mount",
+      "volume_relative_error": 0.0,
+      "pass": true
+    },
+    {
+      "triangles": 4132,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 9676.512191814349,
+      "extents_mm": [
+        53.0,
+        5.0,
+        88.0
+      ],
+      "fits_a1": true,
+      "name": "Camera_Slotted_Mount",
+      "volume_relative_error": 1.118490196260944e-07,
+      "pass": true
+    },
+    {
+      "triangles": 2076,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 68905.63645481877,
+      "extents_mm": [
+        124.0,
+        130.0,
+        10.0
+      ],
+      "fits_a1": true,
+      "name": "IO_Deck",
+      "volume_relative_error": 1.530497740867036e-06,
+      "pass": true
+    },
+    {
+      "triangles": 28,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 9384.000036478043,
+      "extents_mm": [
+        8.0,
+        8.0,
+        204.0
+      ],
+      "fits_a1": true,
+      "name": "IO_Shutter_Guide_Right",
+      "volume_relative_error": 3.8872594418733015e-09,
+      "pass": true
+    },
+    {
+      "triangles": 28,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 9384.000036478043,
+      "extents_mm": [
+        8.0,
+        8.0,
+        204.0
+      ],
+      "fits_a1": true,
+      "name": "IO_Shutter_Guide_Left",
+      "volume_relative_error": 3.8872594418733015e-09,
+      "pass": true
+    },
+    {
+      "triangles": 12,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_bodies": 1,
+      "volume_mm3": 2640.0,
+      "extents_mm": [
+        110.0,
+        3.0,
+        8.0
+      ],
+      "fits_a1": true,
+      "name": "IO_Box_Back_Stop",
+      "volume_relative_error": 0.0,
+      "pass": true
+    }
+  ],
+  "marker_count": 25,
+  "archived_obsolete_artifacts": [],
+  "native_assembly_completed": false,
+  "camera_hardware_decode_test_passed": false,
+  "wireless_firmware_implemented": false,
+  "hardware_accepted": false,
+  "manufacturing_release_allowed": false,
+  "release_blockers": [
+    "Actual motor electrical/torque curves and measured mass",
+    "Gearbox, independently engaging rail brake, battery/BMS/charger selection",
+    "Printed tooth coupon, creep, backlash, pull-out and endurance tests",
+    "Complete fastening, bearing, tolerance and local wiring review",
+    "Independent safety chain and IO door hardware/firmware validation"
+  ]
+}

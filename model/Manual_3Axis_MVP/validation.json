@@ -1,0 +1,874 @@
+{
+  "fingerprint": "9aa159701f5f7b92a619567f41d02b170f08e550775c5dcb35b715ba474b2cd7",
+  "validator_sha256": "19aaf19c79f229ba3cc1e22d0cff3f8a61c1d860dd18131922492d49d4cc8335",
+  "geometry_deliverable_pass": true,
+  "errors": [],
+  "static_collisions": [],
+  "structural_support_checks": [
+    {
+      "a": "x_base",
+      "b": "floor_-1_0",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 2565.309216129018,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "x_base",
+      "b": "floor_1_0",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 2565.309216129018,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "tower_foot",
+      "b": "x_carriage",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 4514.603986155627,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "z_base",
+      "b": "tower_foot",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 5225.201432500153,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "stand_frame",
+      "b": "cell",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 4896.382748764806,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "y_mount_left",
+      "b": "z_carriage",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1101.841594462251,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "y_mount_left",
+      "b": "y_base",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 671.36708447921,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "y_mount_right",
+      "b": "z_carriage",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1101.841594462251,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "y_mount_right",
+      "b": "y_base",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 671.3670844792099,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "carrier_pillar_-1_-128",
+      "b": "y_base",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 521.8415944622508,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "carrier_pillar_-1_-128",
+      "b": "carrier_tray",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 240.09568719120162,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "carrier_pillar_-1_-28",
+      "b": "y_base",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 485.8415944622508,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "carrier_pillar_-1_-28",
+      "b": "carrier_tray",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 240.09568719120162,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "carrier_pillar_1_-128",
+      "b": "y_base",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 521.8415944622509,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "carrier_pillar_1_-128",
+      "b": "carrier_tray",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 240.09568719120168,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "carrier_pillar_1_-28",
+      "b": "y_base",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 485.84159446225067,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "carrier_pillar_1_-28",
+      "b": "carrier_tray",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 240.09568719120168,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "stand_leg_-76_10",
+      "b": "floor_cross_10",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 987.6831889245018,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "stand_leg_-76_10",
+      "b": "stand_frame",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 208.92079723112542,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "stand_leg_-76_140",
+      "b": "floor_cross_140",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 987.6831889245018,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "stand_leg_-76_140",
+      "b": "stand_frame",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 182.92079723112548,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "stand_leg_76_10",
+      "b": "floor_cross_10",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 987.6831889245018,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "stand_leg_76_10",
+      "b": "stand_frame",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 208.92079723112542,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "stand_leg_76_140",
+      "b": "floor_cross_140",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 987.6831889245018,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    },
+    {
+      "a": "stand_leg_76_140",
+      "b": "stand_frame",
+      "gap_mm": 0.0,
+      "mating_area_mm2": 182.92079723112548,
+      "geometric_seat_pass": true,
+      "strength_verified": false
+    }
+  ],
+  "motion_pose_count": 121,
+  "boolean_pair_tests": 11540,
+  "motion_failures": [],
+  "part_count": 38,
+  "printable_types": 30,
+  "step_checks": [
+    {
+      "code": "P01",
+      "pass": true,
+      "sha256": "928a9411806e8a48f5ea280f347631eef43faf50f27a6d2b1f9ecb426fa7eb6d"
+    },
+    {
+      "code": "P02",
+      "pass": true,
+      "sha256": "133010d7ddcc9da2033c2bda4484f70124fd7dbe93a58f360cd1cffe3259ed4a"
+    },
+    {
+      "code": "P03",
+      "pass": true,
+      "sha256": "99d112c85d2c06d107dfec6174ae3705c27eed5df49d7ae882b8cf328601f27f"
+    },
+    {
+      "code": "P04",
+      "pass": true,
+      "sha256": "a272216615deb049cf3db68cafacdade528edba2b48216adc06cb2768c411336"
+    },
+    {
+      "code": "P05",
+      "pass": true,
+      "sha256": "06202669ee10e308f5dac450b84721e30db893ecfcb234cdfa3089ac2921767b"
+    },
+    {
+      "code": "P06",
+      "pass": true,
+      "sha256": "fb65d3d3dc1948bb466d7038404e9c8dded302a953118f94ef9c3705e09c6808"
+    },
+    {
+      "code": "P07",
+      "pass": true,
+      "sha256": "4177038c2aa769803299df6189ea95c97419289fb62cae982d60bcf20850b5e1"
+    },
+    {
+      "code": "P08",
+      "pass": true,
+      "sha256": "2c7af10d5e91face032f39422a7a10744a7dd7266607fdbd2e29ed704db1fd93"
+    },
+    {
+      "code": "P09",
+      "pass": true,
+      "sha256": "f072e471e03e88660344beda94106bc97a49cb5c4a3efe11a17ffb483edd806d"
+    },
+    {
+      "code": "P10",
+      "pass": true,
+      "sha256": "d3681582ac080b02dad608ea0b79f046bd7287a92b702fb46a1b81e2e9d90704"
+    },
+    {
+      "code": "P11",
+      "pass": true,
+      "sha256": "910ad58c4399e3e5e814b2496f1152c099f95f7a4cce86965cc415b6aac948db"
+    },
+    {
+      "code": "P12",
+      "pass": true,
+      "sha256": "110bbf16109688812ac620ec3b36702ad0c1b48dbad357c6d8f3188a6c4624af"
+    },
+    {
+      "code": "P13",
+      "pass": true,
+      "sha256": "0292181b9465ed817cd07a3a90211820d8f06d127edd7d36491a7e8120bab021"
+    },
+    {
+      "code": "P14",
+      "pass": true,
+      "sha256": "47f9c8e229a291a58e87e65a020180046e332110f98a129c1e5ec8d812de9b53"
+    },
+    {
+      "code": "P15",
+      "pass": true,
+      "sha256": "2338743dec8d7058ceddcad62581dac00ca1c07c791815267c2cbf220340efaf"
+    },
+    {
+      "code": "P16",
+      "pass": true,
+      "sha256": "b742d5f325da34be2e37dffe44a8ea1939a4a469820f2c2ac938a2eb8c1b3f1a"
+    },
+    {
+      "code": "P17",
+      "pass": true,
+      "sha256": "934a6cae12b4c007cd0d92e5edeed8e432c52eb733072baa44f05829a9a4ddca"
+    },
+    {
+      "code": "P18",
+      "pass": true,
+      "sha256": "466797b2c6bee30bcbbd1343b31977e208cb1d6c6efb9aa1eeaf9d96c57e7529"
+    },
+    {
+      "code": "P19",
+      "pass": true,
+      "sha256": "809456c768ac97a3ea6684da45ddc7650c07a447c3fb1113355f59fe147c953c"
+    },
+    {
+      "code": "P20",
+      "pass": true,
+      "sha256": "25adc93dde85087e657279fd64d329aef85dcdc79c189e2c1d355aa89d316570"
+    },
+    {
+      "code": "P21",
+      "pass": true,
+      "sha256": "a9cf6a668de2ace93ee9da7600bf53163c9a3f86bcf10d4ecc6b724226953e2e"
+    },
+    {
+      "code": "P22",
+      "pass": true,
+      "sha256": "f0ee7dbe2ad9575c318562dd1a11c2ab35597c2c2532b5cae2d982da92fc1db2"
+    },
+    {
+      "code": "P23",
+      "pass": true,
+      "sha256": "b9653db6c74a1d6291075b2762406d190eceb79c9fb6874b137b8d75773950dd"
+    },
+    {
+      "code": "P24",
+      "pass": true,
+      "sha256": "4bf59dcbe57d7f65ee7b2f7aff937c9352e3e8075230ed6d2980a56ee2d34c25"
+    },
+    {
+      "code": "P25",
+      "pass": true,
+      "sha256": "922f3a7813a330468fc42f3027c5b5496e97880b9352a818292152afd50f9fc9"
+    },
+    {
+      "code": "H01",
+      "pass": true,
+      "sha256": "c64237a29a3f0ef452548d65df13ac2aa9467b32891f35827d8ea986742fe471"
+    },
+    {
+      "code": "H02",
+      "pass": true,
+      "sha256": "c948bff663fd7195f1c523a0cf2ada11c98e199d2a8f8429395e941bf6f67115"
+    },
+    {
+      "code": "H03",
+      "pass": true,
+      "sha256": "22f1926e505805968c271f298f84548507e9d466581bf1ee551fb625bf42396e"
+    },
+    {
+      "code": "H04",
+      "pass": true,
+      "sha256": "ccd1d12e70e732ec26bf928b60a78880774d887730548447454e659e1e8b33ff"
+    },
+    {
+      "code": "H05",
+      "pass": true,
+      "sha256": "cd05287a08bd67828c4f363d63a2b699e00795269912df83f4f6980c6335e2ba"
+    },
+    {
+      "code": "H06",
+      "pass": true,
+      "sha256": "207bc21da75053279e35545a2cb4af30550e0b30228e914fe06ab9e83f87a625"
+    },
+    {
+      "code": "P26",
+      "pass": true,
+      "sha256": "19a3366a63027f1d873393c9d17a939084e7757188411444409cd87e69ca9f3d"
+    },
+    {
+      "code": "H07",
+      "pass": true,
+      "sha256": "d9df5245868e70bfb1caca2a21126bdf523381923d6d961202ef14ca24c614da"
+    },
+    {
+      "code": "H08",
+      "pass": true,
+      "sha256": "2448e866ab09ec4f41b4166ffdc93a6e19db4c22e41a4c1441ab7a83355e29cf"
+    },
+    {
+      "code": "C01",
+      "pass": true,
+      "sha256": "2bea448f3f01ef176094850a62eaad8a253b70b3dcdb80d7e99c3616e3ae85f8"
+    },
+    {
+      "code": "C02",
+      "pass": true,
+      "sha256": "074cb860e5b3b29cdf7dba1d09b6be5fd8a0819b6ac6464d5283455410729aa8"
+    },
+    {
+      "code": "C03",
+      "pass": true,
+      "sha256": "21b0da8d9a98e8cb2ebd59f33ded3b9a7503102b62cf90b1a2335b5bc2312aae"
+    },
+    {
+      "code": "C04",
+      "pass": true,
+      "sha256": "a051d1a363f56bcb2ccda4955e3a272f23b8e88371aad61da6ec56f11a04f27a"
+    }
+  ],
+  "mesh_checks": [
+    {
+      "code": "P01",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        113.09733581542969,
+        30.0,
+        9.5
+      ],
+      "relative_volume_error": 4.101472315755423e-06,
+      "sha256": "95420d2461e13e36f6f435004d434bdf80364a1c1155dc008ab3feeb39597780"
+    },
+    {
+      "code": "P02",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        33.0,
+        33.0,
+        12.0
+      ],
+      "relative_volume_error": 0.00010279414035733101,
+      "sha256": "63afaf178c19f80c25a47482b054c6176b1f1c1134d811d33dba30f7f0f69f3a"
+    },
+    {
+      "code": "P03",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        38.0,
+        37.988189306575805,
+        36.0
+      ],
+      "relative_volume_error": 0.0004143798684001439,
+      "sha256": "98a12374e0acdd0f00bcfec35b54d81c9375b4000e26d28109431ee9255c7dae"
+    },
+    {
+      "code": "P04",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        12.0,
+        11.99627065868117,
+        1.7999999523162842
+      ],
+      "relative_volume_error": 0.00041441235753283755,
+      "sha256": "a483e66414cf7bdfb186098d73b0a06a5f834f1ef7ac6f75f93352909d2433ad"
+    },
+    {
+      "code": "P05",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        48.650001525878906,
+        112.0,
+        60.0
+      ],
+      "relative_volume_error": 2.503195353629688e-06,
+      "sha256": "5701ec66961f2bfd905350c2185435e46a24934b4ca0b996d91780eb0fc3c9ba"
+    },
+    {
+      "code": "P06",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        48.650001525878906,
+        128.0,
+        60.0
+      ],
+      "relative_volume_error": 2.8547636893751044e-06,
+      "sha256": "e3c5a802963fa9f8f1d09b9b3991e0dbff65996abd434abb9e46b001b4be2a91"
+    },
+    {
+      "code": "P07",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        16.0,
+        120.0,
+        8.0
+      ],
+      "relative_volume_error": 1.2995914315460303e-05,
+      "sha256": "5ab1438033a9197598c27d37ed8eb9590ed3d8cdf851ebd389229f903949d06c"
+    },
+    {
+      "code": "P08",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        240.0,
+        120.0,
+        16.0
+      ],
+      "relative_volume_error": 8.675620464716445e-07,
+      "sha256": "31cce58646aec86cb335f84d66cdfe6bf85c27440f320100dbe85fdc9e456782"
+    },
+    {
+      "code": "P09",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        240.0,
+        150.0,
+        45.0
+      ],
+      "relative_volume_error": 4.280597036153047e-06,
+      "sha256": "52c3e855ac4a8a9e9eb90c0bfb7bdf6fd34e1748f0c606064814553f7e5b3739"
+    },
+    {
+      "code": "P10",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        240.0,
+        160.0,
+        16.0
+      ],
+      "relative_volume_error": 9.671477201013718e-07,
+      "sha256": "3515cb70317ff3011c54ed2031b0a954438da15ecf155f5f3ad9fd1a863f43f6"
+    },
+    {
+      "code": "P11",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        150.0,
+        80.0,
+        35.0
+      ],
+      "relative_volume_error": 1.693896183498147e-06,
+      "sha256": "21507d0b48519a99a001392e62a2ce2a997d940192afb09cee3d7d4df8519e5d"
+    },
+    {
+      "code": "P12",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        24.0,
+        50.0,
+        56.0
+      ],
+      "relative_volume_error": 5.279484134268842e-06,
+      "sha256": "c1c0b32d80647f623b8db4b1711d33b9e594d9448637724ee46f3f49adf8f92f"
+    },
+    {
+      "code": "P13",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        34.0,
+        30.0,
+        75.0
+      ],
+      "relative_volume_error": 3.830622491131271e-06,
+      "sha256": "b0c5636cd8e003ca5055cf3f84aad5e856cbe90e717bf550c4c39861ee356581"
+    },
+    {
+      "code": "P14",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        124.0,
+        130.0,
+        10.0
+      ],
+      "relative_volume_error": 9.312922443703937e-06,
+      "sha256": "4dd9d735a93032fe5393860ed74802e8cb4b3b9afd4482d54edc84dfa271bee0"
+    },
+    {
+      "code": "P15",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        124.0,
+        130.0,
+        10.0
+      ],
+      "relative_volume_error": 6.490256505444331e-06,
+      "sha256": "b3e0a6dd83d572610f5a5322c91fc356eae302464ee5ae641f7f3fd3b43fa574"
+    },
+    {
+      "code": "P16",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        110.0,
+        136.0,
+        60.0
+      ],
+      "relative_volume_error": 4.92308409847438e-07,
+      "sha256": "abdfa64aaa03c6d5ac7ca5aa2965cda0c583ab7c3af562f860266a657e4625d7"
+    },
+    {
+      "code": "P17",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        100.0,
+        100.0,
+        84.0
+      ],
+      "relative_volume_error": 2.106495610391983e-06,
+      "sha256": "041c39e63394e6cb55e46cce37cd8645e14e3b02ba31dd906ca976fec851c8f2"
+    },
+    {
+      "code": "P18",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        20.0,
+        19.99378284183331,
+        8.0
+      ],
+      "relative_volume_error": 0.0004143956310569488,
+      "sha256": "4ad146b7bf804c138282b15350db2316b1776427e8d9b133a27ba38da824a876"
+    },
+    {
+      "code": "P19",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        32.0,
+        32.0,
+        234.0
+      ],
+      "relative_volume_error": 1.998087509878073e-06,
+      "sha256": "c2397bf7089060dc0cb61cd1275148e567e1eedcea90a85cd39349b983ccd3a0"
+    },
+    {
+      "code": "P20",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        164.0,
+        162.0,
+        6.0
+      ],
+      "relative_volume_error": 2.8285744919638784e-06,
+      "sha256": "ea1f3969c66d357ba1b9b934994067c037fe81cf8bba7ff260c8ee7dd37642cd"
+    },
+    {
+      "code": "P21",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        25.0,
+        180.0,
+        6.0
+      ],
+      "relative_volume_error": 2.9046696048262177e-06,
+      "sha256": "307b5db8fda96d178da957d13e00b02b141d7cad462e587351465169423a0699"
+    },
+    {
+      "code": "P22",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        25.0,
+        140.0,
+        6.0
+      ],
+      "relative_volume_error": 2.486565767920771e-06,
+      "sha256": "0a9997d0d7b0cdb9ef62e78a85802288e67c21c2ad81b416fbfc739bdd7456ca"
+    },
+    {
+      "code": "P23",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        25.0,
+        220.0,
+        6.0
+      ],
+      "relative_volume_error": 3.172054867927378e-06,
+      "sha256": "50c3d4adf82ce962fba46d9d607a323dd333d855f5bed8bdd75f5808e75edce1"
+    },
+    {
+      "code": "P24",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        25.0,
+        64.0,
+        4.0
+      ],
+      "relative_volume_error": 9.623926775023409e-06,
+      "sha256": "1bb50ef382f4aa77bad40d7dfbbac0ab0f66de0723957c50a4f3dc2f6dd307fd"
+    },
+    {
+      "code": "P25",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        245.0,
+        32.0,
+        6.0
+      ],
+      "relative_volume_error": 4.199196511086596e-06,
+      "sha256": "fea33c9cccf054ef203a2b58d3150ca619b1d14b9f02fa944d3caaca76516fa8"
+    },
+    {
+      "code": "P26",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        24.0,
+        50.0,
+        56.0
+      ],
+      "relative_volume_error": 5.279484133932994e-06,
+      "sha256": "2d9c60035e1938590b258ae88217ca57b56c1d7e83168effb2c0d83b2c343870"
+    },
+    {
+      "code": "C01",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        50.0,
+        30.0,
+        16.0
+      ],
+      "relative_volume_error": 2.2182797604217767e-16,
+      "sha256": "d7ac8ab8529c508bd8984c059de1f3a0724d080278fc7c9d2d4fe463028fcbce"
+    },
+    {
+      "code": "C02",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        14.800000190734863,
+        25.0,
+        20.0
+      ],
+      "relative_volume_error": 1.0607230834559238e-08,
+      "sha256": "6b1d911a5c9ebb1eea20037d51c61857a3e1d89c83764b59c62275ea8906c21a"
+    },
+    {
+      "code": "C03",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        14.649999618530273,
+        25.0,
+        20.0
+      ],
+      "relative_volume_error": 2.7049990478320373e-08,
+      "sha256": "1a5e76bbd0195d0cfcab6dd75ee2a9c6bfd4c2bc8d1032d763809802760dd8dd"
+    },
+    {
+      "code": "C04",
+      "pass": true,
+      "watertight": true,
+      "single_component": true,
+      "print_extents_mm": [
+        14.5,
+        25.0,
+        20.0
+      ],
+      "relative_volume_error": 3.4625432808614033e-16,
+      "sha256": "8208e0fdae45fd23039176547e5ce7fb474d40ba9f99dcc3acb8b5a1208a7918"
+    }
+  ],
+  "countersunk_head_checks": [
+    {
+      "part": "P14",
+      "x": -52,
+      "y": -50,
+      "head_recess_pass": true
+    },
+    {
+      "part": "P14",
+      "x": -52,
+      "y": 50,
+      "head_recess_pass": true
+    },
+    {
+      "part": "P14",
+      "x": 52,
+      "y": -50,
+      "head_recess_pass": true
+    },
+    {
+      "part": "P14",
+      "x": 52,
+      "y": 50,
+      "head_recess_pass": true
+    },
+    {
+      "part": "P15",
+      "x": -52,
+      "y": -50,
+      "head_recess_pass": true
+    },
+    {
+      "part": "P15",
+      "x": -52,
+      "y": 50,
+      "head_recess_pass": true
+    },
+    {
+      "part": "P15",
+      "x": 52,
+      "y": -50,
+      "head_recess_pass": true
+    },
+    {
+      "part": "P15",
+      "x": 52,
+      "y": 50,
+      "head_recess_pass": true
+    }
+  ],
+  "assembly_step": {
+    "valid": true,
+    "solid_count": 93,
+    "expected_solids": 93,
+    "sha256": "598f6c6827388c95b0ebc4cd7ddcb5737528bb770f0362a1b1dc1c3c801c64f5",
+    "extents_mm": [
+      -122.5,
+      -370.0,
+      -6.0,
+      122.5,
+      170.0,
+      340.0
+    ]
+  },
+  "guide_clearance_verified_on_printer": false,
+  "empty_bin_hardware_tested": false,
+  "continuous_collision_detection": false,
+  "hardware_accepted": false,
+  "payload_allowed_kg": 0,
+  "loaded_operation_allowed": false,
+  "limitations": [
+    "Discrete un-deformed rigid geometry only.",
+    "Printed guides do not validate production metal rails or bearing capacity.",
+    "Manual Z pin requires hand engagement; not an automatic fall arrest.",
+    "Frame fastener heads not all modelled; use specified lengths and inspect during assembly."
+  ]
+}

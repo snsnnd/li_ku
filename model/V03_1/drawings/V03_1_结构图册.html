@@ -1,0 +1,1217 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>V03.1 结构图册与装配说明</title>
+<style>
+:root{--paper:#f7f6f2;--card:#ffffff;--ink:#1d2328;--muted:#6d7882;--line:#ddd9d0;
+--accent:#0e6f68;--accent2:#b4641c;--soft:#eef2f1}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);
+font:15px/1.7 "Segoe UI","Microsoft YaHei",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+code,.mono{font-family:"Cascadia Mono","Consolas","SFMono-Regular",monospace}
+.side{position:fixed;inset:0 auto 0 0;width:224px;padding:30px 22px;background:#fbfaf7;
+border-right:1px solid var(--line);overflow:auto}
+.brand{font-weight:700;letter-spacing:.14em;font-size:11px;color:var(--muted)}
+.brand b{display:block;font-size:17px;letter-spacing:.02em;color:var(--ink);margin-top:6px}
+.side nav{margin-top:26px;display:grid;gap:2px}
+.side a{color:#3d474f;text-decoration:none;font-size:13.5px;padding:7px 10px;border-radius:6px}
+.side a:hover{background:var(--soft);color:var(--accent)}
+.side a.sub{padding-left:22px;font-size:12.5px;color:var(--muted)}
+.side .rule{height:1px;background:var(--line);margin:18px 0}
+main{margin-left:224px;padding:44px 48px 90px;max-width:1500px}
+.hero .kicker{font-size:11px;letter-spacing:.22em;color:var(--accent);font-weight:700}
+h1{font-size:40px;line-height:1.15;margin:10px 0 12px;letter-spacing:-.01em}
+.lede{max-width:760px;color:#46525b;font-size:16px;margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 12px;font-size:12.5px;color:#43505a}
+.chip b{color:var(--accent)}
+.hero fig{margin:26px 0 0}
+.hero img{width:100%;border:1px solid var(--line);border-radius:12px;background:#fff}
+figcaption{font-size:12px;color:var(--muted);margin-top:8px}
+h2{font-size:23px;margin:64px 0 6px;letter-spacing:-.01em}
+h2 .num{color:var(--accent);font-weight:700;margin-right:10px;font-size:14px;letter-spacing:.1em}
+.sub{color:var(--muted);margin:0 0 22px;font-size:13.5px}
+.specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:22px}
+.spec{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.spec b{display:block;font-size:22px;letter-spacing:-.01em}
+.spec span{font-size:12px;color:var(--muted)}
+.modgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.modcard{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.modcard img{width:100%;aspect-ratio:3/2;object-fit:contain;background:#fff;border-bottom:1px solid var(--line);cursor:zoom-in}
+.modcard .mb{padding:14px 16px 16px}
+.modcard h3{margin:0 0 6px;font-size:16px}
+.modcard p{margin:0;font-size:12.8px;color:var(--muted);line-height:1.6}
+.modcard .count{margin-top:10px;font-size:11.5px;color:var(--accent);letter-spacing:.04em}
+.tools{position:sticky;top:0;z-index:5;background:rgba(247,246,242,.94);backdrop-filter:blur(6px);
+padding:14px 0;border-bottom:1px solid var(--line);display:flex;gap:12px;align-items:center;margin-top:20px}
+.tools input{flex:1;max-width:420px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;
+background:#fff;font:inherit;font-size:13.5px;outline:none}
+.tools input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(14,111,104,.10)}
+.tools span{font-size:12px;color:var(--muted)}
+.modsect{margin-top:38px}
+.modsect h3{font-size:17px;margin:0 0 4px}
+.modsect .mdesc{font-size:13px;color:var(--muted);margin:0 0 16px}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(224px,1fr));gap:14px}
+.part{background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.part figure{margin:0;background:#fff;border-bottom:1px solid #efede7}
+.part img{width:100%;aspect-ratio:9/7;object-fit:contain;display:block;cursor:zoom-in}
+.pbody{padding:11px 12px 13px;display:flex;flex-direction:column;gap:5px}
+.pname{font-size:13.6px;font-weight:600;line-height:1.35;display:flex;justify-content:space-between;gap:8px}
+.pname i{font-style:normal;color:var(--accent);font-weight:600;font-size:12px;white-space:nowrap}
+.pcode{font-size:10.5px;color:#8a949c;word-break:break-all;line-height:1.3}
+.meta{display:flex;flex-wrap:wrap;gap:5px;align-items:center;font-size:11px;color:var(--muted)}
+.badge{border-radius:4px;padding:1px 6px;font-size:10.5px;background:#eef2f1;color:#36605d}
+.badge.print{background:#e6f3f4;color:#1d6d75}
+.badge.machined{background:#eef0f4;color:#44536a}
+.badge.purchased{background:#f0efec;color:#6b6257}
+.badge.candidate{background:#fdf0e2;color:#a2570f}
+.badge.safety{background:#fbe9e6;color:#a33a2c}
+.badge.guard{background:#eef2f5;color:#4c6172}
+.badge.cut_panel{background:#efefec;color:#5f5d55}
+.badge.print_paper{background:#f4f1ea;color:#6d6455}
+.pnote{font-size:11.3px;color:#7a858e;line-height:1.5;margin:2px 0 0}
+.steps{display:grid;gap:18px;margin-top:26px}
+.step{display:grid;grid-template-columns:minmax(280px,44%) 1fr;background:#fff;border:1px solid var(--line);
+border-radius:12px;overflow:hidden}
+.step img{width:100%;height:100%;object-fit:contain;background:#fff;border-right:1px solid var(--line);cursor:zoom-in}
+.steptext{padding:20px 24px}
+.stepno{font-size:11px;letter-spacing:.2em;color:var(--accent);font-weight:700}
+.steptext h3{margin:4px 0 10px;font-size:18px}
+.steptext ul{margin:0;padding-left:18px;display:grid;gap:6px}
+.steptext li{font-size:13.2px;color:#46525b}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+th,td{padding:9px 12px;text-align:left;font-size:12.6px;border-bottom:1px solid #eeece6;vertical-align:top}
+th{background:#f1f0eb;font-size:11px;letter-spacing:.08em;color:#5c666e;font-weight:600}
+tr:last-child td{border-bottom:none}
+td code{font-size:11px;color:#6f7a83}
+td b{font-weight:600}
+.note-box{background:#fff8ec;border:1px solid #eedfc4;border-radius:12px;padding:18px 22px;margin-top:22px}
+.note-box h3{margin:0 0 8px;font-size:15px;color:#8a5a12}
+.note-box ul{margin:0;padding-left:18px;font-size:13px;color:#5d5244}
+.legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px;font-size:12.5px;color:var(--muted)}
+.legend i{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.boundary{background:#fbeceb;border:1px solid #eccac6;border-radius:12px;padding:20px 24px;margin-top:26px}
+.boundary h3{margin:0 0 8px;font-size:15px;color:#8f2f24}
+.boundary ul{margin:0;padding-left:18px;font-size:13px;color:#5c4340}
+footer{margin-top:60px;padding-top:18px;border-top:1px solid var(--line);font-size:11.5px;color:#8a949c}
+#lb{position:fixed;inset:0;background:rgba(24,28,31,.86);display:none;align-items:center;justify-content:center;
+z-index:50;padding:4vh 4vw;cursor:zoom-out}
+#lb.on{display:flex}
+#lb figure{margin:0;max-width:100%;max-height:100%;display:flex;flex-direction:column;align-items:center;gap:10px}
+#lb img{max-width:100%;max-height:86vh;background:#fff;border-radius:8px}
+#lb figcaption{color:#e8e5df;font-size:12.5px}
+@media(max-width:900px){.side{display:none}main{margin-left:0;padding:26px 18px 60px}h1{font-size:29px}
+.step{grid-template-columns:1fr}.step img{border-right:none;border-bottom:1px solid var(--line)}}
+@media print{.side,.tools,#lb{display:none}main{margin:0;padding:0}.part,.modcard,.step{break-inside:avoid}}
+</style></head>
+<body>
+<aside class="side"><div class="brand">ASRS / V03.1<b>结构图册</b></div><nav><a href="#overview">总览与读图</a><a href="#modules">模块划分</a><a href="#parts">零件图册</a><a class="sub" href="#parts-A_base">A 底板与基础</a><a class="sub" href="#parts-B_rack">B 立体货架</a><a class="sub" href="#parts-C_x">C X 行走模组</a><a class="sub" href="#parts-D_z">D Z 升降模组</a><a class="sub" href="#parts-E_y">E Y 伸缩取放头</a><a class="sub" href="#parts-F_io">F IO 工位</a><a class="sub" href="#parts-G_guard">G 外防护</a><div class="rule"></div><a href="#assembly">组装顺序</a><a href="#interfaces">装配接口表</a><a href="#boundary">放行边界</a></nav></aside>
+<main><header class="hero" id="overview">
+<div class="kicker">AUTOMATED STORAGE / MODULAR V03.1</div>
+<h1>结构图册与装配说明</h1>
+<p class="lede">从 <code>model/V03_1</code> 的实际 CAD 几何生成：127 类零件、376 个组件、42 处已建模接口。
+按 A–G 七个模块拆解零件外形、模块装配形态与整机装配顺序。所有图像为几何渲染，不是制造图，也不是运行放行文件。</p>
+<div class="chips">
+<span class="chip"><b>4×5</b> 库位布局</span>
+<span class="chip"><b>1253×593×766</b> mm 外形</span>
+<span class="chip"><b>127</b> 类零件</span>
+<span class="chip"><b>376</b> 个组件</span>
+<span class="chip"><b>67.8</b> kg 空机估算</span>
+<span class="chip"><b>1</b> kg 单箱设计输入</span>
+</div>
+<figure><img src="assembly_isometric.png" alt="V03.1 整机轴测图（隐藏防护板）">
+<figcaption>整机轴测：隐藏防护板，橙色为未选型候选件。轴系 X 向右、Y 向观察者、Z 向上，单位 mm。</figcaption></figure>
+</header>
+
+<h2><span class="num">00</span>读图说明</h2>
+<p class="sub">颜色只表示材料/工艺状态，尺寸取自 STEP 包围盒；配合、公差与紧固件长度不在此图册范围内。</p>
+<div class="specs">
+<div class="spec"><b>X 1250</b><span>行走行程，9 段齿条</span></div>
+<div class="spec"><b>Y 593</b><span>伸缩行程，2 段齿条</span></div>
+<div class="spec"><b>Z 766</b><span>升降高度，5 段齿条</span></div>
+<div class="spec"><b>M1.5 / 20°</b><span>齿条模数、压力角；每段 24 齿距</span></div>
+<div class="spec"><b>113.097</b><span>mm 每段齿条长度</span></div>
+<div class="spec"><b>20</b><span>个库位 + 1 个独立 IO 位</span></div>
+</div>
+<div class="legend">
+<span><i style="background:#c9d2d8"></i>铝（加工/型材）</span>
+<span><i style="background:#9aa6b0"></i>钢（导轨/销/采购）</span>
+<span><i style="background:#3da0ad"></i>PETG 打印件</span>
+<span><i style="background:#e69438"></i>候选/未选型</span>
+<span><i style="background:#adbdc8"></i>防护板</span>
+<span><i style="background:#4c5054"></i>橡胶</span>
+</div>
+<h2 id="modules"><span class="num">01</span>模块划分</h2><p class="sub">按装配功能拆分，而不是按 manifest 的 group 字段（group 表示运动层级：X 滑板承载 Z，Z 滑板承载 Y）。</p><div class="modgrid"><article class="modcard"><img src="modules/A_base.png" alt="A · 底板与基础">
+<div class="mb"><h3>A · 底板与基础</h3><p>整机落地的第一层：三块 6 mm 铝板拼成连续台面，拼接板跨缝锁固，四角留 Ø8.5 锚固孔。</p>
+<div class="count">4 类零件 · 7 个组件</div></div></article><article class="modcard"><img src="modules/B_rack.png" alt="B · 立体货架">
+<div class="mb"><h3>B · 立体货架</h3><p>4 列 × 5 层、共 20 个库位。型材立柱 + 层板托角 + PETG 库位隔板；X 齿条与基准条在这一层完成校直。</p>
+<div class="count">18 类零件 · 211 个组件</div></div></article><article class="modcard"><img src="modules/C_x.png" alt="C · X 行走模组">
+<div class="mb"><h3>C · X 行走模组</h3><p>两根 MGN12-1050 导轨承载 160×110×8 滑板，X 电机经 20T 小齿轮驱动 9 段齿条；本地电源节点随 X 移动。</p>
+<div class="count">12 类零件 · 18 个组件</div></div></article><article class="modcard"><img src="modules/D_z.png" alt="D · Z 升降模组">
+<div class="mb"><h3>D · Z 升降模组</h3><p>两根 3030 立柱与 MGN12-500 导轨构成升降轴，12 mm 齿条背板 + 5 个支撑；独立钢安全轨与候选制动器只作包络。</p>
+<div class="count">32 类零件 · 56 个组件</div></div></article><article class="modcard"><img src="modules/E_y.png" alt="E · Y 伸缩取放头">
+<div class="mb"><h3>E · Y 伸缩取放头</h3><p>Y 脊板双 MGN9 导轨 + 缩短悬臂，方管托盘伸入库位；锁销由 MG90S 经 R7 曲柄与 Scotch 轭提升 14 mm。</p>
+<div class="count">34 类零件 · 47 个组件</div></div></article><article class="modcard"><img src="modules/F_io.png" alt="F · IO 工位">
+<div class="mb"><h3>F · IO 工位</h3><p>底板落地的法兰支腿 + 金属框架，单箱交换位由内闸门与外门双重遮挡，外部基准卡 ID200 供视觉定位。</p>
+<div class="count">19 类零件 · 24 个组件</div></div></article><article class="modcard"><img src="modules/G_guard.png" alt="G · 外防护">
+<div class="mb"><h3>G · 外防护</h3><p>4 根立柱 + 横梁/侧梁 + 四周板与顶板。预览隐藏防护板不代表运行时可拆除。</p>
+<div class="count">8 类零件 · 13 个组件</div></div></article></div><h2 id="parts"><span class="num">02</span>零件图册</h2><p class="sub">每张卡片为一个零件编号（同一编号可能装多件）。点击图片可放大；下方搜索框可按中文名、编号或模块过滤。</p><div class="tools"><input id="q" type="search" placeholder="搜索：齿轮 / MGN12 / cell / E_y …" autocomplete="off"><span id="qcount">127 类零件</span></div><section class="modsect" id="parts-A_base" data-mod="A_base"><h3>A · 底板与基础 <span style="color:#9aa3aa;font-weight:400;font-size:12.5px">（4 类 / 7 件）</span></h3><p class="mdesc">整机落地的第一层：三块 6 mm 铝板拼成连续台面，拼接板跨缝锁固，四角留 Ø8.5 锚固孔。</p><div class="pgrid"><article class="part" data-key="底板 0（左段） base_panel_0_located_r1_r1_r1 铝 a_base">
+<figure><img src="parts/Base_Panel_0_Located_R1_R1_R1_iso.png" loading="lazy" alt="底板 0（左段） Base_Panel_0_Located_R1_R1_R1"></figure>
+<div class="pbody">
+<div class="pname"><span>底板 0（左段）</span><i>×1</i></div>
+<code class="pcode">Base_Panel_0_Located_R1_R1_R1</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>320×590×6 mm</span></div>
+<p class="pnote">320×590×6 铝板，带定位与接收孔</p>
+<p class="pnote">备注：Metal plate. Panel joints do not make a traversable rail splice.</p>
+</div></article><article class="part" data-key="底板 1（中段） base_panel_1_located_r1 铝 a_base">
+<figure><img src="parts/Base_Panel_1_Located_R1_iso.png" loading="lazy" alt="底板 1（中段） Base_Panel_1_Located_R1"></figure>
+<div class="pbody">
+<div class="pname"><span>底板 1（中段）</span><i>×1</i></div>
+<code class="pcode">Base_Panel_1_Located_R1</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>420×590×6 mm</span></div>
+<p class="pnote">420×590×6 铝板</p>
+<p class="pnote">备注：Metal plate. Panel joints do not make a traversable rail splice.</p>
+</div></article><article class="part" data-key="底板 2（右段） base_panel_2_located_r1_r1 铝 a_base">
+<figure><img src="parts/Base_Panel_2_Located_R1_R1_iso.png" loading="lazy" alt="底板 2（右段） Base_Panel_2_Located_R1_R1"></figure>
+<div class="pbody">
+<div class="pname"><span>底板 2（右段）</span><i>×1</i></div>
+<code class="pcode">Base_Panel_2_Located_R1_R1</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>510×590×6 mm</span></div>
+<p class="pnote">510×590×6 铝板</p>
+<p class="pnote">备注：Metal plate. Panel joints do not make a traversable rail splice.</p>
+</div></article><article class="part" data-key="底板拼接板 base_splice_60x40 铝 a_base">
+<figure><img src="parts/Base_Splice_60x40_iso.png" loading="lazy" alt="底板拼接板 Base_Splice_60x40"></figure>
+<div class="pbody">
+<div class="pname"><span>底板拼接板</span><i>×4</i></div>
+<code class="pcode">Base_Splice_60x40</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>60×40×4 mm</span></div>
+<p class="pnote">跨越接缝，4×M5 固定两块底板</p>
+<p class="pnote">备注：Four M5 bolts; matched datum and dowel holes to be frozen before machining.</p>
+</div></article></div></section><section class="modsect" id="parts-B_rack" data-mod="B_rack"><h3>B · 立体货架 <span style="color:#9aa3aa;font-weight:400;font-size:12.5px">（18 类 / 211 件）</span></h3><p class="mdesc">4 列 × 5 层、共 20 个库位。型材立柱 + 层板托角 + PETG 库位隔板；X 齿条与基准条在这一层完成校直。</p><div class="pgrid"><article class="part" data-key="2020 铝型材立柱 2020_rack_z650 铝 b_rack">
+<figure><img src="parts/2020_Rack_Z650_iso.png" loading="lazy" alt="2020 铝型材立柱 2020_Rack_Z650"></figure>
+<div class="pbody">
+<div class="pname"><span>2020 铝型材立柱</span><i>×16</i></div>
+<code class="pcode">2020_Rack_Z650</code>
+<div class="meta"><span class="badge purchased">采购</span><span>铝</span><span>20×20×650 mm</span></div>
+<p class="pnote">L650，每列 4 根，共 16 根</p>
+
+</div></article><article class="part" data-key="料盒（带标识导轨） bin_v03_marker_rails petg b_rack">
+<figure><img src="parts/Bin_V03_Marker_Rails_iso.png" loading="lazy" alt="料盒（带标识导轨） Bin_V03_Marker_Rails"></figure>
+<div class="pbody">
+<div class="pname"><span>料盒（带标识导轨）</span><i>×20</i></div>
+<code class="pcode">Bin_V03_Marker_Rails</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>110×136×60 mm</span></div>
+<p class="pnote">110×136×60，前左留 32 mm 标签位</p>
+<p class="pnote">备注：32x32 mm AprilTag card, front-left offset X=-36 Z=38, rails clear the centre latch. ID is not a safety signal.</p>
+</div></article><article class="part" data-key="库位隔板 cell_124x130 petg b_rack">
+<figure><img src="parts/Cell_124x130_iso.png" loading="lazy" alt="库位隔板 Cell_124x130"></figure>
+<div class="pbody">
+<div class="pname"><span>库位隔板</span><i>×20</i></div>
+<code class="pcode">Cell_124x130</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>124×130×10 mm</span></div>
+<p class="pnote">124×130×10 PETG，20 个库位</p>
+<p class="pnote">备注：Print bottom down; add 0.5 mm entrance chamfer after fit coupon</p>
+</div></article><article class="part" data-key="立柱连接座 column_carrier_roundslot 铝 b_rack">
+<figure><img src="parts/Column_Carrier_RoundSlot_iso.png" loading="lazy" alt="立柱连接座 Column_Carrier_RoundSlot"></figure>
+<div class="pbody">
+<div class="pname"><span>立柱连接座</span><i>×4</i></div>
+<code class="pcode">Column_Carrier_RoundSlot</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>178×170×6 mm</span></div>
+<p class="pnote">圆孔 + 腰形槽，吸收装配误差</p>
+<p class="pnote">备注：One 6.2 round receiver and one 8x6.2 X slot; four M6 mounting bolts. Machine locating fits after first assembly.</p>
+</div></article><article class="part" data-key="立柱定位销 column_datum_pin_d6 钢 b_rack">
+<figure><img src="parts/Column_Datum_Pin_D6_iso.png" loading="lazy" alt="立柱定位销 Column_Datum_Pin_D6"></figure>
+<div class="pbody">
+<div class="pname"><span>立柱定位销</span><i>×8</i></div>
+<code class="pcode">Column_Datum_Pin_D6</code>
+<div class="meta"><span class="badge purchased">采购</span><span>钢</span><span>6×6×12 mm</span></div>
+<p class="pnote">Ø6，圆孔 + 菱形槽各一</p>
+<p class="pnote">备注：One round H7 receiver, one diamond/slot receiver. Fit and positional tolerances pending.</p>
+</div></article><article class="part" data-key="立柱脚板 column_foot_28x40 铝 b_rack">
+<figure><img src="parts/Column_Foot_28x40_iso.png" loading="lazy" alt="立柱脚板 Column_Foot_28x40"></figure>
+<div class="pbody">
+<div class="pname"><span>立柱脚板</span><i>×16</i></div>
+<code class="pcode">Column_Foot_28x40</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>28×40×6 mm</span></div>
+<p class="pnote">28×40×6，落到 X 滑板台面</p>
+
+</div></article><article class="part" data-key="立柱脚座 column_pedestal_28x40 铝 b_rack">
+<figure><img src="parts/Column_Pedestal_28x40_iso.png" loading="lazy" alt="立柱脚座 Column_Pedestal_28x40"></figure>
+<div class="pbody">
+<div class="pname"><span>立柱脚座</span><i>×16</i></div>
+<code class="pcode">Column_Pedestal_28x40</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>28×40×14 mm</span></div>
+<p class="pnote">28×40×14，与脚板配对</p>
+
+</div></article><article class="part" data-key="列后板 column_rear_panel_170x630 铝 b_rack">
+<figure><img src="parts/Column_Rear_Panel_170x630_iso.png" loading="lazy" alt="列后板 Column_Rear_Panel_170x630"></figure>
+<div class="pbody">
+<div class="pname"><span>列后板</span><i>×4</i></div>
+<code class="pcode">Column_Rear_Panel_170x630</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>170×3×630 mm</span></div>
+<p class="pnote">170×630×3，封闭列背</p>
+
+</div></article><article class="part" data-key="列基准标签座 column_reference_tag_mount petg b_rack">
+<figure><img src="parts/Column_Reference_Tag_Mount_iso.png" loading="lazy" alt="列基准标签座 Column_Reference_Tag_Mount"></figure>
+<div class="pbody">
+<div class="pname"><span>列基准标签座</span><i>×4</i></div>
+<code class="pcode">Column_Reference_Tag_Mount</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>36×2×40 mm</span></div>
+<p class="pnote">固定列基准 AprilTag</p>
+<p class="pnote">备注：Fixed reference, distinct ID from box tags. Calibrate column-to-machine transform after reassembly.</p>
+</div></article><article class="part" data-key="apriltag 标识卡 marker_card_32mm 采购件 b_rack">
+<figure><img src="parts/Marker_Card_32mm_iso.png" loading="lazy" alt="AprilTag 标识卡 Marker_Card_32mm"></figure>
+<div class="pbody">
+<div class="pname"><span>AprilTag 标识卡</span><i>×24</i></div>
+<code class="pcode">Marker_Card_32mm</code>
+<div class="meta"><span class="badge print_paper">打印纸质</span><span>采购件</span><span>32×0.2×32 mm</span></div>
+<p class="pnote">32 mm 外框，黑边 25.6 mm，ID 不作为安全信号</p>
+<p class="pnote">备注：AprilTag36h11, 32 mm OUTER card including quiet margin; black border square=25.6 mm. Use the latter for pose estimation.</p>
+</div></article><article class="part" data-key="x 向齿条段 rack_m1p5_24t_x petg b_rack">
+<figure><img src="parts/Rack_M1p5_24T_X_iso.png" loading="lazy" alt="X 向齿条段 Rack_M1p5_24T_X"></figure>
+<div class="pbody">
+<div class="pname"><span>X 向齿条段</span><i>×9</i></div>
+<code class="pcode">Rack_M1p5_24T_X</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>113.1×9.5×30 mm</span></div>
+<p class="pnote">M1.5 / 20°，24 齿距 = 113.097 mm，共 9 段</p>
+<p class="pnote">备注：24 pitches=113.097 mm, 20deg, 12 mm tooth face, four M3 holes. Print lateral face down; coupon first.</p>
+</div></article><article class="part" data-key="后板垫块 rear_panel_standoff_2 铝 b_rack">
+<figure><img src="parts/Rear_Panel_Standoff_2_iso.png" loading="lazy" alt="后板垫块 Rear_Panel_Standoff_2"></figure>
+<div class="pbody">
+<div class="pname"><span>后板垫块</span><i>×16</i></div>
+<code class="pcode">Rear_Panel_Standoff_2</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>10×2×10 mm</span></div>
+<p class="pnote">10×2×10，后板与型材之间</p>
+
+</div></article><article class="part" data-key="层板托角（左） shelf_angle_-1 铝 b_rack">
+<figure><img src="parts/Shelf_Angle_-1_iso.png" loading="lazy" alt="层板托角（左） Shelf_Angle_-1"></figure>
+<div class="pbody">
+<div class="pname"><span>层板托角（左）</span><i>×20</i></div>
+<code class="pcode">Shelf_Angle_-1</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>20×150×23 mm</span></div>
+<p class="pnote">与右件镜像，共 40 件</p>
+<p class="pnote">备注：M5 to slot nuts front/rear, M4 tapped shelf attachment</p>
+</div></article><article class="part" data-key="层板托角（右） shelf_angle_1 铝 b_rack">
+<figure><img src="parts/Shelf_Angle_1_iso.png" loading="lazy" alt="层板托角（右） Shelf_Angle_1"></figure>
+<div class="pbody">
+<div class="pname"><span>层板托角（右）</span><i>×20</i></div>
+<code class="pcode">Shelf_Angle_1</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>20×150×23 mm</span></div>
+<p class="pnote">20×150×23，M5 进型材槽、M4 接层板</p>
+<p class="pnote">备注：M5 to slot nuts front/rear, M4 tapped shelf attachment</p>
+</div></article><article class="part" data-key="x 导轨基准条 x_datum_bar_1050 铝 b_rack">
+<figure><img src="parts/X_Datum_Bar_1050_iso.png" loading="lazy" alt="X 导轨基准条 X_Datum_Bar_1050"></figure>
+<div class="pbody">
+<div class="pname"><span>X 导轨基准条</span><i>×2</i></div>
+<code class="pcode">X_Datum_Bar_1050</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>1050×30×24 mm</span></div>
+<p class="pnote">1050 长金属基准，M3 导轨螺纹、M5 沉头固定</p>
+<p class="pnote">备注：Continuous metal datum; M3 rail taps and counterbored M5 attachment to base. Bolt lengths/head space require review.</p>
+</div></article><article class="part" data-key="x 齿条背板 x_rack_backbone_r1 铝 b_rack">
+<figure><img src="parts/X_Rack_Backbone_R1_iso.png" loading="lazy" alt="X 齿条背板 X_Rack_Backbone_R1"></figure>
+<div class="pbody">
+<div class="pname"><span>X 齿条背板</span><i>×1</i></div>
+<code class="pcode">X_Rack_Backbone_R1</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>1040×6×30 mm</span></div>
+<p class="pnote">1040×6×30，齿条安装面连续</p>
+
+</div></article><article class="part" data-key="x 齿条 l 形支脚 x_rack_bolted_adjustable_foot 铝 b_rack">
+<figure><img src="parts/X_Rack_Bolted_Adjustable_Foot_iso.png" loading="lazy" alt="X 齿条 L 形支脚 X_Rack_Bolted_Adjustable_Foot"></figure>
+<div class="pbody">
+<div class="pname"><span>X 齿条 L 形支脚</span><i>×7</i></div>
+<code class="pcode">X_Rack_Bolted_Adjustable_Foot</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>32×28×75 mm</span></div>
+<p class="pnote">4×M4 接背板、4 个 M5 长孔接底板，±1 mm 调整</p>
+<p class="pnote">备注：Metal welded/machined L foot. Four M5 base slots (+/-1 mm Y); four M4 to rack backing. Align as ONE straight datum, lock after coupon setup.</p>
+</div></article><article class="part" data-key="x 行程限位块 x_stop_low_profile 橡胶 b_rack">
+<figure><img src="parts/X_Stop_Low_Profile_iso.png" loading="lazy" alt="X 行程限位块 X_Stop_Low_Profile"></figure>
+<div class="pbody">
+<div class="pname"><span>X 行程限位块</span><i>×4</i></div>
+<code class="pcode">X_Stop_Low_Profile</code>
+<div class="meta"><span class="badge purchased">采购</span><span>橡胶</span><span>24×20×8 mm</span></div>
+<p class="pnote">低轮廓橡胶缓冲，共 4 个</p>
+<p class="pnote">备注：Low-profile bumper contacts X plate below local power tray; metal backing and fasteners pending.</p>
+</div></article></div></section><section class="modsect" id="parts-C_x" data-mod="C_x"><h3>C · X 行走模组 <span style="color:#9aa3aa;font-weight:400;font-size:12.5px">（12 类 / 18 件）</span></h3><p class="mdesc">两根 MGN12-1050 导轨承载 160×110×8 滑板，X 电机经 20T 小齿轮驱动 9 段齿条；本地电源节点随 X 移动。</p><div class="pgrid"><article class="part" data-key="电池包（候选） battery_candidate_85x65x42 采购件 c_x">
+<figure><img src="parts/Battery_Candidate_85x65x42_iso.png" loading="lazy" alt="电池包（候选） Battery_Candidate_85x65x42"></figure>
+<div class="pbody">
+<div class="pname"><span>电池包（候选）</span><i>×2</i></div>
+<code class="pcode">Battery_Candidate_85x65x42</code>
+<div class="meta"><span class="badge candidate">候选</span><span>采购件</span><span>85×65×42 mm</span></div>
+<p class="pnote">仅包络尺寸，电芯/电压/BMS 未定</p>
+<p class="pnote">备注：Packaging allocation ONLY. Cell chemistry, voltage, capacity, current, mass, BMS and enclosure fire behaviour pending.</p>
+</div></article><article class="part" data-key="esp32 控制板（候选） esp32_controller_candidate 采购件 c_x">
+<figure><img src="parts/ESP32_Controller_Candidate_iso.png" loading="lazy" alt="ESP32 控制板（候选） ESP32_Controller_Candidate"></figure>
+<div class="pbody">
+<div class="pname"><span>ESP32 控制板（候选）</span><i>×2</i></div>
+<code class="pcode">ESP32_Controller_Candidate</code>
+<div class="meta"><span class="badge candidate">候选</span><span>采购件</span><span>40×55×12 mm</span></div>
+<p class="pnote">仅板级包络</p>
+<p class="pnote">备注：Board envelope, local watchdog/limit inputs/driver interface still to be implemented.</p>
+</div></article><article class="part" data-key="本地电源盒 local_power_case petg c_x">
+<figure><img src="parts/Local_Power_Case_iso.png" loading="lazy" alt="本地电源盒 Local_Power_Case"></figure>
+<div class="pbody">
+<div class="pname"><span>本地电源盒</span><i>×2</i></div>
+<code class="pcode">Local_Power_Case</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>155×85×50 mm</span></div>
+<p class="pnote">电池仓 + 独立 ESP32 仓</p>
+<p class="pnote">备注：Pack candidate 85x65x42 + separate ESP32 bay. No battery, BMS, charger or voltage selection is implied.</p>
+</div></article><article class="part" data-key="电源盒盖 local_power_lid petg c_x">
+<figure><img src="parts/Local_Power_Lid_iso.png" loading="lazy" alt="电源盒盖 Local_Power_Lid"></figure>
+<div class="pbody">
+<div class="pname"><span>电源盒盖</span><i>×2</i></div>
+<code class="pcode">Local_Power_Lid</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>155×85×3 mm</span></div>
+<p class="pnote">与电源盒配对</p>
+
+</div></article><article class="part" data-key="x 导轨滑块 mgn12h_x 钢 c_x">
+<figure><img src="parts/MGN12H_X_iso.png" loading="lazy" alt="X 导轨滑块 MGN12H_X"></figure>
+<div class="pbody">
+<div class="pname"><span>X 导轨滑块</span><i>×4</i></div>
+<code class="pcode">MGN12H_X</code>
+<div class="meta"><span class="badge purchased">采购</span><span>钢</span><span>45.4×27×10 mm</span></div>
+<p class="pnote">MGN12H，每根 2 个</p>
+
+</div></article><article class="part" data-key="x 直线导轨 mgn12_x1050 钢 c_x">
+<figure><img src="parts/MGN12_X1050_iso.png" loading="lazy" alt="X 直线导轨 MGN12_X1050"></figure>
+<div class="pbody">
+<div class="pname"><span>X 直线导轨</span><i>×2</i></div>
+<code class="pcode">MGN12_X1050</code>
+<div class="meta"><span class="badge purchased">采购</span><span>钢</span><span>1050×12×8 mm</span></div>
+<p class="pnote">MGN12，L1050，共 2 根</p>
+
+</div></article><article class="part" data-key="x 金属夹紧轮毂 metal_pinion_hub_x 钢 c_x">
+<figure><img src="parts/Metal_Pinion_Hub_X_iso.png" loading="lazy" alt="X 金属夹紧轮毂 Metal_Pinion_Hub_X"></figure>
+<div class="pbody">
+<div class="pname"><span>X 金属夹紧轮毂</span><i>×1</i></div>
+<code class="pcode">Metal_Pinion_Hub_X</code>
+<div class="meta"><span class="badge purchased">采购</span><span>钢</span><span>24×24×14 mm</span></div>
+<p class="pnote">候选件，夹紧方式与扭矩未验证</p>
+<p class="pnote">备注：Candidate flange hub, 5 mm clamp shaft; actual clamp/screws and torque proof pending.</p>
+</div></article><article class="part" data-key="x 小齿轮 pinion_m1p5_20t_x petg c_x">
+<figure><img src="parts/Pinion_M1p5_20T_X_iso.png" loading="lazy" alt="X 小齿轮 Pinion_M1p5_20T_X"></figure>
+<div class="pbody">
+<div class="pname"><span>X 小齿轮</span><i>×1</i></div>
+<code class="pcode">Pinion_M1p5_20T_X</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>33×33×12 mm</span></div>
+<p class="pnote">M1.5 / 20 齿，打印件，必须配金属夹紧轮毂</p>
+<p class="pnote">备注：Sampled involute, 0.30 mm total nominal backlash, metal clamping hub required.</p>
+</div></article><article class="part" data-key="x 滑板 x_carriage_160x110x8 铝 c_x">
+<figure><img src="parts/X_Carriage_160x110x8_iso.png" loading="lazy" alt="X 滑板 X_Carriage_160x110x8"></figure>
+<div class="pbody">
+<div class="pname"><span>X 滑板</span><i>×1</i></div>
+<code class="pcode">X_Carriage_160x110x8</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>160×110×8 mm</span></div>
+<p class="pnote">160×110×8，承载 Z 立柱</p>
+
+</div></article><article class="part" data-key="x 电机支脚 x_motor_leg 铝 c_x">
+<figure><img src="parts/X_Motor_Leg_iso.png" loading="lazy" alt="X 电机支脚 X_Motor_Leg"></figure>
+<div class="pbody">
+<div class="pname"><span>X 电机支脚</span><i>×2</i></div>
+<code class="pcode">X_Motor_Leg</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>6×16×31 mm</span></div>
+<p class="pnote">电机外置悬臂支架</p>
+
+</div></article><article class="part" data-key="x 电源模块托板 x_power_module_tray 铝 c_x">
+<figure><img src="parts/X_Power_Module_Tray_iso.png" loading="lazy" alt="X 电源模块托板 X_Power_Module_Tray"></figure>
+<div class="pbody">
+<div class="pname"><span>X 电源模块托板</span><i>×1</i></div>
+<code class="pcode">X_Power_Module_Tray</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>212.5×90×4 mm</span></div>
+<p class="pnote">212×90×4</p>
+
+</div></article><article class="part" data-key="x 步进电机 zdt_realmotor_x 采购件 c_x">
+<figure><img src="parts/ZDT_RealMotor_X_iso.png" loading="lazy" alt="X 步进电机 ZDT_RealMotor_X"></figure>
+<div class="pbody">
+<div class="pname"><span>X 步进电机</span><i>×1</i></div>
+<code class="pcode">ZDT_RealMotor_X</code>
+<div class="meta"><span class="badge purchased">采购</span><span>采购件</span><span>44.7×62.9×83 mm</span></div>
+<p class="pnote">用户提供的参考模型，仅几何</p>
+<p class="pnote">备注：User STEP, 24 solids. Geometry only; voltage, mass, torque curve and brake not verified.</p>
+</div></article></div></section><section class="modsect" id="parts-D_z" data-mod="D_z"><h3>D · Z 升降模组 <span style="color:#9aa3aa;font-weight:400;font-size:12.5px">（32 类 / 56 件）</span></h3><p class="mdesc">两根 3030 立柱与 MGN12-500 导轨构成升降轴，12 mm 齿条背板 + 5 个支撑；独立钢安全轨与候选制动器只作包络。</p><div class="pgrid"><article class="part" data-key="3030 铝型材立柱 3030_z600 铝 d_z">
+<figure><img src="parts/3030_Z600_iso.png" loading="lazy" alt="3030 铝型材立柱 3030_Z600"></figure>
+<div class="pbody">
+<div class="pname"><span>3030 铝型材立柱</span><i>×2</i></div>
+<code class="pcode">3030_Z600</code>
+<div class="meta"><span class="badge purchased">采购</span><span>铝</span><span>30×30×600 mm</span></div>
+<p class="pnote">L600，升降立柱，共 2 根</p>
+
+</div></article><article class="part" data-key="y 电池包（候选，转 90°） battery_candidate_85x65x42_y_stationary_rotated 采购件 d_z">
+<figure><img src="parts/Battery_Candidate_85x65x42_Y_Stationary_Rotated_iso.png" loading="lazy" alt="Y 电池包（候选，转 90°） Battery_Candidate_85x65x42_Y_Stationary_Rotated"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 电池包（候选，转 90°）</span><i>×1</i></div>
+<code class="pcode">Battery_Candidate_85x65x42_Y_Stationary_Rotated</code>
+<div class="meta"><span class="badge candidate">候选</span><span>采购件</span><span>65×85×42 mm</span></div>
+<p class="pnote">仅包络</p>
+<p class="pnote">备注：Packaging allocation ONLY. Cell chemistry, voltage, capacity, current, mass, BMS and enclosure fire behaviour pending. Y node rides on Z; requires a local flexible 143 mm Y-stroke harness.</p>
+</div></article><article class="part" data-key="制动模块连接板 brake_module_link 铝 d_z">
+<figure><img src="parts/Brake_Module_Link_iso.png" loading="lazy" alt="制动模块连接板 Brake_Module_Link"></figure>
+<div class="pbody">
+<div class="pname"><span>制动模块连接板</span><i>×1</i></div>
+<code class="pcode">Brake_Module_Link</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>7×25×8 mm</span></div>
+<p class="pnote">7×25×8</p>
+
+</div></article><article class="part" data-key="相机（候选） camera_candidate_32x32 采购件 d_z">
+<figure><img src="parts/Camera_CANDIDATE_32x32_iso.png" loading="lazy" alt="相机（候选） Camera_CANDIDATE_32x32"></figure>
+<div class="pbody">
+<div class="pname"><span>相机（候选）</span><i>×1</i></div>
+<code class="pcode">Camera_CANDIDATE_32x32</code>
+<div class="meta"><span class="badge candidate">候选</span><span>采购件</span><span>32×18×32 mm</span></div>
+<p class="pnote">32×18×32，内参/外参未标定</p>
+<p class="pnote">备注：Lens-front mechanical distance about 66..209 mm; camera intrinsics, camera/tool extrinsics and lighting calibration pending.</p>
+</div></article><article class="part" data-key="相机可调支架 camera_slotted_mount petg d_z">
+<figure><img src="parts/Camera_Slotted_Mount_iso.png" loading="lazy" alt="相机可调支架 Camera_Slotted_Mount"></figure>
+<div class="pbody">
+<div class="pname"><span>相机可调支架</span><i>×1</i></div>
+<code class="pcode">Camera_Slotted_Mount</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>53×5×88 mm</span></div>
+<p class="pnote">腰形孔调焦，线缆/天线避让待确认</p>
+<p class="pnote">备注：M3 slotted adjustment and cable/antenna clearance must match selected camera.</p>
+</div></article><article class="part" data-key="y 控制板（候选，转 90°） esp32_controller_candidate_y_stationary_rotated 采购件 d_z">
+<figure><img src="parts/ESP32_Controller_Candidate_Y_Stationary_Rotated_iso.png" loading="lazy" alt="Y 控制板（候选，转 90°） ESP32_Controller_Candidate_Y_Stationary_Rotated"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 控制板（候选，转 90°）</span><i>×1</i></div>
+<code class="pcode">ESP32_Controller_Candidate_Y_Stationary_Rotated</code>
+<div class="meta"><span class="badge candidate">候选</span><span>采购件</span><span>55×40×12 mm</span></div>
+<p class="pnote">仅板级包络</p>
+<p class="pnote">备注：Board envelope, local watchdog/limit inputs/driver interface still to be implemented. Y node rides on Z; requires a local flexible 143 mm Y-stroke harness.</p>
+</div></article><article class="part" data-key="独立钢制安全轨 independent_steel_safety_track 钢 d_z">
+<figure><img src="parts/Independent_Steel_Safety_Track_iso.png" loading="lazy" alt="独立钢制安全轨 Independent_Steel_Safety_Track"></figure>
+<div class="pbody">
+<div class="pname"><span>独立钢制安全轨</span><i>×1</i></div>
+<code class="pcode">Independent_Steel_Safety_Track</code>
+<div class="meta"><span class="badge machined">加工</span><span>钢</span><span>6×30×566 mm</span></div>
+<p class="pnote">6×30×566，与打印齿条分离</p>
+<p class="pnote">备注：Separate from printed rack. Hole pattern is for maintenance support, not an automatic ratchet.</p>
+</div></article><article class="part" data-key="y 本地电源盒（转 90°） local_power_case_y_stationary_rotated petg d_z">
+<figure><img src="parts/Local_Power_Case_Y_Stationary_Rotated_iso.png" loading="lazy" alt="Y 本地电源盒（转 90°） Local_Power_Case_Y_Stationary_Rotated"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 本地电源盒（转 90°）</span><i>×1</i></div>
+<code class="pcode">Local_Power_Case_Y_Stationary_Rotated</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>85×155×50 mm</span></div>
+<p class="pnote">仍属 Z 节点，需 143 mm 柔性线束</p>
+<p class="pnote">备注：Pack candidate 85x65x42 + separate ESP32 bay. No battery, BMS, charger or voltage selection is implied. Y node rides on Z; requires a local flexible 143 mm Y-stroke harness.</p>
+</div></article><article class="part" data-key="y 电源盒盖（转 90°） local_power_lid_y_stationary_rotated petg d_z">
+<figure><img src="parts/Local_Power_Lid_Y_Stationary_Rotated_iso.png" loading="lazy" alt="Y 电源盒盖（转 90°） Local_Power_Lid_Y_Stationary_Rotated"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 电源盒盖（转 90°）</span><i>×1</i></div>
+<code class="pcode">Local_Power_Lid_Y_Stationary_Rotated</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>85×155×3 mm</span></div>
+<p class="pnote">与转 90° 盒体配对</p>
+<p class="pnote">备注： Y node rides on Z; requires a local flexible 143 mm Y-stroke harness.</p>
+</div></article><article class="part" data-key="z 导轨滑块 mgn12h_z 钢 d_z">
+<figure><img src="parts/MGN12H_Z_iso.png" loading="lazy" alt="Z 导轨滑块 MGN12H_Z"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 导轨滑块</span><i>×4</i></div>
+<code class="pcode">MGN12H_Z</code>
+<div class="meta"><span class="badge purchased">采购</span><span>钢</span><span>27×10×45.4 mm</span></div>
+<p class="pnote">MGN12H，共 4 个</p>
+
+</div></article><article class="part" data-key="z 直线导轨 mgn12_rail_z500 钢 d_z">
+<figure><img src="parts/MGN12_Rail_Z500_iso.png" loading="lazy" alt="Z 直线导轨 MGN12_Rail_Z500"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 直线导轨</span><i>×2</i></div>
+<code class="pcode">MGN12_Rail_Z500</code>
+<div class="meta"><span class="badge purchased">采购</span><span>钢</span><span>12×8×500 mm</span></div>
+<p class="pnote">MGN12，L500，共 2 根</p>
+
+</div></article><article class="part" data-key="z 金属夹紧轮毂 metal_pinion_hub_z 钢 d_z">
+<figure><img src="parts/Metal_Pinion_Hub_Z_iso.png" loading="lazy" alt="Z 金属夹紧轮毂 Metal_Pinion_Hub_Z"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 金属夹紧轮毂</span><i>×1</i></div>
+<code class="pcode">Metal_Pinion_Hub_Z</code>
+<div class="meta"><span class="badge purchased">采购</span><span>钢</span><span>24×14×24 mm</span></div>
+<p class="pnote">候选件</p>
+<p class="pnote">备注：Candidate flange hub, 5 mm clamp shaft; actual clamp/screws and torque proof pending.</p>
+</div></article><article class="part" data-key="常闭导轨制动器（候选） nc_rail_brake_candidate 安全件 d_z">
+<figure><img src="parts/NC_Rail_Brake_CANDIDATE_iso.png" loading="lazy" alt="常闭导轨制动器（候选） NC_Rail_Brake_CANDIDATE"></figure>
+<div class="pbody">
+<div class="pname"><span>常闭导轨制动器（候选）</span><i>×1</i></div>
+<code class="pcode">NC_Rail_Brake_CANDIDATE</code>
+<div class="meta"><span class="badge candidate">候选</span><span>安全件</span><span>36×50×50 mm</span></div>
+<p class="pnote">仅为外形包络，未建模钳口</p>
+<p class="pnote">备注：Unselected commercial normally-engaged brake envelope. Not modelled jaws or a certified catch. NO loaded Z operation yet.</p>
+</div></article><article class="part" data-key="z 小齿轮 pinion_m1p5_20t_z petg d_z">
+<figure><img src="parts/Pinion_M1p5_20T_Z_iso.png" loading="lazy" alt="Z 小齿轮 Pinion_M1p5_20T_Z"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 小齿轮</span><i>×1</i></div>
+<code class="pcode">Pinion_M1p5_20T_Z</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>33×12×33 mm</span></div>
+<p class="pnote">打印件，不得作为制动或防坠</p>
+<p class="pnote">备注：Not a brake. Printed tooth failure must not release the lift.</p>
+</div></article><article class="part" data-key="z 向齿条段 rack_m1p5_24t_z petg d_z">
+<figure><img src="parts/Rack_M1p5_24T_Z_iso.png" loading="lazy" alt="Z 向齿条段 Rack_M1p5_24T_Z"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 向齿条段</span><i>×5</i></div>
+<code class="pcode">Rack_M1p5_24T_Z</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>9.5×30×113.1 mm</span></div>
+<p class="pnote">共 5 段，节距与 X/Y 相同</p>
+<p class="pnote">备注：Experimental printed lift teeth; independent metal catch mandatory.</p>
+</div></article><article class="part" data-key="安全轨连接块 safety_track_link 铝 d_z">
+<figure><img src="parts/Safety_Track_Link_iso.png" loading="lazy" alt="安全轨连接块 Safety_Track_Link"></figure>
+<div class="pbody">
+<div class="pname"><span>安全轨连接块</span><i>×2</i></div>
+<code class="pcode">Safety_Track_Link</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>27×20×12 mm</span></div>
+<p class="pnote">27×20×12，共 2 件</p>
+
+</div></article><article class="part" data-key="y 电源托板（固定在 z） y_power_tray_on_z 铝 d_z">
+<figure><img src="parts/Y_Power_Tray_On_Z_iso.png" loading="lazy" alt="Y 电源托板（固定在 Z） Y_Power_Tray_On_Z"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 电源托板（固定在 Z）</span><i>×1</i></div>
+<code class="pcode">Y_Power_Tray_On_Z</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>90×165×4 mm</span></div>
+<p class="pnote">90×165×4，随 Z 不随 Y</p>
+<p class="pnote">备注：Dedicated Y battery, fixed on Z platform. Two flush low-head M4 at X-30 into support; four case M4 taps. Verify real screw/head and flexible harness.</p>
+</div></article><article class="part" data-key="y 电源 z 支架 y_power_z_support 铝 d_z">
+<figure><img src="parts/Y_Power_Z_Support_iso.png" loading="lazy" alt="Y 电源 Z 支架 Y_Power_Z_Support"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 电源 Z 支架</span><i>×1</i></div>
+<code class="pcode">Y_Power_Z_Support</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>85×40×48 mm</span></div>
+<p class="pnote">阶梯金属支架，2×M4 接 Z 滑板</p>
+<p class="pnote">备注：Metal stepped bracket. Two M4 into carriage right edge, two flush tray M4. No Y-slider attachment; inspect edge thread and weld/machining route.</p>
+</div></article><article class="part" data-key="z 步进电机 zdt_realmotor_z 采购件 d_z">
+<figure><img src="parts/ZDT_RealMotor_Z_iso.png" loading="lazy" alt="Z 步进电机 ZDT_RealMotor_Z"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 步进电机</span><i>×1</i></div>
+<code class="pcode">ZDT_RealMotor_Z</code>
+<div class="meta"><span class="badge purchased">采购</span><span>采购件</span><span>44.7×83×62.9 mm</span></div>
+<p class="pnote">用户参考模型</p>
+<p class="pnote">备注：User STEP, 24 solids. Geometry only; voltage, mass, torque curve and brake not verified.</p>
+</div></article><article class="part" data-key="z 滑板 z_carriage_130x100x8_r1 铝 d_z">
+<figure><img src="parts/Z_Carriage_130x100x8_R1_iso.png" loading="lazy" alt="Z 滑板 Z_Carriage_130x100x8_R1"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 滑板</span><i>×1</i></div>
+<code class="pcode">Z_Carriage_130x100x8_R1</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>130×8×100 mm</span></div>
+<p class="pnote">130×100×8，承载 Y 模组</p>
+
+</div></article><article class="part" data-key="z 立柱底角（后） z_foot_angle_30x20x32 铝 d_z">
+<figure><img src="parts/Z_Foot_Angle_30x20x32_iso.png" loading="lazy" alt="Z 立柱底角（后） Z_Foot_Angle_30x20x32"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 立柱底角（后）</span><i>×2</i></div>
+<code class="pcode">Z_Foot_Angle_30x20x32</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>30×20×32 mm</span></div>
+<p class="pnote">M6 进槽螺母，M6×12 接 X 滑板</p>
+<p class="pnote">备注：M6 to 3030 slot nuts; M6x12 to X plate; rail starts 2 mm above bracket</p>
+</div></article><article class="part" data-key="z 立柱底角（前） z_foot_angle_front 铝 d_z">
+<figure><img src="parts/Z_Foot_Angle_Front_iso.png" loading="lazy" alt="Z 立柱底角（前） Z_Foot_Angle_Front"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 立柱底角（前）</span><i>×2</i></div>
+<code class="pcode">Z_Foot_Angle_Front</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>30×20×32 mm</span></div>
+<p class="pnote">与后底角配对，共 4 件</p>
+<p class="pnote">备注：M6 to 3030 slot nuts; M6x12 to X plate; rail starts 2 mm above bracket</p>
+</div></article><article class="part" data-key="z 电机模块连接板 z_motor_module_link 铝 d_z">
+<figure><img src="parts/Z_Motor_Module_Link_iso.png" loading="lazy" alt="Z 电机模块连接板 Z_Motor_Module_Link"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 电机模块连接板</span><i>×1</i></div>
+<code class="pcode">Z_Motor_Module_Link</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>19×26×6 mm</span></div>
+<p class="pnote">19×26×6</p>
+
+</div></article><article class="part" data-key="z 电机板 z_motor_plate 铝 d_z">
+<figure><img src="parts/Z_Motor_Plate_iso.png" loading="lazy" alt="Z 电机板 Z_Motor_Plate"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 电机板</span><i>×1</i></div>
+<code class="pcode">Z_Motor_Plate</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>50×4×50 mm</span></div>
+<p class="pnote">50×4×50</p>
+
+</div></article><article class="part" data-key="z 电源模块托板 z_power_module_tray 铝 d_z">
+<figure><img src="parts/Z_Power_Module_Tray_iso.png" loading="lazy" alt="Z 电源模块托板 Z_Power_Module_Tray"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 电源模块托板</span><i>×1</i></div>
+<code class="pcode">Z_Power_Module_Tray</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>165×94×16 mm</span></div>
+<p class="pnote">165×94×16</p>
+
+</div></article><article class="part" data-key="z 齿条背板 z_rack_backbone_12x30 铝 d_z">
+<figure><img src="parts/Z_Rack_Backbone_12x30_iso.png" loading="lazy" alt="Z 齿条背板 Z_Rack_Backbone_12x30"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 齿条背板</span><i>×1</i></div>
+<code class="pcode">Z_Rack_Backbone_12x30</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>12×30×566 mm</span></div>
+<p class="pnote">12×30×566，由 4 mm 加厚到 12 mm</p>
+<p class="pnote">备注：12 mm metal backing, same rack mating face X=machine X-122. Five bolted rear supports; no printed member credited as composite stiffening.</p>
+</div></article><article class="part" data-key="z 齿条支撑 z_rack_support_104x8x12 铝 d_z">
+<figure><img src="parts/Z_Rack_Support_104x8x12_iso.png" loading="lazy" alt="Z 齿条支撑 Z_Rack_Support_104x8x12"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 齿条支撑</span><i>×5</i></div>
+<code class="pcode">Z_Rack_Support_104x8x12</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>104×8×12 mm</span></div>
+<p class="pnote">104×8×12，2×M3 接背板、1×M5 进 3030 后槽</p>
+<p class="pnote">备注：Two M3 into backing, one M5 at actual centreline of left 3030 rear slot. Five spaced brackets act together; supplier T-nut and tool access require physical check.</p>
+</div></article><article class="part" data-key="z 导轨基准条 z_rail_datum_20x4x500 铝 d_z">
+<figure><img src="parts/Z_Rail_Datum_20x4x500_iso.png" loading="lazy" alt="Z 导轨基准条 Z_Rail_Datum_20x4x500"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 导轨基准条</span><i>×2</i></div>
+<code class="pcode">Z_Rail_Datum_20x4x500</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>20×4×500 mm</span></div>
+<p class="pnote">20×4×500，5 颗沉头 M5 进槽螺母</p>
+<p class="pnote">备注：Five flush M5 countersunk screws to slot nuts; M3 tapped holes at rail pitch</p>
+</div></article><article class="part" data-key="z 减速输出轴（候选） z_reducer_output_shaft_candidate 钢 d_z">
+<figure><img src="parts/Z_Reducer_Output_Shaft_CANDIDATE_iso.png" loading="lazy" alt="Z 减速输出轴（候选） Z_Reducer_Output_Shaft_CANDIDATE"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 减速输出轴（候选）</span><i>×1</i></div>
+<code class="pcode">Z_Reducer_Output_Shaft_CANDIDATE</code>
+<div class="meta"><span class="badge candidate">候选</span><span>钢</span><span>8×28×8 mm</span></div>
+<p class="pnote">Ø8 输出，露出 28 mm</p>
+<p class="pnote">备注：8 mm output, 28 mm exposed candidate; integrate actual selected reducer drawing before fabrication.</p>
+</div></article><article class="part" data-key="z 行星减速 10:1（候选） z_reduction_10to1_candidate 采购件 d_z">
+<figure><img src="parts/Z_Reduction_10to1_CANDIDATE_iso.png" loading="lazy" alt="Z 行星减速 10:1（候选） Z_Reduction_10to1_CANDIDATE"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 行星减速 10:1（候选）</span><i>×1</i></div>
+<code class="pcode">Z_Reduction_10to1_CANDIDATE</code>
+<div class="meta"><span class="badge candidate">候选</span><span>采购件</span><span>42×45×42 mm</span></div>
+<p class="pnote">OD42 / L45，未选型</p>
+<p class="pnote">备注：10:1 planetary allocation OD42 L45, input5/output8. Ratio/efficiency/backlash/mount drawing unselected; not a brake.</p>
+</div></article><article class="part" data-key="z 后侧限位块 z_stop_rear_clearance 橡胶 d_z">
+<figure><img src="parts/Z_Stop_Rear_Clearance_iso.png" loading="lazy" alt="Z 后侧限位块 Z_Stop_Rear_Clearance"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 后侧限位块</span><i>×4</i></div>
+<code class="pcode">Z_Stop_Rear_Clearance</code>
+<div class="meta"><span class="badge purchased">采购</span><span>橡胶</span><span>24×9×10 mm</span></div>
+<p class="pnote">橡胶，共 4 个</p>
+
+</div></article><article class="part" data-key="z 顶电机板 z_top_motor_plate_130x60x8 铝 d_z">
+<figure><img src="parts/Z_Top_Motor_Plate_130x60x8_iso.png" loading="lazy" alt="Z 顶电机板 Z_Top_Motor_Plate_130x60x8"></figure>
+<div class="pbody">
+<div class="pname"><span>Z 顶电机板</span><i>×1</i></div>
+<code class="pcode">Z_Top_Motor_Plate_130x60x8</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>130×60×8 mm</span></div>
+<p class="pnote">130×60×8，封顶并固定电机模块</p>
+
+</div></article></div></section><section class="modsect" id="parts-E_y" data-mod="E_y"><h3>E · Y 伸缩取放头 <span style="color:#9aa3aa;font-weight:400;font-size:12.5px">（34 类 / 47 件）</span></h3><p class="mdesc">Y 脊板双 MGN9 导轨 + 缩短悬臂，方管托盘伸入库位；锁销由 MG90S 经 R7 曲柄与 Scotch 轭提升 14 mm。</p><div class="pgrid"><article class="part" data-key="取放托盘 carrier_tray_124x130 petg e_y">
+<figure><img src="parts/Carrier_Tray_124x130_iso.png" loading="lazy" alt="取放托盘 Carrier_Tray_124x130"></figure>
+<div class="pbody">
+<div class="pname"><span>取放托盘</span><i>×1</i></div>
+<code class="pcode">Carrier_Tray_124x130</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>124×130×10 mm</span></div>
+<p class="pnote">124×130×10，前开 40 mm 桅杆槽</p>
+<p class="pnote">备注：40 mm front-open mast slot, 6 mm rear bridge; supports box on two side wings</p>
+</div></article><article class="part" data-key="取放头定位块 head_locator_d3 钢 e_y">
+<figure><img src="parts/Head_Locator_D3_iso.png" loading="lazy" alt="取放头定位块 Head_Locator_D3"></figure>
+<div class="pbody">
+<div class="pname"><span>取放头定位块</span><i>×2</i></div>
+<code class="pcode">Head_Locator_D3</code>
+<div class="meta"><span class="badge purchased">采购</span><span>钢</span><span>3×3×9 mm</span></div>
+<p class="pnote">Ø3，共 2 件</p>
+
+</div></article><article class="part" data-key="锁销曲柄 latch_crank_r7 petg e_y">
+<figure><img src="parts/Latch_Crank_R7_iso.png" loading="lazy" alt="锁销曲柄 Latch_Crank_R7"></figure>
+<div class="pbody">
+<div class="pname"><span>锁销曲柄</span><i>×1</i></div>
+<code class="pcode">Latch_Crank_R7</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>3×6×12.5 mm</span></div>
+<p class="pnote">R7，需配合舵机金属花键</p>
+<p class="pnote">备注：Use supplier metal spline adapter; servo endpoint calibration required</p>
+</div></article><article class="part" data-key="锁销桅杆 latch_mast_v03_roundslot 铝 e_y">
+<figure><img src="parts/Latch_Mast_V03_RoundSlot_iso.png" loading="lazy" alt="锁销桅杆 Latch_Mast_V03_RoundSlot"></figure>
+<div class="pbody">
+<div class="pname"><span>锁销桅杆</span><i>×1</i></div>
+<code class="pcode">Latch_Mast_V03_RoundSlot</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>36×16×92 mm</span></div>
+<p class="pnote">36×16×92，圆孔 + 腰槽可拆头接口</p>
+<p class="pnote">备注：Removable head interface: two original M3 clamp screws, one round and one slotted D3 locating receiver.</p>
+</div></article><article class="part" data-key="锁销 latch_pin_d4x60 钢 e_y">
+<figure><img src="parts/Latch_Pin_D4x60_iso.png" loading="lazy" alt="锁销 Latch_Pin_D4x60"></figure>
+<div class="pbody">
+<div class="pname"><span>锁销</span><i>×1</i></div>
+<code class="pcode">Latch_Pin_D4x60</code>
+<div class="meta"><span class="badge purchased">采购</span><span>钢</span><span>4×4×60 mm</span></div>
+<p class="pnote">Ø4×60 磨制钢销，提升 14 mm</p>
+<p class="pnote">备注：Ground steel pin, not printed; released lift 14 mm</p>
+</div></article><article class="part" data-key="回位弹簧 latch_return_spring_envelope 钢 e_y">
+<figure><img src="parts/Latch_Return_Spring_Envelope_iso.png" loading="lazy" alt="回位弹簧 Latch_Return_Spring_Envelope"></figure>
+<div class="pbody">
+<div class="pname"><span>回位弹簧</span><i>×1</i></div>
+<code class="pcode">Latch_Return_Spring_Envelope</code>
+<div class="meta"><span class="badge purchased">采购</span><span>钢</span><span>7×7×16 mm</span></div>
+<p class="pnote">外径 7 / 线径 0.3 / 自由长 19，0.2–1.2 N</p>
+<p class="pnote">备注：Metal return spring, OD7 wire0.3 freeL19, solid&lt;=1.8; target force 0.2..1.2N. Coil envelope only, supplier test mandatory</p>
+</div></article><article class="part" data-key="锁销滚轮 latch_roller_d3 钢 e_y">
+<figure><img src="parts/Latch_Roller_D3_iso.png" loading="lazy" alt="锁销滚轮 Latch_Roller_D3"></figure>
+<div class="pbody">
+<div class="pname"><span>锁销滚轮</span><i>×1</i></div>
+<code class="pcode">Latch_Roller_D3</code>
+<div class="meta"><span class="badge purchased">采购</span><span>钢</span><span>26×3×3 mm</span></div>
+<p class="pnote">Ø3 磨制销 + 挡圈</p>
+<p class="pnote">备注：3 mm ground pin with retaining grooves; two DIN6799 E-clips</p>
+</div></article><article class="part" data-key="scotch 轭 latch_scotch_yoke petg e_y">
+<figure><img src="parts/Latch_Scotch_Yoke_iso.png" loading="lazy" alt="Scotch 轭 Latch_Scotch_Yoke"></figure>
+<div class="pbody">
+<div class="pname"><span>Scotch 轭</span><i>×1</i></div>
+<code class="pcode">Latch_Scotch_Yoke</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>12×22×5 mm</span></div>
+<p class="pnote">R7 曲柄驱动，行程 14 mm</p>
+<p class="pnote">备注：7 mm crank radius; end-to-end vertical stroke 14 mm; bench-test before use</p>
+</div></article><article class="part" data-key="mg90s 舵机 mg90s_envelope 采购件 e_y">
+<figure><img src="parts/MG90S_Envelope_iso.png" loading="lazy" alt="MG90S 舵机 MG90S_Envelope"></figure>
+<div class="pbody">
+<div class="pname"><span>MG90S 舵机</span><i>×1</i></div>
+<code class="pcode">MG90S_Envelope</code>
+<div class="meta"><span class="badge purchased">采购</span><span>采购件</span><span>23×12×29 mm</span></div>
+<p class="pnote">需实测输出轴与 ≥150° 行程</p>
+<p class="pnote">备注：Supplier output-shaft datum and &gt;=150 degree usable travel must be verified</p>
+</div></article><article class="part" data-key="y 导轨滑块 mgn9h_y 钢 e_y">
+<figure><img src="parts/MGN9H_Y_iso.png" loading="lazy" alt="Y 导轨滑块 MGN9H_Y"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 导轨滑块</span><i>×2</i></div>
+<code class="pcode">MGN9H_Y</code>
+<div class="meta"><span class="badge purchased">采购</span><span>钢</span><span>20×39.9×8 mm</span></div>
+<p class="pnote">MGN9H，共 2 个</p>
+
+</div></article><article class="part" data-key="y 直线导轨 mgn9_rail_y200 钢 e_y">
+<figure><img src="parts/MGN9_Rail_Y200_iso.png" loading="lazy" alt="Y 直线导轨 MGN9_Rail_Y200"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 直线导轨</span><i>×2</i></div>
+<code class="pcode">MGN9_Rail_Y200</code>
+<div class="meta"><span class="badge purchased">采购</span><span>钢</span><span>9×200×6.5 mm</span></div>
+<p class="pnote">MGN9，L200，共 2 根</p>
+
+</div></article><article class="part" data-key="y 金属夹紧轮毂 metal_pinion_hub_y 钢 e_y">
+<figure><img src="parts/Metal_Pinion_Hub_Y_iso.png" loading="lazy" alt="Y 金属夹紧轮毂 Metal_Pinion_Hub_Y"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 金属夹紧轮毂</span><i>×1</i></div>
+<code class="pcode">Metal_Pinion_Hub_Y</code>
+<div class="meta"><span class="badge purchased">采购</span><span>钢</span><span>24×24×14 mm</span></div>
+<p class="pnote">候选件</p>
+<p class="pnote">备注：Candidate flange hub, 5 mm clamp shaft; actual clamp/screws and torque proof pending.</p>
+</div></article><article class="part" data-key="电机转接板 motor_plate_50x50 铝 e_y">
+<figure><img src="parts/Motor_Plate_50x50_iso.png" loading="lazy" alt="电机转接板 Motor_Plate_50x50"></figure>
+<div class="pbody">
+<div class="pname"><span>电机转接板</span><i>×2</i></div>
+<code class="pcode">Motor_Plate_50x50</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>50×50×4 mm</span></div>
+<p class="pnote">50×50×4，31×31 M3 孔阵</p>
+<p class="pnote">备注：31x31 M3 pattern; adjust mesh on slotted carrier. Confirm actual motor screw engagement.</p>
+</div></article><article class="part" data-key="销卡箍 pin_collar_4x10x5 钢 e_y">
+<figure><img src="parts/Pin_Collar_4x10x5_iso.png" loading="lazy" alt="销卡箍 Pin_Collar_4x10x5"></figure>
+<div class="pbody">
+<div class="pname"><span>销卡箍</span><i>×2</i></div>
+<code class="pcode">Pin_Collar_4x10x5</code>
+<div class="meta"><span class="badge purchased">采购</span><span>钢</span><span>10×10×5 mm</span></div>
+<p class="pnote">Ø10×5，共 2 个</p>
+<p class="pnote">备注：Two miniature shaft collars retain the yoke on the ground pin</p>
+</div></article><article class="part" data-key="法兰衬套 pin_flanged_bushing_4p1x6 采购件 e_y">
+<figure><img src="parts/Pin_Flanged_Bushing_4p1x6_iso.png" loading="lazy" alt="法兰衬套 Pin_Flanged_Bushing_4p1x6"></figure>
+<div class="pbody">
+<div class="pname"><span>法兰衬套</span><i>×2</i></div>
+<code class="pcode">Pin_Flanged_Bushing_4p1x6</code>
+<div class="meta"><span class="badge purchased">采购</span><span>采购件</span><span>7.5×7.5×4.5 mm</span></div>
+<p class="pnote">Ø4.1 内径，可更换青铜衬套</p>
+<p class="pnote">备注：Replaceable bronze bushing; 6.1 pilot must be fitted/retained, not assumed press fit</p>
+</div></article><article class="part" data-key="销导向颊板 pin_guide_cheek petg e_y">
+<figure><img src="parts/Pin_Guide_Cheek_iso.png" loading="lazy" alt="销导向颊板 Pin_Guide_Cheek"></figure>
+<div class="pbody">
+<div class="pname"><span>销导向颊板</span><i>×2</i></div>
+<code class="pcode">Pin_Guide_Cheek</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>26×24×4 mm</span></div>
+<p class="pnote">26×24×4，需铰到衬套配合</p>
+<p class="pnote">备注：Ream to steel bushing fit; metal bushings required for wear</p>
+</div></article><article class="part" data-key="y 小齿轮 pinion_m1p5_20t_y petg e_y">
+<figure><img src="parts/Pinion_M1p5_20T_Y_iso.png" loading="lazy" alt="Y 小齿轮 Pinion_M1p5_20T_Y"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 小齿轮</span><i>×1</i></div>
+<code class="pcode">Pinion_M1p5_20T_Y</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>33×33×12 mm</span></div>
+<p class="pnote">打印件 + 金属轮毂</p>
+
+</div></article><article class="part" data-key="y 向齿条段 rack_m1p5_24t_y petg e_y">
+<figure><img src="parts/Rack_M1p5_24T_Y_iso.png" loading="lazy" alt="Y 向齿条段 Rack_M1p5_24T_Y"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 向齿条段</span><i>×2</i></div>
+<code class="pcode">Rack_M1p5_24T_Y</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>9.5×113.1×30 mm</span></div>
+<p class="pnote">共 2 段，与 X/Z 同相位</p>
+<p class="pnote">备注：Same pitch/phase as X/Z; align on continuous metal backing.</p>
+</div></article><article class="part" data-key="滚轮挡圈 roller_clip_envelope 钢 e_y">
+<figure><img src="parts/Roller_Clip_Envelope_iso.png" loading="lazy" alt="滚轮挡圈 Roller_Clip_Envelope"></figure>
+<div class="pbody">
+<div class="pname"><span>滚轮挡圈</span><i>×2</i></div>
+<code class="pcode">Roller_Clip_Envelope</code>
+<div class="meta"><span class="badge purchased">采购</span><span>钢</span><span>0.5×5×5 mm</span></div>
+<p class="pnote">DIN6799，共 2 个</p>
+
+</div></article><article class="part" data-key="舵机座 servo_cradle petg e_y">
+<figure><img src="parts/Servo_Cradle_iso.png" loading="lazy" alt="舵机座 Servo_Cradle"></figure>
+<div class="pbody">
+<div class="pname"><span>舵机座</span><i>×1</i></div>
+<code class="pcode">Servo_Cradle</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>40×20×37 mm</span></div>
+<p class="pnote">2×M3 接金属桅杆</p>
+<p class="pnote">备注：2x M3x8 to tapped metal mast; separate clamping lid; vendor servo datum still required</p>
+</div></article><article class="part" data-key="舵机压盖 servo_cradle_lid petg e_y">
+<figure><img src="parts/Servo_Cradle_Lid_iso.png" loading="lazy" alt="舵机压盖 Servo_Cradle_Lid"></figure>
+<div class="pbody">
+<div class="pname"><span>舵机压盖</span><i>×1</i></div>
+<code class="pcode">Servo_Cradle_Lid</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>28.5×16×3 mm</span></div>
+<p class="pnote">独立夹紧盖</p>
+
+</div></article><article class="part" data-key="舵机摇臂接口 servo_horn_interface_envelope 采购件 e_y">
+<figure><img src="parts/Servo_Horn_Interface_Envelope_iso.png" loading="lazy" alt="舵机摇臂接口 Servo_Horn_Interface_Envelope"></figure>
+<div class="pbody">
+<div class="pname"><span>舵机摇臂接口</span><i>×1</i></div>
+<code class="pcode">Servo_Horn_Interface_Envelope</code>
+<div class="meta"><span class="badge purchased">采购</span><span>采购件</span><span>1.5×6.5×6.5 mm</span></div>
+<p class="pnote">必须匹配实际舵机花键</p>
+<p class="pnote">备注：Metal spline horn/interface envelope; MUST match selected MG90S output drawing</p>
+</div></article><article class="part" data-key="取放方管 tray_tube_v03 铝 e_y">
+<figure><img src="parts/Tray_Tube_V03_iso.png" loading="lazy" alt="取放方管 Tray_Tube_V03"></figure>
+<div class="pbody">
+<div class="pname"><span>取放方管</span><i>×2</i></div>
+<code class="pcode">Tray_Tube_V03</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>25×213.5×25 mm</span></div>
+<p class="pnote">25×214×25，薄壁需金属压套</p>
+<p class="pnote">备注：Metal compression sleeves still required, including the new Y-spine end supports.</p>
+</div></article><article class="part" data-key="方管端塞 tube_end_plug_v03 铝 e_y">
+<figure><img src="parts/Tube_End_Plug_V03_iso.png" loading="lazy" alt="方管端塞 Tube_End_Plug_V03"></figure>
+<div class="pbody">
+<div class="pname"><span>方管端塞</span><i>×2</i></div>
+<code class="pcode">Tube_End_Plug_V03</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>20.8×30×20.8 mm</span></div>
+<p class="pnote">21×30×21</p>
+
+</div></article><article class="part" data-key="y 模组底板 y_module_base_short 铝 e_y">
+<figure><img src="parts/Y_Module_Base_Short_iso.png" loading="lazy" alt="Y 模组底板 Y_Module_Base_Short"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 模组底板</span><i>×1</i></div>
+<code class="pcode">Y_Module_Base_Short</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>148×60×13 mm</span></div>
+<p class="pnote">148×60×13，由 X+256 缩短到 X+120</p>
+<p class="pnote">备注：Moving head/motor bridge only, shortened from X+256 to X+120. Power node no longer rides on this cantilever.</p>
+</div></article><article class="part" data-key="y 电机外支脚 y_motor_leg 铝 e_y">
+<figure><img src="parts/Y_Motor_Leg_iso.png" loading="lazy" alt="Y 电机外支脚 Y_Motor_Leg"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 电机外支脚</span><i>×1</i></div>
+<code class="pcode">Y_Motor_Leg</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>6×40×32 mm</span></div>
+<p class="pnote">让开小齿轮全周扫掠</p>
+<p class="pnote">备注：Outboard metal cantilever bracket, clear of the full pinion swept circle.</p>
+</div></article><article class="part" data-key="y 齿条背板 y_rack_backbone_r1 铝 e_y">
+<figure><img src="parts/Y_Rack_Backbone_R1_iso.png" loading="lazy" alt="Y 齿条背板 Y_Rack_Backbone_R1"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 齿条背板</span><i>×1</i></div>
+<code class="pcode">Y_Rack_Backbone_R1</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>4×227×30 mm</span></div>
+<p class="pnote">4×227×30</p>
+
+</div></article><article class="part" data-key="y 齿条组合鞍座 y_rack_tube_saddle 铝 e_y">
+<figure><img src="parts/Y_Rack_Tube_Saddle_iso.png" loading="lazy" alt="Y 齿条组合鞍座 Y_Rack_Tube_Saddle"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 齿条组合鞍座</span><i>×2</i></div>
+<code class="pcode">Y_Rack_Tube_Saddle</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>38×12×14 mm</span></div>
+<p class="pnote">同时压脊板、托方管、托齿条背板</p>
+<p class="pnote">备注：Metal combined support: seated on spine, tube on top, rack backing on outer ledge. M4 spine/tube attachment; M3 lateral backing clamp.</p>
+</div></article><article class="part" data-key="y 减速输出轴（候选） y_reducer_output_candidate 钢 e_y">
+<figure><img src="parts/Y_Reducer_Output_CANDIDATE_iso.png" loading="lazy" alt="Y 减速输出轴（候选） Y_Reducer_Output_CANDIDATE"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 减速输出轴（候选）</span><i>×1</i></div>
+<code class="pcode">Y_Reducer_Output_CANDIDATE</code>
+<div class="meta"><span class="badge candidate">候选</span><span>钢</span><span>8×8×28 mm</span></div>
+<p class="pnote">Ø8 输出</p>
+
+</div></article><article class="part" data-key="y 行星减速 3:1（候选） y_reduction_3to1_candidate 采购件 e_y">
+<figure><img src="parts/Y_Reduction_3to1_CANDIDATE_iso.png" loading="lazy" alt="Y 行星减速 3:1（候选） Y_Reduction_3to1_CANDIDATE"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 行星减速 3:1（候选）</span><i>×1</i></div>
+<code class="pcode">Y_Reduction_3to1_CANDIDATE</code>
+<div class="meta"><span class="badge candidate">候选</span><span>采购件</span><span>42×42×35 mm</span></div>
+<p class="pnote">OD42 / L35，未选型</p>
+<p class="pnote">备注：3:1 gearbox allocation, OD42 L35, input5/output8. Not selected; match actual drawing before manufacturing.</p>
+</div></article><article class="part" data-key="脊板金属垫块 y_spine_metal_spacer_left 铝 e_y">
+<figure><img src="parts/Y_Spine_Metal_Spacer_Left_iso.png" loading="lazy" alt="脊板金属垫块 Y_Spine_Metal_Spacer_Left"></figure>
+<div class="pbody">
+<div class="pname"><span>脊板金属垫块</span><i>×2</i></div>
+<code class="pcode">Y_Spine_Metal_Spacer_Left</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>26×20×11 mm</span></div>
+<p class="pnote">26×20×11，共 2 件</p>
+
+</div></article><article class="part" data-key="y 双导轨脊板 y_spine_twinguide 铝 e_y">
+<figure><img src="parts/Y_Spine_TwinGuide_iso.png" loading="lazy" alt="Y 双导轨脊板 Y_Spine_TwinGuide"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 双导轨脊板</span><i>×1</i></div>
+<code class="pcode">Y_Spine_TwinGuide</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>82×211×6 mm</span></div>
+<p class="pnote">82×211×6 金属脊板</p>
+
+</div></article><article class="part" data-key="y 限位块 y_stop_24x4x10 橡胶 e_y">
+<figure><img src="parts/Y_Stop_24x4x10_iso.png" loading="lazy" alt="Y 限位块 Y_Stop_24x4x10"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 限位块</span><i>×2</i></div>
+<code class="pcode">Y_Stop_24x4x10</code>
+<div class="meta"><span class="badge purchased">采购</span><span>橡胶</span><span>24×4×10 mm</span></div>
+<p class="pnote">橡胶，共 2 个</p>
+
+</div></article><article class="part" data-key="y 步进电机 zdt_realmotor_y 采购件 e_y">
+<figure><img src="parts/ZDT_RealMotor_Y_iso.png" loading="lazy" alt="Y 步进电机 ZDT_RealMotor_Y"></figure>
+<div class="pbody">
+<div class="pname"><span>Y 步进电机</span><i>×1</i></div>
+<code class="pcode">ZDT_RealMotor_Y</code>
+<div class="meta"><span class="badge purchased">采购</span><span>采购件</span><span>44.7×62.9×83 mm</span></div>
+<p class="pnote">用户参考模型</p>
+<p class="pnote">备注：User STEP, 24 solids. Geometry only; voltage, mass, torque curve and brake not verified.</p>
+</div></article></div></section><section class="modsect" id="parts-F_io" data-mod="F_io"><h3>F · IO 工位 <span style="color:#9aa3aa;font-weight:400;font-size:12.5px">（19 类 / 24 件）</span></h3><p class="mdesc">底板落地的法兰支腿 + 金属框架，单箱交换位由内闸门与外门双重遮挡，外部基准卡 ID200 供视觉定位。</p><div class="pgrid"><article class="part" data-key="料盒在位传感器（候选） box_presence_sensor_candidate 采购件 f_io">
+<figure><img src="parts/Box_Presence_Sensor_CANDIDATE_iso.png" loading="lazy" alt="料盒在位传感器（候选） Box_Presence_Sensor_CANDIDATE"></figure>
+<div class="pbody">
+<div class="pname"><span>料盒在位传感器（候选）</span><i>×1</i></div>
+<code class="pcode">Box_Presence_Sensor_CANDIDATE</code>
+<div class="meta"><span class="badge candidate">候选</span><span>采购件</span><span>12×12×20 mm</span></div>
+<p class="pnote">12×12×20 包络</p>
+
+</div></article><article class="part" data-key="人工取放通道板（水平） io_access_tunnel_horizontal 防护板 f_io">
+<figure><img src="parts/IO_Access_Tunnel_Horizontal_iso.png" loading="lazy" alt="人工取放通道板（水平） IO_Access_Tunnel_Horizontal"></figure>
+<div class="pbody">
+<div class="pname"><span>人工取放通道板（水平）</span><i>×2</i></div>
+<code class="pcode">IO_Access_Tunnel_Horizontal</code>
+<div class="meta"><span class="badge cut_panel">切割</span><span>防护板</span><span>113.5×138×3 mm</span></div>
+<p class="pnote">114×138×3，共 2 件</p>
+
+</div></article><article class="part" data-key="人工取放通道板（侧） io_access_tunnel_side 防护板 f_io">
+<figure><img src="parts/IO_Access_Tunnel_Side_iso.png" loading="lazy" alt="人工取放通道板（侧） IO_Access_Tunnel_Side"></figure>
+<div class="pbody">
+<div class="pname"><span>人工取放通道板（侧）</span><i>×2</i></div>
+<code class="pcode">IO_Access_Tunnel_Side</code>
+<div class="meta"><span class="badge cut_panel">切割</span><span>防护板</span><span>113.5×3×106 mm</span></div>
+<p class="pnote">114×3×106，共 2 件</p>
+
+</div></article><article class="part" data-key="料盒后挡 io_box_back_stop petg f_io">
+<figure><img src="parts/IO_Box_Back_Stop_iso.png" loading="lazy" alt="料盒后挡 IO_Box_Back_Stop"></figure>
+<div class="pbody">
+<div class="pname"><span>料盒后挡</span><i>×1</i></div>
+<code class="pcode">IO_Box_Back_Stop</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>110×3×8 mm</span></div>
+<p class="pnote">110×3×8</p>
+
+</div></article><article class="part" data-key="io 料盒托板 io_deck petg f_io">
+<figure><img src="parts/IO_Deck_iso.png" loading="lazy" alt="IO 料盒托板 IO_Deck"></figure>
+<div class="pbody">
+<div class="pname"><span>IO 料盒托板</span><i>×1</i></div>
+<code class="pcode">IO_Deck</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>124×130×10 mm</span></div>
+<p class="pnote">124×130×10，单箱交换位</p>
+<p class="pnote">备注：Single-box exchange nest, human access from left; not an extra storage cell.</p>
+</div></article><article class="part" data-key="io 外部基准卡 io_external_reference_card 采购件 f_io">
+<figure><img src="parts/IO_External_Reference_Card_iso.png" loading="lazy" alt="IO 外部基准卡 IO_External_Reference_Card"></figure>
+<div class="pbody">
+<div class="pname"><span>IO 外部基准卡</span><i>×1</i></div>
+<code class="pcode">IO_External_Reference_Card</code>
+<div class="meta"><span class="badge print_paper">打印纸质</span><span>采购件</span><span>0.2×32×32 mm</span></div>
+<p class="pnote">AprilTag ID200，贴在左外侧，不是料盒 ID</p>
+<p class="pnote">备注：AprilTag36h11 ID200 on the outside left guard, not a box ID.</p>
+</div></article><article class="part" data-key="io 法兰支腿 io_flanged_leg_basetoframe 铝 f_io">
+<figure><img src="parts/IO_Flanged_Leg_BaseToFrame_iso.png" loading="lazy" alt="IO 法兰支腿 IO_Flanged_Leg_BaseToFrame"></figure>
+<div class="pbody">
+<div class="pname"><span>IO 法兰支腿</span><i>×4</i></div>
+<code class="pcode">IO_Flanged_Leg_BaseToFrame</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>40×40×184 mm</span></div>
+<p class="pnote">40×40×184，4×M5 到底板、1×M5 到框架</p>
+<p class="pnote">备注：Metal integral/welded flange. Bottom Z6, frame seat Z190. Four M5 to base; one M5 frame bolt into top pilot.</p>
+</div></article><article class="part" data-key="io 金属框架 io_frame_matched_fasteners 铝 f_io">
+<figure><img src="parts/IO_Frame_Matched_Fasteners_iso.png" loading="lazy" alt="IO 金属框架 IO_Frame_Matched_Fasteners"></figure>
+<div class="pbody">
+<div class="pname"><span>IO 金属框架</span><i>×1</i></div>
+<code class="pcode">IO_Frame_Matched_Fasteners</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>150×150×6 mm</span></div>
+<p class="pnote">150×150×6，与支腿/托板孔位对应</p>
+<p class="pnote">备注：Metal frame; four M5 to leg tops, four M4 nest attachment taps at actual nest hole positions.</p>
+</div></article><article class="part" data-key="内闸门 io_inner_shutter 防护板 f_io">
+<figure><img src="parts/IO_Inner_Shutter_iso.png" loading="lazy" alt="内闸门 IO_Inner_Shutter"></figure>
+<div class="pbody">
+<div class="pname"><span>内闸门</span><i>×1</i></div>
+<code class="pcode">IO_Inner_Shutter</code>
+<div class="meta"><span class="badge cut_panel">切割</span><span>防护板</span><span>250×3×104 mm</span></div>
+<p class="pnote">手动原型门，开度 +90 mm，未做联锁</p>
+<p class="pnote">备注：Manual prototype gate; powered latch/dual door interlock not implemented. Open pose +90 mm.</p>
+</div></article><article class="part" data-key="io 左上板 io_left_upper_wall 防护板 f_io">
+<figure><img src="parts/IO_Left_Upper_Wall_iso.png" loading="lazy" alt="IO 左上板 IO_Left_Upper_Wall"></figure>
+<div class="pbody">
+<div class="pname"><span>IO 左上板</span><i>×1</i></div>
+<code class="pcode">IO_Left_Upper_Wall</code>
+<div class="meta"><span class="badge cut_panel">切割</span><span>防护板</span><span>3×150×104 mm</span></div>
+<p class="pnote">3×150×104</p>
+
+</div></article><article class="part" data-key="io 下固定挡板 io_lower_fixed_shield 防护板 f_io">
+<figure><img src="parts/IO_Lower_Fixed_Shield_iso.png" loading="lazy" alt="IO 下固定挡板 IO_Lower_Fixed_Shield"></figure>
+<div class="pbody">
+<div class="pname"><span>IO 下固定挡板</span><i>×1</i></div>
+<code class="pcode">IO_Lower_Fixed_Shield</code>
+<div class="meta"><span class="badge cut_panel">切割</span><span>防护板</span><span>170×3×8 mm</span></div>
+<p class="pnote">170×3×8</p>
+
+</div></article><article class="part" data-key="外门 io_outer_door 防护板 f_io">
+<figure><img src="parts/IO_Outer_Door_iso.png" loading="lazy" alt="外门 IO_Outer_Door"></figure>
+<div class="pbody">
+<div class="pname"><span>外门</span><i>×1</i></div>
+<code class="pcode">IO_Outer_Door</code>
+<div class="meta"><span class="badge cut_panel">切割</span><span>防护板</span><span>3×138×100 mm</span></div>
+<p class="pnote">左侧铰接，内外门不得同时开放</p>
+<p class="pnote">备注：Hinged left-side access; outer and inner doors must never both permit access.</p>
+</div></article><article class="part" data-key="io 后板 io_rear_wall 防护板 f_io">
+<figure><img src="parts/IO_Rear_Wall_iso.png" loading="lazy" alt="IO 后板 IO_Rear_Wall"></figure>
+<div class="pbody">
+<div class="pname"><span>IO 后板</span><i>×1</i></div>
+<code class="pcode">IO_Rear_Wall</code>
+<div class="meta"><span class="badge cut_panel">切割</span><span>防护板</span><span>170×3×198 mm</span></div>
+<p class="pnote">170×3×198</p>
+
+</div></article><article class="part" data-key="io 右板 io_right_wall 防护板 f_io">
+<figure><img src="parts/IO_Right_Wall_iso.png" loading="lazy" alt="IO 右板 IO_Right_Wall"></figure>
+<div class="pbody">
+<div class="pname"><span>IO 右板</span><i>×1</i></div>
+<code class="pcode">IO_Right_Wall</code>
+<div class="meta"><span class="badge cut_panel">切割</span><span>防护板</span><span>3×154.5×198 mm</span></div>
+<p class="pnote">3×154×198</p>
+
+</div></article><article class="part" data-key="io 顶板 io_roof 防护板 f_io">
+<figure><img src="parts/IO_Roof_iso.png" loading="lazy" alt="IO 顶板 IO_Roof"></figure>
+<div class="pbody">
+<div class="pname"><span>IO 顶板</span><i>×1</i></div>
+<code class="pcode">IO_Roof</code>
+<div class="meta"><span class="badge cut_panel">切割</span><span>防护板</span><span>260×153×3 mm</span></div>
+<p class="pnote">260×153×3</p>
+
+</div></article><article class="part" data-key="内闸门导轨（左） io_shutter_guide_left petg f_io">
+<figure><img src="parts/IO_Shutter_Guide_Left_iso.png" loading="lazy" alt="内闸门导轨（左） IO_Shutter_Guide_Left"></figure>
+<div class="pbody">
+<div class="pname"><span>内闸门导轨（左）</span><i>×1</i></div>
+<code class="pcode">IO_Shutter_Guide_Left</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>8×8×204 mm</span></div>
+<p class="pnote">8×8×204</p>
+
+</div></article><article class="part" data-key="内闸门导轨（右） io_shutter_guide_right petg f_io">
+<figure><img src="parts/IO_Shutter_Guide_Right_iso.png" loading="lazy" alt="内闸门导轨（右） IO_Shutter_Guide_Right"></figure>
+<div class="pbody">
+<div class="pname"><span>内闸门导轨（右）</span><i>×1</i></div>
+<code class="pcode">IO_Shutter_Guide_Right</code>
+<div class="meta"><span class="badge print">打印</span><span>PETG</span><span>8×8×204 mm</span></div>
+<p class="pnote">8×8×204</p>
+
+</div></article><article class="part" data-key="内闸门横梁 io_shutter_header 铝 f_io">
+<figure><img src="parts/IO_Shutter_Header_iso.png" loading="lazy" alt="内闸门横梁 IO_Shutter_Header"></figure>
+<div class="pbody">
+<div class="pname"><span>内闸门横梁</span><i>×1</i></div>
+<code class="pcode">IO_Shutter_Header</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>260×19×4 mm</span></div>
+<p class="pnote">260×19×4</p>
+
+</div></article><article class="part" data-key="io 上固定挡板 io_upper_fixed_shield 防护板 f_io">
+<figure><img src="parts/IO_Upper_Fixed_Shield_iso.png" loading="lazy" alt="IO 上固定挡板 IO_Upper_Fixed_Shield"></figure>
+<div class="pbody">
+<div class="pname"><span>IO 上固定挡板</span><i>×1</i></div>
+<code class="pcode">IO_Upper_Fixed_Shield</code>
+<div class="meta"><span class="badge cut_panel">切割</span><span>防护板</span><span>250×3×100 mm</span></div>
+<p class="pnote">与关闭的内门重叠 4 mm</p>
+<p class="pnote">备注：Overlaps the closed shutter by 4 mm; prevents reaching over the inner door through the human port.</p>
+</div></article></div></section><section class="modsect" id="parts-G_guard" data-mod="G_guard"><h3>G · 外防护 <span style="color:#9aa3aa;font-weight:400;font-size:12.5px">（8 类 / 13 件）</span></h3><p class="mdesc">4 根立柱 + 横梁/侧梁 + 四周板与顶板。预览隐藏防护板不代表运行时可拆除。</p><div class="pgrid"><article class="part" data-key="防护横梁 guard_cross_1200 铝 g_guard">
+<figure><img src="parts/Guard_Cross_1200_iso.png" loading="lazy" alt="防护横梁 Guard_Cross_1200"></figure>
+<div class="pbody">
+<div class="pname"><span>防护横梁</span><i>×2</i></div>
+<code class="pcode">Guard_Cross_1200</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>1200×20×20 mm</span></div>
+<p class="pnote">1200×20×20，共 2 根</p>
+
+</div></article><article class="part" data-key="防护板（x−） guard_panel_x-351.5 防护板 g_guard">
+<figure><img src="parts/Guard_Panel_X-351.5_iso.png" loading="lazy" alt="防护板（X−） Guard_Panel_X-351.5"></figure>
+<div class="pbody">
+<div class="pname"><span>防护板（X−）</span><i>×1</i></div>
+<code class="pcode">Guard_Panel_X-351.5</code>
+<div class="meta"><span class="badge cut_panel">切割</span><span>防护板</span><span>3×590×766 mm</span></div>
+<p class="pnote">3×590×766</p>
+
+</div></article><article class="part" data-key="防护板（x+） guard_panel_x901.5 防护板 g_guard">
+<figure><img src="parts/Guard_Panel_X901.5_iso.png" loading="lazy" alt="防护板（X+） Guard_Panel_X901.5"></figure>
+<div class="pbody">
+<div class="pname"><span>防护板（X+）</span><i>×1</i></div>
+<code class="pcode">Guard_Panel_X901.5</code>
+<div class="meta"><span class="badge cut_panel">切割</span><span>防护板</span><span>3×590×766 mm</span></div>
+<p class="pnote">3×590×766</p>
+
+</div></article><article class="part" data-key="防护板（y−） guard_panel_y-371.5 防护板 g_guard">
+<figure><img src="parts/Guard_Panel_Y-371.5_iso.png" loading="lazy" alt="防护板（Y−） Guard_Panel_Y-371.5"></figure>
+<div class="pbody">
+<div class="pname"><span>防护板（Y−）</span><i>×1</i></div>
+<code class="pcode">Guard_Panel_Y-371.5</code>
+<div class="meta"><span class="badge cut_panel">切割</span><span>防护板</span><span>1250×3×766 mm</span></div>
+<p class="pnote">1250×3×766</p>
+
+</div></article><article class="part" data-key="防护板（y+） guard_panel_y221.5 防护板 g_guard">
+<figure><img src="parts/Guard_Panel_Y221.5_iso.png" loading="lazy" alt="防护板（Y+） Guard_Panel_Y221.5"></figure>
+<div class="pbody">
+<div class="pname"><span>防护板（Y+）</span><i>×1</i></div>
+<code class="pcode">Guard_Panel_Y221.5</code>
+<div class="meta"><span class="badge cut_panel">切割</span><span>防护板</span><span>1250×3×766 mm</span></div>
+<p class="pnote">1250×3×766</p>
+
+</div></article><article class="part" data-key="防护立柱 guard_post_740 铝 g_guard">
+<figure><img src="parts/Guard_Post_740_iso.png" loading="lazy" alt="防护立柱 Guard_Post_740"></figure>
+<div class="pbody">
+<div class="pname"><span>防护立柱</span><i>×4</i></div>
+<code class="pcode">Guard_Post_740</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>20×20×740 mm</span></div>
+<p class="pnote">20×20×740，共 4 根</p>
+
+</div></article><article class="part" data-key="防护顶板 guard_roof 防护板 g_guard">
+<figure><img src="parts/Guard_Roof_iso.png" loading="lazy" alt="防护顶板 Guard_Roof"></figure>
+<div class="pbody">
+<div class="pname"><span>防护顶板</span><i>×1</i></div>
+<code class="pcode">Guard_Roof</code>
+<div class="meta"><span class="badge cut_panel">切割</span><span>防护板</span><span>1256×596×3 mm</span></div>
+<p class="pnote">1256×596×3</p>
+
+</div></article><article class="part" data-key="防护侧梁 guard_side_520 铝 g_guard">
+<figure><img src="parts/Guard_Side_520_iso.png" loading="lazy" alt="防护侧梁 Guard_Side_520"></figure>
+<div class="pbody">
+<div class="pname"><span>防护侧梁</span><i>×2</i></div>
+<code class="pcode">Guard_Side_520</code>
+<div class="meta"><span class="badge machined">加工</span><span>铝</span><span>20×520×20 mm</span></div>
+<p class="pnote">20×520×20，共 2 根</p>
+
+</div></article></div></section><h2 id="assembly"><span class="num">03</span>组装顺序</h2><p class="sub">按“先固定、后运动，先基准、后齿条”的顺序。每一步都以下层已锁固的基准为准，不能靠调整齿条齿段来补偿装配误差。</p><div class="steps"><article class="step"><img src="steps/step_01.png" alt="装配步骤 01 底板与拼接">
+<div class="steptext"><div class="stepno">STEP 01</div><h3>底板与拼接</h3><ul><li>按 0 → 1 → 2 顺序摆三块底板，接缝对齐；4 块 60×40 拼接板跨越接缝，各 4×M5 锁固。</li><li>台面必须落在平整、连续支撑的专用工作台上，不能只垫四角；底板预留 4 个 Ø8.5 锚固孔，锚固件尚未选型。</li><li>复核台面平面度后再进入货架安装，后续所有垂直度都以这一步为基准。</li></ul></div></article><article class="step"><img src="steps/step_02.png" alt="装配步骤 02 货架与 X 齿条">
+<div class="steptext"><div class="stepno">STEP 02</div><h3>货架与 X 齿条</h3><ul><li>每列先装脚板（28×40×6）与脚座（28×40×14），再立柱（2020×650），顶部用连接座收口，背面装 170×630 后板。</li><li>层板托角逐层安装：M5 进型材槽螺母，M4 接层板/库位；20 个 PETG 库位隔板从上方落入。</li><li>X 齿条背板先与 7 个 L 形支脚各 4×M4 连接，支脚再以 4 个 M5 长孔落到底板；X=390 的支脚同时跨两块底板。</li><li>整条齿条以基准条校直后统一锁紧，禁止逐段独立调整；9 段齿条按同一相位装入背板。</li></ul></div></article><article class="step"><img src="steps/step_03.png" alt="装配步骤 03 X 行走模组">
+<div class="steptext"><div class="stepno">STEP 03</div><h3>X 行走模组</h3><ul><li>在 X 基准条上装 2 根 MGN12-1050（M3 螺纹 + 沉头 M5 固定），每根 2 个 MGN12H 滑块。</li><li>X 滑板（160×110×8）落到 4 个滑块上，手动全程推行确认无卡滞。</li><li>X 电机经 50×50 转接板固定，20T 小齿轮与齿条对中；金属夹紧轮毂为候选件，啮合背隙须用试块确认。</li><li>X 电源托板、电源盒、电池包与 ESP32 装在滑板上，线束留出全行程弯曲余量。</li></ul></div></article><article class="step"><img src="steps/step_04.png" alt="装配步骤 04 Z 升降模组">
+<div class="steptext"><div class="stepno">STEP 04</div><h3>Z 升降模组</h3><ul><li>两根 3030×600 立柱先装前后底角（M6 进槽螺母 + M6×12 接 X 滑板），顶部用 130×60×8 电机板封顶。</li><li>装 2 根 MGN12-500 导轨与 4 个滑块，Z 滑板（130×100×8）落座。</li><li>12 mm 齿条背板先与 5 个支撑（104×8×12）各 2×M3 连接，支撑再以 1×M5 进 3030 后槽；支撑间距 ≤135 mm。</li><li>装 5 段 Z 齿条、Z 电机 + 10:1 减速 + Ø8 输出轴；独立钢安全轨与 2 个连接块单独安装，不依赖打印齿条。</li><li>Y 电源托板经阶梯支架固定在 Z 滑板右侧，不接 Y 滑块；Y 电源盒转 90° 安装，留 143 mm 柔性线束。</li></ul></div></article><article class="step"><img src="steps/step_05.png" alt="装配步骤 05 Y 伸缩取放头">
+<div class="steptext"><div class="stepno">STEP 05</div><h3>Y 伸缩取放头</h3><ul><li>Y 脊板（82×211×6）经 2 块金属垫块装到 Z 滑板，装 2 根 MGN9-200 与 2 个滑块，再上 Y 底板（148×60×13）。</li><li>Y 电机 + 3:1 减速 + 小齿轮装在底板电机孔位；Y 齿条背板经 2 个组合鞍座同时压脊板、托方管、夹背板。</li><li>两根 25×214 方管与端塞装到脊板，托盘（124×130）落在方管上；方管紧固必须用金属压套，不能靠螺钉压瘪薄壁。</li><li>锁销机构：桅杆 → 上下导向颊板与法兰衬套 → Ø4×60 销 → Scotch 轭 + 2 个卡箍 → R7 曲柄 → MG90S 舵机座与压盖。</li><li>回位弹簧、Ø3 滚轮与挡圈最后装；先在台架上手动验证 14 mm 全行程与自回位，再装托盘。</li></ul></div></article><article class="step"><img src="steps/step_06.png" alt="装配步骤 06 IO 工位">
+<div class="steptext"><div class="stepno">STEP 06</div><h3>IO 工位</h3><ul><li>4 条法兰支腿落到底板，每条 4×M5；金属框架坐到腿顶，每条 1×M5；打印托板 4×M4 与框架孔位对应。</li><li>装内闸门左右导轨与横梁，内闸门从上方滑入；外门左侧铰接，内外门不得同时开放。</li><li>装人工取放通道板、顶/后/右/左上板与上下固定挡板；上挡板与关闭的内门重叠 4 mm。</li><li>装料盒后挡与在位传感器（候选），外部基准卡 ID200 贴在左外侧护板，不与料盒 ID 混用。</li></ul></div></article><article class="step"><img src="steps/step_07.png" alt="装配步骤 07 外防护">
+<div class="steptext"><div class="stepno">STEP 07</div><h3>外防护</h3><ul><li>4 根 740 立柱按底板孔位站立，装 2 根 1200 横梁与 2 根 520 侧梁。</li><li>四周防护板与顶板逐块固定；确认内门开度 +90 mm、外门铰链不干涉线束。</li><li>防护板为运行必需件；预览图中隐藏只为看清内部结构，不代表可以拆除运行。</li></ul></div></article><article class="step"><img src="steps/step_08.png" alt="装配步骤 08 接线、标定与空载调试">
+<div class="steptext"><div class="stepno">STEP 08</div><h3>接线、标定与空载调试</h3><ul><li>三个本地电源节点：X 随 X 滑板、Z 随 Z 滑板、Y 固定在 Z 平台。Y 节点与取放头之间必须留 143 mm 行程的柔性线束。</li><li>装相机与标定板：先做相机内参，再做工具/列基准外参；库位标签 32 mm 只用于位姿，不作为安全信号。</li><li>接限位、急停与门信号；先断电手动全行程走查，再空载低速点动，最后才讨论逐级加载。</li><li>Z 打印齿、候选减速器、金属轮毂与独立防坠均未验收，禁止直接带载自动运行。</li></ul></div></article></div><h2 id="interfaces"><span class="num">04</span>装配接口表</h2><p class="sub">以下 42 处为 CAD 中显式建模的连接及配对孔位；其余原始接头未逐一做紧固认证。螺钉长度、扭矩、工具空间与 T 型螺母型号仍待实物确认。</p><table><thead><tr><th style="width:26%">连接件 A</th><th style="width:26%">连接件 B</th><th style="width:18%">方式</th><th>紧固件</th></tr></thead><tbody><tr><td><b>X 齿条 L 形支脚</b><br><code>x_rack_foot_-210</code></td><td><b>X 齿条背板</b><br><code>x_rack_backbone</code></td><td>端面螺接</td><td>4x M4; backing tapped 3.3 pilot</td></tr><tr><td><b>X 齿条 L 形支脚</b><br><code>x_rack_foot_-210</code></td><td><b>底板 0（左段）</b><br><code>base_panel_0</code></td><td>座面螺接</td><td>M5 into 6 mm base; screw lengths/torque to be specified</td></tr><tr><td><b>X 齿条 L 形支脚</b><br><code>x_rack_foot_-60</code></td><td><b>X 齿条背板</b><br><code>x_rack_backbone</code></td><td>端面螺接</td><td>4x M4; backing tapped 3.3 pilot</td></tr><tr><td><b>X 齿条 L 形支脚</b><br><code>x_rack_foot_-60</code></td><td><b>底板 0（左段）</b><br><code>base_panel_0</code></td><td>座面螺接</td><td>M5 into 6 mm base; screw lengths/torque to be specified</td></tr><tr><td><b>X 齿条 L 形支脚</b><br><code>x_rack_foot_90</code></td><td><b>X 齿条背板</b><br><code>x_rack_backbone</code></td><td>端面螺接</td><td>4x M4; backing tapped 3.3 pilot</td></tr><tr><td><b>X 齿条 L 形支脚</b><br><code>x_rack_foot_90</code></td><td><b>底板 1（中段）</b><br><code>base_panel_1</code></td><td>座面螺接</td><td>M5 into 6 mm base; screw lengths/torque to be specified</td></tr><tr><td><b>X 齿条 L 形支脚</b><br><code>x_rack_foot_240</code></td><td><b>X 齿条背板</b><br><code>x_rack_backbone</code></td><td>端面螺接</td><td>4x M4; backing tapped 3.3 pilot</td></tr><tr><td><b>X 齿条 L 形支脚</b><br><code>x_rack_foot_240</code></td><td><b>底板 1（中段）</b><br><code>base_panel_1</code></td><td>座面螺接</td><td>M5 into 6 mm base; screw lengths/torque to be specified</td></tr><tr><td><b>X 齿条 L 形支脚</b><br><code>x_rack_foot_390</code></td><td><b>X 齿条背板</b><br><code>x_rack_backbone</code></td><td>端面螺接</td><td>4x M4; backing tapped 3.3 pilot</td></tr><tr><td><b>X 齿条 L 形支脚</b><br><code>x_rack_foot_390</code></td><td><b>底板 1（中段）</b><br><code>base_panel_1</code></td><td>座面螺接</td><td>M5 into 6 mm base; screw lengths/torque to be specified</td></tr><tr><td><b>X 齿条 L 形支脚</b><br><code>x_rack_foot_390</code></td><td><b>底板 2（右段）</b><br><code>base_panel_2</code></td><td>座面螺接</td><td>M5 into 6 mm base; screw lengths/torque to be specified</td></tr><tr><td><b>X 齿条 L 形支脚</b><br><code>x_rack_foot_540</code></td><td><b>X 齿条背板</b><br><code>x_rack_backbone</code></td><td>端面螺接</td><td>4x M4; backing tapped 3.3 pilot</td></tr><tr><td><b>X 齿条 L 形支脚</b><br><code>x_rack_foot_540</code></td><td><b>底板 2（右段）</b><br><code>base_panel_2</code></td><td>座面螺接</td><td>M5 into 6 mm base; screw lengths/torque to be specified</td></tr><tr><td><b>X 齿条 L 形支脚</b><br><code>x_rack_foot_750</code></td><td><b>X 齿条背板</b><br><code>x_rack_backbone</code></td><td>端面螺接</td><td>4x M4; backing tapped 3.3 pilot</td></tr><tr><td><b>X 齿条 L 形支脚</b><br><code>x_rack_foot_750</code></td><td><b>底板 2（右段）</b><br><code>base_panel_2</code></td><td>座面螺接</td><td>M5 into 6 mm base; screw lengths/torque to be specified</td></tr><tr><td><b>Z 齿条支撑</b><br><code>z_rack_standoff_100</code></td><td><b>Z 齿条背板</b><br><code>z_rack_backbone</code></td><td>端面螺接</td><td>2x M3, matched backing pilots</td></tr><tr><td><b>Z 齿条支撑</b><br><code>z_rack_standoff_100</code></td><td><b>3030 铝型材立柱</b><br><code>z_post_-45</code></td><td>型材槽螺母</td><td>M5 at slot centreline plus actual 3030 T-nut; not solid-profile blind tapping</td></tr><tr><td><b>Z 齿条支撑</b><br><code>z_rack_standoff_230</code></td><td><b>Z 齿条背板</b><br><code>z_rack_backbone</code></td><td>端面螺接</td><td>2x M3, matched backing pilots</td></tr><tr><td><b>Z 齿条支撑</b><br><code>z_rack_standoff_230</code></td><td><b>3030 铝型材立柱</b><br><code>z_post_-45</code></td><td>型材槽螺母</td><td>M5 at slot centreline plus actual 3030 T-nut; not solid-profile blind tapping</td></tr><tr><td><b>Z 齿条支撑</b><br><code>z_rack_standoff_360</code></td><td><b>Z 齿条背板</b><br><code>z_rack_backbone</code></td><td>端面螺接</td><td>2x M3, matched backing pilots</td></tr><tr><td><b>Z 齿条支撑</b><br><code>z_rack_standoff_360</code></td><td><b>3030 铝型材立柱</b><br><code>z_post_-45</code></td><td>型材槽螺母</td><td>M5 at slot centreline plus actual 3030 T-nut; not solid-profile blind tapping</td></tr><tr><td><b>Z 齿条支撑</b><br><code>z_rack_standoff_490</code></td><td><b>Z 齿条背板</b><br><code>z_rack_backbone</code></td><td>端面螺接</td><td>2x M3, matched backing pilots</td></tr><tr><td><b>Z 齿条支撑</b><br><code>z_rack_standoff_490</code></td><td><b>3030 铝型材立柱</b><br><code>z_post_-45</code></td><td>型材槽螺母</td><td>M5 at slot centreline plus actual 3030 T-nut; not solid-profile blind tapping</td></tr><tr><td><b>Z 齿条支撑</b><br><code>z_rack_standoff_625</code></td><td><b>Z 齿条背板</b><br><code>z_rack_backbone</code></td><td>端面螺接</td><td>2x M3, matched backing pilots</td></tr><tr><td><b>Z 齿条支撑</b><br><code>z_rack_standoff_625</code></td><td><b>3030 铝型材立柱</b><br><code>z_post_-45</code></td><td>型材槽螺母</td><td>M5 at slot centreline plus actual 3030 T-nut; not solid-profile blind tapping</td></tr><tr><td><b>Y 齿条组合鞍座</b><br><code>y_rack_saddle_rear</code></td><td><b>Y 双导轨脊板</b><br><code>y_spine</code></td><td>座面螺接</td><td>M4 at X+35</td></tr><tr><td><b>Y 齿条组合鞍座</b><br><code>y_rack_saddle_rear</code></td><td><b>取放方管</b><br><code>tray_tube_44</code></td><td>座面螺接</td><td>M4 through tube with metal compression sleeve at X+44</td></tr><tr><td><b>Y 齿条组合鞍座</b><br><code>y_rack_saddle_rear</code></td><td><b>Y 齿条背板</b><br><code>y_rack_backbone</code></td><td>鞍座抱紧 + 侧向螺接</td><td>M3 lateral screw plus positive bottom seat</td></tr><tr><td><b>Y 齿条组合鞍座</b><br><code>y_rack_saddle_front</code></td><td><b>Y 双导轨脊板</b><br><code>y_spine</code></td><td>座面螺接</td><td>M4 at X+35</td></tr><tr><td><b>Y 齿条组合鞍座</b><br><code>y_rack_saddle_front</code></td><td><b>取放方管</b><br><code>tray_tube_44</code></td><td>座面螺接</td><td>M4 through tube with metal compression sleeve at X+44</td></tr><tr><td><b>Y 齿条组合鞍座</b><br><code>y_rack_saddle_front</code></td><td><b>Y 齿条背板</b><br><code>y_rack_backbone</code></td><td>鞍座抱紧 + 侧向螺接</td><td>M3 lateral screw plus positive bottom seat</td></tr><tr><td><b>Y 电源 Z 支架</b><br><code>y_power_z_support</code></td><td><b>Z 滑板</b><br><code>z_carriage</code></td><td>端面螺接</td><td>2x M4 edge taps, 10 mm nominal engagement</td></tr><tr><td><b>Y 电源 Z 支架</b><br><code>y_power_z_support</code></td><td><b>Y 电源托板（固定在 Z）</b><br><code>y_power_tray</code></td><td>座面螺接</td><td>2x flush low-head M4; 8 mm counterbores</td></tr><tr><td><b>IO 法兰支腿</b><br><code>io_leg_-65_10</code></td><td><b>底板 0（左段）</b><br><code>base_panel_0</code></td><td>座面螺接</td><td>4x M5 into base</td></tr><tr><td><b>IO 法兰支腿</b><br><code>io_leg_-65_10</code></td><td><b>IO 金属框架</b><br><code>io_deck_frame</code></td><td>座面螺接</td><td>M5 into leg top, frame clearance 5.5</td></tr><tr><td><b>IO 法兰支腿</b><br><code>io_leg_-65_140</code></td><td><b>底板 0（左段）</b><br><code>base_panel_0</code></td><td>座面螺接</td><td>4x M5 into base</td></tr><tr><td><b>IO 法兰支腿</b><br><code>io_leg_-65_140</code></td><td><b>IO 金属框架</b><br><code>io_deck_frame</code></td><td>座面螺接</td><td>M5 into leg top, frame clearance 5.5</td></tr><tr><td><b>IO 法兰支腿</b><br><code>io_leg_65_10</code></td><td><b>底板 0（左段）</b><br><code>base_panel_0</code></td><td>座面螺接</td><td>4x M5 into base</td></tr><tr><td><b>IO 法兰支腿</b><br><code>io_leg_65_10</code></td><td><b>IO 金属框架</b><br><code>io_deck_frame</code></td><td>座面螺接</td><td>M5 into leg top, frame clearance 5.5</td></tr><tr><td><b>IO 法兰支腿</b><br><code>io_leg_65_140</code></td><td><b>底板 0（左段）</b><br><code>base_panel_0</code></td><td>座面螺接</td><td>4x M5 into base</td></tr><tr><td><b>IO 法兰支腿</b><br><code>io_leg_65_140</code></td><td><b>IO 金属框架</b><br><code>io_deck_frame</code></td><td>座面螺接</td><td>M5 into leg top, frame clearance 5.5</td></tr><tr><td><b>IO 金属框架</b><br><code>io_deck_frame</code></td><td><b>IO 料盒托板</b><br><code>io_deck</code></td><td>座面螺接</td><td>4x M4, matched nest holes</td></tr></tbody></table><h2 id="boundary"><span class="num">05</span>放行边界</h2>
+<p class="sub">本图册由几何文件生成，只说明“长什么样、怎么装”，不说明“能不能承载、能不能运行”。</p>
+<div class="boundary"><h3>以下项目仍未验收，制造/硬件放行标志全部为 false</h3><ul>
+<li><b>Z 打印齿：</b>承载、疲劳与蠕变未验收；背板加强不等于齿强度合格，空载也必须先完成独立防坠。</li>
+<li><b>独立防坠/制动：</b><code>NC_Rail_Brake_CANDIDATE</code> 只是外形包络，没有钳口、动态捕获或认证证据。</li>
+<li><b>驱动链：</b>三轴电机曲线、10:1 / 3:1 减速器、金属夹紧轮毂、Ø8 输出轴支承与轴向锁定均未选型定型。</li>
+<li><b>紧固：</b>配对孔不等于螺钉长度、旋入深度、扭矩、防松、工具空间和 T 型螺母已经确认。</li>
+<li><b>安全与电气：</b>工作台、锚固、安全门、门联锁、限位、急停、电池/BMS/充电器与整机供电尚未实机验收。</li>
+<li><b>线束与视觉：</b>Y 节点 143 mm 柔性线束的弯曲半径/寿命未验证；相机内参、手眼外参与光照未标定。</li>
+</ul></div>
+<div class="note-box"><h3>可以做什么</h3><ul>
+<li>按本图册做受控的局部手动试装：先底板，再货架，再 X/Z/Y 单轴，最后 IO 与防护。</li>
+<li>每完成一个模块，手动全行程走查，确认无卡滞、无干涉、螺钉不顶死运动件。</li>
+<li>任何带载、通电或多轴联动，都必须先完成对应模块的实测与工程复核。</li>
+</ul></div>
+<footer>数据源：model/V03_1/manifest.json、parts/*.step、BOM.csv · 渲染：VTK 离屏轴测 · 单位 mm · 几何原型，非制造放行文件。</footer></main>
+<div id="lb"><figure><img alt=""><figcaption></figcaption></figure></div>
+<script>
+const lb=document.getElementById('lb');const lbimg=lb.querySelector('img');const lbcap=lb.querySelector('figcaption');
+document.querySelectorAll('.part img,.modcard img,.step img,.hero img').forEach(img=>{
+  img.addEventListener('click',()=>{lbimg.src=img.src;lbcap.textContent=img.alt||'';lb.classList.add('on');});
+});
+lb.addEventListener('click',()=>lb.classList.remove('on'));
+document.addEventListener('keydown',e=>{if(e.key==='Escape')lb.classList.remove('on');});
+const q=document.getElementById('q');const qc=document.getElementById('qcount');
+const parts=[...document.querySelectorAll('.part')];
+q.addEventListener('input',()=>{const v=q.value.trim().toLowerCase();let n=0;
+  parts.forEach(p=>{const hit=!v||p.dataset.key.includes(v);p.style.display=hit?'':'none';if(hit)n++;});
+  qc.textContent=v?`${n} 类零件匹配`:'127 类零件';
+  document.querySelectorAll('.modsect').forEach(s=>{
+    const any=[...s.querySelectorAll('.part')].some(p=>p.style.display!=='none');
+    s.style.display=any?'':'none';});
+});
+</script>
+</body></html>

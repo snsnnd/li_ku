@@ -1,0 +1,3931 @@
+{
+  "units": "mm",
+  "parts": [
+    {
+      "name": "Base_780x540x6",
+      "quantity": 1,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        780.0,
+        540.0,
+        6.0
+      ],
+      "volume_mm3": 2519919.736,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Datum_Bar_700x30x24",
+      "quantity": 2,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        700.0,
+        30.0,
+        24.0
+      ],
+      "volume_mm3": 498485.7195,
+      "note": "6061; M3 tapped rail holes; 6x DIN7984 low-head M5x25 to base, head <=3.5 mm",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "2020_Rack_Z650",
+      "quantity": 10,
+      "material": "aluminum",
+      "process": "purchased",
+      "extents_mm": [
+        20.0,
+        20.0,
+        650.0
+      ],
+      "volume_mm3": 250994.6247,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Cell_124x130",
+      "quantity": 20,
+      "material": "PETG",
+      "process": "print",
+      "extents_mm": [
+        124.0,
+        130.0,
+        10.0
+      ],
+      "volume_mm3": 70321.531,
+      "note": "Print bottom down; add 0.5 mm entrance chamfer after fit coupon",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Bin_110x120_TowEye",
+      "quantity": 20,
+      "material": "PETG",
+      "process": "print",
+      "extents_mm": [
+        110.0,
+        136.0,
+        60.0
+      ],
+      "volume_mm3": 96834.1518,
+      "note": "Open top UP; tow eye only takes horizontal force",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Shelf_Angle_-1",
+      "quantity": 20,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        20.0,
+        150.0,
+        23.0
+      ],
+      "volume_mm3": 17806.1323,
+      "note": "M5 to slot nuts front/rear, M4 tapped shelf attachment",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Shelf_Angle_1",
+      "quantity": 20,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        20.0,
+        150.0,
+        23.0
+      ],
+      "volume_mm3": 17806.1323,
+      "note": "M5 to slot nuts front/rear, M4 tapped shelf attachment",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Rack_Rear_Shear_620x630x3",
+      "quantity": 1,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        620.0,
+        3.0,
+        630.0
+      ],
+      "volume_mm3": 1171087.2512,
+      "note": "10 M5 slot-nut joints; panel is a structural shear diaphragm",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Rear_Panel_Standoff_2",
+      "quantity": 10,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        10.0,
+        2.0,
+        10.0
+      ],
+      "volume_mm3": 109.563,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Rack_Foot_40x40x6",
+      "quantity": 14,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        40.0,
+        40.0,
+        6.0
+      ],
+      "volume_mm3": 8651.6317,
+      "note": "Central underside counterbore M5x12 to post end; 4x M5x25 through pedestal into base",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Rack_Pedestal_40x40x14",
+      "quantity": 14,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        40.0,
+        40.0,
+        14.0
+      ],
+      "volume_mm3": 21069.5355,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "2020_Guard_Z720",
+      "quantity": 4,
+      "material": "aluminum",
+      "process": "purchased",
+      "extents_mm": [
+        20.0,
+        20.0,
+        720.0
+      ],
+      "volume_mm3": 278024.815,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "2020_Guard_X760",
+      "quantity": 2,
+      "material": "aluminum",
+      "process": "purchased",
+      "extents_mm": [
+        760.0,
+        20.0,
+        20.0
+      ],
+      "volume_mm3": 293470.6381,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "2020_Guard_Y480",
+      "quantity": 2,
+      "material": "aluminum",
+      "process": "purchased",
+      "extents_mm": [
+        20.0,
+        480.0,
+        20.0
+      ],
+      "volume_mm3": 185349.8767,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "MGN12_Rail_X700",
+      "quantity": 2,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        700.0,
+        12.0,
+        8.0
+      ],
+      "volume_mm3": 65044.8674,
+      "note": "HIWIN dimensional envelope",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "MGN12H_X",
+      "quantity": 4,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        45.4,
+        27.0,
+        10.0
+      ],
+      "volume_mm3": 9252.0682,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Carriage_160x110x8",
+      "quantity": 1,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        160.0,
+        110.0,
+        8.0
+      ],
+      "volume_mm3": 136293.0725,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "GT2_20T_6mm_Envelope",
+      "quantity": 4,
+      "material": "purchased",
+      "process": "purchased",
+      "extents_mm": [
+        17.0,
+        17.0,
+        9.0
+      ],
+      "volume_mm3": 1081.1163,
+      "note": "Purchased 20T; teeth intentionally omitted, never print this envelope",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_GT2_Belt_Loop",
+      "quantity": 1,
+      "material": "rubber",
+      "process": "purchased",
+      "extents_mm": [
+        705.4,
+        15.4,
+        6.0
+      ],
+      "volume_mm3": 11961.4513,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NEMA17_42x42x40",
+      "quantity": 1,
+      "material": "purchased",
+      "process": "purchased",
+      "extents_mm": [
+        42.0,
+        42.0,
+        62.0
+      ],
+      "volume_mm3": 70991.969,
+      "note": "Vendor shaft/flange drawing required",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NEMA17_Inverted",
+      "quantity": 1,
+      "material": "purchased",
+      "process": "purchased",
+      "extents_mm": [
+        42.0,
+        42.0,
+        62.0
+      ],
+      "volume_mm3": 70991.969,
+      "note": "Vendor shaft/flange drawing required",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Motor_Mount",
+      "quantity": 1,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        68.0,
+        44.0,
+        5.0
+      ],
+      "volume_mm3": 12215.0334,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Motor_Mount_Leg",
+      "quantity": 2,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        68.0,
+        10.0,
+        43.0
+      ],
+      "volume_mm3": 24069.5069,
+      "note": "Long M5x55 + two 1 mm washers clamp mount/leg to base; motor screws via access bores before installing module",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Idler_Pedestal",
+      "quantity": 1,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        44.0,
+        36.0,
+        36.0
+      ],
+      "volume_mm3": 13183.4204,
+      "note": "Four 10x5.5 X slots, +/-2.25 mm adjustment; four M5 clamp bolts",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Tension_Adjuster",
+      "quantity": 1,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        10.0,
+        30.0,
+        18.0
+      ],
+      "volume_mm3": 4459.1715,
+      "note": "M4x16 pusher plus jam nut, 4 mm tension travel; adjust with power isolated",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Belt_Clamp",
+      "quantity": 1,
+      "material": "PETG",
+      "process": "print",
+      "extents_mm": [
+        28.0,
+        20.0,
+        8.0
+      ],
+      "volume_mm3": 4023.931,
+      "note": "Clamp with steel backing plate; tune groove using belt coupon",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Clamp_Steel_Backer",
+      "quantity": 1,
+      "material": "steel",
+      "process": "machined",
+      "extents_mm": [
+        28.0,
+        8.0,
+        2.0
+      ],
+      "volume_mm3": 384.3827,
+      "note": "2x M4x16 from underside, 6 mm thread in X plate; bolts never cross belt lane",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "3030_Z600",
+      "quantity": 2,
+      "material": "aluminum",
+      "process": "purchased",
+      "extents_mm": [
+        30.0,
+        30.0,
+        600.0
+      ],
+      "volume_mm3": 518209.9134,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Z_Foot_Angle_30x20x32",
+      "quantity": 2,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        30.0,
+        20.0,
+        32.0
+      ],
+      "volume_mm3": 5229.0708,
+      "note": "M6 to 3030 slot nuts; M6x12 to X plate; rail starts 2 mm above bracket",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Z_Foot_Angle_Front",
+      "quantity": 2,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        30.0,
+        20.0,
+        32.0
+      ],
+      "volume_mm3": 5229.0708,
+      "note": "M6 to 3030 slot nuts; M6x12 to X plate; rail starts 2 mm above bracket",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Z_Top_Motor_Plate_130x60x8",
+      "quantity": 1,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        130.0,
+        60.0,
+        8.0
+      ],
+      "volume_mm3": 57605.9296,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "MGN12_Rail_Z500",
+      "quantity": 2,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        12.0,
+        8.0,
+        500.0
+      ],
+      "volume_mm3": 46460.6196,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "MGN12H_Z",
+      "quantity": 4,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        27.0,
+        10.0,
+        45.4
+      ],
+      "volume_mm3": 9252.0682,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Z_Rail_Datum_20x4x500",
+      "quantity": 2,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        20.0,
+        4.0,
+        500.0
+      ],
+      "volume_mm3": 38795.8446,
+      "note": "Five flush M5 countersunk screws to slot nuts; M3 tapped holes at rail pitch",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Z_Carriage_130x100x8",
+      "quantity": 1,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        130.0,
+        8.0,
+        100.0
+      ],
+      "volume_mm3": 100211.8432,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TR8x2_Screw_Machined_Ends",
+      "quantity": 1,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        8.0,
+        8.0,
+        548.0
+      ],
+      "volume_mm3": 25977.3047,
+      "note": "TR8x2, 6 mm journals, 2.5 H7 matched cross-hole at Z612.5; shaft yield >=500 MPa; supplier drawing mandatory",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "TR8x2_Bronze_Nut",
+      "quantity": 2,
+      "material": "purchased",
+      "process": "purchased",
+      "extents_mm": [
+        22.0,
+        22.0,
+        15.0
+      ],
+      "volume_mm3": 1453.8427,
+      "note": "Thread fit is a purchased interface, not evaluated by smooth cylinders",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Z_Nut_Bridge",
+      "quantity": 1,
+      "material": "steel",
+      "process": "machined",
+      "extents_mm": [
+        40.0,
+        44.0,
+        28.0
+      ],
+      "volume_mm3": 18879.1072,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Z_Secondary_Nut_Cage",
+      "quantity": 1,
+      "material": "steel",
+      "process": "machined",
+      "extents_mm": [
+        40.0,
+        32.0,
+        19.8
+      ],
+      "volume_mm3": 14807.7534,
+      "note": "0.8 mm axial catch clearance; steel/Al, never PETG",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Safety_Nut_AntiRotation_Stud",
+      "quantity": 2,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        5.0,
+        5.0,
+        15.0
+      ],
+      "volume_mm3": 123.5274,
+      "note": "M3 shoulder stud, retains rotation but allows secondary nut to float axially",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Z_Fixed_Bearing_Housing",
+      "quantity": 1,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        60.0,
+        40.0,
+        26.0
+      ],
+      "volume_mm3": 50744.8779,
+      "note": "Radial seat 19 H7, stepped thrust abutment; paired F6-12M; preload and collar rating pending",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Z_Thrust_End_Cap",
+      "quantity": 1,
+      "material": "steel",
+      "process": "machined",
+      "extents_mm": [
+        60.0,
+        40.0,
+        4.0
+      ],
+      "volume_mm3": 9340.0332,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Z_Bearing_Hanger",
+      "quantity": 1,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        60.0,
+        40.0,
+        26.0
+      ],
+      "volume_mm3": 48810.2556,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "626ZZ_6x19x6",
+      "quantity": 2,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        19.0,
+        19.0,
+        6.0
+      ],
+      "volume_mm3": 1529.2569,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Z_Thrust_Abutment_Washer",
+      "quantity": 1,
+      "material": "steel",
+      "process": "machined",
+      "extents_mm": [
+        24.0,
+        24.0,
+        3.0
+      ],
+      "volume_mm3": 1257.6188,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "F6_12M_6x12x4p5",
+      "quantity": 2,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        12.0,
+        12.0,
+        4.5
+      ],
+      "volume_mm3": 377.427,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Shaft_Collar_6x16x8",
+      "quantity": 1,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        16.0,
+        16.0,
+        8.0
+      ],
+      "volume_mm3": 1332.8019,
+      "note": "Positive axial retention by matched 2.5 mm cross-pin, NOT set-screw friction alone; verify catch load >=1200 N",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Z_Thrust_Cross_Pin_D2p5x16",
+      "quantity": 1,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        16.0,
+        2.5,
+        2.5
+      ],
+      "volume_mm3": 78.5398,
+      "note": "Hardened retained dowel, minimum verified double-shear capacity 2500 N; match-ream shaft/collar",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Z_Floating_Bearing_Housing",
+      "quantity": 1,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        32.0,
+        30.0,
+        8.0
+      ],
+      "volume_mm3": 5399.9401,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Z_Floating_Bearing_Cap",
+      "quantity": 1,
+      "material": "steel",
+      "process": "machined",
+      "extents_mm": [
+        32.0,
+        30.0,
+        2.0
+      ],
+      "volume_mm3": 1726.3994,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Z_Floating_Bearing_Pedestal",
+      "quantity": 1,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        32.0,
+        30.0,
+        44.0
+      ],
+      "volume_mm3": 39642.6569,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "NEMA17_NC_Brake_Envelope",
+      "quantity": 1,
+      "material": "safety",
+      "process": "purchased",
+      "extents_mm": [
+        42.0,
+        42.0,
+        85.0
+      ],
+      "volume_mm3": 115052.6991,
+      "note": "24 V fail-safe brake >=0.3 N m; full vendor selection pending",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Coupler_5x6_Envelope",
+      "quantity": 1,
+      "material": "purchased",
+      "process": "purchased",
+      "extents_mm": [
+        19.0,
+        19.0,
+        25.0
+      ],
+      "volume_mm3": 6467.5575,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Tray_Al_Tube_25x25x2_L227",
+      "quantity": 2,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        25.0,
+        227.0,
+        25.0
+      ],
+      "volume_mm3": 41418.4978,
+      "note": "M4 compression sleeves through tube; no polymer in primary bending path",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Tube_End_Plug",
+      "quantity": 2,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        20.8,
+        30.0,
+        20.8
+      ],
+      "volume_mm3": 12185.9097,
+      "note": "2x M5 tapped end; transverse M5 retention bolt; 0.2 mm insertion clearance",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Carrier_Tray_124x130",
+      "quantity": 1,
+      "material": "PETG",
+      "process": "print",
+      "extents_mm": [
+        124.0,
+        130.0,
+        10.0007
+      ],
+      "volume_mm3": 48556.593,
+      "note": "40 mm front-open mast slot, 6 mm rear bridge; supports box on two side wings",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Y_Spine_82x211x6",
+      "quantity": 1,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        82.0,
+        211.0,
+        6.0
+      ],
+      "volume_mm3": 99870.1032,
+      "note": "Rear idler: central 8.5x5.5 Y slot, two 6.5x3.5 Y slots; +/-1.5 mm tension travel",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Y_Spine_Metal_Spacer",
+      "quantity": 2,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        26.0,
+        20.0,
+        11.0
+      ],
+      "volume_mm3": 5531.8343,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Y_Spine_Metal_Spacer_Left",
+      "quantity": 2,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        26.0,
+        20.0,
+        11.0
+      ],
+      "volume_mm3": 5531.8343,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "MGN9_Rail_Y200",
+      "quantity": 1,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        9.0,
+        200.0,
+        6.5
+      ],
+      "volume_mm3": 11074.6267,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "MGN9H_Y",
+      "quantity": 1,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        20.0,
+        39.9,
+        8.0
+      ],
+      "volume_mm3": 4542.6782,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Y_Puller_Plate_46x60x4",
+      "quantity": 1,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        46.0,
+        60.0,
+        4.0
+      ],
+      "volume_mm3": 10732.1239,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Y_GT2_Belt_Loop",
+      "quantity": 1,
+      "material": "rubber",
+      "process": "purchased",
+      "extents_mm": [
+        15.4,
+        197.4,
+        6.0
+      ],
+      "volume_mm3": 3427.0513,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Y_Idler_Shoulder_Axle_M5",
+      "quantity": 1,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        10.0,
+        10.0,
+        23.5
+      ],
+      "volume_mm3": 536.8196,
+      "note": "M5 thread into carrier, 5 mm bearing shoulder; retaining groove at top, not a plain loose bolt",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Y_Idler_Tension_Carrier",
+      "quantity": 1,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        18.0,
+        12.0,
+        6.0
+      ],
+      "volume_mm3": 1153.9686,
+      "note": "Two M3 screws clamp through spine slots; M3 pusher contacts front face",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Y_Tension_Adjuster",
+      "quantity": 1,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        16.0,
+        8.0,
+        10.0
+      ],
+      "volume_mm3": 1048.3075,
+      "note": "M3x16 pusher + jam nut, +/-1.5 mm; two M3 screws into spine",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Y_Motor_Spacer_7",
+      "quantity": 1,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        42.0,
+        42.0,
+        7.0
+      ],
+      "volume_mm3": 9170.279,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Y_Belt_Clamp",
+      "quantity": 1,
+      "material": "PETG",
+      "process": "print",
+      "extents_mm": [
+        18.0,
+        14.0,
+        8.0
+      ],
+      "volume_mm3": 1682.5502,
+      "note": "12x6 counterbore SLOT 1.2 deep, not two tangent holes; print web down",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "M3_Clamp_Nut",
+      "quantity": 2,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        6.3509,
+        5.5,
+        2.4
+      ],
+      "volume_mm3": 45.9088,
+      "note": "M3x16 DIN7984 low head; head counterbore 1.2 mm; thread locking required",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Latch_Mast_36x92_L",
+      "quantity": 1,
+      "material": "aluminum",
+      "process": "machined",
+      "extents_mm": [
+        36.0,
+        16.0,
+        92.0
+      ],
+      "volume_mm3": 14743.5221,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Pin_Guide_Cheek",
+      "quantity": 2,
+      "material": "PETG",
+      "process": "print",
+      "extents_mm": [
+        26.0,
+        24.0,
+        4.0
+      ],
+      "volume_mm3": 2271.1091,
+      "note": "Ream to steel bushing fit; metal bushings required for wear",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Pin_Flanged_Bushing_4p1x6",
+      "quantity": 2,
+      "material": "purchased",
+      "process": "purchased",
+      "extents_mm": [
+        7.5,
+        7.5,
+        4.5
+      ],
+      "volume_mm3": 75.7752,
+      "note": "Replaceable bronze bushing; 6.1 pilot must be fitted/retained, not assumed press fit",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Latch_Pin_D4x60",
+      "quantity": 1,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        4.0,
+        4.0,
+        60.0
+      ],
+      "volume_mm3": 743.5103,
+      "note": "Ground steel pin, not printed; released lift 14 mm",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "MG90S_Envelope",
+      "quantity": 1,
+      "material": "purchased",
+      "process": "purchased",
+      "extents_mm": [
+        23.0,
+        12.0,
+        29.0
+      ],
+      "volume_mm3": 8004.0,
+      "note": "Supplier output-shaft datum and >=150 degree usable travel must be verified",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Servo_Cradle",
+      "quantity": 1,
+      "material": "PETG",
+      "process": "print",
+      "extents_mm": [
+        40.0,
+        20.0,
+        37.0
+      ],
+      "volume_mm3": 10242.417,
+      "note": "2x M3x8 to tapped metal mast; separate clamping lid; vendor servo datum still required",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Servo_Cradle_Lid",
+      "quantity": 1,
+      "material": "PETG",
+      "process": "print",
+      "extents_mm": [
+        28.5,
+        16.0,
+        3.0
+      ],
+      "volume_mm3": 1331.0549,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Latch_Scotch_Yoke",
+      "quantity": 1,
+      "material": "PETG",
+      "process": "print",
+      "extents_mm": [
+        12.0,
+        22.0,
+        5.0
+      ],
+      "volume_mm3": 606.2938,
+      "note": "7 mm crank radius; end-to-end vertical stroke 14 mm; bench-test before use",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Pin_Collar_4x10x5",
+      "quantity": 2,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        10.0,
+        10.0,
+        5.0
+      ],
+      "volume_mm3": 329.8672,
+      "note": "Two miniature shaft collars retain the yoke on the ground pin",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Latch_Return_Spring_Envelope",
+      "quantity": 1,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        7.0,
+        7.0,
+        16.0
+      ],
+      "volume_mm3": 101.0336,
+      "note": "Metal return spring, OD7 wire0.3 freeL19, solid<=1.8; target force 0.2..1.2N. Coil envelope only, supplier test mandatory",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Latch_Crank_R7",
+      "quantity": 1,
+      "material": "PETG",
+      "process": "print",
+      "extents_mm": [
+        3.0,
+        6.0,
+        12.5
+      ],
+      "volume_mm3": 144.7087,
+      "note": "Use supplier metal spline adapter; servo endpoint calibration required",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Servo_Horn_Interface_Envelope",
+      "quantity": 1,
+      "material": "purchased",
+      "process": "purchased",
+      "extents_mm": [
+        1.5,
+        6.5,
+        6.5
+      ],
+      "volume_mm3": 44.0726,
+      "note": "Metal spline horn/interface envelope; MUST match selected MG90S output drawing",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Latch_Roller_D3",
+      "quantity": 1,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        26.0,
+        3.0,
+        3.0
+      ],
+      "volume_mm3": 183.7832,
+      "note": "3 mm ground pin with retaining grooves; two DIN6799 E-clips",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Roller_Clip_Envelope",
+      "quantity": 2,
+      "material": "steel",
+      "process": "purchased",
+      "extents_mm": [
+        0.5,
+        5.0,
+        5.0
+      ],
+      "volume_mm3": 5.7962,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Stop_24x20x20",
+      "quantity": 4,
+      "material": "rubber",
+      "process": "purchased",
+      "extents_mm": [
+        24.0,
+        20.0,
+        20.0
+      ],
+      "volume_mm3": 9600.0,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Z_Stop_24x15x10",
+      "quantity": 4,
+      "material": "rubber",
+      "process": "purchased",
+      "extents_mm": [
+        24.0,
+        15.0,
+        10.0
+      ],
+      "volume_mm3": 3600.0,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Y_Stop_24x4x10",
+      "quantity": 2,
+      "material": "rubber",
+      "process": "purchased",
+      "extents_mm": [
+        24.0,
+        4.0,
+        10.0
+      ],
+      "volume_mm3": 696.8,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Guard_Front_PC3",
+      "quantity": 1,
+      "material": "guard",
+      "process": "cut_panel",
+      "extents_mm": [
+        780.0,
+        3.0,
+        766.0
+      ],
+      "volume_mm3": 1792440.0,
+      "note": "Hinged/interlocked access, contained machine only; impact rating pending",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Guard_Side_-91.5",
+      "quantity": 1,
+      "material": "guard",
+      "process": "cut_panel",
+      "extents_mm": [
+        3.0,
+        540.0,
+        766.0
+      ],
+      "volume_mm3": 1240920.0,
+      "note": "10 mm panel standoffs to guard frame; no open skirt below base",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Guard_Side_691.5",
+      "quantity": 1,
+      "material": "guard",
+      "process": "cut_panel",
+      "extents_mm": [
+        3.0,
+        540.0,
+        766.0
+      ],
+      "volume_mm3": 1240920.0,
+      "note": "10 mm panel standoffs to guard frame; no open skirt below base",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Guard_Rear_PC3",
+      "quantity": 1,
+      "material": "guard",
+      "process": "cut_panel",
+      "extents_mm": [
+        780.0,
+        3.0,
+        766.0
+      ],
+      "volume_mm3": 1792440.0,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Guard_Top_PC3",
+      "quantity": 1,
+      "material": "guard",
+      "process": "cut_panel",
+      "extents_mm": [
+        786.0,
+        546.0,
+        3.0
+      ],
+      "volume_mm3": 1287468.0,
+      "note": "",
+      "geometry_valid": true,
+      "solids": 1
+    }
+  ],
+  "generator_sha256": "87563eaf463a7206f157ec226ce71ac3907b7f4caf93e08f53f833cff9db90db",
+  "frozen_design_parameters": {
+    "columns": 4,
+    "rows": 5,
+    "column_pitch": 150.0,
+    "row_pitch": 95.0,
+    "first_deck": 200.0,
+    "tray_y": -78.0,
+    "storage_y": 65.0,
+    "eye_offset_y": -68.0,
+    "y_rail_min": -225.0,
+    "y_rail_max": -25.0,
+    "y_block_to_pin": 50.0,
+    "y_block_length": 39.9,
+    "z_rail_min": 85.0,
+    "z_rail_max": 585.0,
+    "z_block_length": 45.4,
+    "z_block_offsets": [
+      -79.0,
+      -29.0
+    ],
+    "x_block_offsets": [
+      -40.0,
+      40.0
+    ],
+    "payload_kg": 1.0
+  },
+  "instances": [
+    {
+      "name": "base",
+      "part": "Base_780x540x6",
+      "origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rail_beam_-285",
+      "part": "X_Datum_Bar_700x30x24",
+      "origin_mm": [
+        300,
+        -285,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rail_beam_-215",
+      "part": "X_Datum_Bar_700x30x24",
+      "origin_mm": [
+        300,
+        -215,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_post_0_10",
+      "part": "2020_Rack_Z650",
+      "origin_mm": [
+        0.0,
+        10,
+        26
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_post_0_140",
+      "part": "2020_Rack_Z650",
+      "origin_mm": [
+        0.0,
+        140,
+        26
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_post_1_10",
+      "part": "2020_Rack_Z650",
+      "origin_mm": [
+        150.0,
+        10,
+        26
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_post_1_140",
+      "part": "2020_Rack_Z650",
+      "origin_mm": [
+        150.0,
+        140,
+        26
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_post_2_10",
+      "part": "2020_Rack_Z650",
+      "origin_mm": [
+        300.0,
+        10,
+        26
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_post_2_140",
+      "part": "2020_Rack_Z650",
+      "origin_mm": [
+        300.0,
+        140,
+        26
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_post_3_10",
+      "part": "2020_Rack_Z650",
+      "origin_mm": [
+        450.0,
+        10,
+        26
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_post_3_140",
+      "part": "2020_Rack_Z650",
+      "origin_mm": [
+        450.0,
+        140,
+        26
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_post_4_10",
+      "part": "2020_Rack_Z650",
+      "origin_mm": [
+        600.0,
+        10,
+        26
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_post_4_140",
+      "part": "2020_Rack_Z650",
+      "origin_mm": [
+        600.0,
+        140,
+        26
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_0_0_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        75.0,
+        75,
+        200.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_0_1_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        75.0,
+        75,
+        295.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_0_2_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        75.0,
+        75,
+        390.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_0_3_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        75.0,
+        75,
+        485.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_0_4_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        75.0,
+        75,
+        580.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_1_0_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        225.0,
+        75,
+        200.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_1_1_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        225.0,
+        75,
+        295.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_1_2_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        225.0,
+        75,
+        390.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_1_3_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        225.0,
+        75,
+        485.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_1_4_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        225.0,
+        75,
+        580.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_2_0_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        375.0,
+        75,
+        200.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_2_1_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        375.0,
+        75,
+        295.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_2_2_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        375.0,
+        75,
+        390.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_2_3_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        375.0,
+        75,
+        485.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_2_4_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        375.0,
+        75,
+        580.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_3_0_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        525.0,
+        75,
+        200.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_3_1_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        525.0,
+        75,
+        295.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_3_2_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        525.0,
+        75,
+        390.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_3_3_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        525.0,
+        75,
+        485.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_3_4_-1",
+      "part": "Shelf_Angle_-1",
+      "origin_mm": [
+        525.0,
+        75,
+        580.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_0_0_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        75.0,
+        75,
+        200.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_0_1_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        75.0,
+        75,
+        295.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_0_2_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        75.0,
+        75,
+        390.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_0_3_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        75.0,
+        75,
+        485.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_0_4_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        75.0,
+        75,
+        580.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_1_0_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        225.0,
+        75,
+        200.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_1_1_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        225.0,
+        75,
+        295.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_1_2_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        225.0,
+        75,
+        390.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_1_3_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        225.0,
+        75,
+        485.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_1_4_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        225.0,
+        75,
+        580.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_2_0_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        375.0,
+        75,
+        200.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_2_1_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        375.0,
+        75,
+        295.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_2_2_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        375.0,
+        75,
+        390.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_2_3_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        375.0,
+        75,
+        485.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_2_4_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        375.0,
+        75,
+        580.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_3_0_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        525.0,
+        75,
+        200.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_3_1_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        525.0,
+        75,
+        295.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_3_2_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        525.0,
+        75,
+        390.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_3_3_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        525.0,
+        75,
+        485.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "shelf_angle_3_4_1",
+      "part": "Shelf_Angle_1",
+      "origin_mm": [
+        525.0,
+        75,
+        580.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_0_0",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        75.0,
+        65,
+        196.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_0_0",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        75.0,
+        65.0,
+        200.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_0_1",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        75.0,
+        65,
+        291.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_0_1",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        75.0,
+        65.0,
+        295.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_0_2",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        75.0,
+        65,
+        386.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_0_2",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        75.0,
+        65.0,
+        390.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_0_3",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        75.0,
+        65,
+        481.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_0_3",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        75.0,
+        65.0,
+        485.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_0_4",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        75.0,
+        65,
+        576.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_0_4",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        75.0,
+        65.0,
+        580.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_1_0",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        225.0,
+        65,
+        196.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_1_0",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        225.0,
+        65.0,
+        200.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_1_1",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        225.0,
+        65,
+        291.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_1_1",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        225.0,
+        65.0,
+        295.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_1_2",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        225.0,
+        65,
+        386.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_1_3",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        225.0,
+        65,
+        481.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_1_3",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        225.0,
+        65.0,
+        485.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_1_4",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        225.0,
+        65,
+        576.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_1_4",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        225.0,
+        65.0,
+        580.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_2_0",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        375.0,
+        65,
+        196.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_2_0",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        375.0,
+        65.0,
+        200.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_2_1",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        375.0,
+        65,
+        291.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_2_1",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        375.0,
+        65.0,
+        295.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_2_2",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        375.0,
+        65,
+        386.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_2_2",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        375.0,
+        65.0,
+        390.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_2_3",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        375.0,
+        65,
+        481.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_2_3",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        375.0,
+        65.0,
+        485.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_2_4",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        375.0,
+        65,
+        576.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_2_4",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        375.0,
+        65.0,
+        580.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_3_0",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        525.0,
+        65,
+        196.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_3_0",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        525.0,
+        65.0,
+        200.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_3_1",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        525.0,
+        65,
+        291.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_3_1",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        525.0,
+        65.0,
+        295.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_3_2",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        525.0,
+        65,
+        386.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_3_2",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        525.0,
+        65.0,
+        390.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_3_3",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        525.0,
+        65,
+        481.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_3_3",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        525.0,
+        65.0,
+        485.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "cell_3_4",
+      "part": "Cell_124x130",
+      "origin_mm": [
+        525.0,
+        65,
+        576.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "stored_bin_3_4",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        525.0,
+        65.0,
+        580.0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_rear_shear",
+      "part": "Rack_Rear_Shear_620x630x3",
+      "origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rear_panel_standoff_0_50",
+      "part": "Rear_Panel_Standoff_2",
+      "origin_mm": [
+        0,
+        150,
+        50
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rear_panel_standoff_0_650",
+      "part": "Rear_Panel_Standoff_2",
+      "origin_mm": [
+        0,
+        150,
+        650
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rear_panel_standoff_150_50",
+      "part": "Rear_Panel_Standoff_2",
+      "origin_mm": [
+        150,
+        150,
+        50
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rear_panel_standoff_150_650",
+      "part": "Rear_Panel_Standoff_2",
+      "origin_mm": [
+        150,
+        150,
+        650
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rear_panel_standoff_300_50",
+      "part": "Rear_Panel_Standoff_2",
+      "origin_mm": [
+        300,
+        150,
+        50
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rear_panel_standoff_300_650",
+      "part": "Rear_Panel_Standoff_2",
+      "origin_mm": [
+        300,
+        150,
+        650
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rear_panel_standoff_450_50",
+      "part": "Rear_Panel_Standoff_2",
+      "origin_mm": [
+        450,
+        150,
+        50
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rear_panel_standoff_450_650",
+      "part": "Rear_Panel_Standoff_2",
+      "origin_mm": [
+        450,
+        150,
+        650
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rear_panel_standoff_600_50",
+      "part": "Rear_Panel_Standoff_2",
+      "origin_mm": [
+        600,
+        150,
+        50
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rear_panel_standoff_600_650",
+      "part": "Rear_Panel_Standoff_2",
+      "origin_mm": [
+        600,
+        150,
+        650
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_pedestal_0_10",
+      "part": "Rack_Pedestal_40x40x14",
+      "origin_mm": [
+        0,
+        10,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_foot_0_10",
+      "part": "Rack_Foot_40x40x6",
+      "origin_mm": [
+        0,
+        10,
+        20
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_pedestal_0_140",
+      "part": "Rack_Pedestal_40x40x14",
+      "origin_mm": [
+        0,
+        140,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_foot_0_140",
+      "part": "Rack_Foot_40x40x6",
+      "origin_mm": [
+        0,
+        140,
+        20
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_pedestal_1_10",
+      "part": "Rack_Pedestal_40x40x14",
+      "origin_mm": [
+        150,
+        10,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_foot_1_10",
+      "part": "Rack_Foot_40x40x6",
+      "origin_mm": [
+        150,
+        10,
+        20
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_pedestal_1_140",
+      "part": "Rack_Pedestal_40x40x14",
+      "origin_mm": [
+        150,
+        140,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_foot_1_140",
+      "part": "Rack_Foot_40x40x6",
+      "origin_mm": [
+        150,
+        140,
+        20
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_pedestal_2_10",
+      "part": "Rack_Pedestal_40x40x14",
+      "origin_mm": [
+        300,
+        10,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_foot_2_10",
+      "part": "Rack_Foot_40x40x6",
+      "origin_mm": [
+        300,
+        10,
+        20
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_pedestal_2_140",
+      "part": "Rack_Pedestal_40x40x14",
+      "origin_mm": [
+        300,
+        140,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_foot_2_140",
+      "part": "Rack_Foot_40x40x6",
+      "origin_mm": [
+        300,
+        140,
+        20
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_pedestal_3_10",
+      "part": "Rack_Pedestal_40x40x14",
+      "origin_mm": [
+        450,
+        10,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_foot_3_10",
+      "part": "Rack_Foot_40x40x6",
+      "origin_mm": [
+        450,
+        10,
+        20
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_pedestal_3_140",
+      "part": "Rack_Pedestal_40x40x14",
+      "origin_mm": [
+        450,
+        140,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_foot_3_140",
+      "part": "Rack_Foot_40x40x6",
+      "origin_mm": [
+        450,
+        140,
+        20
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_pedestal_4_10",
+      "part": "Rack_Pedestal_40x40x14",
+      "origin_mm": [
+        600,
+        10,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_foot_4_10",
+      "part": "Rack_Foot_40x40x6",
+      "origin_mm": [
+        600,
+        10,
+        20
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_pedestal_4_140",
+      "part": "Rack_Pedestal_40x40x14",
+      "origin_mm": [
+        600,
+        140,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rack_foot_4_140",
+      "part": "Rack_Foot_40x40x6",
+      "origin_mm": [
+        600,
+        140,
+        20
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "guard_pedestal_-70_-330",
+      "part": "Rack_Pedestal_40x40x14",
+      "origin_mm": [
+        -70,
+        -330,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "guard_foot_-70_-330",
+      "part": "Rack_Foot_40x40x6",
+      "origin_mm": [
+        -70,
+        -330,
+        20
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "guard_post_-70_-330",
+      "part": "2020_Guard_Z720",
+      "origin_mm": [
+        -70,
+        -330,
+        26
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "guard_pedestal_-70_170",
+      "part": "Rack_Pedestal_40x40x14",
+      "origin_mm": [
+        -70,
+        170,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "guard_foot_-70_170",
+      "part": "Rack_Foot_40x40x6",
+      "origin_mm": [
+        -70,
+        170,
+        20
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "guard_post_-70_170",
+      "part": "2020_Guard_Z720",
+      "origin_mm": [
+        -70,
+        170,
+        26
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "guard_top_side_-70",
+      "part": "2020_Guard_Y480",
+      "origin_mm": [
+        -70,
+        -80,
+        746
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "guard_pedestal_670_-330",
+      "part": "Rack_Pedestal_40x40x14",
+      "origin_mm": [
+        670,
+        -330,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "guard_foot_670_-330",
+      "part": "Rack_Foot_40x40x6",
+      "origin_mm": [
+        670,
+        -330,
+        20
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "guard_post_670_-330",
+      "part": "2020_Guard_Z720",
+      "origin_mm": [
+        670,
+        -330,
+        26
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "guard_pedestal_670_170",
+      "part": "Rack_Pedestal_40x40x14",
+      "origin_mm": [
+        670,
+        170,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "guard_foot_670_170",
+      "part": "Rack_Foot_40x40x6",
+      "origin_mm": [
+        670,
+        170,
+        20
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "guard_post_670_170",
+      "part": "2020_Guard_Z720",
+      "origin_mm": [
+        670,
+        170,
+        26
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "guard_top_side_670",
+      "part": "2020_Guard_Y480",
+      "origin_mm": [
+        670,
+        -80,
+        746
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "guard_top_cross_-330",
+      "part": "2020_Guard_X760",
+      "origin_mm": [
+        300,
+        -330,
+        746
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "guard_top_cross_170",
+      "part": "2020_Guard_X760",
+      "origin_mm": [
+        300,
+        170,
+        746
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "x_rail_-285",
+      "part": "MGN12_Rail_X700",
+      "origin_mm": [
+        300,
+        -285,
+        30
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "x_block_-285_-40.0",
+      "part": "MGN12H_X",
+      "origin_mm": [
+        185.0,
+        -285,
+        30
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "x_block_-285_40.0",
+      "part": "MGN12H_X",
+      "origin_mm": [
+        265.0,
+        -285,
+        30
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "x_rail_-215",
+      "part": "MGN12_Rail_X700",
+      "origin_mm": [
+        300,
+        -215,
+        30
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "x_block_-215_-40.0",
+      "part": "MGN12H_X",
+      "origin_mm": [
+        185.0,
+        -215,
+        30
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "x_block_-215_40.0",
+      "part": "MGN12H_X",
+      "origin_mm": [
+        265.0,
+        -215,
+        30
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "x_carriage",
+      "part": "X_Carriage_160x110x8",
+      "origin_mm": [
+        225.0,
+        -250,
+        43
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "x_belt",
+      "part": "X_GT2_Belt_Loop",
+      "origin_mm": [
+        -45,
+        -250,
+        32
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "x_drive_pulley",
+      "part": "GT2_20T_6mm_Envelope",
+      "origin_mm": [
+        -45,
+        -250,
+        32
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "x_idler_pulley",
+      "part": "GT2_20T_6mm_Envelope",
+      "origin_mm": [
+        645,
+        -250,
+        32
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "x_motor",
+      "part": "NEMA17_Inverted",
+      "origin_mm": [
+        -45,
+        -250,
+        54
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "x_motor_mount",
+      "part": "X_Motor_Mount",
+      "origin_mm": [
+        -45,
+        -250,
+        49
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "x_motor_leg_-15",
+      "part": "X_Motor_Mount_Leg",
+      "origin_mm": [
+        -45,
+        -265,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "x_motor_leg_15",
+      "part": "X_Motor_Mount_Leg",
+      "origin_mm": [
+        -45,
+        -235,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "x_idler_pedestal",
+      "part": "X_Idler_Pedestal",
+      "origin_mm": [
+        645,
+        -250,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "x_tension_adjuster",
+      "part": "X_Tension_Adjuster",
+      "origin_mm": [
+        675,
+        -250,
+        6
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "x_belt_clamp",
+      "part": "X_Belt_Clamp",
+      "origin_mm": [
+        225.0,
+        -243,
+        35
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "x_clamp_backer",
+      "part": "X_Clamp_Steel_Backer",
+      "origin_mm": [
+        225.0,
+        -237,
+        33
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_post_-45",
+      "part": "3030_Z600",
+      "origin_mm": [
+        180.0,
+        -268,
+        51
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_post_45",
+      "part": "3030_Z600",
+      "origin_mm": [
+        270.0,
+        -268,
+        51
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_foot_rear_-45",
+      "part": "Z_Foot_Angle_30x20x32",
+      "origin_mm": [
+        180.0,
+        -283,
+        51
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_foot_front_-45",
+      "part": "Z_Foot_Angle_Front",
+      "origin_mm": [
+        180.0,
+        -253,
+        51
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_foot_rear_45",
+      "part": "Z_Foot_Angle_30x20x32",
+      "origin_mm": [
+        270.0,
+        -283,
+        51
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_foot_front_45",
+      "part": "Z_Foot_Angle_Front",
+      "origin_mm": [
+        270.0,
+        -253,
+        51
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_top_plate",
+      "part": "Z_Top_Motor_Plate_130x60x8",
+      "origin_mm": [
+        225.0,
+        -268,
+        651
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_strip_-45",
+      "part": "Z_Rail_Datum_20x4x500",
+      "origin_mm": [
+        180.0,
+        -253,
+        335
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_rail_-45",
+      "part": "MGN12_Rail_Z500",
+      "origin_mm": [
+        180.0,
+        -249,
+        335
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_block_-45_-79.0",
+      "part": "MGN12H_Z",
+      "origin_mm": [
+        180.0,
+        -249,
+        311.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "z_block_-45_-29.0",
+      "part": "MGN12H_Z",
+      "origin_mm": [
+        180.0,
+        -249,
+        361.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "z_strip_45",
+      "part": "Z_Rail_Datum_20x4x500",
+      "origin_mm": [
+        270.0,
+        -253,
+        335
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_rail_45",
+      "part": "MGN12_Rail_Z500",
+      "origin_mm": [
+        270.0,
+        -249,
+        335
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_block_45_-79.0",
+      "part": "MGN12H_Z",
+      "origin_mm": [
+        270.0,
+        -249,
+        311.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "z_block_45_-29.0",
+      "part": "MGN12H_Z",
+      "origin_mm": [
+        270.0,
+        -249,
+        361.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "z_carriage",
+      "part": "Z_Carriage_130x100x8",
+      "origin_mm": [
+        225.0,
+        -236,
+        390.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "z_screw",
+      "part": "TR8x2_Screw_Machined_Ends",
+      "origin_mm": [
+        225.0,
+        -268,
+        0
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_working_nut",
+      "part": "TR8x2_Bronze_Nut",
+      "origin_mm": [
+        225.0,
+        -268,
+        328.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "z_safety_nut",
+      "part": "TR8x2_Bronze_Nut",
+      "origin_mm": [
+        225.0,
+        -268,
+        306.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "z_nut_bridge",
+      "part": "Z_Nut_Bridge",
+      "origin_mm": [
+        225.0,
+        -268,
+        320.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "z_safety_cage",
+      "part": "Z_Secondary_Nut_Cage",
+      "origin_mm": [
+        225.0,
+        -268,
+        300.2
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "safety_nut_key_-8",
+      "part": "Safety_Nut_AntiRotation_Stud",
+      "origin_mm": [
+        217.0,
+        -268,
+        305.2
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "safety_nut_key_8",
+      "part": "Safety_Nut_AntiRotation_Stud",
+      "origin_mm": [
+        233.0,
+        -268,
+        305.2
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "z_fixed_bearing_housing",
+      "part": "Z_Fixed_Bearing_Housing",
+      "origin_mm": [
+        225.0,
+        -268,
+        595
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_thrust_end_cap",
+      "part": "Z_Thrust_End_Cap",
+      "origin_mm": [
+        225.0,
+        -268,
+        621
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_bearing_hanger",
+      "part": "Z_Bearing_Hanger",
+      "origin_mm": [
+        225.0,
+        -268,
+        625
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_fixed_radial_bearing",
+      "part": "626ZZ_6x19x6",
+      "origin_mm": [
+        225.0,
+        -268,
+        595
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_thrust_abutment",
+      "part": "Z_Thrust_Abutment_Washer",
+      "origin_mm": [
+        225.0,
+        -268,
+        601
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_thrust_bearing_604",
+      "part": "F6_12M_6x12x4p5",
+      "origin_mm": [
+        225.0,
+        -268,
+        604
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_thrust_bearing_616.5",
+      "part": "F6_12M_6x12x4p5",
+      "origin_mm": [
+        225.0,
+        -268,
+        616.5
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_shaft_collar",
+      "part": "Shaft_Collar_6x16x8",
+      "origin_mm": [
+        225.0,
+        -268,
+        608.5
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_thrust_cross_pin",
+      "part": "Z_Thrust_Cross_Pin_D2p5x16",
+      "origin_mm": [
+        217.0,
+        -268,
+        612.5
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_floating_bearing",
+      "part": "Z_Floating_Bearing_Housing",
+      "origin_mm": [
+        225.0,
+        -268,
+        95
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_floating_bearing_cap",
+      "part": "Z_Floating_Bearing_Cap",
+      "origin_mm": [
+        225.0,
+        -268,
+        103
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_floating_radial_bearing",
+      "part": "626ZZ_6x19x6",
+      "origin_mm": [
+        225.0,
+        -268,
+        97
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_floating_pedestal",
+      "part": "Z_Floating_Bearing_Pedestal",
+      "origin_mm": [
+        225.0,
+        -268,
+        51
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_brake_motor",
+      "part": "NEMA17_NC_Brake_Envelope",
+      "origin_mm": [
+        225.0,
+        -268,
+        659
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_coupling",
+      "part": "Coupler_5x6_Envelope",
+      "origin_mm": [
+        225.0,
+        -268,
+        630
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "tray_tube_-44",
+      "part": "Tray_Al_Tube_25x25x2_L227",
+      "origin_mm": [
+        181.0,
+        0,
+        361.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "tray_tube_plug_-44",
+      "part": "Tube_End_Plug",
+      "origin_mm": [
+        181.0,
+        -228,
+        373.5
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "tray_tube_44",
+      "part": "Tray_Al_Tube_25x25x2_L227",
+      "origin_mm": [
+        269.0,
+        0,
+        361.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "tray_tube_plug_44",
+      "part": "Tube_End_Plug",
+      "origin_mm": [
+        269.0,
+        -228,
+        373.5
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "carrier_tray",
+      "part": "Carrier_Tray_124x130",
+      "origin_mm": [
+        225.0,
+        -78.0,
+        386.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "y_spine",
+      "part": "Y_Spine_82x211x6",
+      "origin_mm": [
+        225.0,
+        0,
+        344.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "y_spine_spacer_-1_-110",
+      "part": "Y_Spine_Metal_Spacer_Left",
+      "origin_mm": [
+        180.0,
+        -110,
+        350.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "y_spine_spacer_-1_-50",
+      "part": "Y_Spine_Metal_Spacer_Left",
+      "origin_mm": [
+        180.0,
+        -50,
+        350.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "y_spine_spacer_1_-110",
+      "part": "Y_Spine_Metal_Spacer",
+      "origin_mm": [
+        270.0,
+        -110,
+        350.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "y_spine_spacer_1_-50",
+      "part": "Y_Spine_Metal_Spacer",
+      "origin_mm": [
+        270.0,
+        -50,
+        350.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "y_rail",
+      "part": "MGN9_Rail_Y200",
+      "origin_mm": [
+        212.0,
+        -125,
+        350.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "y_block",
+      "part": "MGN9H_Y",
+      "origin_mm": [
+        212.0,
+        -196.0,
+        350.0
+      ],
+      "motion_group": "y"
+    },
+    {
+      "name": "y_puller_plate",
+      "part": "Y_Puller_Plate_46x60x4",
+      "origin_mm": [
+        225.0,
+        -196.0,
+        360.0
+      ],
+      "motion_group": "y"
+    },
+    {
+      "name": "y_belt",
+      "part": "Y_GT2_Belt_Loop",
+      "origin_mm": [
+        238.0,
+        -217,
+        350.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "y_drive_pulley",
+      "part": "GT2_20T_6mm_Envelope",
+      "origin_mm": [
+        238.0,
+        -35,
+        350.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "y_idler_pulley",
+      "part": "GT2_20T_6mm_Envelope",
+      "origin_mm": [
+        238.0,
+        -217,
+        350.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "y_idler_axle",
+      "part": "Y_Idler_Shoulder_Axle_M5",
+      "origin_mm": [
+        238.0,
+        -217,
+        336.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "y_idler_tension_carrier",
+      "part": "Y_Idler_Tension_Carrier",
+      "origin_mm": [
+        238.0,
+        -217,
+        338.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "y_tension_adjuster",
+      "part": "Y_Tension_Adjuster",
+      "origin_mm": [
+        238.0,
+        -202,
+        334.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "y_motor",
+      "part": "NEMA17_42x42x40",
+      "origin_mm": [
+        238.0,
+        -35,
+        337.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "y_motor_spacer",
+      "part": "Y_Motor_Spacer_7",
+      "origin_mm": [
+        238.0,
+        -35,
+        337.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "y_belt_clamp",
+      "part": "Y_Belt_Clamp",
+      "origin_mm": [
+        245.0,
+        -197.5,
+        352.0
+      ],
+      "motion_group": "y"
+    },
+    {
+      "name": "y_clamp_nut_-3",
+      "part": "M3_Clamp_Nut",
+      "origin_mm": [
+        240.0,
+        -200.5,
+        364.0
+      ],
+      "motion_group": "y"
+    },
+    {
+      "name": "y_clamp_nut_3",
+      "part": "M3_Clamp_Nut",
+      "origin_mm": [
+        240.0,
+        -194.5,
+        364.0
+      ],
+      "motion_group": "y"
+    },
+    {
+      "name": "latch_mast",
+      "part": "Latch_Mast_36x92_L",
+      "origin_mm": [
+        225.0,
+        -166.0,
+        390.0
+      ],
+      "motion_group": "y"
+    },
+    {
+      "name": "pin_lower_guide",
+      "part": "Pin_Guide_Cheek",
+      "origin_mm": [
+        225.0,
+        -146.0,
+        409.0
+      ],
+      "motion_group": "y"
+    },
+    {
+      "name": "pin_upper_guide",
+      "part": "Pin_Guide_Cheek",
+      "origin_mm": [
+        225.0,
+        -146.0,
+        445.0
+      ],
+      "motion_group": "y"
+    },
+    {
+      "name": "pin_bushing_19",
+      "part": "Pin_Flanged_Bushing_4p1x6",
+      "origin_mm": [
+        225.0,
+        -146.0,
+        409.0
+      ],
+      "motion_group": "y"
+    },
+    {
+      "name": "pin_bushing_55",
+      "part": "Pin_Flanged_Bushing_4p1x6",
+      "origin_mm": [
+        225.0,
+        -146.0,
+        445.0
+      ],
+      "motion_group": "y"
+    },
+    {
+      "name": "latch_pin",
+      "part": "Latch_Pin_D4x60",
+      "origin_mm": [
+        225.0,
+        -146.0,
+        396.0
+      ],
+      "motion_group": "pin"
+    },
+    {
+      "name": "latch_servo",
+      "part": "MG90S_Envelope",
+      "origin_mm": [
+        256.0,
+        -161.0,
+        409.0
+      ],
+      "motion_group": "y"
+    },
+    {
+      "name": "servo_cradle",
+      "part": "Servo_Cradle",
+      "origin_mm": [
+        225.0,
+        -146.0,
+        390.0
+      ],
+      "motion_group": "y"
+    },
+    {
+      "name": "servo_cradle_lid",
+      "part": "Servo_Cradle_Lid",
+      "origin_mm": [
+        225.0,
+        -146.0,
+        438.0
+      ],
+      "motion_group": "y"
+    },
+    {
+      "name": "latch_yoke",
+      "part": "Latch_Scotch_Yoke",
+      "origin_mm": [
+        225.0,
+        -146.0,
+        419.0
+      ],
+      "motion_group": "pin"
+    },
+    {
+      "name": "pin_collar_24",
+      "part": "Pin_Collar_4x10x5",
+      "origin_mm": [
+        225.0,
+        -146.0,
+        414.0
+      ],
+      "motion_group": "pin"
+    },
+    {
+      "name": "pin_collar_34",
+      "part": "Pin_Collar_4x10x5",
+      "origin_mm": [
+        225.0,
+        -146.0,
+        424.0
+      ],
+      "motion_group": "pin"
+    },
+    {
+      "name": "latch_return_spring",
+      "part": "Latch_Return_Spring_Envelope",
+      "origin_mm": [
+        225.0,
+        -146.0,
+        429.0
+      ],
+      "motion_group": "spring"
+    },
+    {
+      "name": "latch_crank",
+      "part": "Latch_Crank_R7",
+      "origin_mm": [
+        240.0,
+        -158.0,
+        428.5
+      ],
+      "motion_group": "crank"
+    },
+    {
+      "name": "servo_horn_interface",
+      "part": "Servo_Horn_Interface_Envelope",
+      "origin_mm": [
+        243.0,
+        -158.0,
+        428.5
+      ],
+      "motion_group": "y"
+    },
+    {
+      "name": "latch_roller",
+      "part": "Latch_Roller_D3",
+      "origin_mm": [
+        217.0,
+        -158.0,
+        421.5
+      ],
+      "motion_group": "roller"
+    },
+    {
+      "name": "roller_clip_-8.5",
+      "part": "Roller_Clip_Envelope",
+      "origin_mm": [
+        216.5,
+        -158.0,
+        421.5
+      ],
+      "motion_group": "roller"
+    },
+    {
+      "name": "roller_clip_18",
+      "part": "Roller_Clip_Envelope",
+      "origin_mm": [
+        243.0,
+        -158.0,
+        421.5
+      ],
+      "motion_group": "roller"
+    },
+    {
+      "name": "carried_bin",
+      "part": "Bin_110x120_TowEye",
+      "origin_mm": [
+        225.0,
+        -78.0,
+        390.0
+      ],
+      "motion_group": "bin"
+    },
+    {
+      "name": "x_stop_-25_-285",
+      "part": "X_Stop_24x20x20",
+      "origin_mm": [
+        -25,
+        -285,
+        43
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "x_stop_-25_-215",
+      "part": "X_Stop_24x20x20",
+      "origin_mm": [
+        -25,
+        -215,
+        43
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "x_stop_625_-285",
+      "part": "X_Stop_24x20x20",
+      "origin_mm": [
+        625,
+        -285,
+        43
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "x_stop_625_-215",
+      "part": "X_Stop_24x20x20",
+      "origin_mm": [
+        625,
+        -215,
+        43
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "z_stop_-45_80",
+      "part": "Z_Stop_24x15x10",
+      "origin_mm": [
+        180.0,
+        -230,
+        80
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_stop_-45_584",
+      "part": "Z_Stop_24x15x10",
+      "origin_mm": [
+        180.0,
+        -230,
+        584
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_stop_45_80",
+      "part": "Z_Stop_24x15x10",
+      "origin_mm": [
+        270.0,
+        -230,
+        80
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "z_stop_45_584",
+      "part": "Z_Stop_24x15x10",
+      "origin_mm": [
+        270.0,
+        -230,
+        584
+      ],
+      "motion_group": "x"
+    },
+    {
+      "name": "y_stop_-222",
+      "part": "Y_Stop_24x4x10",
+      "origin_mm": [
+        212.0,
+        -222,
+        350.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "y_stop_-27",
+      "part": "Y_Stop_24x4x10",
+      "origin_mm": [
+        212.0,
+        -27,
+        350.0
+      ],
+      "motion_group": "z"
+    },
+    {
+      "name": "front_interlocked_guard",
+      "part": "Guard_Front_PC3",
+      "origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "side_guard_-91.5",
+      "part": "Guard_Side_-91.5",
+      "origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "side_guard_691.5",
+      "part": "Guard_Side_691.5",
+      "origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "rear_guard",
+      "part": "Guard_Rear_PC3",
+      "origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "motion_group": "fixed"
+    },
+    {
+      "name": "top_guard",
+      "part": "Guard_Top_PC3",
+      "origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "motion_group": "fixed"
+    }
+  ],
+  "native_parametric_features": false,
+  "note": "Code-parametric B-rep parts; native SW conversion does not create sketch feature history."
+}

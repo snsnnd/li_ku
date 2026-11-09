@@ -1,0 +1,2284 @@
+{
+  "generator_sha256": "87563eaf463a7206f157ec226ce71ac3907b7f4caf93e08f53f833cff9db90db",
+  "review_required": true,
+  "release_allowed": false,
+  "mass_breakdown": [
+    {
+      "instance": "base",
+      "part": "Base_780x540x6",
+      "group": "fixed",
+      "kg": 6.803783287244328,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rail_beam_-285",
+      "part": "X_Datum_Bar_700x30x24",
+      "group": "fixed",
+      "kg": 1.3459114426359207,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rail_beam_-215",
+      "part": "X_Datum_Bar_700x30x24",
+      "group": "fixed",
+      "kg": 1.3459114426359207,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_post_0_10",
+      "part": "2020_Rack_Z650",
+      "group": "fixed",
+      "kg": 0.39,
+      "method": "conservative assumed 0.60 kg/m; supplier section pending"
+    },
+    {
+      "instance": "rack_post_0_140",
+      "part": "2020_Rack_Z650",
+      "group": "fixed",
+      "kg": 0.39,
+      "method": "conservative assumed 0.60 kg/m; supplier section pending"
+    },
+    {
+      "instance": "rack_post_1_10",
+      "part": "2020_Rack_Z650",
+      "group": "fixed",
+      "kg": 0.39,
+      "method": "conservative assumed 0.60 kg/m; supplier section pending"
+    },
+    {
+      "instance": "rack_post_1_140",
+      "part": "2020_Rack_Z650",
+      "group": "fixed",
+      "kg": 0.39,
+      "method": "conservative assumed 0.60 kg/m; supplier section pending"
+    },
+    {
+      "instance": "rack_post_2_10",
+      "part": "2020_Rack_Z650",
+      "group": "fixed",
+      "kg": 0.39,
+      "method": "conservative assumed 0.60 kg/m; supplier section pending"
+    },
+    {
+      "instance": "rack_post_2_140",
+      "part": "2020_Rack_Z650",
+      "group": "fixed",
+      "kg": 0.39,
+      "method": "conservative assumed 0.60 kg/m; supplier section pending"
+    },
+    {
+      "instance": "rack_post_3_10",
+      "part": "2020_Rack_Z650",
+      "group": "fixed",
+      "kg": 0.39,
+      "method": "conservative assumed 0.60 kg/m; supplier section pending"
+    },
+    {
+      "instance": "rack_post_3_140",
+      "part": "2020_Rack_Z650",
+      "group": "fixed",
+      "kg": 0.39,
+      "method": "conservative assumed 0.60 kg/m; supplier section pending"
+    },
+    {
+      "instance": "rack_post_4_10",
+      "part": "2020_Rack_Z650",
+      "group": "fixed",
+      "kg": 0.39,
+      "method": "conservative assumed 0.60 kg/m; supplier section pending"
+    },
+    {
+      "instance": "rack_post_4_140",
+      "part": "2020_Rack_Z650",
+      "group": "fixed",
+      "kg": 0.39,
+      "method": "conservative assumed 0.60 kg/m; supplier section pending"
+    },
+    {
+      "instance": "shelf_angle_0_0_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_0_1_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_0_2_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_0_3_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_0_4_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_1_0_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_1_1_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_1_2_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_1_3_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_1_4_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_2_0_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_2_1_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_2_2_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_2_3_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_2_4_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_3_0_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_3_1_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_3_2_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_3_3_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_3_4_-1",
+      "part": "Shelf_Angle_-1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_0_0_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_0_1_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_0_2_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_0_3_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_0_4_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_1_0_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_1_1_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_1_2_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_1_3_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_1_4_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_2_0_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_2_1_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_2_2_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_2_3_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_2_4_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_3_0_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_3_1_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_3_2_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_3_3_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "shelf_angle_3_4_1",
+      "part": "Shelf_Angle_1",
+      "group": "fixed",
+      "kg": 0.04807655725683682,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_0_0",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_0_0",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_0_1",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_0_1",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_0_2",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_0_2",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_0_3",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_0_3",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_0_4",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_0_4",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_1_0",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_1_0",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_1_1",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_1_1",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_1_2",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_1_3",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_1_3",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_1_4",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_1_4",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_2_0",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_2_0",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_2_1",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_2_1",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_2_2",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_2_2",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_2_3",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_2_3",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_2_4",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_2_4",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_3_0",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_3_0",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_3_1",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_3_1",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_3_2",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_3_2",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_3_3",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_3_3",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "cell_3_4",
+      "part": "Cell_124x130",
+      "group": "fixed",
+      "kg": 0.0893083443637252,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "stored_bin_3_4",
+      "part": "Bin_110x120_TowEye",
+      "group": "fixed",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_rear_shear",
+      "part": "Rack_Rear_Shear_620x630x3",
+      "group": "fixed",
+      "kg": 3.1619355781501346,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rear_panel_standoff_0_50",
+      "part": "Rear_Panel_Standoff_2",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rear_panel_standoff_0_650",
+      "part": "Rear_Panel_Standoff_2",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rear_panel_standoff_150_50",
+      "part": "Rear_Panel_Standoff_2",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rear_panel_standoff_150_650",
+      "part": "Rear_Panel_Standoff_2",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rear_panel_standoff_300_50",
+      "part": "Rear_Panel_Standoff_2",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rear_panel_standoff_300_650",
+      "part": "Rear_Panel_Standoff_2",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rear_panel_standoff_450_50",
+      "part": "Rear_Panel_Standoff_2",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rear_panel_standoff_450_650",
+      "part": "Rear_Panel_Standoff_2",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rear_panel_standoff_600_50",
+      "part": "Rear_Panel_Standoff_2",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rear_panel_standoff_600_650",
+      "part": "Rear_Panel_Standoff_2",
+      "group": "fixed",
+      "kg": 0.00029582021824364887,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_pedestal_0_10",
+      "part": "Rack_Pedestal_40x40x14",
+      "group": "fixed",
+      "kg": 0.05688774588025274,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_foot_0_10",
+      "part": "Rack_Foot_40x40x6",
+      "group": "fixed",
+      "kg": 0.02335940563778347,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_pedestal_0_140",
+      "part": "Rack_Pedestal_40x40x14",
+      "group": "fixed",
+      "kg": 0.05688774588025274,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_foot_0_140",
+      "part": "Rack_Foot_40x40x6",
+      "group": "fixed",
+      "kg": 0.02335940563778347,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_pedestal_1_10",
+      "part": "Rack_Pedestal_40x40x14",
+      "group": "fixed",
+      "kg": 0.05688774588025274,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_foot_1_10",
+      "part": "Rack_Foot_40x40x6",
+      "group": "fixed",
+      "kg": 0.02335940563778347,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_pedestal_1_140",
+      "part": "Rack_Pedestal_40x40x14",
+      "group": "fixed",
+      "kg": 0.05688774588025274,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_foot_1_140",
+      "part": "Rack_Foot_40x40x6",
+      "group": "fixed",
+      "kg": 0.02335940563778347,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_pedestal_2_10",
+      "part": "Rack_Pedestal_40x40x14",
+      "group": "fixed",
+      "kg": 0.05688774588025274,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_foot_2_10",
+      "part": "Rack_Foot_40x40x6",
+      "group": "fixed",
+      "kg": 0.02335940563778347,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_pedestal_2_140",
+      "part": "Rack_Pedestal_40x40x14",
+      "group": "fixed",
+      "kg": 0.05688774588025274,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_foot_2_140",
+      "part": "Rack_Foot_40x40x6",
+      "group": "fixed",
+      "kg": 0.02335940563778347,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_pedestal_3_10",
+      "part": "Rack_Pedestal_40x40x14",
+      "group": "fixed",
+      "kg": 0.05688774588025274,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_foot_3_10",
+      "part": "Rack_Foot_40x40x6",
+      "group": "fixed",
+      "kg": 0.02335940563778347,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_pedestal_3_140",
+      "part": "Rack_Pedestal_40x40x14",
+      "group": "fixed",
+      "kg": 0.05688774588025274,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_foot_3_140",
+      "part": "Rack_Foot_40x40x6",
+      "group": "fixed",
+      "kg": 0.02335940563778347,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_pedestal_4_10",
+      "part": "Rack_Pedestal_40x40x14",
+      "group": "fixed",
+      "kg": 0.05688774588025274,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_foot_4_10",
+      "part": "Rack_Foot_40x40x6",
+      "group": "fixed",
+      "kg": 0.02335940563778347,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_pedestal_4_140",
+      "part": "Rack_Pedestal_40x40x14",
+      "group": "fixed",
+      "kg": 0.05688774588025274,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rack_foot_4_140",
+      "part": "Rack_Foot_40x40x6",
+      "group": "fixed",
+      "kg": 0.02335940563778347,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "guard_pedestal_-70_-330",
+      "part": "Rack_Pedestal_40x40x14",
+      "group": "fixed",
+      "kg": 0.05688774588025274,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "guard_foot_-70_-330",
+      "part": "Rack_Foot_40x40x6",
+      "group": "fixed",
+      "kg": 0.02335940563778347,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "guard_post_-70_-330",
+      "part": "2020_Guard_Z720",
+      "group": "fixed",
+      "kg": 0.432,
+      "method": "conservative assumed 0.60 kg/m; supplier section pending"
+    },
+    {
+      "instance": "guard_pedestal_-70_170",
+      "part": "Rack_Pedestal_40x40x14",
+      "group": "fixed",
+      "kg": 0.05688774588025274,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "guard_foot_-70_170",
+      "part": "Rack_Foot_40x40x6",
+      "group": "fixed",
+      "kg": 0.02335940563778347,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "guard_post_-70_170",
+      "part": "2020_Guard_Z720",
+      "group": "fixed",
+      "kg": 0.432,
+      "method": "conservative assumed 0.60 kg/m; supplier section pending"
+    },
+    {
+      "instance": "guard_top_side_-70",
+      "part": "2020_Guard_Y480",
+      "group": "fixed",
+      "kg": 0.288,
+      "method": "conservative assumed 0.60 kg/m; supplier section pending"
+    },
+    {
+      "instance": "guard_pedestal_670_-330",
+      "part": "Rack_Pedestal_40x40x14",
+      "group": "fixed",
+      "kg": 0.05688774588025274,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "guard_foot_670_-330",
+      "part": "Rack_Foot_40x40x6",
+      "group": "fixed",
+      "kg": 0.02335940563778347,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "guard_post_670_-330",
+      "part": "2020_Guard_Z720",
+      "group": "fixed",
+      "kg": 0.432,
+      "method": "conservative assumed 0.60 kg/m; supplier section pending"
+    },
+    {
+      "instance": "guard_pedestal_670_170",
+      "part": "Rack_Pedestal_40x40x14",
+      "group": "fixed",
+      "kg": 0.05688774588025274,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "guard_foot_670_170",
+      "part": "Rack_Foot_40x40x6",
+      "group": "fixed",
+      "kg": 0.02335940563778347,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "guard_post_670_170",
+      "part": "2020_Guard_Z720",
+      "group": "fixed",
+      "kg": 0.432,
+      "method": "conservative assumed 0.60 kg/m; supplier section pending"
+    },
+    {
+      "instance": "guard_top_side_670",
+      "part": "2020_Guard_Y480",
+      "group": "fixed",
+      "kg": 0.288,
+      "method": "conservative assumed 0.60 kg/m; supplier section pending"
+    },
+    {
+      "instance": "guard_top_cross_-330",
+      "part": "2020_Guard_X760",
+      "group": "fixed",
+      "kg": 0.456,
+      "method": "conservative assumed 0.60 kg/m; supplier section pending"
+    },
+    {
+      "instance": "guard_top_cross_170",
+      "part": "2020_Guard_X760",
+      "group": "fixed",
+      "kg": 0.456,
+      "method": "conservative assumed 0.60 kg/m; supplier section pending"
+    },
+    {
+      "instance": "x_rail_-285",
+      "part": "MGN12_Rail_X700",
+      "group": "fixed",
+      "kg": 0.455,
+      "method": "HIWIN rail 0.65 kg/m"
+    },
+    {
+      "instance": "x_block_-285_-40.0",
+      "part": "MGN12H_X",
+      "group": "x",
+      "kg": 0.054,
+      "method": "HIWIN MG catalogue"
+    },
+    {
+      "instance": "x_block_-285_40.0",
+      "part": "MGN12H_X",
+      "group": "x",
+      "kg": 0.054,
+      "method": "HIWIN MG catalogue"
+    },
+    {
+      "instance": "x_rail_-215",
+      "part": "MGN12_Rail_X700",
+      "group": "fixed",
+      "kg": 0.455,
+      "method": "HIWIN rail 0.65 kg/m"
+    },
+    {
+      "instance": "x_block_-215_-40.0",
+      "part": "MGN12H_X",
+      "group": "x",
+      "kg": 0.054,
+      "method": "HIWIN MG catalogue"
+    },
+    {
+      "instance": "x_block_-215_40.0",
+      "part": "MGN12H_X",
+      "group": "x",
+      "kg": 0.054,
+      "method": "HIWIN MG catalogue"
+    },
+    {
+      "instance": "x_carriage",
+      "part": "X_Carriage_160x110x8",
+      "group": "x",
+      "kg": 0.36799129568565286,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "x_belt",
+      "part": "X_GT2_Belt_Loop",
+      "group": "fixed",
+      "kg": 0.014353741555274586,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "x_drive_pulley",
+      "part": "GT2_20T_6mm_Envelope",
+      "group": "fixed",
+      "kg": 0.008486762797056867,
+      "method": "solid steel equivalent upper estimate"
+    },
+    {
+      "instance": "x_idler_pulley",
+      "part": "GT2_20T_6mm_Envelope",
+      "group": "fixed",
+      "kg": 0.008486762797056867,
+      "method": "solid steel equivalent upper estimate"
+    },
+    {
+      "instance": "x_motor",
+      "part": "NEMA17_Inverted",
+      "group": "fixed",
+      "kg": 0.3,
+      "method": "assumed vendor maximum; verify"
+    },
+    {
+      "instance": "x_motor_mount",
+      "part": "X_Motor_Mount",
+      "group": "fixed",
+      "kg": 0.032980590231099984,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "x_motor_leg_-15",
+      "part": "X_Motor_Mount_Leg",
+      "group": "fixed",
+      "kg": 0.06498766875815448,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "x_motor_leg_15",
+      "part": "X_Motor_Mount_Leg",
+      "group": "fixed",
+      "kg": 0.06498766875815448,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "x_idler_pedestal",
+      "part": "X_Idler_Pedestal",
+      "group": "fixed",
+      "kg": 0.03559523503246026,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "x_tension_adjuster",
+      "part": "X_Tension_Adjuster",
+      "group": "fixed",
+      "kg": 0.012039763158178729,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "x_belt_clamp",
+      "part": "X_Belt_Clamp",
+      "group": "x",
+      "kg": 0.0051103923637252175,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "x_clamp_backer",
+      "part": "X_Clamp_Steel_Backer",
+      "group": "x",
+      "kg": 0.003017404577803732,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_post_-45",
+      "part": "3030_Z600",
+      "group": "x",
+      "kg": 0.6,
+      "method": "conservative assumed 1.0 kg/m; supplier section pending"
+    },
+    {
+      "instance": "z_post_45",
+      "part": "3030_Z600",
+      "group": "x",
+      "kg": 0.6,
+      "method": "conservative assumed 1.0 kg/m; supplier section pending"
+    },
+    {
+      "instance": "z_foot_rear_-45",
+      "part": "Z_Foot_Angle_30x20x32",
+      "group": "x",
+      "kg": 0.014118491272166982,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_foot_front_-45",
+      "part": "Z_Foot_Angle_Front",
+      "group": "x",
+      "kg": 0.014118491272166982,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_foot_rear_45",
+      "part": "Z_Foot_Angle_30x20x32",
+      "group": "x",
+      "kg": 0.014118491272166982,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_foot_front_45",
+      "part": "Z_Foot_Angle_Front",
+      "group": "x",
+      "kg": 0.014118491272166982,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_top_plate",
+      "part": "Z_Top_Motor_Plate_130x60x8",
+      "group": "x",
+      "kg": 0.1555360099486793,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_strip_-45",
+      "part": "Z_Rail_Datum_20x4x500",
+      "group": "x",
+      "kg": 0.10474878029266613,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_rail_-45",
+      "part": "MGN12_Rail_Z500",
+      "group": "x",
+      "kg": 0.325,
+      "method": "HIWIN rail 0.65 kg/m"
+    },
+    {
+      "instance": "z_block_-45_-79.0",
+      "part": "MGN12H_Z",
+      "group": "z",
+      "kg": 0.054,
+      "method": "HIWIN MG catalogue"
+    },
+    {
+      "instance": "z_block_-45_-29.0",
+      "part": "MGN12H_Z",
+      "group": "z",
+      "kg": 0.054,
+      "method": "HIWIN MG catalogue"
+    },
+    {
+      "instance": "z_strip_45",
+      "part": "Z_Rail_Datum_20x4x500",
+      "group": "x",
+      "kg": 0.10474878029266613,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_rail_45",
+      "part": "MGN12_Rail_Z500",
+      "group": "x",
+      "kg": 0.325,
+      "method": "HIWIN rail 0.65 kg/m"
+    },
+    {
+      "instance": "z_block_45_-79.0",
+      "part": "MGN12H_Z",
+      "group": "z",
+      "kg": 0.054,
+      "method": "HIWIN MG catalogue"
+    },
+    {
+      "instance": "z_block_45_-29.0",
+      "part": "MGN12H_Z",
+      "group": "z",
+      "kg": 0.054,
+      "method": "HIWIN MG catalogue"
+    },
+    {
+      "instance": "z_carriage",
+      "part": "Z_Carriage_130x100x8",
+      "group": "z",
+      "kg": 0.27057197664288657,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_screw",
+      "part": "TR8x2_Screw_Machined_Ends",
+      "group": "x",
+      "kg": 0.20392184176921738,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_working_nut",
+      "part": "TR8x2_Bronze_Nut",
+      "group": "z",
+      "kg": 0.01141266508732455,
+      "method": "solid steel equivalent upper estimate"
+    },
+    {
+      "instance": "z_safety_nut",
+      "part": "TR8x2_Bronze_Nut",
+      "group": "z",
+      "kg": 0.01141266508732455,
+      "method": "solid steel equivalent upper estimate"
+    },
+    {
+      "instance": "z_nut_bridge",
+      "part": "Z_Nut_Bridge",
+      "group": "z",
+      "kg": 0.14820099164233214,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_safety_cage",
+      "part": "Z_Secondary_Nut_Cage",
+      "group": "z",
+      "kg": 0.11624086440826142,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "safety_nut_key_-8",
+      "part": "Safety_Nut_AntiRotation_Stud",
+      "group": "z",
+      "kg": 0.0009696902716423326,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "safety_nut_key_8",
+      "part": "Safety_Nut_AntiRotation_Stud",
+      "group": "z",
+      "kg": 0.0009696902716423326,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_fixed_bearing_housing",
+      "part": "Z_Fixed_Bearing_Housing",
+      "group": "x",
+      "kg": 0.1370111702376208,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_thrust_end_cap",
+      "part": "Z_Thrust_End_Cap",
+      "group": "x",
+      "kg": 0.07331926068213623,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_bearing_hanger",
+      "part": "Z_Bearing_Hanger",
+      "group": "x",
+      "kg": 0.13178769006258165,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_fixed_radial_bearing",
+      "part": "626ZZ_6x19x6",
+      "group": "x",
+      "kg": 0.012004666916922755,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_thrust_abutment",
+      "part": "Z_Thrust_Abutment_Washer",
+      "group": "x",
+      "kg": 0.009872307651750288,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_thrust_bearing_604",
+      "part": "F6_12M_6x12x4p5",
+      "group": "x",
+      "kg": 0.0029628020631299666,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_thrust_bearing_616.5",
+      "part": "F6_12M_6x12x4p5",
+      "group": "x",
+      "kg": 0.0029628020631299666,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_shaft_collar",
+      "part": "Shaft_Collar_6x16x8",
+      "group": "x",
+      "kg": 0.01046249468237633,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_thrust_cross_pin",
+      "part": "Z_Thrust_Cross_Pin_D2p5x16",
+      "group": "x",
+      "kg": 0.0006165375582669968,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_floating_bearing",
+      "part": "Z_Floating_Bearing_Housing",
+      "group": "x",
+      "kg": 0.014579838331591896,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_floating_bearing_cap",
+      "part": "Z_Floating_Bearing_Cap",
+      "group": "x",
+      "kg": 0.013552234918871852,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_floating_radial_bearing",
+      "part": "626ZZ_6x19x6",
+      "group": "x",
+      "kg": 0.012004666916922755,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_floating_pedestal",
+      "part": "Z_Floating_Bearing_Pedestal",
+      "group": "x",
+      "kg": 0.1070351735158389,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_brake_motor",
+      "part": "NEMA17_NC_Brake_Envelope",
+      "group": "x",
+      "kg": 0.48,
+      "method": "assumed vendor maximum; verify including brake"
+    },
+    {
+      "instance": "z_coupling",
+      "part": "Coupler_5x6_Envelope",
+      "group": "x",
+      "kg": 0.05077032657939152,
+      "method": "solid steel equivalent upper estimate"
+    },
+    {
+      "instance": "tray_tube_-44",
+      "part": "Tray_Al_Tube_25x25x2_L227",
+      "group": "z",
+      "kg": 0.11182994410667793,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "tray_tube_plug_-44",
+      "part": "Tube_End_Plug",
+      "group": "z",
+      "kg": 0.0329019561816844,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "tray_tube_44",
+      "part": "Tray_Al_Tube_25x25x2_L227",
+      "group": "z",
+      "kg": 0.11182994410667793,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "tray_tube_plug_44",
+      "part": "Tube_End_Plug",
+      "group": "z",
+      "kg": 0.0329019561816844,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "carrier_tray",
+      "part": "Carrier_Tray_124x130",
+      "group": "z",
+      "kg": 0.061666873091175606,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "y_spine",
+      "part": "Y_Spine_82x211x6",
+      "group": "z",
+      "kg": 0.2696492786176486,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "y_spine_spacer_-1_-110",
+      "part": "Y_Spine_Metal_Spacer_Left",
+      "group": "z",
+      "kg": 0.01493595263163575,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "y_spine_spacer_-1_-50",
+      "part": "Y_Spine_Metal_Spacer_Left",
+      "group": "z",
+      "kg": 0.01493595263163575,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "y_spine_spacer_1_-110",
+      "part": "Y_Spine_Metal_Spacer",
+      "group": "z",
+      "kg": 0.014935952631635746,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "y_spine_spacer_1_-50",
+      "part": "Y_Spine_Metal_Spacer",
+      "group": "z",
+      "kg": 0.014935952631635746,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "y_rail",
+      "part": "MGN9_Rail_Y200",
+      "group": "z",
+      "kg": 0.076,
+      "method": "HIWIN rail 0.38 kg/m, 200 mm"
+    },
+    {
+      "instance": "y_block",
+      "part": "MGN9H_Y",
+      "group": "y",
+      "kg": 0.026,
+      "method": "HIWIN MG catalogue"
+    },
+    {
+      "instance": "y_puller_plate",
+      "part": "Y_Puller_Plate_46x60x4",
+      "group": "y",
+      "kg": 0.02897673458386015,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "y_belt",
+      "part": "Y_GT2_Belt_Loop",
+      "group": "z",
+      "kg": 0.004112461555274585,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "y_drive_pulley",
+      "part": "GT2_20T_6mm_Envelope",
+      "group": "z",
+      "kg": 0.008486762797056867,
+      "method": "solid steel equivalent upper estimate"
+    },
+    {
+      "instance": "y_idler_pulley",
+      "part": "GT2_20T_6mm_Envelope",
+      "group": "z",
+      "kg": 0.008486762797056867,
+      "method": "solid steel equivalent upper estimate"
+    },
+    {
+      "instance": "y_idler_axle",
+      "part": "Y_Idler_Shoulder_Axle_M5",
+      "group": "z",
+      "kg": 0.004214034210754924,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "y_idler_tension_carrier",
+      "part": "Y_Idler_Tension_Carrier",
+      "group": "z",
+      "kg": 0.003115715209554255,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "y_tension_adjuster",
+      "part": "Y_Tension_Adjuster",
+      "group": "z",
+      "kg": 0.0028304303628539323,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "y_motor",
+      "part": "NEMA17_42x42x40",
+      "group": "z",
+      "kg": 0.3,
+      "method": "assumed vendor maximum; verify"
+    },
+    {
+      "instance": "y_motor_spacer",
+      "part": "Y_Motor_Spacer_7",
+      "group": "z",
+      "kg": 0.024759753383413588,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "y_belt_clamp",
+      "part": "Y_Belt_Clamp",
+      "group": "y",
+      "kg": 0.0021368387409817563,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "y_clamp_nut_-3",
+      "part": "M3_Clamp_Nut",
+      "group": "y",
+      "kg": 0.00036038442528511805,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "y_clamp_nut_3",
+      "part": "M3_Clamp_Nut",
+      "group": "y",
+      "kg": 0.00036038442528511805,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "latch_mast",
+      "part": "Latch_Mast_36x92_L",
+      "group": "y",
+      "kg": 0.039807509787812764,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "pin_lower_guide",
+      "part": "Pin_Guide_Cheek",
+      "group": "y",
+      "kg": 0.002884308544163823,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "pin_upper_guide",
+      "part": "Pin_Guide_Cheek",
+      "group": "y",
+      "kg": 0.002884308544163823,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "pin_bushing_19",
+      "part": "Pin_Flanged_Bushing_4p1x6",
+      "group": "y",
+      "kg": 0.0005948354362159987,
+      "method": "solid steel equivalent upper estimate"
+    },
+    {
+      "instance": "pin_bushing_55",
+      "part": "Pin_Flanged_Bushing_4p1x6",
+      "group": "y",
+      "kg": 0.0005948354362159987,
+      "method": "solid steel equivalent upper estimate"
+    },
+    {
+      "instance": "latch_pin",
+      "part": "Latch_Pin_D4x60",
+      "group": "pin",
+      "kg": 0.0058365555515942375,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "latch_servo",
+      "part": "MG90S_Envelope",
+      "group": "y",
+      "kg": 0.014,
+      "method": "nominal servo mass, verify vendor"
+    },
+    {
+      "instance": "servo_cradle",
+      "part": "Servo_Cradle",
+      "group": "y",
+      "kg": 0.013007869580843476,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "servo_cradle_lid",
+      "part": "Servo_Cradle_Lid",
+      "group": "y",
+      "kg": 0.0016904396854001053,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "latch_yoke",
+      "part": "Latch_Scotch_Yoke",
+      "group": "pin",
+      "kg": 0.000769993134911622,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "pin_collar_24",
+      "part": "Pin_Collar_4x10x5",
+      "group": "pin",
+      "kg": 0.0025894577447213864,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "pin_collar_34",
+      "part": "Pin_Collar_4x10x5",
+      "group": "pin",
+      "kg": 0.0025894577447213864,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "latch_return_spring",
+      "part": "Latch_Return_Spring_Envelope",
+      "group": "spring",
+      "kg": 0.0007931139149546659,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "latch_crank",
+      "part": "Latch_Crank_R7",
+      "group": "crank",
+      "kg": 0.00018378003090031232,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "servo_horn_interface",
+      "part": "Servo_Horn_Interface_Envelope",
+      "group": "y",
+      "kg": 0.0003459700508215253,
+      "method": "solid steel equivalent upper estimate"
+    },
+    {
+      "instance": "latch_roller",
+      "part": "Latch_Roller_D3",
+      "group": "roller",
+      "kg": 0.0014426978863447727,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "roller_clip_-8.5",
+      "part": "Roller_Clip_Envelope",
+      "group": "roller",
+      "kg": 4.550047180010436e-05,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "roller_clip_18",
+      "part": "Roller_Clip_Envelope",
+      "group": "roller",
+      "kg": 4.550047180010436e-05,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "carried_bin",
+      "part": "Bin_110x120_TowEye",
+      "group": "bin",
+      "kg": 0.12297937274484408,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "x_stop_-25_-285",
+      "part": "X_Stop_24x20x20",
+      "group": "fixed",
+      "kg": 0.011519999999999997,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "x_stop_-25_-215",
+      "part": "X_Stop_24x20x20",
+      "group": "fixed",
+      "kg": 0.011519999999999997,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "x_stop_625_-285",
+      "part": "X_Stop_24x20x20",
+      "group": "fixed",
+      "kg": 0.011519999999999997,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "x_stop_625_-215",
+      "part": "X_Stop_24x20x20",
+      "group": "fixed",
+      "kg": 0.011519999999999997,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_stop_-45_80",
+      "part": "Z_Stop_24x15x10",
+      "group": "x",
+      "kg": 0.00432,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_stop_-45_584",
+      "part": "Z_Stop_24x15x10",
+      "group": "x",
+      "kg": 0.00432,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_stop_45_80",
+      "part": "Z_Stop_24x15x10",
+      "group": "x",
+      "kg": 0.00432,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "z_stop_45_584",
+      "part": "Z_Stop_24x15x10",
+      "group": "x",
+      "kg": 0.00432,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "y_stop_-222",
+      "part": "Y_Stop_24x4x10",
+      "group": "z",
+      "kg": 0.0008361599999999999,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "y_stop_-27",
+      "part": "Y_Stop_24x4x10",
+      "group": "z",
+      "kg": 0.0008361599999999999,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "front_interlocked_guard",
+      "part": "Guard_Front_PC3",
+      "group": "fixed",
+      "kg": 2.150928,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "side_guard_-91.5",
+      "part": "Guard_Side_-91.5",
+      "group": "fixed",
+      "kg": 1.489104,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "side_guard_691.5",
+      "part": "Guard_Side_691.5",
+      "group": "fixed",
+      "kg": 1.489104,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "rear_guard",
+      "part": "Guard_Rear_PC3",
+      "group": "fixed",
+      "kg": 2.150928,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    },
+    {
+      "instance": "top_guard",
+      "part": "Guard_Top_PC3",
+      "group": "fixed",
+      "kg": 1.5449616,
+      "method": "B-rep solid volume x density; printed parts are solid upper estimate"
+    }
+  ],
+  "z_design_moving_mass_kg": 3.510900395477113,
+  "x_design_moving_mass_kg": 8.004670837676723,
+  "bin_plus_payload_kg": 1.122979372744844,
+  "drive_specs": [
+    {
+      "id": "X",
+      "load": {
+        "mass_kg": 8.004670837676723,
+        "incline_deg": 0,
+        "friction_coeff": 0.02,
+        "external_force_n": 3
+      },
+      "motion": {
+        "distance_mm": 450,
+        "max_speed_mm_s": 50,
+        "accel_mm_s2": 100,
+        "dwell_s": 1,
+        "round_trip": true
+      },
+      "transmission": {
+        "type": "belt",
+        "pulley_radius_mm": 6.366197723675814,
+        "efficiency": 0.85
+      },
+      "motor": {
+        "has_brake": false,
+        "rotor_inertia_kgcm2": 0.054
+      }
+    },
+    {
+      "id": "Z",
+      "load": {
+        "mass_kg": 3.510900395477113,
+        "incline_deg": 90,
+        "friction_coeff": 0,
+        "external_force_n": 5
+      },
+      "motion": {
+        "distance_mm": 380,
+        "max_speed_mm_s": 8,
+        "accel_mm_s2": 30,
+        "dwell_s": 2,
+        "round_trip": true
+      },
+      "transmission": {
+        "type": "lead_screw",
+        "lead_mm": 2,
+        "efficiency": 0.25,
+        "screw_diameter_mm": 8,
+        "screw_length_mm": 550
+      },
+      "motor": {
+        "has_brake": true,
+        "rotor_inertia_kgcm2": 0.054
+      }
+    },
+    {
+      "id": "Y",
+      "load": {
+        "mass_kg": 1.422979372744844,
+        "incline_deg": 0,
+        "friction_coeff": 0.35,
+        "external_force_n": 3
+      },
+      "motion": {
+        "distance_mm": 143.0,
+        "max_speed_mm_s": 20,
+        "accel_mm_s2": 50,
+        "dwell_s": 1,
+        "round_trip": true
+      },
+      "transmission": {
+        "type": "belt",
+        "pulley_radius_mm": 6.366197723675814,
+        "efficiency": 0.8
+      },
+      "motor": {
+        "has_brake": false,
+        "rotor_inertia_kgcm2": 0.054
+      }
+    }
+  ],
+  "drive_results": [
+    {
+      "result": {
+        "profile": {
+          "t_acc": 0.5,
+          "t_cruise": 8.5,
+          "t_dec": 0.5,
+          "v_peak": 0.05,
+          "triangular": false,
+          "t_move": 9.5
+        },
+        "phases": [
+          {
+            "name": "正向-加速",
+            "torque_nm": 0.04030756261439859,
+            "time_s": 0.5
+          },
+          {
+            "name": "正向-匀速",
+            "torque_nm": 0.0342275258167997,
+            "time_s": 8.5
+          },
+          {
+            "name": "正向-减速",
+            "torque_nm": 0.028147489019200805,
+            "time_s": 0.5
+          },
+          {
+            "name": "正向-驻留",
+            "torque_nm": 0.0,
+            "time_s": 1.0
+          },
+          {
+            "name": "返程-加速",
+            "torque_nm": 0.017838629472013368,
+            "time_s": 0.5
+          },
+          {
+            "name": "返程-匀速",
+            "torque_nm": 0.011758592674414474,
+            "time_s": 8.5
+          },
+          {
+            "name": "返程-减速",
+            "torque_nm": 0.00567855587681558,
+            "time_s": 0.5
+          },
+          {
+            "name": "返程-驻留",
+            "torque_nm": 0.0,
+            "time_s": 1.0
+          }
+        ],
+        "cycle_time_s": 21.0,
+        "t_peak_nm": 0.04030756261439859,
+        "t_rms_nm": 0.024414008405142663,
+        "t_acc_nm": 0.006080036797598894,
+        "t_static_forward_nm": 0.0342275258167997,
+        "t_static_return_nm": 0.011758592674414474,
+        "n_max_rpm": 74.99999999999999,
+        "j_reflected_kgm2": 0.0003244170895762837,
+        "j_rotor_kgm2": 5.4e-06,
+        "inertia_ratio": 60.077238810422905,
+        "holds_gravity": false
+      },
+      "checks": [
+        {
+          "id": "DRC-DRV-001",
+          "category": "drive",
+          "status": "info",
+          "severity": "info",
+          "message": "驱动 X 未提供电机峰值转矩，仅给出需求峰值 0.040 N·m",
+          "target": "X"
+        },
+        {
+          "id": "DRC-DRV-002",
+          "category": "drive",
+          "status": "info",
+          "severity": "info",
+          "message": "驱动 X 未提供额定转矩，仅给出 RMS 0.024 N·m",
+          "target": "X"
+        },
+        {
+          "id": "DRC-DRV-003",
+          "category": "drive",
+          "status": "info",
+          "severity": "info",
+          "message": "驱动 X 未提供电机转速限值，需求最高转速 75 rpm",
+          "target": "X"
+        },
+        {
+          "id": "DRC-DRV-004",
+          "category": "drive",
+          "status": "fail",
+          "severity": "major",
+          "message": "驱动 X 惯量比 60.08 超过上限 10（阈值随厂商/动态要求而异）",
+          "target": "X",
+          "value": 60.0772
+        }
+      ],
+      "controlling": null,
+      "limits": {
+        "driveTorqueSafetyFactor": 2.0,
+        "driveRmsUtilizationMax": 0.8,
+        "driveInertiaRatioWarn": 5.0,
+        "driveInertiaRatioMax": 10.0
+      },
+      "driveId": "X",
+      "reviewRequired": true,
+      "limitations": [
+        "仅为选型初筛，需工程师核对实际负载与电机转矩-转速曲线",
+        "减速和反向驱动效率未单独建模；峰值及 RMS 转矩满足阈值时仍需复核，不视为通过",
+        "未建模自锁、丝杠临界转速、皮带张力及寿命",
+        "未提供转子或传动惯量时，转矩计算可能偏低；驻留假设已声明抱闸投入"
+      ]
+    },
+    {
+      "result": {
+        "profile": {
+          "t_acc": 0.26666666666666666,
+          "t_cruise": 47.233333333333334,
+          "t_dec": 0.26666666666666666,
+          "v_peak": 0.008,
+          "triangular": false,
+          "t_move": 47.766666666666666
+        },
+        "phases": [
+          {
+            "name": "正向-加速",
+            "torque_nm": 0.051010728107247244,
+            "time_s": 0.26666666666666666
+          },
+          {
+            "name": "正向-匀速",
+            "torque_nm": 0.05020405343544472,
+            "time_s": 47.233333333333334
+          },
+          {
+            "name": "正向-减速",
+            "torque_nm": 0.0493973787636422,
+            "time_s": 0.26666666666666666
+          },
+          {
+            "name": "正向-驻留",
+            "torque_nm": 0.0,
+            "time_s": 2.0
+          },
+          {
+            "name": "返程-加速",
+            "torque_nm": -0.04303118103996638,
+            "time_s": 0.26666666666666666
+          },
+          {
+            "name": "返程-匀速",
+            "torque_nm": -0.0438378557117689,
+            "time_s": 47.233333333333334
+          },
+          {
+            "name": "返程-减速",
+            "torque_nm": -0.044644530383571426,
+            "time_s": 0.26666666666666666
+          },
+          {
+            "name": "返程-驻留",
+            "torque_nm": 0.0,
+            "time_s": 2.0
+          }
+        ],
+        "cycle_time_s": 99.53333333333333,
+        "t_peak_nm": 0.051010728107247244,
+        "t_rms_nm": 0.04617194624253301,
+        "t_acc_nm": 0.0008066746718025206,
+        "t_static_forward_nm": 0.05020405343544472,
+        "t_static_return_nm": -0.0438378557117689,
+        "n_max_rpm": 239.99999999999997,
+        "j_reflected_kgm2": 2.091898347799957e-06,
+        "j_rotor_kgm2": 5.4e-06,
+        "inertia_ratio": 0.38738858292591793,
+        "holds_gravity": true
+      },
+      "checks": [
+        {
+          "id": "DRC-DRV-001",
+          "category": "drive",
+          "status": "info",
+          "severity": "info",
+          "message": "驱动 Z 未提供电机峰值转矩，仅给出需求峰值 0.051 N·m",
+          "target": "Z"
+        },
+        {
+          "id": "DRC-DRV-002",
+          "category": "drive",
+          "status": "info",
+          "severity": "info",
+          "message": "驱动 Z 未提供额定转矩，仅给出 RMS 0.046 N·m",
+          "target": "Z"
+        },
+        {
+          "id": "DRC-DRV-003",
+          "category": "drive",
+          "status": "info",
+          "severity": "info",
+          "message": "驱动 Z 未提供电机转速限值，需求最高转速 240 rpm",
+          "target": "Z"
+        },
+        {
+          "id": "DRC-DRV-004",
+          "category": "drive",
+          "status": "pass",
+          "severity": "info",
+          "message": "驱动 Z 惯量比 0.39 合理",
+          "target": "Z",
+          "value": 0.3874
+        },
+        {
+          "id": "DRC-DRV-005",
+          "category": "drive",
+          "status": "info",
+          "severity": "info",
+          "message": "驱动 Z 声明带抱闸；必须核对保持转矩、失电状态和制动能力",
+          "target": "Z"
+        }
+      ],
+      "controlling": null,
+      "limits": {
+        "driveTorqueSafetyFactor": 2.0,
+        "driveRmsUtilizationMax": 0.8,
+        "driveInertiaRatioWarn": 5.0,
+        "driveInertiaRatioMax": 10.0
+      },
+      "driveId": "Z",
+      "reviewRequired": true,
+      "limitations": [
+        "仅为选型初筛，需工程师核对实际负载与电机转矩-转速曲线",
+        "减速和反向驱动效率未单独建模；峰值及 RMS 转矩满足阈值时仍需复核，不视为通过",
+        "未建模自锁、丝杠临界转速、皮带张力及寿命",
+        "未提供转子或传动惯量时，转矩计算可能偏低；驻留假设已声明抱闸投入"
+      ]
+    },
+    {
+      "result": {
+        "profile": {
+          "t_acc": 0.39999999999999997,
+          "t_cruise": 6.749999999999999,
+          "t_dec": 0.39999999999999997,
+          "v_peak": 0.02,
+          "triangular": false,
+          "t_move": 7.549999999999999
+        },
+        "phases": [
+          {
+            "name": "正向-加速",
+            "torque_nm": 0.06334851988944513,
+            "time_s": 0.39999999999999997
+          },
+          {
+            "name": "正向-匀速",
+            "torque_nm": 0.0627399228858963,
+            "time_s": 6.749999999999999
+          },
+          {
+            "name": "正向-减速",
+            "torque_nm": 0.062131325882347474,
+            "time_s": 0.39999999999999997
+          },
+          {
+            "name": "正向-驻留",
+            "torque_nm": 0.0,
+            "time_s": 1.0
+          },
+          {
+            "name": "返程-加速",
+            "torque_nm": 0.039475278425660836,
+            "time_s": 0.39999999999999997
+          },
+          {
+            "name": "返程-匀速",
+            "torque_nm": 0.038866681422112005,
+            "time_s": 6.749999999999999
+          },
+          {
+            "name": "返程-减速",
+            "torque_nm": 0.038258084418563175,
+            "time_s": 0.39999999999999997
+          },
+          {
+            "name": "返程-驻留",
+            "torque_nm": 0.0,
+            "time_s": 1.0
+          }
+        ],
+        "cycle_time_s": 17.099999999999998,
+        "t_peak_nm": 0.06334851988944513,
+        "t_rms_nm": 0.04904039081835245,
+        "t_acc_nm": 0.0006085970035488287,
+        "t_static_forward_nm": 0.0627399228858963,
+        "t_static_return_nm": 0.038866681422112005,
+        "n_max_rpm": 29.999999999999996,
+        "j_reflected_kgm2": 5.76711817380556e-05,
+        "j_rotor_kgm2": 5.4e-06,
+        "inertia_ratio": 10.679848470010295,
+        "holds_gravity": false
+      },
+      "checks": [
+        {
+          "id": "DRC-DRV-001",
+          "category": "drive",
+          "status": "info",
+          "severity": "info",
+          "message": "驱动 Y 未提供电机峰值转矩，仅给出需求峰值 0.063 N·m",
+          "target": "Y"
+        },
+        {
+          "id": "DRC-DRV-002",
+          "category": "drive",
+          "status": "info",
+          "severity": "info",
+          "message": "驱动 Y 未提供额定转矩，仅给出 RMS 0.049 N·m",
+          "target": "Y"
+        },
+        {
+          "id": "DRC-DRV-003",
+          "category": "drive",
+          "status": "info",
+          "severity": "info",
+          "message": "驱动 Y 未提供电机转速限值，需求最高转速 30 rpm",
+          "target": "Y"
+        },
+        {
+          "id": "DRC-DRV-004",
+          "category": "drive",
+          "status": "fail",
+          "severity": "major",
+          "message": "驱动 Y 惯量比 10.68 超过上限 10（阈值随厂商/动态要求而异）",
+          "target": "Y",
+          "value": 10.6798
+        }
+      ],
+      "controlling": null,
+      "limits": {
+        "driveTorqueSafetyFactor": 2.0,
+        "driveRmsUtilizationMax": 0.8,
+        "driveInertiaRatioWarn": 5.0,
+        "driveInertiaRatioMax": 10.0
+      },
+      "driveId": "Y",
+      "reviewRequired": true,
+      "limitations": [
+        "仅为选型初筛，需工程师核对实际负载与电机转矩-转速曲线",
+        "减速和反向驱动效率未单独建模；峰值及 RMS 转矩满足阈值时仍需复核，不视为通过",
+        "未建模自锁、丝杠临界转速、皮带张力及寿命",
+        "未提供转子或传动惯量时，转矩计算可能偏低；驻留假设已声明抱闸投入"
+      ]
+    }
+  ],
+  "minimum_motor_curve_targets": [
+    {
+      "axis": "X",
+      "speed_rpm": 74.99999999999999,
+      "required_torque_nm_with_SF2": 0.08061512522879719,
+      "selected_motor_verified": false
+    },
+    {
+      "axis": "Z",
+      "speed_rpm": 239.99999999999997,
+      "required_torque_nm_with_SF2": 0.10202145621449449,
+      "selected_motor_verified": false
+    },
+    {
+      "axis": "Y",
+      "speed_rpm": 29.999999999999996,
+      "required_torque_nm_with_SF2": 0.12669703977889027,
+      "selected_motor_verified": false
+    }
+  ],
+  "tube_screen": {
+    "I_mm4": 16345.333333333334,
+    "effective_length_mm": 215,
+    "dynamic_factor": 2,
+    "bending_stress_MPa": 2.0525641217408395,
+    "tip_deflection_mm": 0.036668512667621375,
+    "joint_flexibility_included": false,
+    "prototype_target_deflection_mm": 0.5
+  },
+  "screw_euler_screen": {
+    "root_diameter_mm_assumed": 6,
+    "length_mm": 510,
+    "critical_force_N": 482.796695714011,
+    "design_axial_force_N": 68.86034272661126,
+    "ratio": 7.011244449229744,
+    "critical_speed_verified": false
+  },
+  "secondary_nut_catch_screen": {
+    "catch_gap_mm": 0.8,
+    "assumed_stopping_deflection_mm": 0.05,
+    "linear_spring_peak_estimate_N": 1170.6258263523914,
+    "minimum_design_catch_force_N": 1200,
+    "cross_pin_diameter_mm": 2.5,
+    "cross_pin_double_shear_MPa_at_1200N": 122.23099629457562,
+    "shaft_local_bearing_MPa_screen": 137.14285714285714,
+    "minimum_pin_supplier_double_shear_N": 2500,
+    "dynamic_catch_test_passed": false,
+    "note": "Stopping deflection is an assumption, not measured. Steel cage, four M3 bolts, threads, bearing stack and cross-drilled shaft require impact/FEA review."
+  },
+  "brake": {
+    "specified_min_holding_torque_nm": 0.3,
+    "normally_engaged": true,
+    "supplier_selected": false,
+    "emergency_dynamic_braking_certified": false
+  },
+  "pin": {
+    "nominal_diameter_mm": 4,
+    "target_drag_force_limit_N": 12,
+    "single_shear_stress_at_limit_MPa": 0.954929658551372,
+    "eye_bearing_stress_MPa": 0.5,
+    "printed_eye_coupon_test_required": true
+  },
+  "limitations": [
+    "Not FEA; no joint/preload/contact stiffness verification",
+    "Motor curves and bearing/screw supplier drawings still required",
+    "Brake does not protect against screw fracture",
+    "Four M6 table anchors mandatory; tabletop capacity and anchor pullout unverified",
+    "Torque/current alone is not a certified force limiter"
+  ]
+}

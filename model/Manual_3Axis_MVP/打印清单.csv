@@ -1,0 +1,31 @@
+﻿编号,名称,数量,打印文件,打印朝向,备注
+P01,齿条_原齿形24齿距,6,P01.stl,local Z bottom on bed,m1.5 / 20deg；24齿距，L=113.097336；不可取整为113。；每轴两段，接缝必须共面、共相位。
+P02,小齿轮_原渐开线20T,3,P02.stl,local Z bottom on bed,原 V03 齿形；不承担防坠；不得做载荷认证。
+P03,手轮与齿轮连接套,3,P03.stl,local Z bottom on bed,只用于空箱手动验证；去掉支撑后不得磨削定位套圆柱。；打印时套筒端朝下，法兰下方需要支撑。
+P04,轴向垫片_1p8,6,P04.stl,local Z bottom on bed,配金属隔套L40；总名义轴向游隙0.4，不得拧紧到夹住转动件。
+P05,通用手动滑台,2,P05.stl,X end on bed,沿X端面朝下打印；先用配合试块检查导向间隙。；只有X/Y使用；Z用P06带锁孔版。
+P06,Z滑台_带手动锁孔,1,P06.stl,X end on bed,必须装钢制M4锁销；打印滑台与齿轮都不是安全防坠器。
+P07,可拆行程端挡,6,P07.stl,X end on bed,滑台从轨道端部装入后，再安装两端挡。不可省略。
+P08,X轴打印导向底座,1,P08.stl,local Z bottom on bed,导向截面见S02；这是打印滑动导向，不等效于正式金属直线导轨。；所有M3接收孔下方为5.8对边六角螺母窝，深2.6。
+P09,Z轴打印导向底座,1,P09.stl,local Z bottom on bed,导向截面见S02；这是打印滑动导向，不等效于正式金属直线导轨。；所有M3接收孔下方为5.8对边六角螺母窝，深2.6。
+P10,Y轴打印导向底座,1,P10.stl,local Z bottom on bed,导向截面见S02；这是打印滑动导向，不等效于正式金属直线导轨。；所有M3接收孔下方为5.8对边六角螺母窝，深2.6。
+P11,Z立柱落座底脚,1,P11.stl,local Z bottom on bed,底面贴X滑台桥板，立柱底面落座；不能只靠背面螺钉吊住。
+P12,Y台与Z桥板连接角座,1,P12.stl,local Z bottom on bed,两件镜像安装；Z桥板前表面贴本件Y0；Y底座贴本件Z-15。
+P13,承托盘外置支柱,4,P13.stl,local Z bottom on bed,共4件；左侧两件绕Z转180度；斜撑面朝托盘内侧。
+P14,移动承托盘_沉头孔,1,P14.stl,local Z bottom on bed,4颗M4沉头螺钉头必须齐平或略低，不得顶起料盒。
+P15,单库位托板_沉头孔,1,P15.stl,local Z bottom on bed,4颗M4沉头螺钉头不得高出滑动面；空箱手动验证。
+P16,原尺寸空料盒,1,P16.stl,local Z bottom on bed,只允许空盒；不加砝码、物料或1kg载荷。
+P17,手动插销取放头,1,P17.stl,local Z bottom on bed,指南：支撑仅加在导销耳下；孔去毛刺后同轴通铰Ø4.4。；插销抬高14mm后才回撤；不允许用推箱摩擦代替插销连接。
+P18,插销手拉帽,1,P18.stl,local Z bottom on bed,套在M4x80半牙螺钉头下；手拉帽不承担货物重量。
+P19,单库位支腿,4,P19.stl,local Z bottom on bed,M3螺母从柱顶侧窗装入；总高234，可加Brim竖打或侧放加支撑。
+P20,单库位承托框,1,P20.stl,local Z bottom on bed,先装M4螺母，再装P15；四角M3连接支腿顶螺母。
+P21,底架纵梁第1段,2,P21.stl,local Z bottom on bed,每侧3段，从后至前顺序安装；底面贴平整台面。
+P22,底架纵梁第2段,2,P22.stl,local Z bottom on bed,每侧3段，从后至前顺序安装；底面贴平整台面。
+P23,底架纵梁第3段,2,P23.stl,local Z bottom on bed,每侧3段，从后至前顺序安装；底面贴平整台面。
+P24,底架纵梁拼接板,4,P24.stl,local Z bottom on bed,每条接缝4颗M3x12；不能只靠对接边承重。
+P25,底架前横梁,2,P25.stl,local Z bottom on bed,两根分别支承前/后排库位支腿。
+P26,Y台连接角座_右,1,P26.stl,local Z bottom on bed,两件镜像安装；Z桥板前表面贴本件Y0；Y底座贴本件Z-15。
+C01,导向试块_轨,1,C01.stl,local Z bottom on bed,先打印；测试轨不装到整机。
+C02,导向试块_滑块_0.2,1,C02.stl,X end on bed,从端部套入C01；正式滑台名义间隙0.35。
+C03,导向试块_滑块_0.35,1,C03.stl,X end on bed,从端部套入C01；正式滑台名义间隙0.35。
+C04,导向试块_滑块_0.5,1,C04.stl,X end on bed,从端部套入C01；正式滑台名义间隙0.35。

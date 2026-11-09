@@ -1,0 +1,17 @@
+﻿code,name,quantity,material,process,note
+E069,Bin_V03_Marker_Rails,1,PETG,print,"32x32 mm AprilTag card, front-left offset X=-36 Z=38, rails clear the centre latch. ID is not a safety signal."
+E070,Carrier_Tray_124x130_E01_FlushHeads,1,PETG,print,"40 mm front-open mast slot, 6 mm rear bridge; supports box on two side wings M4 90deg heads must be flush/below sliding surface; countersinks OD9."
+E071,Cell_124x130_E01_FlushHeads,1,PETG,print,Print bottom down; add 0.5 mm entrance chamfer after fit coupon M4 90deg heads must be flush/below sliding surface; countersinks OD9.
+E072,E01_Pinion_X_M1p5_20T,1,PETG,print,Horizontal X only; original 20T m1.5 20deg. Experimental printed tooth endurance still needs proof.
+E073,IO_Box_Back_Stop,1,PETG,print,
+E074,IO_Deck_E01_FlushHeads,1,PETG,print,"Single-box exchange nest, human access from left; not an extra storage cell. M4 90deg heads must be flush/below sliding surface; countersinks OD9."
+E075,IO_Shutter_Guide_Left,1,PETG,print,
+E076,IO_Shutter_Guide_Right,1,PETG,print,
+E077,Latch_Crank_R7,1,PETG,print,Use supplier metal spline adapter; servo endpoint calibration required
+E078,Latch_Scotch_Yoke,1,PETG,print,7 mm crank radius; end-to-end vertical stroke 14 mm; bench-test before use
+E079,Pin_Guide_Cheek,2,PETG,print,Ream to steel bushing fit; metal bushings required for wear
+E080,Pinion_M1p5_20T_Y,1,PETG,print,
+E081,Rack_M1p5_24T_X,4,PETG,print,"24 pitches=113.097 mm, 20deg, 12 mm tooth face, four M3 holes. Print lateral face down; coupon first."
+E082,Rack_M1p5_24T_Y,2,PETG,print,Same pitch/phase as X/Z; align on continuous metal backing.
+E083,Servo_Cradle,1,PETG,print,2x M3x8 to tapped metal mast; separate clamping lid; vendor servo datum still required
+E084,Servo_Cradle_Lid,1,PETG,print,

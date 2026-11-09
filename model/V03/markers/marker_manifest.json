@@ -1,0 +1,232 @@
+{
+  "commit": "f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1",
+  "tags": [
+    {
+      "id": 0,
+      "label": "BIN-001",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00000.png",
+      "source_sha256": "48d811f770fc3595aaf5650a5fd8007843e7fece1f8fdcb94e0f113b4c9ed0c6"
+    },
+    {
+      "id": 1,
+      "label": "BIN-002",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00001.png",
+      "source_sha256": "2b30c316b3f8f32d80ba4e83feee8471c41a04aeba75bf1a23f1cf9c990394ce"
+    },
+    {
+      "id": 2,
+      "label": "BIN-003",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00002.png",
+      "source_sha256": "56c1561f55d075bc256cc5dddd44ca067d979095d9147f423b6672a4cf144957"
+    },
+    {
+      "id": 3,
+      "label": "BIN-004",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00003.png",
+      "source_sha256": "1faf4f5388680a6f9f54f2c67d47570dd043aad67f206ca2f429d3a21d77ff94"
+    },
+    {
+      "id": 4,
+      "label": "BIN-005",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00004.png",
+      "source_sha256": "1031c40f2c885e8646fae72bb147a12ba328b66d02c2dd59c7ee2a727d217c1c"
+    },
+    {
+      "id": 5,
+      "label": "BIN-006",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00005.png",
+      "source_sha256": "31c8d2bed9f1df0f7f30735cf22cd912765f2f4cb972b033c76158aaa7a96562"
+    },
+    {
+      "id": 6,
+      "label": "BIN-007",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00006.png",
+      "source_sha256": "f9eb41cf023a7195fb2a1b6f34c7a6e26a2b99a5cc014c2ae461f6b001137d16"
+    },
+    {
+      "id": 7,
+      "label": "BIN-008",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00007.png",
+      "source_sha256": "a3ad7d0d389512eb74e1b31fde614eefb2194ecb128416f530c8e7110dcb03f0"
+    },
+    {
+      "id": 8,
+      "label": "BIN-009",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00008.png",
+      "source_sha256": "29e8d25b470cbc50f51a43b8dcc53bd51bd7cb6a7f4aa086e459117a4842e945"
+    },
+    {
+      "id": 9,
+      "label": "BIN-010",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00009.png",
+      "source_sha256": "45e6e545aa95acf1c21f8e76f8f684734fcabf40bff53e7df6542d4b16a19123"
+    },
+    {
+      "id": 10,
+      "label": "BIN-011",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00010.png",
+      "source_sha256": "9eba490a1fc064b82c7d042d37d59b566da578180513ce6e091085a38575bb4f"
+    },
+    {
+      "id": 11,
+      "label": "BIN-012",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00011.png",
+      "source_sha256": "07a87d5d4de3ed09a3485d71811742c0868d485e9b0be3bf858a978e30bbfbaf"
+    },
+    {
+      "id": 12,
+      "label": "BIN-013",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00012.png",
+      "source_sha256": "72cabcd3f32c2e463e60cb350ca856a20eee28abbdd79906067c442c8fc25a34"
+    },
+    {
+      "id": 13,
+      "label": "BIN-014",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00013.png",
+      "source_sha256": "b65049e7805607f144e5ca50751712fcf276ea73351037c0d1a91d564a3cd12b"
+    },
+    {
+      "id": 14,
+      "label": "BIN-015",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00014.png",
+      "source_sha256": "b9fcf9b06e52c7012e217e1daab752fe0ffc6336e547cded12d577c5d833ad5a"
+    },
+    {
+      "id": 15,
+      "label": "BIN-016",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00015.png",
+      "source_sha256": "87c0d876ddf2d261ac1fecdba8d4f5d77a2d82e45f2169ab3658a0aa53d13e53"
+    },
+    {
+      "id": 16,
+      "label": "BIN-017",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00016.png",
+      "source_sha256": "5d76d115680a5b124ff42fb22f7f6590013c685be53da4d87232eddeb4f59efb"
+    },
+    {
+      "id": 17,
+      "label": "BIN-018",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00017.png",
+      "source_sha256": "5050b33258299be15bf4670bb9f930ae64fffca83712b89eb8e70fd6b3e8eca3"
+    },
+    {
+      "id": 18,
+      "label": "BIN-019",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00018.png",
+      "source_sha256": "afa07ee1b00c97907df9179e54a4181de7a992b5f73ef7cc1e89ba903ece5645"
+    },
+    {
+      "id": 19,
+      "label": "BIN-020",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00019.png",
+      "source_sha256": "53c2b5d6bd962718222e628ad9255a3ee8433e748023765f3bf219d9260c35e7"
+    },
+    {
+      "id": 100,
+      "label": "COLUMN-1",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00100.png",
+      "source_sha256": "391dbb8080c77ba704342c0f8c3e3879c5b312c3129f39b552366d6dee45c4f9"
+    },
+    {
+      "id": 101,
+      "label": "COLUMN-2",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00101.png",
+      "source_sha256": "c4f5c167b274058183c4d070a6a6d871af94d1af45dfb56d54a072439b422f60"
+    },
+    {
+      "id": 102,
+      "label": "COLUMN-3",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00102.png",
+      "source_sha256": "191c2610baae41566a4256a69521bd25f679426308e67ad28e27bb1f3a0f087a"
+    },
+    {
+      "id": 103,
+      "label": "COLUMN-4",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00103.png",
+      "source_sha256": "44de3f6ff0883ef9b77871fe50ac8f1ead2f2af20915b020019de2afcd8e4c38"
+    },
+    {
+      "id": 200,
+      "label": "IO-STATION",
+      "family": "tag36h11",
+      "outer_card_mm": 32,
+      "detected_black_border_square_mm": 25.6,
+      "source_url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/f3fd9a7add5bfd82a886fc65240fdb8e3c9ac5a1/tag36h11/tag36_11_00200.png",
+      "source_sha256": "c4bbefb22992692ed60125b8a36b3c0d50a4d7a7ca9a95a6db23d4f1010fe816"
+    }
+  ],
+  "ids_are_not_storage_coordinates": true,
+  "actual_camera_decode_test_passed": false
+}

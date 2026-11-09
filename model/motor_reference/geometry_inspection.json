@@ -1,0 +1,56 @@
+{
+  "source": "stl/ZDT_X42_L48Motor.STEP",
+  "source_sha256": "2db74057b78f41ee03c67f3032d9fc102cacef0da4c42d0e82e1612113e239c6",
+  "valid": true,
+  "solid_count": 24,
+  "overall_extents_mm": [
+    44.65,
+    62.9,
+    83.0
+  ],
+  "original_shaft_center_xy_mm": [
+    -3.1098562568320687,
+    -4.685726853742248
+  ],
+  "original_front_mounting_plane_z_mm": 23.0,
+  "shaft_points_toward_original_axis": "-Z",
+  "motor_body_size_mm": [
+    42,
+    42,
+    48
+  ],
+  "mounting_hole_centers_relative_to_shaft_mm": [
+    [
+      -15.5,
+      -15.5
+    ],
+    [
+      -15.5,
+      15.5
+    ],
+    [
+      15.5,
+      -15.5
+    ],
+    [
+      15.5,
+      15.5
+    ]
+  ],
+  "modeled_mounting_bore_diameter_mm": 3.0,
+  "mounting_thread_specification_verified": false,
+  "pilot_diameter_mm": 22,
+  "pilot_projection_mm": 2,
+  "shaft_diameter_mm": 5,
+  "front_to_shaft_tip_mm": 24,
+  "rear_including_electronics_mm": 59,
+  "includes_rear_driver_and_connectors": true,
+  "brake_verified": false,
+  "torque_speed_curve_verified": false,
+  "installed_in_validated_v02": false,
+  "notes": [
+    "Dimensions measured from supplied CAD; no manufacturer tolerances or electrical ratings inferred.",
+    "The existing V02 geometry and validation reports were not altered by this reference inspection.",
+    "Do not equate a closed-loop stepper or holding torque with a normally-engaged brake."
+  ]
+}

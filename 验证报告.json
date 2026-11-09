@@ -1,0 +1,103 @@
+{
+  "mesh_checks": [
+    {
+      "file": "Bin_110x120x60.STL",
+      "extents_mm": [
+        110.0,
+        132.0,
+        60.0
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "volume_cm3": 98.94,
+      "mass_g_petg": 125.6,
+      "fits_a1": true
+    },
+    {
+      "file": "Carrier_Tray_118x130.STL",
+      "extents_mm": [
+        118.0,
+        130.0,
+        11.5
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "volume_cm3": 61.55,
+      "mass_g_petg": 78.2,
+      "fits_a1": true
+    },
+    {
+      "file": "Keyed_Bracket_60x30.STL",
+      "extents_mm": [
+        60.0,
+        30.0,
+        9.5
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "volume_cm3": 10.74,
+      "mass_g_petg": 13.6,
+      "fits_a1": true
+    },
+    {
+      "file": "Rack_Cell_118x130.STL",
+      "extents_mm": [
+        128.0,
+        130.0,
+        11.5
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "volume_cm3": 67.46,
+      "mass_g_petg": 85.7,
+      "fits_a1": true
+    },
+    {
+      "file": "Y_Hook_30mm.STL",
+      "extents_mm": [
+        30.0,
+        20.0,
+        28.0
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "volume_cm3": 7.2,
+      "mass_g_petg": 9.1,
+      "fits_a1": true
+    }
+  ],
+  "all_watertight": true,
+  "all_fit_a1": true,
+  "motion_envelope": {
+    "cells": 20,
+    "x_min_mm": 70.0,
+    "x_max_mm": 490.0,
+    "x_travel_mm": 420.0,
+    "z_min_mm": 94.0,
+    "z_max_mm": 434.0,
+    "z_travel_mm": 340.0,
+    "y_hook_travel_mm": 137.0,
+    "y_bin_shift_mm": 130.0,
+    "y_rail_mm": 170.0
+  },
+  "load_case": {
+    "moving_mass_kg": 1.126,
+    "y_drag_force_n": 3.31,
+    "y_belt_torque_nm": 0.0211,
+    "z_lift_force_n": 13.3,
+    "z_belt_torque_nm": 0.0844,
+    "z_screw_torque_nm": 0.0337
+  },
+  "assumptions": {
+    "payload_kg": 1.0,
+    "friction_coefficient": 0.3,
+    "petg_density_g_cm3": 1.27,
+    "nema17_rated_holding_torque_nm": 0.4,
+    "note": "力矩为静态下限估算，未含加速、同步带回差与安全系数；需实机测量确认。"
+  }
+}

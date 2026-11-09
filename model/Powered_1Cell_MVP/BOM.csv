@@ -1,0 +1,144 @@
+﻿code,name,quantity,material,process,note
+E001,Box_Presence_Sensor_CANDIDATE,1,purchased,candidate,
+E002,E01_Coupler_5x6_CANDIDATE,1,purchased,candidate,Purchase a real positively clamped 5x6 coupler within Ø19x25. CAD is only fit allocation; clamp screws/compliance/rating must be replaced by vendor drawing.
+E003,E01_NC_Limit_Switch_CANDIDATE,6,purchased,candidate,"Small NC switch body allocation. Actual lever travel, repeatability, bracket and independent hard-limit circuit must be selected; not an implemented safety sensor."
+E004,NC_Rail_Brake_CANDIDATE,1,safety,candidate,Unselected commercial normally-engaged brake envelope. Not modelled jaws or a certified catch. NO loaded Z operation yet.
+E005,E01_Guard_Panel_X-291.5,1,guard,cut_panel,
+E006,E01_Guard_Panel_X321.5,1,guard,cut_panel,
+E007,E01_Guard_Panel_Y-431.5,1,guard,cut_panel,PC3 cut panel; retain/hinge/interlock hardware must be selected and tested before powering.
+E008,E01_Guard_Panel_Y221.5,1,guard,cut_panel,PC3 cut panel; retain/hinge/interlock hardware must be selected and tested before powering.
+E009,E01_Guard_Roof,1,guard,cut_panel,
+E010,E01_IO_Inner_Shutter_238,1,guard,cut_panel,Right edge shortened12 to clear adjacent storage-bin sweep; opens upward90. Actual interlocks/actuator not implemented.
+E011,E01_IO_Upper_Shield_238,1,guard,cut_panel,
+E012,IO_Access_Tunnel_Horizontal,2,guard,cut_panel,
+E013,IO_Access_Tunnel_Side,2,guard,cut_panel,
+E014,IO_Left_Upper_Wall,1,guard,cut_panel,
+E015,IO_Lower_Fixed_Shield,1,guard,cut_panel,
+E016,IO_Outer_Door,1,guard,cut_panel,Hinged left-side access; outer and inner doors must never both permit access.
+E017,IO_Rear_Wall,1,guard,cut_panel,
+E018,IO_Right_Wall,1,guard,cut_panel,
+E019,IO_Roof,1,guard,cut_panel,
+E020,Brake_Module_Link,1,aluminum,machined,
+E021,Column_Carrier_RoundSlot,1,aluminum,machined,One 6.2 round receiver and one 8x6.2 X slot; four M6 mounting bolts. Machine locating fits after first assembly.
+E022,Column_Foot_28x40,4,aluminum,machined,
+E023,Column_Pedestal_28x40,4,aluminum,machined,
+E024,E01_Base_610x650x6_R1,1,aluminum,machined,Continuous 6061/steel base on continuously supporting bench; all anchor/receiving pilots in this CAD. Four bench anchors require actual bench design.
+E025,E01_Bin_LoadSpreader_100x110x1p5,1,aluminum,machined,Metal insert distributes payload over the bin floor; no 1 kg creep/endurance acceptance implied.
+E026,E01_Column_Rear_170x330,1,aluminum,machined,
+E027,E01_Guard_Foot_40x40,4,aluminum,machined,
+E028,E01_Hub_X,1,aluminum,machined,"CUSTOM METAL, not printed: bore 5H7; register OD12, flange OD24x3, upper clamp OD14 Z16..23; slit0.8; M3 clamp at Y5 Z19. Pinion attachment 2xM3 at X+/-9. Validate clamp torque and axial retention on actual shaft before use."
+E029,E01_Hub_Y,1,aluminum,machined,"CUSTOM METAL, not printed: bore 5H7; register OD12, flange OD24x3, upper clamp OD14 Z16..23; slit0.8; M3 clamp at Y5 Z19. Pinion attachment 2xM3 at X+/-9. Validate clamp torque and axial retention on actual shaft before use."
+E030,E01_IO_Header_248,1,aluminum,machined,
+E031,E01_Independent_Steel_Track_300,1,steel,machined,Separate from screw. Maintenance pin holes at globalZ98/193; other holes are not an automatic ratchet. Commercial brake interface is still unselected.
+E032,E01_Maintenance_Prop_Shoe_STEEL,1,steel,machined,Manual maintenance prop only: M3 edge bolts at deck-98/-78; U shoe bears on retained D4 steel pin at Z98 for deck200 / Z193 for deck295. Remove pin before Z motion; NOT automatic fall arrest.
+E033,E01_X_Carriage_CountersunkM8_done_R1,1,aluminum,machined,"Metal 160x160x8, including rear motor-support extension. Two underside countersinks OD16.5x90deg for M8 tower bolts; head must not protrude into X blocks."
+E034,E01_X_Datum_400x30x24,2,aluminum,machined,
+E035,E01_X_Motor_Leg,2,aluminum,machined,
+E036,E01_X_Motor_Plate_62x50_Recess,1,aluminum,machined,"Underside motor screw counterbores depth2.1; M3x6 about4.1mm engagement, verify actual motor blind holes."
+E037,E01_X_Rack_Backbone_470,1,aluminum,machined,
+E038,E01_Y_Module_Base_Ribbed,1,aluminum,machined,"Metal head bridge, X-28..128; outboard underside rib X42..128. M3x50 motor module through-bolts below the added rib; minor-thread envelopes shown."
+E039,E01_Y_Motor_Leg,1,aluminum,machined,
+E040,E01_Y_Motor_Plate_62x50_Recess,1,aluminum,machined,"Underside motor screw counterbores depth2.1; M3x6 about4.1mm engagement, verify actual motor blind holes."
+E041,E01_Z_Nut_Bridge_Accessible,1,steel,machined,"Steel nut seat 40x44x8; upright 56x8 toZ56. Four accessible M4 through-bolts at X+/-23,Z16/48, ABOVE the seat and OUTSIDE Y rails. Upper row clears Y end stop. Four M3 nut-flange taps, secondary-cage taps retained."
+E042,E01_Z_Rail_Datum_250,2,aluminum,machined,
+E043,E01_Z_Top_130x60x12,1,aluminum,machined,Z401..413. Motor screws are recessed from underside by3.1 mm to avoid the bearing hanger. M3x12 gives about3.1 mm motor engagement; verify actual blind depth.
+E044,IO_Flanged_Leg_BaseToFrame,4,aluminum,machined,"Metal integral/welded flange. Bottom Z6, frame seat Z190. Four M5 to base; one M5 frame bolt into top pilot."
+E045,IO_Frame_Matched_Fasteners,1,aluminum,machined,"Metal frame; four M5 to leg tops, four M4 nest attachment taps at actual nest hole positions."
+E046,Latch_Mast_V03_RoundSlot,1,aluminum,machined,"Removable head interface: two original M3 clamp screws, one round and one slotted D3 locating receiver."
+E047,Rear_Panel_Standoff_2,4,aluminum,machined,
+E048,Safety_Track_Link,2,aluminum,machined,
+E049,Shelf_Angle_-1,1,aluminum,machined,"M5 to slot nuts front/rear, M4 tapped shelf attachment"
+E050,Shelf_Angle_1,1,aluminum,machined,"M5 to slot nuts front/rear, M4 tapped shelf attachment"
+E051,Tray_Tube_V03,2,aluminum,machined,"Metal compression sleeves still required, including the new Y-spine end supports."
+E052,Tube_End_Plug_V03,2,aluminum,machined,
+E053,X_Rack_Bolted_Adjustable_Foot,5,aluminum,machined,"Metal welded/machined L foot. Four M5 base slots (+/-1 mm Y); four M4 to rack backing. Align as ONE straight datum, lock after coupon setup."
+E054,Y_Rack_Backbone_R1,1,aluminum,machined,
+E055,Y_Rack_Tube_Saddle,2,aluminum,machined,"Metal combined support: seated on spine, tube on top, rack backing on outer ledge. M4 spine/tube attachment; M3 lateral backing clamp."
+E056,Y_Spine_Metal_Spacer_Left,2,aluminum,machined,
+E057,Y_Spine_TwinGuide,1,aluminum,machined,
+E058,Z_Bearing_Hanger,1,aluminum,machined,
+E059,Z_Carriage_130x100x8_R1_R1_R1,1,aluminum,machined,
+E060,Z_Fixed_Bearing_Housing,1,aluminum,machined,"Radial seat 19 H7, stepped thrust abutment; paired F6-12M; preload and collar rating pending"
+E061,Z_Floating_Bearing_Cap,1,steel,machined,
+E062,Z_Floating_Bearing_Housing,1,aluminum,machined,
+E063,Z_Floating_Bearing_Pedestal,1,aluminum,machined,
+E064,Z_Foot_Angle_30x20x32,2,aluminum,machined,M6 to 3030 slot nuts; M6x12 to X plate; rail starts 2 mm above bracket
+E065,Z_Foot_Angle_Front,2,aluminum,machined,M6 to 3030 slot nuts; M6x12 to X plate; rail starts 2 mm above bracket
+E066,Z_Secondary_Nut_Cage,1,steel,machined,"0.8 mm axial catch clearance; steel/Al, never PETG"
+E067,Z_Thrust_Abutment_Washer,1,steel,machined,
+E068,Z_Thrust_End_Cap,1,steel,machined,
+E069,Bin_V03_Marker_Rails,1,PETG,print,"32x32 mm AprilTag card, front-left offset X=-36 Z=38, rails clear the centre latch. ID is not a safety signal."
+E070,Carrier_Tray_124x130_E01_FlushHeads,1,PETG,print,"40 mm front-open mast slot, 6 mm rear bridge; supports box on two side wings M4 90deg heads must be flush/below sliding surface; countersinks OD9."
+E071,Cell_124x130_E01_FlushHeads,1,PETG,print,Print bottom down; add 0.5 mm entrance chamfer after fit coupon M4 90deg heads must be flush/below sliding surface; countersinks OD9.
+E072,E01_Pinion_X_M1p5_20T,1,PETG,print,Horizontal X only; original 20T m1.5 20deg. Experimental printed tooth endurance still needs proof.
+E073,IO_Box_Back_Stop,1,PETG,print,
+E074,IO_Deck_E01_FlushHeads,1,PETG,print,"Single-box exchange nest, human access from left; not an extra storage cell. M4 90deg heads must be flush/below sliding surface; countersinks OD9."
+E075,IO_Shutter_Guide_Left,1,PETG,print,
+E076,IO_Shutter_Guide_Right,1,PETG,print,
+E077,Latch_Crank_R7,1,PETG,print,Use supplier metal spline adapter; servo endpoint calibration required
+E078,Latch_Scotch_Yoke,1,PETG,print,7 mm crank radius; end-to-end vertical stroke 14 mm; bench-test before use
+E079,Pin_Guide_Cheek,2,PETG,print,Ream to steel bushing fit; metal bushings required for wear
+E080,Pinion_M1p5_20T_Y,1,PETG,print,
+E081,Rack_M1p5_24T_X,4,PETG,print,"24 pitches=113.097 mm, 20deg, 12 mm tooth face, four M3 holes. Print lateral face down; coupon first."
+E082,Rack_M1p5_24T_Y,2,PETG,print,Same pitch/phase as X/Z; align on continuous metal backing.
+E083,Servo_Cradle,1,PETG,print,2x M3x8 to tapped metal mast; separate clamping lid; vendor servo datum still required
+E084,Servo_Cradle_Lid,1,PETG,print,
+E085,IO_External_Reference_Card,1,purchased,print_paper,"AprilTag36h11 ID200 on the outside left guard, not a box ID."
+E086,2020_E01_Column_Z350,4,aluminum,purchased,
+E087,3030_E01_Z350,2,aluminum,purchased,"Two real 3030 metal extrusions. Verify actual slot, straightness and end M8 taps."
+E088,626ZZ_6x19x6,2,steel,purchased,
+E089,Column_Datum_Pin_D6,2,steel,purchased,"One round H7 receiver, one diamond/slot receiver. Fit and positional tolerances pending."
+E090,E01_M3_Nut,2,steel,purchased,
+E091,E01_M4_Nut_Y,4,steel,purchased,
+E092,E01_M4_Washer_Y,4,steel,purchased,
+E093,E01_M8x20_Countersunk_ThreadMinor,2,steel,purchased,"M8x20 countersunk, headOD<=16, 90deg; must be recessed above X blocks"
+E094,E01_Maintenance_Pin_D4x40,1,steel,purchased,"Retained steel pin, shown at Z193. Remove and confirm sensor BEFORE powered Z travel. No printed substitution."
+E095,E01_TR8x2_CustomEnds_L298,1,steel,purchased,"TR8x2, NOT TR8x8. Overall Z90..388=L298; working thread Z110..338; journalsØ6 x20/50; matched Ø2.5 cross-hole atZ362.5. Shaft/nut thread accuracy and heat-treated shaft strength supplier-verified before fabrication."
+E096,E01_X_Stop,4,rubber,purchased,"Backed, retained bumper; not a replacement for a physical end-limit switch."
+E097,E01_x_Hub_Bolt_-9,1,steel,purchased,"M3x20, minor thread envelope"
+E098,E01_x_Hub_Bolt_9,1,steel,purchased,"M3x20, minor thread envelope"
+E099,E01_x_Hub_Clamp_Bolt,1,steel,purchased,
+E100,E01_x_Hub_Nut_-9,1,steel,purchased,
+E101,E01_x_Hub_Nut_9,1,steel,purchased,
+E102,E01_y_Hub_Bolt_-9,1,steel,purchased,"M3x20, minor thread envelope"
+E103,E01_y_Hub_Bolt_9,1,steel,purchased,"M3x20, minor thread envelope"
+E104,E01_y_Hub_Clamp_Bolt,1,steel,purchased,
+E105,E01_y_Hub_Nut_-9,1,steel,purchased,
+E106,E01_y_Hub_Nut_9,1,steel,purchased,
+E107,F6_12M_6x12x4p5,2,steel,purchased,
+E108,Guard_Cross_E01_560,2,aluminum,purchased,
+E109,Guard_Post_E01_488,4,aluminum,purchased,
+E110,Guard_Side_E01_580,2,aluminum,purchased,
+E111,Head_Locator_D3,2,steel,purchased,
+E112,Latch_Pin_D4x60,1,steel,purchased,"Ground steel pin, not printed; released lift 14 mm"
+E113,Latch_Return_Spring_Envelope,1,steel,purchased,"Metal return spring, OD7 wire0.3 freeL19, solid<=1.8; target force 0.2..1.2N. Coil envelope only, supplier test mandatory"
+E114,Latch_Roller_D3,1,steel,purchased,3 mm ground pin with retaining grooves; two DIN6799 E-clips
+E115,M3x10_Head3_ThreadMinor,32,steel,purchased,"Nominal M3x10; head OD5.5 h3. Thread shown at minor envelope, NOT a manufacturing thread definition."
+E116,M3x12_Motor_Inverted,4,steel,purchased,"Nominal M3x12; head OD5.5 h3. Thread shown at minor envelope, NOT a manufacturing thread definition."
+E117,M3x40_Head3_ThreadMinor,4,steel,purchased,"Nominal M3x40; head OD5.5 h3. Thread shown at minor envelope, NOT a manufacturing thread definition."
+E118,M3x50_Head3_ThreadMinor,2,steel,purchased,"Nominal M3x50; head OD5.5 h3. Thread shown at minor envelope, NOT a manufacturing thread definition."
+E119,M3x6_Motor_Inverted,8,steel,purchased,"Nominal M3x6; head OD5.5 h3. Thread shown at minor envelope, NOT a manufacturing thread definition."
+E120,M3x8_Head3_ThreadMinor,44,steel,purchased,"Nominal M3x8; head OD5.5 h3. Thread shown at minor envelope, NOT a manufacturing thread definition."
+E121,M3x8_Y_ThreadMinor,36,steel,purchased,"Nominal M3x8; head OD5.5 h3. Thread shown at minor envelope, NOT a manufacturing thread definition."
+E122,M4x25_Y_ThreadMinor,4,steel,purchased,"Nominal M4x25; head OD7 h4. Thread shown at minor envelope, NOT a manufacturing thread definition."
+E123,M8x25_Head8_ThreadMinor,2,steel,purchased,"Nominal M8x25; head OD13 h8. Thread shown at minor envelope, NOT a manufacturing thread definition."
+E124,MG90S_Envelope,1,purchased,purchased,Supplier output-shaft datum and >=150 degree usable travel must be verified
+E125,MGN12H_X,4,steel,purchased,
+E126,MGN12H_Z,4,steel,purchased,
+E127,MGN12_E01_X400,2,steel,purchased,"Supplier MGN12 L400, pitch25/end10 assumption; counterbores shown for M3 cap heads. Confirm actual supplier drawing."
+E128,MGN12_E01_Z250,2,steel,purchased,
+E129,MGN9H_Y,2,steel,purchased,
+E130,MGN9_E01_Y200,2,steel,purchased,
+E131,Pin_Collar_4x10x5,2,steel,purchased,Two miniature shaft collars retain the yoke on the ground pin
+E132,Pin_Flanged_Bushing_4p1x6,2,purchased,purchased,"Replaceable bronze bushing; 6.1 pilot must be fitted/retained, not assumed press fit"
+E133,Roller_Clip_Envelope,2,steel,purchased,
+E134,Safety_Nut_AntiRotation_Stud,2,steel,purchased,"M3 shoulder stud, retains rotation but allows secondary nut to float axially"
+E135,Servo_Horn_Interface_Envelope,1,purchased,purchased,Metal spline horn/interface envelope; MUST match selected MG90S output drawing
+E136,Shaft_Collar_6x16x8,1,steel,purchased,"Positive axial retention by matched 2.5 mm cross-pin, NOT set-screw friction alone; verify catch load >=1200 N"
+E137,TR8x2_Bronze_Nut,2,purchased,purchased,"Thread fit is a purchased interface, not evaluated by smooth cylinders"
+E138,Y_Stop_24x4x10,2,rubber,purchased,
+E139,ZDT_RealMotor_E01_Z,1,purchased,purchased,"Actual user 24-solid motor CAD, inverted for vertical TR8x2. Torque/electrical/thermal data NOT inferred from CAD."
+E140,ZDT_RealMotor_X,1,purchased,purchased,"User STEP, 24 solids. Geometry only; voltage, mass, torque curve and brake not verified."
+E141,ZDT_RealMotor_Y,1,purchased,purchased,"User STEP, 24 solids. Geometry only; voltage, mass, torque curve and brake not verified."
+E142,Z_Stop_Rear_Clearance,4,rubber,purchased,
+E143,Z_Thrust_Cross_Pin_D2p5x16,1,steel,purchased,"Hardened retained dowel, minimum verified double-shear capacity 2500 N; match-ream shaft/collar"

@@ -1,0 +1,799 @@
+{
+  "fingerprint": "04b8a5c32f1246951041e7caba7b6750a040deaca9065187ea2c9e3b2830f133",
+  "validator_sha256": "7346f5a9919591b44941a7c5459e0d984c99e4ff3771136f6e2a3c2047c16cfc",
+  "static_collisions": [],
+  "static_pass": true,
+  "accepted_contacts": [],
+  "support_checks": [
+    {
+      "a": "z_strip_-45",
+      "b": "z_post_-45",
+      "purpose": "Three flush M5 slot-nut joints",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 4879.637731459337,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_strip_45",
+      "b": "z_post_45",
+      "purpose": "Three flush M5 slot-nut joints",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 4879.637731459337,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_nut_bridge",
+      "b": "z_carriage",
+      "purpose": "Steel bridge to Z plate, not polymer; four accessible M4 through-bolts/nuts",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 2849.349570993715,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_working_nut",
+      "b": "z_nut_bridge",
+      "purpose": "Bronze flange seats on steel bridge at deck-62",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 246.61502330679883,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_safety_cage",
+      "b": "z_nut_bridge",
+      "purpose": "Independent captive second nut; not a self-locking guarantee",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 469.0154899935251,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_fixed_bearing_housing",
+      "b": "z_thrust_end_cap",
+      "purpose": "Positive thrust package cap sits on housing",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1912.024267099532,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_thrust_end_cap",
+      "b": "z_bearing_hanger",
+      "purpose": "Cap transfers axial load to the metal hanger; inspect through-bolt stack",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1877.3175222589985,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_bearing_hanger",
+      "b": "z_top_plate",
+      "purpose": "Top bearing hanger seated under metal cross plate",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1764.2201867297665,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "maintenance_shoe",
+      "b": "z_carriage",
+      "purpose": "Steel maintenance prop, two M3 edge taps; test before servicing",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 253.84159446225124,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "y_datum_-1",
+      "b": "base",
+      "purpose": "Four M5, metal datum seated on continuous base",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 11904.966822228911,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "gantry_end_-1",
+      "b": "y_block_-1_-55",
+      "purpose": "4xM3 guide attachment; actual blind depths and tool access unverified",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1159.6066427888634,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "gantry_end_-1",
+      "b": "y_block_-1_55",
+      "purpose": "4xM3 guide attachment; actual blind depths and tool access unverified",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1159.6066427888634,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "y_datum_1",
+      "b": "base",
+      "purpose": "Four M5, metal datum seated on continuous base",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 11904.966822228911,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "gantry_end_1",
+      "b": "y_block_1_-55",
+      "purpose": "4xM3 guide attachment; actual blind depths and tool access unverified",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1159.6066427888634,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "gantry_end_1",
+      "b": "y_block_1_55",
+      "purpose": "4xM3 guide attachment; actual blind depths and tool access unverified",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1159.6066427888634,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "gantry_beam_-55",
+      "b": "gantry_end_-1",
+      "purpose": "Two M4 upward through endplate into metal beam lower wall; threaded wall proof required",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1611.5283311913472,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "gantry_beam_-55",
+      "b": "gantry_end_1",
+      "purpose": "Two M4 upward through endplate into metal beam lower wall; threaded wall proof required",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1611.5283311913472,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "gantry_beam_55",
+      "b": "gantry_end_-1",
+      "purpose": "Two M4 upward through endplate into metal beam lower wall; threaded wall proof required",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1611.5283311913472,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "gantry_beam_55",
+      "b": "gantry_end_1",
+      "purpose": "Two M4 upward through endplate into metal beam lower wall; threaded wall proof required",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1611.5283311913472,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_post_-45",
+      "b": "xy_plate",
+      "purpose": "Metal3030 seated on12mm XY plate; M8 countersunk stack must be length-selected",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 843.2549826945344,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_post_45",
+      "b": "xy_plate",
+      "purpose": "Metal3030 seated on12mm XY plate; M8 countersunk stack must be length-selected",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 843.2549826945344,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "z_floating_pedestal",
+      "b": "xy_plate",
+      "purpose": "Lower screw support seated on XY plate, not on belt",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 877.7436300046627,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "xy_plate",
+      "b": "x_block_-55_-45",
+      "purpose": "4xM3 each long block, under-plate stack and actual screw length review",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1187.315489993525,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "xy_plate",
+      "b": "x_block_-55_45",
+      "purpose": "4xM3 each long block, under-plate stack and actual screw length review",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1187.3154899935248,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "xy_plate",
+      "b": "x_block_55_-45",
+      "purpose": "4xM3 each long block, under-plate stack and actual screw length review",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1187.315489993525,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "xy_plate",
+      "b": "x_block_55_45",
+      "purpose": "4xM3 each long block, under-plate stack and actual screw length review",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 1187.3154899935248,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "fork",
+      "b": "z_carriage",
+      "purpose": "Four M4x16 into metal Z plate; verify thread depth and weld/root stress",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 8435.193898697129,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "cell_bracket_-1_-55",
+      "b": "cell_post_-1_-55",
+      "purpose": "M5 top receiver, real profile end-tap and head geometry review",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 336.2417055572272,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "cell_rail_-1",
+      "b": "cell_bracket_-1_-55",
+      "purpose": "Outer support rail seated on metal bracket, positive fastening not complete",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 270.0,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "cell_post_-1_-55",
+      "b": "base",
+      "purpose": "Metal post end seated onbase, foot/anchors must be selected",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 376.24170555722714,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "cell_bracket_-1_55",
+      "b": "cell_post_-1_55",
+      "purpose": "M5 top receiver, real profile end-tap and head geometry review",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 336.2417055572272,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "cell_rail_-1",
+      "b": "cell_bracket_-1_55",
+      "purpose": "Outer support rail seated on metal bracket, positive fastening not complete",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 270.0,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "cell_post_-1_55",
+      "b": "base",
+      "purpose": "Metal post end seated onbase, foot/anchors must be selected",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 376.24170555722714,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "cell_bracket_1_-55",
+      "b": "cell_post_1_-55",
+      "purpose": "M5 top receiver, real profile end-tap and head geometry review",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 336.2417055572272,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "cell_rail_1",
+      "b": "cell_bracket_1_-55",
+      "purpose": "Outer support rail seated on metal bracket, positive fastening not complete",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 270.0,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "cell_post_1_-55",
+      "b": "base",
+      "purpose": "Metal post end seated onbase, foot/anchors must be selected",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 376.24170555722714,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "cell_bracket_1_55",
+      "b": "cell_post_1_55",
+      "purpose": "M5 top receiver, real profile end-tap and head geometry review",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 336.2417055572272,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "cell_rail_1",
+      "b": "cell_bracket_1_55",
+      "purpose": "Outer support rail seated on metal bracket, positive fastening not complete",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 270.0,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "cell_post_1_55",
+      "b": "base",
+      "purpose": "Metal post end seated onbase, foot/anchors must be selected",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 376.24170555722714,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "io_bracket_-1_-55",
+      "b": "io_post_-1_-55",
+      "purpose": "M5 top receiver, real profile end-tap and head geometry review",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 336.2417055572272,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "io_rail_-1",
+      "b": "io_bracket_-1_-55",
+      "purpose": "Outer support rail seated on metal bracket, positive fastening not complete",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 270.0,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "io_post_-1_-55",
+      "b": "base",
+      "purpose": "Metal post end seated onbase, foot/anchors must be selected",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 376.24170555722714,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "io_bracket_-1_55",
+      "b": "io_post_-1_55",
+      "purpose": "M5 top receiver, real profile end-tap and head geometry review",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 336.2417055572272,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "io_rail_-1",
+      "b": "io_bracket_-1_55",
+      "purpose": "Outer support rail seated on metal bracket, positive fastening not complete",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 270.0,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "io_post_-1_55",
+      "b": "base",
+      "purpose": "Metal post end seated onbase, foot/anchors must be selected",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 376.24170555722714,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "io_bracket_1_-55",
+      "b": "io_post_1_-55",
+      "purpose": "M5 top receiver, real profile end-tap and head geometry review",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 336.2417055572272,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "io_rail_1",
+      "b": "io_bracket_1_-55",
+      "purpose": "Outer support rail seated on metal bracket, positive fastening not complete",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 270.0,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "io_post_1_-55",
+      "b": "base",
+      "purpose": "Metal post end seated onbase, foot/anchors must be selected",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 376.24170555722714,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "io_bracket_1_55",
+      "b": "io_post_1_55",
+      "purpose": "M5 top receiver, real profile end-tap and head geometry review",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 336.2417055572272,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "io_rail_1",
+      "b": "io_bracket_1_55",
+      "purpose": "Outer support rail seated on metal bracket, positive fastening not complete",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 270.0,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "io_post_1_55",
+      "b": "base",
+      "purpose": "Metal post end seated onbase, foot/anchors must be selected",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 376.24170555722714,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "motor_stand_A",
+      "b": "base",
+      "purpose": "Four M5 stand bolts, full base receiving pilots need final hardware selection",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 5680.966822228907,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "motor_stand_B",
+      "b": "base",
+      "purpose": "Four M5 stand bolts, full base receiving pilots need final hardware selection",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 5680.966822228907,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "gantry_idler_arm_-1",
+      "b": "gantry_end_-1",
+      "purpose": "TwoM4 into gantryend receiver; metal stepped arm",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 382.89402800120337,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "idler_A_2_stand",
+      "b": "base",
+      "purpose": "Four M3 locking mounts; tension travel and positive stop not yet fully detailed",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 179.68318892450247,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "idler_A_3_stand",
+      "b": "base",
+      "purpose": "Four M3 locking mounts; tension travel and positive stop not yet fully detailed",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 179.68318892450247,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "gantry_idler_arm_1",
+      "b": "gantry_end_1",
+      "purpose": "TwoM4 into gantryend receiver; metal stepped arm",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 382.89402800120337,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "idler_B_2_stand",
+      "b": "base",
+      "purpose": "Four M3 locking mounts; tension travel and positive stop not yet fully detailed",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 179.68318892450247,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "idler_B_3_stand",
+      "b": "base",
+      "purpose": "Four M3 locking mounts; tension travel and positive stop not yet fully detailed",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 179.68318892450247,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "clamp_A_-1",
+      "b": "xy_plate",
+      "purpose": "Metal clamp top seats on XYplate underside; final tooth jaw and threaded adjuster incomplete",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 63.44701400060173,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "clamp_A_1",
+      "b": "xy_plate",
+      "purpose": "Metal clamp top seats on XYplate underside; final tooth jaw and threaded adjuster incomplete",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 63.44701400060173,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "clamp_B_-1",
+      "b": "xy_plate",
+      "purpose": "Metal clamp top seats on XYplate underside; final tooth jaw and threaded adjuster incomplete",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 62.92079723112547,
+      "geometric_seat_pass": true
+    },
+    {
+      "a": "clamp_B_1",
+      "b": "xy_plate",
+      "purpose": "Metal clamp top seats on XYplate underside; final tooth jaw and threaded adjuster incomplete",
+      "strength_verified": false,
+      "gap_mm": 0.0,
+      "mating_area_mm2": 62.92079723112547,
+      "geometric_seat_pass": true
+    }
+  ],
+  "support_pass": true,
+  "kinematics": {
+    "rows": [
+      {
+        "x": -90,
+        "y": -140.0,
+        "A_path_delta_mm": -180.0,
+        "A_mapping_error_mm": 0.0,
+        "A_length_mm": 2042.7323954473518,
+        "B_path_delta_mm": 180.0,
+        "B_mapping_error_mm": 0.0,
+        "B_length_mm": 1952.7323954473518,
+        "inverse_X_error_mm": 0.0,
+        "inverse_Y_error_mm": 0.0
+      },
+      {
+        "x": -90,
+        "y": -68.5,
+        "A_path_delta_mm": -108.5,
+        "A_mapping_error_mm": 0.0,
+        "A_length_mm": 2042.7323954473518,
+        "B_path_delta_mm": 251.5,
+        "B_mapping_error_mm": 0.0,
+        "B_length_mm": 1952.7323954473518,
+        "inverse_X_error_mm": 0.0,
+        "inverse_Y_error_mm": 0.0
+      },
+      {
+        "x": -90,
+        "y": 3,
+        "A_path_delta_mm": -37.0,
+        "A_mapping_error_mm": 0.0,
+        "A_length_mm": 2042.7323954473518,
+        "B_path_delta_mm": 323.0,
+        "B_mapping_error_mm": 0.0,
+        "B_length_mm": 1952.7323954473518,
+        "inverse_X_error_mm": 0.0,
+        "inverse_Y_error_mm": 0.0
+      },
+      {
+        "x": 0,
+        "y": -140.0,
+        "A_path_delta_mm": -90.0,
+        "A_mapping_error_mm": 0.0,
+        "A_length_mm": 2042.7323954473518,
+        "B_path_delta_mm": 90.0,
+        "B_mapping_error_mm": 0.0,
+        "B_length_mm": 1952.7323954473518,
+        "inverse_X_error_mm": 0.0,
+        "inverse_Y_error_mm": 0.0
+      },
+      {
+        "x": 0,
+        "y": -68.5,
+        "A_path_delta_mm": -18.5,
+        "A_mapping_error_mm": 0.0,
+        "A_length_mm": 2042.7323954473518,
+        "B_path_delta_mm": 161.5,
+        "B_mapping_error_mm": 0.0,
+        "B_length_mm": 1952.7323954473518,
+        "inverse_X_error_mm": 0.0,
+        "inverse_Y_error_mm": 0.0
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "A_path_delta_mm": 53.0,
+        "A_mapping_error_mm": 0.0,
+        "A_length_mm": 2042.7323954473518,
+        "B_path_delta_mm": 233.0,
+        "B_mapping_error_mm": 0.0,
+        "B_length_mm": 1952.7323954473518,
+        "inverse_X_error_mm": 0.0,
+        "inverse_Y_error_mm": 0.0
+      },
+      {
+        "x": 90,
+        "y": -140.0,
+        "A_path_delta_mm": 0.0,
+        "A_mapping_error_mm": 0.0,
+        "A_length_mm": 2042.7323954473518,
+        "B_path_delta_mm": 0.0,
+        "B_mapping_error_mm": 0.0,
+        "B_length_mm": 1952.7323954473518,
+        "inverse_X_error_mm": 0.0,
+        "inverse_Y_error_mm": 0.0
+      },
+      {
+        "x": 90,
+        "y": -68.5,
+        "A_path_delta_mm": 71.5,
+        "A_mapping_error_mm": 0.0,
+        "A_length_mm": 2042.7323954473518,
+        "B_path_delta_mm": 71.5,
+        "B_mapping_error_mm": 0.0,
+        "B_length_mm": 1952.7323954473518,
+        "inverse_X_error_mm": 0.0,
+        "inverse_Y_error_mm": 0.0
+      },
+      {
+        "x": 90,
+        "y": 3,
+        "A_path_delta_mm": 143.0,
+        "A_mapping_error_mm": 0.0,
+        "A_length_mm": 2042.7323954473518,
+        "B_path_delta_mm": 143.0,
+        "B_mapping_error_mm": 0.0,
+        "B_length_mm": 1952.7323954473518,
+        "inverse_X_error_mm": 0.0,
+        "inverse_Y_error_mm": 0.0
+      }
+    ],
+    "constant_open_belt_length_error_mm": 0.0,
+    "max_mapping_error_mm": 0.0,
+    "geometry_mapping_pass": true,
+    "A_nominal_free_path_mm": 2042.7323954473518,
+    "B_nominal_free_path_mm": 1952.7323954473518,
+    "cut_length_is_not_free_path": true,
+    "actual_clamp_engagement_and_tension_allowance_selected": false,
+    "wiring_signs_and_motor_synchronization_verified": false,
+    "note": "Independent OPEN A/B belts. Analytic tangent/arc lengths and drive-side partitions verified; no firmware, elastic stretch, skipped-tooth or dynamic simulation."
+  },
+  "hardware_accepted": false,
+  "loaded_operation_allowed": false,
+  "motion": {
+    "pose_count": 244,
+    "failures": [],
+    "sampled_geometry_pass": true,
+    "boolean_pair_tests": null,
+    "maintenance_pin_removed": true,
+    "continuous_collision_detection": false,
+    "cycles": [
+      "store",
+      "retrieve",
+      "empty withdraw",
+      "loaded withdraw",
+      "Z/X traverses",
+      "IO door",
+      "mixed XY extremes"
+    ],
+    "path_constraints": "Normal X/Z traverses atY=-140; Y entry only aligned to bay. Diagnostic mixedXY probes stop atY=-135, before IO frame. Inserted or extended lateral traversal forbidden; firmware absent.",
+    "method": "Rebuilt independent open CoreXY belts at every XY, exact structural/fork/bin BReps, conservative full motor+driver envelopes. Only explicit terminal clamp/belt contacts excluded.",
+    "prior_full_run_boolean_pair_tests": 32587,
+    "rerun_probe_boolean_pair_tests": 1173,
+    "unchanged_verified_normal_poses_reused": 235,
+    "rechecked_aisle_probes": 9,
+    "prior_evidence_sha256": "123f4590b47fbdd69e4a02f088b73b4068ad4e9c9e0bf043ff9cfa6c0ec0e16d",
+    "prior_validator_sha256": "b99458e086b431df5c0d8cf38ed1f0d879dec746110cb56fb5f8838da22dceda",
+    "reuse_rule": "Identical geometry fingerprint + exact unchanged first235 pose records; all prior failures restricted to replaced9 probes. Prior failures retained in evidence directory."
+  },
+  "geometry_deliverable_pass": true,
+  "mesh_checks": [
+    {
+      "code": "C063",
+      "sha256": "33bdff998ee915dedf425620046df69d7b7f7e11f82ba8755adcfccac3a4078e",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "fits_256": true,
+      "extents_mm": [
+        110.0,
+        120.0,
+        60.0
+      ]
+    },
+    {
+      "code": "C064",
+      "sha256": "585107110c151cd49ef1439a096448b6f69290ae8f780fef09cf65094e47a0b7",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "fits_256": true,
+      "extents_mm": [
+        120.0,
+        8.0,
+        10.0
+      ]
+    },
+    {
+      "code": "C065",
+      "sha256": "90be9e03e4d5576f5e27721dfa2d05005d5303050820a306a189a0207e7bf692",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "fits_256": true,
+      "extents_mm": [
+        8.0,
+        8.0,
+        204.0
+      ]
+    },
+    {
+      "code": "C066",
+      "sha256": "36c06046b1d5d8269f3ff443e9876c566a6a9f06aeaf362717c8fe665f633f1e",
+      "watertight": true,
+      "winding_consistent": true,
+      "bodies": 1,
+      "fits_256": true,
+      "extents_mm": [
+        8.0,
+        8.0,
+        204.0
+      ]
+    }
+  ],
+  "flat_STEP": {
+    "valid": true,
+    "solids": 422,
+    "assembly_solids": 422,
+    "bounds_mm": [
+      -333.3,
+      -403.0,
+      -2.0,
+      333.0,
+      283.0,
+      649.0
+    ],
+    "relative_volume_error": 0.0,
+    "assembly_occurrences": 0,
+    "sha256": "d0cc8371f796ce00503d4e9e0480ed0275e61fbb91a42c7babd8c3ecb65be5d2",
+    "solidworks_gui_import_verified": false
+  },
+  "export_readback_pass": true
+}

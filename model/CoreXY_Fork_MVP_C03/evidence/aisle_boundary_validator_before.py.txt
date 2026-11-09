@@ -1,0 +1,211 @@
+"""C03 belt kinematics, fork-store/retrieve samples, support and export checks."""
+import argparse
+from dataclasses import replace
+import hashlib
+import json
+import math
+from pathlib import Path
+import sys
+import time
+
+import cadquery as cq
+import numpy as np
+import trimesh
+
+from corexy_mvp import (OUT, ROOT, FINGERPRINT, build_model, export, Item, v2,
+    box,cyl,fuse,drill,hz,HOME_X,HOME_Y,CELL_X,IO_X,CELL_Z,IO_Z,BIN_Y,LIFT,APPROACH,
+    R,WIDTH,REAR_A,REAR_B,FRONT,W,belt_length,drive_partition)
+sys.path.insert(0,str(ROOT/'cad/v03_1'))
+from validate_v03_1 import mating_area
+
+
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+
+
+def pose(label,x,y,level,bin_pose=None,door=0):
+    return {'phase':label,'dx':x-HOME_X,'dy':y-HOME_Y,'dz':level-CELL_Z,
+            'bin_pose':bin_pose if bin_pose is not None else [x,y+155,level], 'door':door}
+
+
+def poses():
+    result=[]
+    for x,s,door in [(CELL_X,CELL_Z,0),(IO_X,IO_Z,1)]:
+        # One coherent store cycle followed by retrieval, no bin teleport into
+        # moving material. At touchdown, bin stays on shelf as fork descends.
+        for j in range(14):
+            y=HOME_Y+143*j/13;result.append(pose('store_enter',x,y,s+LIFT,door=door))
+        for j in range(7):
+            z=s+LIFT-(LIFT+APPROACH)*j/6
+            result.append(pose('store_lower',x,3,z,[x,BIN_Y,max(s,z)],door))
+        for j in range(14):
+            y=3-143*j/13;result.append(pose('empty_withdraw',x,y,s-APPROACH,[x,BIN_Y,s],door))
+        for j in range(14):
+            y=HOME_Y+143*j/13;result.append(pose('retrieve_enter',x,y,s-APPROACH,[x,BIN_Y,s],door))
+        for j in range(7):
+            z=s-APPROACH+(LIFT+APPROACH)*j/6
+            result.append(pose('retrieve_lift',x,3,z,[x,BIN_Y,max(s,z)],door))
+        for j in range(14):
+            y=3-143*j/13;result.append(pose('loaded_withdraw',x,y,s+LIFT,door=door))
+    for z in (IO_Z+LIFT,CELL_Z+LIFT):
+        for j in range(19):result.append(pose('X_traverse',-90+10*j,HOME_Y,z))
+    for x in (IO_X,CELL_X):
+        for j in range(23):result.append(pose('Z_traverse',x,HOME_Y,IO_Z-APPROACH+(CELL_Z+LIFT-IO_Z+APPROACH)*j/22))
+    for j in range(11):result.append(pose('IO_shutter',IO_X,HOME_Y,IO_Z+LIFT,door=j/10))
+    # Mixed XY moves ONLY in the retracted aisle. An inserted fork must not
+    # traverse across intervening shelf supports: that is a forbidden path,
+    # not a collision to hide with pair exclusions.
+    for x in (-90,0,90):
+        for y in (HOME_Y,-130,-120):
+            result.append(pose('XY_empty_extremes',x,y,CELL_Z-APPROACH,[CELL_X,BIN_Y,CELL_Z],1))
+    return result
+
+
+def connections(m):
+    shapes={i.name:i.located() for i in m.items};rows=[]
+    for j in m.joints:
+        a,b=shapes[j['a']],shapes[j['b']];gap=a.distance(b)
+        area=mating_area(a,b) if gap<1e-5 else 0
+        rows.append({**j,'gap_mm':gap,'mating_area_mm2':area,'geometric_seat_pass':gap<1e-5 and area>2})
+    return rows
+
+
+def kinematics():
+    rows=[]
+    for x in (-90,0,90):
+        for y in (HOME_Y,-68.5,3):
+            row={'x':x,'y':y}
+            for axis in ('A','B'):
+                displacement=drive_partition(axis,x,y)-drive_partition(axis,HOME_X,HOME_Y)
+                expected=(x-HOME_X if axis=='A' else -(x-HOME_X))+(y-HOME_Y)
+                row[axis+'_path_delta_mm']=displacement
+                row[axis+'_mapping_error_mm']=displacement-expected
+                row[axis+'_length_mm']=belt_length(axis,x,y)
+            row['inverse_X_error_mm']=(row['A_path_delta_mm']-row['B_path_delta_mm'])/2-(x-HOME_X)
+            row['inverse_Y_error_mm']=(row['A_path_delta_mm']+row['B_path_delta_mm'])/2-(y-HOME_Y)
+            rows.append(row)
+    errors=[abs(r[key]) for r in rows for key in ('A_mapping_error_mm','B_mapping_error_mm','inverse_X_error_mm','inverse_Y_error_mm')]
+    length_error=max(max(r[a+'_length_mm'] for r in rows)-min(r[a+'_length_mm'] for r in rows) for a in ('A','B'))
+    return {'rows':rows,'constant_open_belt_length_error_mm':length_error,'max_mapping_error_mm':max(errors),
+        'geometry_mapping_pass':max(errors)<1e-8 and length_error<1e-8,
+        'A_nominal_free_path_mm':belt_length('A',HOME_X,HOME_Y),'B_nominal_free_path_mm':belt_length('B',HOME_X,HOME_Y),
+        'cut_length_is_not_free_path':True,'actual_clamp_engagement_and_tension_allowance_selected':False,
+        'wiring_signs_and_motor_synchronization_verified':False,
+        'note':'Independent OPEN A/B belts. Analytic tangent/arc lengths and drive-side partitions verified; no firmware, elastic stretch, skipped-tooth or dynamic simulation.'}
+
+
+def motion(m):
+    items=[]
+    for i in m.items:
+        if i.name=='maintenance_pin':continue
+        p=i.part
+        if p.name.startswith('ZDT_RealMotor'):
+            s=fuse(box(1.325,-10.45,-59,44.65,62.9,59),cyl(0,0,0,11,2),cyl(0,0,2,2.5,22))
+            s=drill(s,[hz(a,b,-6,2.5,8) for a in (-15.5,15.5) for b in (-15.5,15.5)])
+            if 'AB_Up' not in p.name:s=s.rotate((0,0,0),(1,0,0),180)
+            p=replace(p,shape=s)
+        items.append(Item(i.name,p,i.origin,i.group))
+    fails=[];tests=0;start=time.monotonic();allposes=poses()
+    # Belt geometry depends only on XY: cache the exact rebuilt open paths.
+    cache={}
+    for n,p in enumerate(allposes,1):
+        args={k:v for k,v in p.items() if k!='phase'};located=[]
+        for i in items:
+            key=(i.name,p['dx'],p['dy'])
+            if i.group=='belt' and key in cache:s=cache[key]
+            else:
+                s=i.located(**args)
+                if i.group=='belt':cache[key]=s
+            located.append((i,s,v2.bbox(s)))
+        bad=[]
+        for k,(a,sa,ba) in enumerate(located):
+            for b,sb,bb in located[k+1:]:
+                # z-shaft group rotates, still tested against its metal supports
+                # at static pose. Tangent thread envelopes not treated as dynamics.
+                if a.group==b.group or tuple(sorted((a.name,b.name))) in m.allowed or not v2.overlaps(ba,bb):continue
+                tests+=1;v=sa.intersect(sb).Volume()
+                if v>.02:bad.append({'a':a.name,'b':b.name,'volume_mm3':round(v,5)})
+        if bad:
+            fails.append({'pose':p,'collisions':bad})
+            if len(fails)<=3:print('FIRST_MOTION_FAILURE '+json.dumps(fails[-1]),flush=True)
+        if n%20==0:print(f'C03 POSE {n}/{len(allposes)} failures={len(fails)} seconds={time.monotonic()-start:.1f}',flush=True)
+    return {'pose_count':len(allposes),'failures':fails,'sampled_geometry_pass':not fails,'boolean_pair_tests':tests,
+        'maintenance_pin_removed':True,'continuous_collision_detection':False,'cycles':['store','retrieve','empty withdraw','loaded withdraw','Z/X traverses','IO door','mixed XY extremes'],
+        'path_constraints':'X/Z traverse with fork retracted in aisle. Y entry/exit only at aligned cell/IO X. No sideways traverse while inserted; this interlock is a control requirement, firmware NOT implemented.',
+        'method':'Rebuilt independent open CoreXY belts at every XY, exact structural/fork/bin BReps, conservative full motor+driver envelopes. Only explicit terminal clamp/belt contacts excluded.'}
+
+
+def engineering(m):
+    density={'aluminum':2.7e-6,'steel':7.85e-6,'PETG':1.27e-6,'POM':1.41e-6,'purchased':7.85e-6,'safety':7.85e-6,'guard':1.2e-6,'rubber':1.2e-6}
+    rows=[]
+    for i in m.items:
+        p=i.part;kg=p.shape.Volume()*density[p.material];method='CAD volume x assumed density'
+        if p.name.startswith('ZDT_RealMotor'):kg=.5;method='ASSUMED motor+driver0.50kg; weigh actual unit'
+        elif p.name.startswith('3030_'):kg=.35;method='ASSUMED3030 1kg/m'
+        rows.append({'name':i.name,'group':i.group,'kg':kg,'method':method})
+    xm=sum(r['kg'] for r in rows if r['group'] in ('xy','lift','bin'))+1+.6
+    ym=xm+sum(r['kg'] for r in rows if r['group']=='gantry')+.3
+    zm=sum(r['kg'] for r in rows if r['group'] in ('lift','bin'))+1+.3
+    fx=xm*.03+.03*xm*9.80665+4;fy=ym*.03+.03*ym*9.80665+4
+    fz=zm*(9.80665+.01)+8
+    # Work/Jacobian: TA=(FX+FY)/2, TB=(-FX+FY)/2. Check both
+    # simultaneous axis force signs; each motor worst=(|FX|+|FY|)/2.
+    worst=(abs(fx)+abs(fy))/2
+    I=18*8**3/12;load=zm*9.80665/2
+    beam_I=(40*60**3-32*52**3)/12
+    return {'fingerprint':FINGERPRINT,'payload_target_kg':1,'mass_breakdown':rows,
+        'moving_masses_kg_including_payload_and_allowance':{'X':xm,'Y':ym,'Z':zm},
+        'axis_force_N':{'X':fx,'Y':fy,'Z':fz},
+        'AB_motor_screen':{'mapping':'A=X+Y;B=-X+Y','motor_force_worst_N':worst,
+            'required_each_motor_torque_SF2_Nm':2*worst*R/1000/.8,
+            'candidate_axis_speed_mm_s':8,'worst_simultaneous_motor_rpm':2*8/40*60,
+            'motor_curve_verified':False,'efficiency_assumed':.8},
+        'Z_motor_screen':{'required_torque_SF2_Nm':2*fz*.002/(2*math.pi*.25),'speed_mm_s':2,'rpm':60,'efficiency_assumed':.25,'motor_curve_verified':False},
+        'fork_screen':{'two_steel_fingers_mm':[18,8,165],'assumed_E_MPa':200000,
+            'conservative_all_lift_mass_at_tip_deflection_mm':load*165**3/(3*200000*I),
+            'nominal_root_stress_MPa':load*165/(18*8**2/6),
+            'note':'Over-conservative all lifted assembly mass on both fingers; ideal equal sharing/weld clamp. No weld/fastener/bin creep acceptance.'},
+        'gantry_beam_screen':{'two_box_sections_mm':[40,60,4],'support_span_mm':410,'I_each_mm4':beam_I,
+            'ideal_shared_central_load_deflection_mm':xm*9.80665/2*410**3/(48*69000*beam_I),
+            'note':'Two ideal simple beams share weight equally; rail/joint/endplate flexibility and unequal loading excluded. Not a guide moment or actual deflection acceptance.'},
+        'belt_pretension_screen':{'example_only_N':15,'motor_radial_load_approx_N':30,'working_tension_selected':False,'shaft_bearing_rating_verified':False},
+        'architecture_tradeoff':'No moving Ymotor/servo/pusher, but BOTH XY directions now move fullZ tower; gantry and base larger. Not claimed smaller/lighter/optimal overall thanE02.',
+        'hardware_accepted':False,'loaded_operation_allowed':False,
+        'blockers':['Actual A/B coordinated ZDT interface, torque-speed/current/voltage/temperature and measured mass',
+            'Open belt clamp teeth, tension/locking, idler inner-ring stack/axles and actual motor shaft/hub retention',
+            'Rail/block ratings and planar anti-tip moments; box-beam flatness/joints, fork welds/fasteners and bench anchors',
+            'New bin/outer support/fork seating and micro-lift clearance/endurance; no direct shelf/bin compatibility withE02',
+            'Independent automatic fall protection and actual limit/door/E-stop/earthing/protection unimplemented',
+            'Z journal/nut/thrust/cross-pin fits and preload; flexible XY/Z wiring; full automation firmware absent']}
+
+
+def readback():
+    manifest=json.loads((OUT/'manifest.json').read_text());meshes=[]
+    for r in manifest['parts']:
+        if r['process']!='print':continue
+        p=OUT/'stl'/(r['code']+'.stl');t=trimesh.load_mesh(p,process=True)
+        meshes.append({'code':r['code'],'sha256':sha(p),'watertight':bool(t.is_watertight),'winding_consistent':bool(t.is_winding_consistent),'bodies':t.body_count,'fits_256':bool(max(t.extents)<=256),'extents_mm':t.extents.tolist()})
+    p=OUT/'viewing/CoreXY_Fork_C03_SOLIDS_AP203.step';s=cq.importers.importStep(str(p)).val();a=cq.importers.importStep(str(OUT/'CoreXY_Fork_C03_ASSEMBLY.step')).val()
+    r={'valid':s.isValid(),'solids':len(s.Solids()),'assembly_solids':len(a.Solids()),'bounds_mm':v2.bbox(s),'relative_volume_error':abs(s.Volume()-a.Volume())/a.Volume(),'assembly_occurrences':p.read_text().count('NEXT_ASSEMBLY_USAGE_OCCURRENCE'),'sha256':sha(p),'solidworks_gui_import_verified':False}
+    ok=all(m['watertight'] and m['winding_consistent'] and m['bodies']==1 and m['fits_256'] for m in meshes)
+    return {'mesh_checks':meshes,'flat_STEP':r,'export_readback_pass':bool(ok and r['valid'] and r['solids']==r['assembly_solids'] and r['relative_volume_error']<1e-6 and not r['assembly_occurrences'])}
+
+
+def main():
+    ap=argparse.ArgumentParser();ap.add_argument('--motion',action='store_true');ap.add_argument('--export',action='store_true');args=ap.parse_args()
+    m=build_model();OUT.mkdir(parents=True,exist_ok=True)
+    bad,accepted=v2.collisions(m.items,m.allowed);seats=connections(m);kin=kinematics()
+    r={'fingerprint':FINGERPRINT,'validator_sha256':sha(Path(__file__)),'static_collisions':bad,'static_pass':not bad,'accepted_contacts':accepted,
+        'support_checks':seats,'support_pass':all(s['geometric_seat_pass'] for s in seats),'kinematics':kin,'hardware_accepted':False,'loaded_operation_allowed':False}
+    print(json.dumps({'static':bad,'failed_seats':[s for s in seats if not s['geometric_seat_pass']],'kinematics_pass':kin['geometry_mapping_pass']},indent=2),flush=True)
+    (OUT/'engineering_checks.json').write_text(json.dumps(engineering(m),ensure_ascii=False,indent=2));(OUT/'validation.json').write_text(json.dumps(r,ensure_ascii=False,indent=2))
+    if args.motion:r['motion']=motion(m);(OUT/'validation.json').write_text(json.dumps(r,ensure_ascii=False,indent=2))
+    passed=r['static_pass'] and r['support_pass'] and kin['geometry_mapping_pass']
+    if args.motion:passed=passed and r['motion']['sampled_geometry_pass']
+    if args.export and passed:export(m);r.update(readback())
+    r['geometry_deliverable_pass']=bool(passed and r.get('export_readback_pass'))
+    (OUT/'validation.json').write_text(json.dumps(r,ensure_ascii=False,indent=2))
+    print('C03 GEOMETRY DELIVERABLE PASS',r['geometry_deliverable_pass'],flush=True)
+    return int(not (r['geometry_deliverable_pass'] if args.export else passed))
+
+
+if __name__=='__main__':raise SystemExit(main())
