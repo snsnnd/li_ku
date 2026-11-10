@@ -1,0 +1,11 @@
+{
+  "fingerprint": "b8eb7a697c25015ce69ac2c6a760374e99f23dd5ba060617a04cc70f38549a17",
+  "generator_sha256": "87083d28865759990ad3566e88c82bfe25653af6dc8f2bdeee631e73b1e17abf",
+  "images": {
+    "C04_AB_belt_paths.png": "4200503fa78750fd9b965d181077107cc69903930834eaf6a1f88a4818ff2fdd",
+    "C04_IO_pickup.png": "0c9560e00be145023966db29b236a7bb4e8e819b5f165c9d4fd669f16bff66d0",
+    "C04_assembly.png": "61a1cc075ec1ea2982149c00ed11c67679866b3fba7f3c4da330e4c46112635e",
+    "C04_drive_detail.png": "fd8424ab58bcf9453adf23457553daf7c5026101774f79735f4e4df2dc559b70",
+    "C04_storage_pickup.png": "a7f7163a691ec9c7b4f13f37261625070f2d3700921bba8a7970d7dc8143fbe4"
+  }
+}

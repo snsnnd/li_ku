@@ -1,0 +1,31 @@
+{
+  "sources": [
+    {
+      "file": "TRM4226_0Mechanical.pdf",
+      "url": "https://www.phidgets.com/productfiles/TRM4226/TRM4226_0/Documentation/TRM4226_0Mechanical.pdf",
+      "sha256": "f3ebf63a7651ace6a1d27a5807bb77f4215afc1efa5853228269527c576b0379",
+      "use": "Supplier tooth/backplate dimensions and hole grid only; not self-authored tooth manufacturing data"
+    },
+    {
+      "file": "TRM4226_0Backplate_Mechanical.pdf",
+      "url": "https://www.phidgets.com/productfiles/TRM4226/TRM4226_0/Documentation/TRM4226_0Backplate_Mechanical.pdf",
+      "sha256": "c72a1d0951ccaf2f9cf4cfb5169436b711a58d60c1f79fbb75cfaedf4a38c154",
+      "use": "Supplier tooth/backplate dimensions and hole grid only; not self-authored tooth manufacturing data"
+    }
+  ],
+  "clamp_product": "Phidgets TRM4226_0 / GT2M-06",
+  "geometry_mm": {
+    "plate_x": 18,
+    "plate_z": 18.8,
+    "plate_thickness": 4,
+    "hole_grid": [
+      10,
+      9.4
+    ],
+    "hole_diameter": 2.4,
+    "cap_counterbore_diameter": 4.4,
+    "cap_counterbore_depth": 2
+  },
+  "checked_on": "2026-11-08",
+  "supplier_fit_and_delivery_confirmed": false
+}

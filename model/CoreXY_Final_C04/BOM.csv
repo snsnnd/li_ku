@@ -1,0 +1,125 @@
+﻿code,name,quantity,material,process,note
+F001,C03_GT2_20T_Idler_TwinMR105,8,purchased,candidate,"Purchased metal GT2/20T/6mm allocation, NOT a tooth-manufacturing model. TwinMR105 bearing space, actual vendor shoulder, inner-ring spacer and retention required."
+F002,C03_NC_Limit_CANDIDATE,6,purchased,candidate,NC switch allocation only; actual bracket/trigger/overtravel/wiring and independent hard limits not designed.
+F003,E01_Coupler_5x6_CANDIDATE,1,purchased,candidate,Purchase a real positively clamped 5x6 coupler within Ø19x25. CAD is only fit allocation; clamp screws/compliance/rating must be replaced by vendor drawing.
+F004,NC_Rail_Brake_CANDIDATE,1,safety,candidate,Unselected commercial normally-engaged brake envelope. Not modelled jaws or a certified catch. NO loaded Z operation yet.
+F005,C03_Guard_PC_Roof,1,guard,cut_panel,
+F006,C03_Guard_PC_X-331.5,1,guard,cut_panel,
+F007,C03_Guard_PC_X331.5,1,guard,cut_panel,
+F008,C03_Guard_PC_Y-401.5,1,guard,cut_panel,
+F009,C03_Guard_PC_Y281.5,1,guard,cut_panel,
+F010,C03_IO_Access_Tunnel_Horizontal,2,guard,cut_panel,Extended human-access tunnel to new outer enclosure; actual doors/interlocks/edge retention unimplemented.
+F011,C03_IO_Access_Tunnel_Side,2,guard,cut_panel,Extended human-access tunnel to new outer enclosure; actual doors/interlocks/edge retention unimplemented.
+F012,C03_IO_Fork_Clearance_Shutter,1,guard,cut_panel,"Closed loweredge=IOlevel-20, top=IOlevel+98;90mm lift leaves6mm above IOloaded bin. Lowerextension closes fork underpass while doorclosed. Actual clearance/interlocks must be tested."
+F013,E01_IO_Upper_Shield_238,1,guard,cut_panel,
+F014,IO_Left_Upper_Wall,1,guard,cut_panel,
+F015,IO_Lower_Fixed_Shield,1,guard,cut_panel,
+F016,IO_Outer_Door,1,guard,cut_panel,Hinged left-side access; outer and inner doors must never both permit access.
+F017,IO_Rear_Wall,1,guard,cut_panel,
+F018,IO_Right_Wall,1,guard,cut_panel,
+F019,IO_Roof,1,guard,cut_panel,
+F020,Brake_Module_Link,1,aluminum,machined,
+F021,C03_Bin_Metal_Insert_100x110x1p5,1,aluminum,machined,Loose metal payload spreader inside bin; mass/creep tests still required.
+F022,C03_Cell_Outer_Rail_18x120x8,4,aluminum,machined,"Two outer METAL supports, centreX+/-50. Inner edgesX+/-41 leave fork outeredgesX+/-37 clear by4mm. Bin nominal underside at support top."
+F023,C03_Cell_Seat_Bracket_42x20x8,4,aluminum,machined,"Metal bracket from rail innerX41 to postX83, keeps IO door clear; receivingM5 atpostX75. Rail attachment needs actual flathead/pilot detail; no printed load path."
+F024,C03_Cell_Seat_Bracket_Left,4,aluminum,machined,"Metal bracket from rail innerX41 to postX83, keeps IO door clear; receivingM5 atpostX75. Rail attachment needs actual flathead/pilot detail; no printed load path."
+F025,C03_Gantry_BoxBeam_500x40x60x4,2,aluminum,machined,"Metal rectangular tube60high x40deep, wall4. TWO beams separated110; actual flat rail faces and M4 end attachment must be machined/verified, not a1020 pen crossbar."
+F026,C03_Gantry_Common_Shoulder_Axle_C04_socket,2,steel,machined,"Custom40Cr tempered shoulder axle, yield>=640MPa supplier-certified; D5h6, M5x0.8-6g x8, root fillet<=0.2, headOD9h3/hex2.5. Threads shown minor. Inner-ring stack/preload and physical rating not accepted."
+F027,C03_Gantry_Idler_Arm_-1,1,aluminum,machined,"Metal arm from gantry endplateZ51 to top80. Two stacked idler heights, stem widths avoid other belt. A/B share sidearm, load and alignment need measured proof."
+F028,C03_Gantry_Idler_Arm_1,1,aluminum,machined,"Metal arm from gantry endplateZ51 to top80. Two stacked idler heights, stem widths avoid other belt. A/B share sidearm, load and alignment need measured proof."
+F029,C03_Idler_InnerSpacer_middle,2,steel,machined,
+F030,C03_Idler_InnerSpacer_top,2,steel,machined,
+F031,C03_Idler_Shoulder_A_C04_socket,2,steel,machined,"Custom40Cr tempered shoulder axle, yield>=640MPa supplier-certified; D5h6, M5x0.8-6g x8, root fillet<=0.2, headOD9h3/hex2.5. Threads shown minor. Inner-ring stack/preload and physical rating not accepted."
+F032,C03_Idler_Shoulder_B_C04_socket,2,steel,machined,"Custom40Cr tempered shoulder axle, yield>=640MPa supplier-certified; D5h6, M5x0.8-6g x8, root fillet<=0.2, headOD9h3/hex2.5. Threads shown minor. Inner-ring stack/preload and physical rating not accepted."
+F033,C03_Idler_Stem_A,4,steel,machined,
+F034,C03_Idler_Stem_B,2,steel,machined,
+F035,C03_Welded_Steel_Fork_2x18x8_L165,1,steel,machined,"Steel welded fork: two18wide x8 thick fingers, centres56 apart, reach165 from rootY48 to213. Tips stop2mm before bin-back stop when inserted. Root130x8x76 atY40..48. M4 mounting, bridge-nut tool reliefsØ10. Weld, stiffness and loaded seating must be verified."
+F036,C04_Base_660x680x8,1,aluminum,machined,Continuous metal base. Updated accessible motor/idler bolt patterns; prior abandoned pilots removed. Bench support and anchors require physical acceptance.
+F037,C04_Fixed_Idler_Stand,4,aluminum,machined,"Metal standZ6..80,26x24foot, four M3x12 screws clear of10x10 upright. Adjustment is at carriage clamp, NOT by unmodelled idler slots. D6 inner spacer supports shoulder axle above."
+F038,C04_Gantry_EndPlate_Recessed,2,aluminum,machined,Bottom M4 caps recessedZ43..47. TwoM4x10 into each boxbeam lower4mm wall; actual thread proof and final tightening required.
+F039,C04_Motor_Stand_A,1,aluminum,machined,"Metal stand, faceZ78; base76x96 with opposite-idler clearance notch. Four M5x12 accessible outside legs. B face raised6mm: total shaft-in-pulley support now12mm, not6; lower CLAMP HUB itself remains6mm long. Supplier conformity and torque proof required."
+F040,C04_Motor_Stand_B,1,aluminum,machined,"Metal stand, faceZ84; base76x96 with opposite-idler clearance notch. Four M5x12 accessible outside legs. B face raised6mm: total shaft-in-pulley support now12mm, not6; lower CLAMP HUB itself remains6mm long. Supplier conformity and torque proof required."
+F041,C04_Receiver_A_L,1,aluminum,machined,"Metal receiver behind sourcedTRM4226 tooth plate. TwoM3 top anchors, fourM2x12 cap screws; belt teeth defined ONLY by supplier part, not this flat envelope. LEFT:slot travel0..2mm; M3 pull screw atZ118, topanchors4mm off pull axis to avoid intersecting screws. Lock two top bolts after tensioning."
+F042,C04_Receiver_A_R,1,aluminum,machined,"Metal receiver behind sourcedTRM4226 tooth plate. TwoM3 top anchors, fourM2x12 cap screws; belt teeth defined ONLY by supplier part, not this flat envelope. RIGHT:fixed receiver."
+F043,C04_Receiver_B_L,1,aluminum,machined,"Metal receiver behind sourcedTRM4226 tooth plate. TwoM3 top anchors, fourM2x12 cap screws; belt teeth defined ONLY by supplier part, not this flat envelope. LEFT:slot travel0..2mm; M3 pull screw atZ118, topanchors4mm off pull axis to avoid intersecting screws. Lock two top bolts after tensioning."
+F044,C04_Receiver_B_R,1,aluminum,machined,"Metal receiver behind sourcedTRM4226 tooth plate. TwoM3 top anchors, fourM2x12 cap screws; belt teeth defined ONLY by supplier part, not this flat envelope. RIGHT:fixed receiver."
+F045,C04_Tension_Pull_Lug,2,aluminum,machined,"Metal fixed lug seated on XYplate undersideZ124. M3 pull screwZ118; two M3 vertical anchors atY±5 avoid crossing horizontal screw. Full slider stroke0..2, then lock receiver bolts."
+F046,C04_XY_Plate_LockSlots_180x156x12,1,aluminum,machined,Metal XYplate. Left A/B endclamps have0..2mm Xslots and recessed M3 heads; right clamps fixed. Pull lugs anchored separately. Slots not listed as cylindrical hole axes: use STEP/section/dedicated detail drawing.
+F047,C04_Y_Datum_Recessed,2,aluminum,machined,"Metal24high rail datum with recessed M5x25 head planeZ25, head top30 equals railbase. Thread engagement into8mm base nominal6; verify actual screw/head and tightening."
+F048,E01_IO_Header_248,1,aluminum,machined,
+F049,E01_Independent_Steel_Track_300,1,steel,machined,Separate from screw. Maintenance pin holes at globalZ98/193; other holes are not an automatic ratchet. Commercial brake interface is still unselected.
+F050,E01_Maintenance_Prop_Shoe_STEEL,1,steel,machined,Manual maintenance prop only: M3 edge bolts at deck-98/-78; U shoe bears on retained D4 steel pin at Z98 for deck200 / Z193 for deck295. Remove pin before Z motion; NOT automatic fall arrest.
+F051,E01_Z_Nut_Bridge_Accessible,1,steel,machined,"Steel nut seat 40x44x8; upright 56x8 toZ56. Four accessible M4 through-bolts at X+/-23,Z16/48, ABOVE the seat and OUTSIDE Y rails. Upper row clears Y end stop. Four M3 nut-flange taps, secondary-cage taps retained."
+F052,E01_Z_Rail_Datum_250,2,aluminum,machined,
+F053,E01_Z_Top_130x60x12,1,aluminum,machined,Z401..413. Motor screws are recessed from underside by3.1 mm to avoid the bearing hanger. M3x12 gives about3.1 mm motor engagement; verify actual blind depth.
+F054,Safety_Track_Link,2,aluminum,machined,
+F055,Z_Bearing_Hanger,1,aluminum,machined,
+F056,Z_Carriage_130x100x8_R1_R1_R1_C03holes,1,aluminum,machined,
+F057,Z_Fixed_Bearing_Housing,1,aluminum,machined,"Radial seat 19 H7, stepped thrust abutment; paired F6-12M; preload and collar rating pending"
+F058,Z_Floating_Bearing_Cap,1,steel,machined,
+F059,Z_Floating_Bearing_Housing,1,aluminum,machined,
+F060,Z_Floating_Bearing_Pedestal,1,aluminum,machined,
+F061,Z_Foot_Angle_30x20x32,2,aluminum,machined,M6 to 3030 slot nuts; M6x12 to X plate; rail starts 2 mm above bracket
+F062,Z_Foot_Angle_Front,2,aluminum,machined,M6 to 3030 slot nuts; M6x12 to X plate; rail starts 2 mm above bracket
+F063,Z_Secondary_Nut_Cage,1,steel,machined,"0.8 mm axial catch clearance; steel/Al, never PETG"
+F064,Z_Thrust_Abutment_Washer,1,steel,machined,
+F065,Z_Thrust_End_Cap,1,steel,machined,
+F066,C03_Bin_110x120x60_ForkBase,1,PETG,print,"Full size bin, no tow eye. Bottom sits on two outer shelf rails or two inner forks. Do not infer1kg creep acceptance from geometry; print and load-test with internal metal spreader."
+F067,C03_Cell_Back_Stop_120x8x10,2,PETG,print,"Bin locating stop, not primary vertical support; mounting pilots and retention require final vendor/fit review."
+F068,IO_Shutter_Guide_Left,1,PETG,print,
+F069,IO_Shutter_Guide_Right,1,PETG,print,
+F070,IO_External_Reference_Card,1,purchased,print_paper,"AprilTag36h11 ID200 on the outside left guard, not a box ID."
+F071,3030_E01_Z350,2,aluminum,purchased,"Two real 3030 metal extrusions. Verify actual slot, straightness and end M8 taps."
+F072,626ZZ_6x19x6,2,steel,purchased,
+F073,C03_Cell_Post_cell,4,aluminum,purchased,
+F074,C03_Cell_Post_io,4,aluminum,purchased,
+F075,C03_Guard_2020_L620,4,aluminum,purchased,
+F076,C03_Guard_2020_X610,2,aluminum,purchased,
+F077,C03_Guard_2020_Y615,2,aluminum,purchased,
+F078,C03_MGN12H_X_Block,4,steel,purchased,
+F079,C03_MGN12H_Y_Block,4,steel,purchased,
+F080,C03_MGN12_Rail_L400_Y,2,steel,purchased,"Vendor MGN12 L400, pitch25/end10 assumed; counterbores included. Actual rail/block dimensions/ratings supplier-confirmed."
+F081,C03_MGN12_Rail_L440_X,2,steel,purchased,"Vendor MGN12 L440, pitch25/end10 assumed; counterbores included. Actual rail/block dimensions/ratings supplier-confirmed."
+F082,C03_MR105ZZ_5x10x4,16,steel,purchased,
+F083,C04_M2x12_H2_backward,8,steel,purchased,"Nominal M2x12, capOD3.8h2, thread MINOR diameter envelope. Socket illustrated; actual standard/grade/torque supplier-confirmed. Not a thread manufacturing profile."
+F084,C04_M2x12_H2_forward,8,steel,purchased,"Nominal M2x12, capOD3.8h2, thread MINOR diameter envelope. Socket illustrated; actual standard/grade/torque supplier-confirmed. Not a thread manufacturing profile."
+F085,C04_M3_Washer_X,2,steel,purchased,
+F086,C04_M3x12_H3_down,16,steel,purchased,"Nominal M3x12, capOD5.5h3, thread MINOR diameter envelope. Socket illustrated; actual standard/grade/torque supplier-confirmed. Not a thread manufacturing profile."
+F087,C04_M3x16_H3_down,8,steel,purchased,"Nominal M3x16, capOD5.5h3, thread MINOR diameter envelope. Socket illustrated; actual standard/grade/torque supplier-confirmed. Not a thread manufacturing profile."
+F088,C04_M3x20_H3_down,4,steel,purchased,"Nominal M3x20, capOD5.5h3, thread MINOR diameter envelope. Socket illustrated; actual standard/grade/torque supplier-confirmed. Not a thread manufacturing profile."
+F089,C04_M3x25_H3_left,2,steel,purchased,"Nominal M3x25, capOD5.5h3, thread MINOR diameter envelope. Socket illustrated; actual standard/grade/torque supplier-confirmed. Not a thread manufacturing profile."
+F090,C04_M4x10_H4_up,8,steel,purchased,"Nominal M4x10, capOD7h4, thread MINOR diameter envelope. Socket illustrated; actual standard/grade/torque supplier-confirmed. Not a thread manufacturing profile."
+F091,C04_M5x12_H5_down,8,steel,purchased,"Nominal M5x12, capOD8.5h5, thread MINOR diameter envelope. Socket illustrated; actual standard/grade/torque supplier-confirmed. Not a thread manufacturing profile."
+F092,C04_M5x25_H5_down,8,steel,purchased,"Nominal M5x25, capOD8.5h5, thread MINOR diameter envelope. Socket illustrated; actual standard/grade/torque supplier-confirmed. Not a thread manufacturing profile."
+F093,C04_Pulley_M3x12_Pinch,2,steel,purchased,M3x12 split-collar pinch; rotates with motor pulley. Actual tightening torque and torque-slip test required.
+F094,C04_Washer_M5_OD8_H1,4,steel,purchased,
+F095,E01_M4_Nut_Y,4,steel,purchased,
+F096,E01_M4_Washer_Y,4,steel,purchased,
+F097,E01_M8x20_Countersunk_ThreadMinor,2,steel,purchased,"M8x20 countersunk, headOD<=16, 90deg; must be recessed above X blocks"
+F098,E01_Maintenance_Pin_D4x40,1,steel,purchased,"Retained steel pin, shown at Z193. Remove and confirm sensor BEFORE powered Z travel. No printed substitution."
+F099,E01_TR8x2_CustomEnds_L298,1,steel,purchased,"TR8x2, NOT TR8x8. Overall Z90..388=L298; working thread Z110..338; journalsØ6 x20/50; matched Ø2.5 cross-hole atZ362.5. Shaft/nut thread accuracy and heat-treated shaft strength supplier-verified before fabrication."
+F100,F6_12M_6x12x4p5,2,steel,purchased,
+F101,M3x10_Head3_ThreadMinor,66,steel,purchased,"Nominal M3x10; head OD5.5 h3. Thread shown at minor envelope, NOT a manufacturing thread definition."
+F102,M3x12_Motor_Inverted,4,steel,purchased,"Nominal M3x12; head OD5.5 h3. Thread shown at minor envelope, NOT a manufacturing thread definition."
+F103,M3x16_Head3_ThreadMinor,16,steel,purchased,"Nominal M3x16; head OD5.5 h3. Thread shown at minor envelope, NOT a manufacturing thread definition."
+F104,M3x8_Head3_ThreadMinor,24,steel,purchased,"Nominal M3x8; head OD5.5 h3. Thread shown at minor envelope, NOT a manufacturing thread definition."
+F105,M3x8_Y_ThreadMinor,36,steel,purchased,"Nominal M3x8; head OD5.5 h3. Thread shown at minor envelope, NOT a manufacturing thread definition."
+F106,M4x16_Head4_ThreadMinor_forward,4,steel,purchased,"Nominal M4x16; head OD7 h4. Thread shown at minor envelope, NOT a manufacturing thread definition."
+F107,M4x25_Y_ThreadMinor,4,steel,purchased,"Nominal M4x25; head OD7 h4. Thread shown at minor envelope, NOT a manufacturing thread definition."
+F108,M8x25_Head8_ThreadMinor,2,steel,purchased,"Nominal M8x25; head OD13 h8. Thread shown at minor envelope, NOT a manufacturing thread definition."
+F109,MGN12H_Z,4,steel,purchased,
+F110,MGN12_E01_Z250,2,steel,purchased,
+F111,Safety_Nut_AntiRotation_Stud,2,steel,purchased,"M3 shoulder stud, retains rotation but allows secondary nut to float axially"
+F112,Shaft_Collar_6x16x8,1,steel,purchased,"Positive axial retention by matched 2.5 mm cross-pin, NOT set-screw friction alone; verify catch load >=1200 N"
+F113,TR8x2_Bronze_Nut,2,purchased,purchased,"Thread fit is a purchased interface, not evaluated by smooth cylinders"
+F114,ZDT_RealMotor_C03_AB_Up,2,purchased,purchased,"Two complete user24-solid ZDT motors, both fixed. FaceUP Z78, shaft tip~102. A/B coordination required; no electrical assumptions."
+F115,ZDT_RealMotor_E01_Z,1,purchased,purchased,"Actual user 24-solid motor CAD, inverted for vertical TR8x2. Torque/electrical/thermal data NOT inferred from CAD."
+F116,Z_Stop_Rear_Clearance,4,rubber,purchased,
+F117,Z_Thrust_Cross_Pin_D2p5x16,1,steel,purchased,"Hardened retained dowel, minimum verified double-shear capacity 2500 N; match-ream shaft/collar"
+F118,C04_TRM4226_cap_Side-1,2,aluminum,purchased_sourced,"PhidgetsTRM4226_0 mechanical drawing:18x18.8x4,4holesØ2.4±.2 on10x9.4 grid; backplate counterboresØ4.4/depth2. Nominal fit envelope ONLY; procure actual GT2M-06 toothplate and backplate; do NOT manufacture tooth form from smooth CAD. M2x12 used with positive receiver pocket/location, proof test required. https://www.phidgets.com/?prodid=839"
+F119,C04_TRM4226_cap_Side1,2,aluminum,purchased_sourced,"PhidgetsTRM4226_0 mechanical drawing:18x18.8x4,4holesØ2.4±.2 on10x9.4 grid; backplate counterboresØ4.4/depth2. Nominal fit envelope ONLY; procure actual GT2M-06 toothplate and backplate; do NOT manufacture tooth form from smooth CAD. M2x12 used with positive receiver pocket/location, proof test required. https://www.phidgets.com/?prodid=839"
+F120,C04_TRM4226_tooth_Side-1,2,aluminum,purchased_sourced,"PhidgetsTRM4226_0 mechanical drawing:18x18.8x4,4holesØ2.4±.2 on10x9.4 grid; backplate counterboresØ4.4/depth2. Nominal fit envelope ONLY; procure actual GT2M-06 toothplate and backplate; do NOT manufacture tooth form from smooth CAD. M2x12 used with positive receiver pocket/location, proof test required. https://www.phidgets.com/?prodid=839"
+F121,C04_TRM4226_tooth_Side1,2,aluminum,purchased_sourced,"PhidgetsTRM4226_0 mechanical drawing:18x18.8x4,4holesØ2.4±.2 on10x9.4 grid; backplate counterboresØ4.4/depth2. Nominal fit envelope ONLY; procure actual GT2M-06 toothplate and backplate; do NOT manufacture tooth form from smooth CAD. M2x12 used with positive receiver pocket/location, proof test required. https://www.phidgets.com/?prodid=839"
+F122,C04_CoreXY_Open_Belt_A,1,rubber,purchased_specified,"OPEN2GT/6mm fibreglass reinforced belt, terminal centres±35,18mm full clamp engagement including9mm each end tail. Two independent layers; neither closed loop nor steel cable. Working rating>=documented selection requirement, actual tension and supplier acceptance pending."
+F123,C04_CoreXY_Open_Belt_B,1,rubber,purchased_specified,"OPEN2GT/6mm fibreglass reinforced belt, terminal centres±35,18mm full clamp engagement including9mm each end tail. Two independent layers; neither closed loop nor steel cable. Working rating>=documented selection requirement, actual tension and supplier acceptance pending."
+F124,C04_GT2_20T_D5_SplitClamp,2,purchased,purchased_specified,"Purchase metal GT2/20T/6mm with LOWER splitclamp hub:OD16,length6,bore5H7,slit0.6,M3x12 atY5.5/Z-3. Envelope excludes proprietary GT2 tooth form. Vendor exact clamp/bore/torque drawing required, do not cut teeth from CAD."

@@ -1,0 +1,5 @@
+﻿code,name,quantity,material,process,note
+F066,C03_Bin_110x120x60_ForkBase,1,PETG,print,"Full size bin, no tow eye. Bottom sits on two outer shelf rails or two inner forks. Do not infer1kg creep acceptance from geometry; print and load-test with internal metal spreader."
+F067,C03_Cell_Back_Stop_120x8x10,2,PETG,print,"Bin locating stop, not primary vertical support; mounting pilots and retention require final vendor/fit review."
+F068,IO_Shutter_Guide_Left,1,PETG,print,
+F069,IO_Shutter_Guide_Right,1,PETG,print,
